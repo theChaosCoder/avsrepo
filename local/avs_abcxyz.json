@@ -1,0 +1,28 @@
+{
+	"name": "Abcxyz",
+	"type": "PyScript",
+	"description": "Reduces halo artifacts that can occur when sharpening.",
+	"website": "http://avisynth.nl/index.php/Abcxyz",
+	"category": "Scripts",
+	"identifier": "avs_abcxyz",
+	"modulename": "avs_abcxyz",
+	"dependencies": [
+		"avs_rgtools",
+		"avs_masktools"
+	],
+	"releases": [
+		{
+			"version": "",
+			"published": "2013-10-16T12:00:00Z",
+			"script": {
+				"url": "http://avisynth.nl/images/Abcxyz_MT2.avsi",
+				"files": {
+					"Abcxyz_MT2.avsi": [
+						"Abcxyz_MT2.avsi",
+						"3fe2758d77cd5f9b76f68bc92ec6b70bc0b23bc0c76af73cc281b6e09148a17d"
+					]
+				}
+			}
+		}
+	]
+}

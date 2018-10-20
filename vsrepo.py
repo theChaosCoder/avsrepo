@@ -47,16 +47,11 @@ if platform.system() != 'Windows':
     raise Exception('Windows required')
 
 def is_sitepackage_install_portable():
-    try:
-        import vapoursynth
-    except ImportError:
-        return False
-    else:
-        return os.path.exists(os.path.join(os.path.dirname(vapoursynth.__file__), 'portable.vs'))
+    return False
 
 is_64bits = sys.maxsize > 2**32
 
-parser = argparse.ArgumentParser(description='A simple VapourSynth package manager')
+parser = argparse.ArgumentParser(description='A simple Avisynth package manager')
 parser.add_argument('operation', choices=['install', 'update', 'upgrade', 'upgrade-all', 'uninstall', 'installed', 'available', 'paths'])
 parser.add_argument('package', nargs='*', help='identifier, namespace or module to install, upgrade or uninstall')
 parser.add_argument('-f', action='store_true', dest='force', help='force upgrade for packages where the current version is unknown')
@@ -79,8 +74,8 @@ if args.script_path is not None:
 
 if args.portable:
     base_path = os.path.dirname(__file__)
-    plugin32_path = os.path.join(base_path, 'vapoursynth32', 'plugins')
-    plugin64_path = os.path.join(base_path, 'vapoursynth64', 'plugins')
+    plugin32_path = os.path.join(base_path, 'avisynth32', 'plugins')
+    plugin64_path = os.path.join(base_path, 'avisynth64', 'plugins')
 elif is_sitepackage_install_portable():
     import vapoursynth
     base_path = os.path.dirname(vapoursynth.__file__)
@@ -88,6 +83,7 @@ elif is_sitepackage_install_portable():
     plugin64_path = os.path.join(base_path, 'vapoursynth64', 'plugins')
     del vapoursynth
 else:
+    sys.exit("Only portable mode (-p) is working for now")
     plugin32_path = os.path.join(os.getenv('APPDATA'), 'VapourSynth', 'plugins32')
     plugin64_path = os.path.join(os.getenv('APPDATA'), 'VapourSynth', 'plugins64')
 

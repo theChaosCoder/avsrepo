@@ -1,0 +1,43 @@
+{
+	"name": "FFT3dGPU",
+	"type": "VSPlugin",
+	"description": "FFT3dGPU ",
+	"website": "https://github.com/pinterf/FFT3dGPU",
+	"doom9": "https://forum.doom9.org/showthread.php?p=1857833#post1857833",
+	"category": "Other",
+	"identifier": "avs_fft3dgpu",
+	"namespace": "avs_fft3dgpu",
+	"github": "https://github.com/pinterf/FFT3dGPU",
+	"releases": [
+		{
+			"version": "0.8.3",
+			"published": "2018-11-18T17:17:34Z",
+			"win32": {
+				"url": "https://github.com/pinterf/FFT3dGPU/releases/download/0.8.3/FFT3dGPU-v0.8.3-pfmod.7z",
+				"files": {
+					"FFT3dGPU.dll": [
+						"x86/FFT3dGPU.dll",
+						"cdf9aa94935efe42ffab511307eb3fcf43ac744db1060d7b1302207781d8899e"
+					],
+					"fft3dgpu.hlsl": [
+						"x86/fft3dgpu.hlsl",
+						"383335ae0a57ff33db6ec8fecf33375f5ebb06c4aff04bdfb6ac9e67ec673140"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/FFT3dGPU/releases/download/0.8.3/FFT3dGPU-v0.8.3-pfmod.7z",
+				"files": {
+					"FFT3dGPU.dll": [
+						"x64/FFT3dGPU.dll",
+						"7126466d6984cbcfbcca4931a86030f8a3a290680b7f83f7e40ff74b26b8ffa1"
+					],
+					"fft3dgpu.hlsl": [
+						"x86/fft3dgpu.hlsl",
+						"383335ae0a57ff33db6ec8fecf33375f5ebb06c4aff04bdfb6ac9e67ec673140"
+					]
+				}
+			}
+		}
+	]
+}

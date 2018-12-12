@@ -28,15 +28,20 @@ import os.path
 import argparse
 import hashlib
 import subprocess
-import winreg
 import difflib
 import tempfile
-import platform
 import ftplib
-import tqdm
 
-if platform.system() != 'Windows':
-    raise Exception('Windows required')
+try:
+    import winreg
+except ImportError:
+    print('{} is only supported on Windows.'.format(__file__))
+    exit(1)
+
+try:
+    import tqdm
+except ImportError:
+    pass
 
 parser = argparse.ArgumentParser(description='Package list generator for VSRepo')
 parser.add_argument('operation', choices=['compile', 'update-local', 'upload'])
@@ -166,6 +171,8 @@ def update_package(name):
             apifile = json.loads(fetch_url(get_git_api_url(pfile['github']), pfile['name']))
             is_plugin = (pfile['type'] == 'VSPlugin')
             for rel in apifile:
+                if rel['tag_name'] in pfile.get('ignore', []):
+                    continue
                 if rel['tag_name'] not in rel_order:
                     rel_order.insert(0, rel['tag_name'])
                 if rel['tag_name'] not in existing_rel_list:
@@ -248,7 +255,7 @@ def update_package(name):
 def verify_package(pfile, existing_identifiers):
     name = pfile['name']
     for key in pfile.keys():
-        if key not in ('name', 'type', 'description', 'website', 'category', 'identifier', 'modulename', 'namespace', 'github', 'doom9', 'dependencies', 'releases'):
+        if key not in ('name', 'type', 'description', 'website', 'category', 'identifier', 'modulename', 'namespace', 'github', 'doom9', 'dependencies', 'ignore', 'releases'):
             raise Exception('Unkown key: ' + key + ' in ' + name)
     if pfile['type'] not in ('VSPlugin', 'PyScript'):
         raise Exception('Invalid type in ' + name)

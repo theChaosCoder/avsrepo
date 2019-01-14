@@ -13,6 +13,44 @@
 	],
 	"releases": [
 		{
+			"version": "2.7.39",
+			"published": "2019-01-02T10:53:50Z",
+			"win32": {
+				"url": "https://github.com/pinterf/mvtools/releases/download/2.7.39/mvtools-2.7.39-with-depans.7z",
+				"files": {
+					"DePan.dll": [
+						"x86/DePan.dll",
+						"506f2ad2fd60e3441c79357d02c40230375a50b9704a4128ebbec511b4ebdb75"
+					],
+					"DePanEstimate.dll": [
+						"x86/DePanEstimate.dll",
+						"093ecec23cfbc087120b9ff1fd064a0dca2fde3ba3959dbd0124a40f49927146"
+					],
+					"mvtools2.dll": [
+						"x86/mvtools2.dll",
+						"f87950e9bce03d89e979606efca945b7a8150df1d166ca9736cf166aed9e216b"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/mvtools/releases/download/2.7.39/mvtools-2.7.39-with-depans.7z",
+				"files": {
+					"DePan.dll": [
+						"x64/DePan.dll",
+						"b76dac8b8288b5f77215f1e446417fde80b5b5e148200cfc0ad716d0b02d1324"
+					],
+					"DePanEstimate.dll": [
+						"x64/DePanEstimate.dll",
+						"43837476fbe3e733e752fe9dc2c5ecdc8981773be18b9fdb58798d05fd04378f"
+					],
+					"mvtools2.dll": [
+						"x64/mvtools2.dll",
+						"4b5b668854df2e429647fed8ad935caabdba366e058ed5ebbd52b376e857a2b3"
+					]
+				}
+			}
+		},
+		{
 			"version": "2.7.38",
 			"published": "2018-12-09T20:01:04Z",
 			"win32": {

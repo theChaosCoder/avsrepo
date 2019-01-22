@@ -16,8 +16,8 @@
 				"url": "https://github.com/jpsdr/aWarpSharpMT/releases/download/2.0.1/aWarpSharpMT_v2_0_1.7z",
 				"files": {
 					"aWarpsharpMT.dll": [
-						"x64/Release_W7/aWarpsharpMT.dll",
-						"3f37311ac714efb5c9ae6cd95c4665511628b6698dc4bb20854a1d1afd41c1f1"
+						"x86/Release_W7/aWarpsharpMT.dll",
+						"bfa0e817658d890333f13236817ebad07dd634ef9e8ea346871507c26f9a4080"
 					]
 				}
 			},

@@ -1,0 +1,38 @@
+{
+	"name": "VariableBlur",
+	"type": "VSPlugin",
+	"description": "VariableBlur is a Gaussian, binomial or average blur filter with a variable radius (variance). Also includes an unsharp mask filter based on the Gaussian filter meaning it is fast for big variance.",
+	"website": "http://avisynth.nl/index.php/VariableBlur",
+	"category": "Other",
+	"identifier": "avs_variableblur",
+	"namespace": "avs_variableblur",
+	"doom9": "https://forum.doom9.org/showthread.php?t=88645",
+	"releases": [
+		{
+			"version": "v0.7",
+			"published": "2012-05-24T12:00:00Z",
+			"win32": {
+				"url": "http://web.archive.org/web/20140420184040if_/http://bengal.missouri.edu/~kes25c/variableblur.zip",
+				"files": {
+					"variableblur.dll": [
+						"variableblur.dll",
+						"69b43d1d442a321df91f25741aae3c1ffaede03beee3a0fc99d0fa2ab39caa73"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.5",
+			"published": "2011-03-16T12:00:00Z",
+			"win64": {
+				"url": "http://chaosking.de/repo/avsfilters/Denoisers/VariableBlur___(0.5_-_2011-03-16)_x64.7z",
+				"files": {
+					"VariableBlur.dll": [
+						"VariableBlur.dll",
+						"5599fe17cccef2d8ba35771026bc06e2ae2ce97f4768a6931e9449bbf7db4c47"
+					]
+				}
+			}
+		}
+	]
+}

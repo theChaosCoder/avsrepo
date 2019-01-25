@@ -1,0 +1,30 @@
+{
+	"name": "LSFmod",
+	"type": "PyScript",
+	"description": "A LimitedSharpenFaster mod with a lot of new features and optimizations. ",
+	"website": "http://avisynth.nl/index.php/LSFmod",
+	"category": "Scripts",
+	"identifier": "avs_lsfmod",
+	"modulename": "avs_lsfmod",
+	"dependencies": [
+		"avs_rgtools",
+		"avs_masktools",
+		"avs_variableblur",
+		"avs_warpsharp"		
+	],
+	"releases": [
+		{
+			"version": "2.12",
+			"published": "2018-07-18T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/J5CRtqjj",
+				"files": {
+					"LSFmod.avsi": [
+						"J5CRtqjj",
+						"c9f7a35e483225be0a91ade2a467f61b56d6e9549b746f30c4a6ed38758d146c"
+					]
+				}
+			}
+		}
+	]
+}

@@ -14,6 +14,19 @@
 	],
 	"releases": [
 		{
+			"version": "2.14",
+			"published": "2018-08-10T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/WVmCWifm",
+				"files": {
+					"LSFmod.avsi": [
+						"WVmCWifm",
+						"e2f65a7b0bf17e44d50dd1f80d6b70064bd1abfff458a5991822d5960b404c4e"
+					]
+				}
+			}
+		},
+		{
 			"version": "2.12",
 			"published": "2018-07-18T12:00:00Z",
 			"script": {

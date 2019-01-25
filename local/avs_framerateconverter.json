@@ -1,0 +1,185 @@
+{
+	"name": "FrameRateConverter",
+	"type": "PyScript",
+	"description": "Increases the frame rate with interpolation and fine artifact removal.",
+	"website": "https://github.com/mysteryx93/FrameRateConverter",
+	"category": "Other",
+	"identifier": "avs_framerateconverter",
+	"modulename": "avs_framerateconverter",
+	"doom9": "https://forum.doom9.org/showthread.php?t=174793",
+	"github": "https://github.com/mysteryx93/FrameRateConverter",
+	"dependencies": [
+		"avs_framerateconverter_bin"
+	],
+	"releases": [
+		{
+			"version": "v1.2.1",
+			"published": "2018-05-13T03:54:53Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.2.1/FrameRateConverter-v1.2.1.zip",
+				"files": {
+					"FrameRateConverter.avsi": [
+						"FrameRateConverter.avsi",
+						"36b929ca9d2c96da8bd56924d4da145a354cc0ceb69bc39e934dc01fcb344afe"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.2",
+			"published": "2017-09-03T02:45:16Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.2/FrameRateConverter-v1.2.zip",
+				"files": {
+					"FrameRateConverter.avsi": [
+						"FrameRateConverter.avsi",
+						"8c7c333d9e61f568af0f20dd071b5cea39d5757b63578c19e5f7d2a022cd6226"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.1",
+			"published": "2017-09-02T03:25:36Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.1/FrameRateConverter-v1.1.zip",
+				"files": {
+					"FrameRateConverter.avsi": [
+						"FrameRateConverter.avsi",
+						"357ba478cc51e01ebaf79a5ec4e5656fa923873127d466bd333c9c0556313bf5"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.0",
+			"published": "2017-08-09T02:35:52Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.0/FrameRateConverter-v1.0.zip",
+				"files": {
+					"FrameRateConverter.avsi": [
+						"FrameRateConverter.avsi",
+						"e24b208d4ef639c5500b8eae32a026e3ef150d5bdcfdeea257ff38885734beb9"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.8-beta",
+			"published": "2017-06-23T01:41:27Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.8-beta/FrameRateConverter-2017-06-22.zip",
+				"files": {
+					"FrameRateConverter.avsi": [
+						"FrameRateConverter.avsi",
+						"1af46f4c6bfd9ca884daf5449d56bda970d2e77cf0913ddd793cda1ff5dcacbe"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.7-alpha",
+			"published": "2017-06-08T20:44:32Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.7-alpha/FrameRateConverter-2017-06-08.zip",
+				"files": {
+					"FrameRateConverter.avsi": [
+						"FrameRateConverter.avsi",
+						"307ee4d38e748db235167237da2c6af181d9a2500d338df612dc339d2daea8c3"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.6-alpha",
+			"published": "2017-06-08T00:11:54Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.6-alpha/FrameRateConverter-2017-06-07.zip",
+				"files": {
+					"FrameRateConverter.avsi": [
+						"FrameRateConverter.avsi",
+						"6c0518d369214f44aed9480889e693278385699afec290f600789a6b38cbddac"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.5.1-alpha",
+			"published": "2017-06-06T22:17:53Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.5.1-alpha/FrameRateConverter-2017-06-06.zip",
+				"files": {
+					"FrameRateConverter.avsi": [
+						"FrameRateConverter.avsi",
+						"bf4a7a4d162811c395a87c53f0f2cb9cc783d58c254ddd4f0928182b577178fe"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.5-alpha",
+			"published": "2017-06-05T23:17:49Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.5-alpha/FrameRateConverter-2017-06-05.zip",
+				"files": {
+					"FrameRateConverter.avsi": [
+						"FrameRateConverter.avsi",
+						"f49f0e7c7bda6a7f5d72851643c5fba002fa93515302e9de4d9a398a40d7d308"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.4-alpha",
+			"published": "2017-05-30T15:20:15Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.4-alpha/FrameRateConverter-2017-05-30.zip",
+				"files": {
+					"FrameRateConverter.avsi": [
+						"FrameRateConverter.avsi",
+						"9fadde10a48ffea9beca87d02439e81451d7d9a743d53c11e6addc402f06a2b7"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.3-alpha",
+			"published": "2017-05-29T03:20:46Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.3-alpha/FrameRateConverter-2017-05-28.zip",
+				"files": {
+					"FrameRateConverter.avsi": [
+						"FrameRateConverter.avsi",
+						"83ee05eef274983848f8d40bc6915486a951aa6375c67fd3085a92729b60f6f1"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.2-alpha",
+			"published": "2017-05-27T02:10:28Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.2-alpha/FrameRateConverter-2017-05-26.zip",
+				"files": {
+					"FrameRateConverter.avsi": [
+						"FrameRateConverter.avsi",
+						"6db91162a8554a7ba47eb61beec2f89263db7d67d7f75be83b641b058a6aed75"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.1-alpha",
+			"published": "2017-05-16T23:25:45Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.1-alpha/FrameRateConverter-alpha-2017-05-16.zip",
+				"files": {
+					"FrameRateConverter.avsi": [
+						"FrameRateConverter.avsi",
+						"449e835de14934e4c3dc351d4b5175e0fa62727992a72f975cb12bb8531a7cad"
+					]
+				}
+			}
+		}
+	]
+}

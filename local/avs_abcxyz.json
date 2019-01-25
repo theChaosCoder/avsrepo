@@ -12,6 +12,19 @@
 	],
 	"releases": [
 		{
+			"version": "2018.07.13",
+			"published": "2018-07-12T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/kWna0knS",
+				"files": {
+					"Abcxyz_MT2.avsi": [
+						"kWna0knS",
+						"6415b962eec772deff0e4dc102642692e4ec22c523bb7ee3f59533e7d3df01b2"
+					]
+				}
+			}
+		},
+		{
 			"version": "",
 			"published": "2013-10-16T12:00:00Z",
 			"script": {

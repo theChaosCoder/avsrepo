@@ -7,6 +7,9 @@
 	"identifier": "avs_variableblur",
 	"namespace": "avs_variableblur",
 	"doom9": "https://forum.doom9.org/showthread.php?t=88645",
+	"dependencies": [
+		"org.fftw.fftw3"
+	],
 	"releases": [
 		{
 			"version": "v0.7",

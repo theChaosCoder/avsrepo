@@ -1,0 +1,34 @@
+{
+	"name": "CullResize",
+	"type": "VSPlugin",
+	"description": "x64 port of modified resize functions for Destripe.avsi",
+	"website": "https://github.com/DJATOM/CullResize",
+	"category": "Other",
+	"identifier": "avs_cullresize",
+	"namespace": "avs_cullresize",
+	"github": "https://github.com/DJATOM/CullResize",
+	"releases": [
+		{
+			"version": "0.1",
+			"published": "2017-08-22T10:31:24Z",
+			"win32": {
+				"url": "https://github.com/DJATOM/CullResize/releases/download/0.1/CullResize-0.1.7z",
+				"files": {
+					"CullResize.dll": [
+						"x86/CullResize.dll",
+						"3116dd3939b2643a74b12e9556ab1cabf7c34891c6af5a47ec03d0ba95193fac"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/DJATOM/CullResize/releases/download/0.1/CullResize-0.1.7z",
+				"files": {
+					"CullResize.dll": [
+						"x64/CullResize.dll",
+						"69e3687c78254f8ac4225e8b1d9cb2f1900aa5a4afd092a68db578e7d7875aff"
+					]
+				}
+			}
+		}
+	]
+}

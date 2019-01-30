@@ -1,0 +1,24 @@
+{
+	"name": "TDeint",
+	"type": "VSPlugin",
+	"description": "TDeint is a bi-directionally, motion adaptive, sharp deinterlacer.",
+	"website": "http://avisynth.nl/index.php/TDeint",
+	"category": "Other",
+	"identifier": "avs_tdeint",
+	"namespace": "avs_tdeint",
+	"releases": [
+		{
+			"version": "1.1.0",
+			"published": "2017-05-27T10:31:24Z",
+			"win32": {
+				"url": "http://www.iol.ie/~schubert/gas/TDeint110.7z",
+				"files": {
+					"TDeint.dll": [
+						"TDeint.dll",
+						"c12ed43aebabd34637aeda8714964d86075ddf946b3bcdd8b957340f47be0a5f"
+					]
+				}
+			}
+		}
+	]
+}

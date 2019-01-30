@@ -1,0 +1,56 @@
+{
+	"name": "TCPDeliver",
+	"type": "VSPlugin",
+	"description": "Send clips over your network.",
+	"website": "https://github.com/DJATOM/TCPDeliver",
+	"category": "Other",
+	"identifier": "avs_tcpdeliver",
+	"namespace": "avs_tcpdeliver",
+	"github": "https://github.com/DJATOM/TCPDeliver",
+	"releases": [
+		{
+			"version": "0.2",
+			"published": "2017-02-13T14:15:42Z",
+			"win32": {
+				"url": "https://github.com/DJATOM/TCPDeliver/releases/download/0.2/TCPDeliver-x86.7z",
+				"files": {
+					"TCPDeliver.dll": [
+						"TCPDeliver.dll",
+						"6a5e8944b1a82dbbb7234f607c0e9723fc3d4200766262f820f1b364346a10f4"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/DJATOM/TCPDeliver/releases/download/0.2/TCPDeliver-x64.7z",
+				"files": {
+					"TCPDeliver.dll": [
+						"TCPDeliver.dll",
+						"04473df1c88f24fce20a80a650a944592575b26738e3864f87eecdf0591b3444"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.1",
+			"published": "2017-02-05T10:47:16Z",
+			"win32": {
+				"url": "https://github.com/DJATOM/TCPDeliver/releases/download/0.1/TCPDeliver-x86.7z",
+				"files": {
+					"TCPDeliver.dll": [
+						"TCPDeliver.dll",
+						"31b7edc53e7595ff27bffa77497bd86f25ef58ba67e94b999878505d949aa32d"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/DJATOM/TCPDeliver/releases/download/0.1/TCPDeliver-x64.7z",
+				"files": {
+					"TCPDeliver.dll": [
+						"TCPDeliver.dll",
+						"fef671ee7f65842cf569f73376ff40dfa7b9e44a9022386fbd6b079d6415bad8"
+					]
+				}
+			}
+		}
+	]
+}

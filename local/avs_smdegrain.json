@@ -1,0 +1,33 @@
+{
+	"name": "SMDegrain",
+	"type": "PyScript",
+	"description": "General purpose simple degrain function. Pure temporal denoiser. Basically a wrapper(function)/frontend of mvtools2+mdegrain with some added common related options",
+	"website": "http://avisynth.nl/index.php/SMDegrain",
+	"doom9": "https://forum.doom9.org/showthread.php?t=174544",
+	"category": "Denoising",
+	"identifier": "avs_smdegrain",
+	"modulename": "avs_smdegrain",
+	"dependencies": [
+		"avs_rgtools",
+		"avs_lsfmod",
+		"avs_mvtools",
+		"avs_masktools",
+		"avs_nnedi3",
+		"avs_dfttest"
+	],
+	"releases": [
+		{
+			"version": "v3.1.2.100s",
+			"published": "2018-07-10T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/u1xsPLwK",
+				"files": {
+					"SMDegrain.avsi": [
+						"u1xsPLwK",
+						"ddbc92271ec5738a39de843263dc9f353c1ee83d0f55079a3851d02ef33cb46e"
+					]
+				}
+			}
+		}
+	]
+}

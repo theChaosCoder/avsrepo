@@ -17,6 +17,19 @@
 	],
 	"releases": [
 		{
+			"version": "v3.1.2.101s",
+			"published": "2019-02-18T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/gCJCeQRV",
+				"files": {
+					"SMDegrain.avsi": [
+						"gCJCeQRV",
+						"91752f275669cac61a22b897921a6a1505e8f6d8624c33653456d9d86dafe780"
+					]
+				}
+			}
+		},
+		{
 			"version": "v3.1.2.100s",
 			"published": "2018-07-10T12:00:00Z",
 			"script": {

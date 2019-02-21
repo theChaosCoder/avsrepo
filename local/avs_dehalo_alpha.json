@@ -1,0 +1,29 @@
+{
+	"name": "Dehalo_alpha",
+	"type": "PyScript",
+	"description": "Reduce halo artifacts that can occur when sharpening.",
+	"website": "http://avisynth.nl/index.php/DeHalo_alpha",
+	"category": "Scripts",
+	"identifier": "avs_dehalo_alpha",
+	"modulename": "avs_dehalo_alpha",
+	"dependencies": [
+		"avs_rgtools",
+		"avs_masktools",
+		"avs_smdegrain"		
+	],
+	"releases": [
+		{
+			"version": "2019-02-19",
+			"published": "2019-02-19T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/uB6Pynhr",
+				"files": {
+					"DeHalo_alpha_MT2.avsi": [
+						"uB6Pynhr",
+						"1bfbe5f29d86f82a1cf4c117b21a30f77fb4205a6c837c2bc4f829c0ceac955a"
+					]
+				}
+			}
+		}
+	]
+}

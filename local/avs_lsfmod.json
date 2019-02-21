@@ -1,7 +1,7 @@
 {
 	"name": "LSFmod",
 	"type": "PyScript",
-	"description": "A LimitedSharpenFaster mod with a lot of new features and optimizations. ",
+	"description": "A LimitedSharpenFaster mod with a lot of new features and optimizations.",
 	"website": "http://avisynth.nl/index.php/LSFmod",
 	"category": "Scripts",
 	"identifier": "avs_lsfmod",

@@ -11,15 +11,29 @@
 		"avs_rgtools",
 		"avs_masktools",
 		"avs_mvtools",
-		"avs_nnedi3",		
-		"avs_eedi2",		
-		"avs_eedi3",		
-		"avs_tdeint",		
-		"avs_fft3dfilter",		
-		"avs_dfttest",		
-		"avs_knlmeanscl"		
+		"avs_nnedi3",
+		"avs_eedi2",
+		"avs_eedi3",
+		"avs_tdeint",
+		"avs_fft3dfilter",
+		"avs_dfttest",
+		"avs_knlmeanscl",
+		"avs_smdegrain"
 	],
 	"releases": [
+		{
+			"version": "v3.362s",
+			"published": "2019-02-19T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/JLGwn7mE",
+				"files": {
+					"QTGMC.avsi": [
+						"JLGwn7mE",
+						"046f40be525cd7528f92f4fe764866699c363320145d5b461c460d773d1b6330"
+					]
+				}
+			}
+		},
 		{
 			"version": "v3.361s",
 			"published": "2018-07-12T12:00:00Z",

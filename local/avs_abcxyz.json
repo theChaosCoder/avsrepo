@@ -8,9 +8,23 @@
 	"modulename": "avs_abcxyz",
 	"dependencies": [
 		"avs_rgtools",
-		"avs_masktools"
+		"avs_masktools",
+		"avs_smdegrain"
 	],
 	"releases": [
+		{
+			"version": "2018-02-19",
+			"published": "2018-07-12T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/UL6ycpbp",
+				"files": {
+					"Abcxyz_MT2.avsi": [
+						"UL6ycpbp",
+						"96cea3477cc0f1b0ddcbadbd3a2572596858bbf57fcdae75234b3f8f20316d91"
+					]
+				}
+			}
+		},
 		{
 			"version": "2018-07-13",
 			"published": "2018-07-12T12:00:00Z",

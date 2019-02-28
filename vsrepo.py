@@ -67,7 +67,7 @@ if (args.operation in ['install', 'upgrade', 'uninstall']) == ((args.package is 
     print('Package argument only required for install, upgrade and uninstall operations')
     exit(1)
 
-package_json_path = os.path.join(os.path.dirname(__file__), 'vspackages.json') if args.portable else os.path.join(os.getenv('APPDATA'), 'VapourSynth', 'vsrepo', 'vspackages.json')
+package_json_path = os.path.join(os.path.dirname(__file__), 'avspackages.json') if args.portable else os.path.join(os.getenv('APPDATA'), 'VapourSynth', 'vsrepo', 'avspackages.json')
 
 py_script_path = os.path.dirname(__file__) if args.portable else site.getusersitepackages()
 if args.script_path is not None:
@@ -419,7 +419,7 @@ def update_package_definition(url):
             remote_modtime = email.utils.mktime_tz(email.utils.parsedate_tz(urlreq.info()['Last-Modified']))
             data = urlreq.read()
             with zipfile.ZipFile(io.BytesIO(data), 'r') as zf:
-                with zf.open('vspackages.json') as pkgfile:
+                with zf.open('avspackages.json') as pkgfile:
                     with open(package_json_path, 'wb') as dstfile:
                         dstfile.write(pkgfile.read())
                     os.utime(package_json_path, times=(remote_modtime, remote_modtime))
@@ -496,6 +496,6 @@ elif args.operation == 'available':
     detect_installed_packages()
     list_available_packages()
 elif args.operation == 'update':
-    update_package_definition('http://www.vapoursynth.com/vsrepo/vspackages.zip')
+    update_package_definition('http://vsdb.top/avspackages.zip')
 elif args.operation == 'paths':
     print_paths()

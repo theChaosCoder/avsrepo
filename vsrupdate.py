@@ -292,14 +292,14 @@ if args.operation == 'compile':
                 verify_package(pfile, existing_identifiers)
                 combined.append(pfile)
 
-    with open('vspackages.json', 'w', encoding='utf-8') as pl:
+    with open('avspackages.json', 'w', encoding='utf-8') as pl:
         json.dump(fp=pl, obj={ 'file-format': 2, 'packages': combined}, ensure_ascii=False, indent=2)
 
     try:
-        os.remove('vspackages.zip')
+        os.remove('avspackages.zip')
     except:
         pass
-    result = subprocess.run([cmd7zip_path, 'a', '-tzip', 'vspackages.zip', 'vspackages.json'])
+    result = subprocess.run([cmd7zip_path, 'a', '-tzip', 'avspackages.zip', 'avspackages.json'])
     result.check_returncode()
     
     print('Done')
@@ -321,12 +321,12 @@ elif args.operation == 'update-local':
     else:
         update_package(args.package[0])
 elif args.operation == 'upload':
-    with open('vspackages.zip', 'rb') as pl:
+    with open('avspackages.zip', 'rb') as pl:
         with ftplib.FTP_TLS(host=args.host[0], user=args.user[0], passwd=args.passwd[0]) as ftp:
             ftp.cwd(args.dir[0])
             try:
-                ftp.delete('vspackages.zip')
+                ftp.delete('avspackages.zip')
             except:
-                print('Failed to delete vspackages.zip')
-            ftp.storbinary('STOR vspackages.zip', pl)
+                print('Failed to delete avspackages.zip')
+            ftp.storbinary('STOR avspackages.zip', pl)
     print('Done')

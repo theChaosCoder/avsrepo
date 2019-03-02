@@ -39,7 +39,7 @@ try:
     import winreg
 except ImportError:
     print('{} is only supported on Windows.'.format(sys.executable))
-    exit(1)
+    sys.exit(1)
 
 try:
     import tqdm
@@ -61,11 +61,12 @@ parser.add_argument('-p', action='store_true', dest='portable', help='use paths 
 parser.add_argument('-b', dest='binary_path', help='custom binary install path')
 parser.add_argument('-s', dest='script_path', help='custom script install path')
 args = parser.parse_args()
+args.portable = True # for now we are always in portable mode, no need for an extra -p 
 is_64bits = (args.target == 'win64')
 
 if (args.operation in ['install', 'upgrade', 'uninstall']) == ((args.package is None) or len(args.package) == 0):
     print('Package argument only required for install, upgrade and uninstall operations')
-    exit(1)
+    sys.exit(1)
 
 package_json_path = os.path.join(os.path.dirname(sys.executable), 'avspackages.json') if args.portable else os.path.join(os.getenv('APPDATA'), 'VapourSynth', 'vsrepo', 'avspackages.json')
 
@@ -442,7 +443,7 @@ for name in args.package:
         get_package_from_name(name)
     except Exception as e:
         print(e)
-        exit(1)
+        sys.exit(1)
 
 if args.operation == 'install':
     detect_installed_packages()

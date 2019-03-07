@@ -1,0 +1,34 @@
+{
+	"name": "TEdgeMask",
+	"type": "VSPlugin",
+	"description": "modified TEdgeMask for Avisynth2.6x",
+	"website": "http://avisynth.nl/index.php/TEdgeMask",
+	"category": "Other",
+	"identifier": "avs_temmod",
+	"namespace": "avs_temmod",
+	"github": "https://github.com/chikuzen/TEMmod",
+	"releases": [
+		{
+			"version": "0.2.1",
+			"published": "2016-05-29T18:02:39Z",
+			"win32": {
+				"url": "https://github.com/chikuzen/TEMmod/releases/download/0.2.1/TEMmod-0.2.1.zip",
+				"files": {
+					"TEMmod.dll": [
+						"TEMmod.dll",
+						"ae3aeeafa8549230b2121c6f7aa98b59a5684d874d8b0482ec53d11e946fb536"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/chikuzen/TEMmod/releases/download/0.2.1/TEMmod-0.2.1.zip",
+				"files": {
+					"TEMmod_x64.dll": [
+						"TEMmod_x64.dll",
+						"172ee00748a854b3835d32edbd0a75877890b2478554d1d0f56f2dc30eb0eeda"
+					]
+				}
+			}
+		}
+	]
+}

@@ -3,7 +3,7 @@
 	"type": "VSPlugin",
 	"description": "MSharpen is a very simple masked sharpening plugin for AviSynth. This version is a reimplementation of the old neuron2's plugin",
 	"website": "https://github.com/tp7/msharpen",
-	"category": "Other",
+	"category": "Sharpening",
 	"identifier": "avs_msharpen",
 	"namespace": "avs_msharpen",
 	"github": "https://github.com/tp7/msharpen",

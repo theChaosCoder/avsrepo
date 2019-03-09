@@ -4,7 +4,7 @@
 	"description": "A high quality deinterlacer using motion-compensated temporal smoothing, with a range of features for quality and convenienceA LimitedSharpenFaster mod with a lot of new features and optimizations.",
 	"website": "http://avisynth.nl/index.php/QTGMC",
 	"doom9": "https://forum.doom9.org/showthread.php?t=174544",
-	"category": "Scripts",
+	"category": "Deinterlacing",
 	"identifier": "avs_qtgmc",
 	"modulename": "avs_qtgmc",
 	"dependencies": [

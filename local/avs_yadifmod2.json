@@ -3,7 +3,7 @@
 	"type": "VSPlugin",
 	"description": "YadifMod2 = Yadif + YadifMod",
 	"website": "http://avisynth.nl/index.php/Yadifmod",
-	"category": "Other",
+	"category": "Deinterlacing",
 	"identifier": "avs_yadifmod2",
 	"namespace": "avs_yadifmod2",
 	"github": "https://github.com/chikuzen/yadifmod2",

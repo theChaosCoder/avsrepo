@@ -3,7 +3,7 @@
 	"type": "VSPlugin",
 	"description": "TDeint is a bi-directionally, motion adaptive, sharp deinterlacer.",
 	"website": "http://avisynth.nl/index.php/TDeint",
-	"category": "Other",
+	"category": "Deinterlacing",
 	"identifier": "avs_tdeint",
 	"namespace": "avs_tdeint",
 	"releases": [

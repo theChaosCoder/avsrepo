@@ -3,7 +3,7 @@
 	"type": "VSPlugin",
 	"description": "HDRTools",
 	"website": "https://github.com/jpsdr/HDRTools",
-	"category": "Other",
+	"category": "Color/Levels",
 	"identifier": "avs_hdrtools",
 	"namespace": "avs_hdrtools",
 	"doom9": "https://forum.doom9.org/showthread.php?t=175488",

@@ -3,7 +3,7 @@
 	"type": "VSPlugin",
 	"description": "x64 port of modified resize functions for Destripe.avsi",
 	"website": "https://github.com/DJATOM/CullResize",
-	"category": "Other",
+	"category": "Resizing and Format Conversion",
 	"identifier": "avs_cullresize",
 	"namespace": "avs_cullresize",
 	"github": "https://github.com/DJATOM/CullResize",

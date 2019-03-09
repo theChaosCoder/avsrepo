@@ -4,7 +4,7 @@
 	"description": "FFT3dGPU ",
 	"website": "https://github.com/pinterf/FFT3dGPU",
 	"doom9": "https://forum.doom9.org/showthread.php?p=1857833#post1857833",
-	"category": "Other",
+	"category": "Denoising",
 	"identifier": "avs_fft3dgpu",
 	"namespace": "avs_fft3dgpu",
 	"github": "https://github.com/pinterf/FFT3dGPU",

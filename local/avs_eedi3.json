@@ -3,7 +3,7 @@
 	"type": "VSPlugin",
 	"description": "This is a fork of Elegant's port of firesledge's EEDI3 mod so that it works with both x86 and x64",
 	"website": "https://github.com/pinterf/EEDI3",
-	"category": "Other",
+	"category": "Deinterlacing",
 	"identifier": "avs_eedi3",
 	"namespace": "avs_eedi3",
 	"github": "https://github.com/pinterf/EEDI3",

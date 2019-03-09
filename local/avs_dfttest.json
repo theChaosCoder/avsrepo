@@ -3,7 +3,7 @@
 	"type": "VSPlugin",
 	"description": "2D/3D frequency domain denoiser using Discrete Fourier transform",
 	"website": "http://avisynth.nl/index.php/Dfttest",
-	"category": "Other",
+	"category": "Denoising",
 	"identifier": "avs_dfttest",
 	"namespace": "avs_dfttest",
 	"github": "https://github.com/DJATOM/dfttest",

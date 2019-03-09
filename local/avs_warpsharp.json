@@ -3,7 +3,7 @@
 	"type": "VSPlugin",
 	"description": "WarpSharp",
 	"website": "http://avisynth.nl/index.php/WarpSharp",
-	"category": "Other",
+	"category": "Sharpening",
 	"identifier": "avs_warpsharp",
 	"namespace": "avs_warpsharp",
 	"releases": [

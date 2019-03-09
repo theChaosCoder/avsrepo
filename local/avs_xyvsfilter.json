@@ -3,7 +3,7 @@
 	"type": "VSPlugin",
 	"description": "xy-VSFilter, modification by pinterf",
 	"website": "https://github.com/pinterf/xy-VSFilter",
-	"category": "Other",
+	"category": "Subtitles",
 	"identifier": "avs_xyvsfilter",
 	"namespace": "avs_xyvsfilter",
 	"github": "https://github.com/pinterf/xy-VSFilter",

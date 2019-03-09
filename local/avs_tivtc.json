@@ -3,7 +3,7 @@
 	"type": "VSPlugin",
 	"description": "This is a modernization effort on tritical's TIVTC (v1.0.5) plugin for Avisynth",
 	"website": "https://github.com/pinterf/TIVTC",
-	"category": "Other",
+	"category": "Inverse Telecine",
 	"identifier": "avs_tivtc",
 	"namespace": "avs_tivtc",
 	"github": "https://github.com/pinterf/TIVTC",

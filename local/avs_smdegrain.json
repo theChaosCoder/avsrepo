@@ -13,18 +13,19 @@
 		"avs_mvtools",
 		"avs_masktools",
 		"avs_nnedi3",
-		"avs_dfttest"
+		"avs_dfttest",
+		"avs_knlmeanscl"
 	],
 	"releases": [
 		{
 			"version": "v3.1.2.101s",
 			"published": "2019-02-18T12:00:00Z",
 			"script": {
-				"url": "https://pastebin.com/raw/gCJCeQRV",
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/a5a19c2d04e220ea9b8920ab8da9ac9f0d5bda78/SMDegrain.avsi",
 				"files": {
 					"SMDegrain.avsi": [
-						"gCJCeQRV",
-						"91752f275669cac61a22b897921a6a1505e8f6d8624c33653456d9d86dafe780"
+						"SMDegrain.avsi",
+						"e990d36a661e5fbd8ecd72b6d95111fa62398d0a867e725585aa884257da0243"
 					]
 				}
 			}

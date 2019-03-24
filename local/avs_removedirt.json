@@ -10,6 +10,28 @@
 	"github": "https://github.com/pinterf/RemoveDirt",
 	"releases": [
 		{
+			"version": "v0.9.2",
+			"published": "2019-03-24T14:12:08Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RemoveDirt/releases/download/v0.9.2/RemoveDirt-0.9.2.7z",
+				"files": {
+					"RemoveDirt.dll": [
+						"x86/RemoveDirt.dll",
+						"843d5fd4851089a9381a8110ccb9f829dbb8c3222bfa2f321f21a43768092929"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RemoveDirt/releases/download/v0.9.2/RemoveDirt-0.9.2.7z",
+				"files": {
+					"RemoveDirt.dll": [
+						"x64/RemoveDirt.dll",
+						"32d88662771746bc3b766ea0852dbe1720b36411d451fd7c02beb8e2d82a06be"
+					]
+				}
+			}
+		},
+		{
 			"version": "v0.9.1",
 			"published": "2019-03-14T18:38:13Z",
 			"win32": {

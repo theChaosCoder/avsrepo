@@ -1,0 +1,35 @@
+{
+	"name": "FluxSmooth",
+	"type": "VSPlugin",
+	"description": "Avisynth filter for spatio-temporal smoothing of fluctuations",
+	"website": "http://avisynth.nl/index.php/FluxSmooth",
+	"doom9": "https://forum.doom9.org/showthread.php?t=176246",
+	"category": "Denoisers",
+	"identifier": "avs_fluxsmooth",
+	"namespace": "avs_fluxsmooth",
+	"github": "https://github.com/pinterf/FluxSmooth",
+	"releases": [
+		{
+			"version": "v1.3",
+			"published": "2019-04-02T15:33:59Z",
+			"win32": {
+				"url": "https://github.com/pinterf/FluxSmooth/releases/download/v1.3/FluxSmooth-pfmod-v1.3.7z",
+				"files": {
+					"FluxSmooth.dll": [
+						"x86/FluxSmooth.dll",
+						"0c92dcb5497a3b10b3da4da6607be70b1cb6b4b63a2fbee6b94048d9e4c3c7ab"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/FluxSmooth/releases/download/v1.3/FluxSmooth-pfmod-v1.3.7z",
+				"files": {
+					"FluxSmooth.dll": [
+						"x64/FluxSmooth.dll",
+						"158c9fc1569d643328ba8667f3025d1d958a6c4a8145e7d77efb6aa047a4d8fa"
+					]
+				}
+			}
+		}
+	]
+}

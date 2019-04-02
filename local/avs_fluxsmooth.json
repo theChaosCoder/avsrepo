@@ -4,7 +4,7 @@
 	"description": "Avisynth filter for spatio-temporal smoothing of fluctuations",
 	"website": "http://avisynth.nl/index.php/FluxSmooth",
 	"doom9": "https://forum.doom9.org/showthread.php?t=176246",
-	"category": "Denoisers",
+	"category": "Denoising",
 	"identifier": "avs_fluxsmooth",
 	"namespace": "avs_fluxsmooth",
 	"github": "https://github.com/pinterf/FluxSmooth",

@@ -10,6 +10,28 @@
 	"github": "https://github.com/pinterf/FluxSmooth",
 	"releases": [
 		{
+			"version": "v1.4",
+			"published": "2019-04-26T08:57:47Z",
+			"win32": {
+				"url": "https://github.com/pinterf/FluxSmooth/releases/download/v1.4/FluxSmooth-pfmod-v1.4.7z",
+				"files": {
+					"FluxSmooth.dll": [
+						"x86/FluxSmooth.dll",
+						"2ebe3365270dcf198ec15f54e88c0d9022e0185d1580fe0f126863b53bc63d94"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/FluxSmooth/releases/download/v1.4/FluxSmooth-pfmod-v1.4.7z",
+				"files": {
+					"FluxSmooth.dll": [
+						"x64/FluxSmooth.dll",
+						"41e0f42df1ea750e18ee797146d645fa1aa6319deeca6e0cb9e835cb21d59469"
+					]
+				}
+			}
+		},
+		{
 			"version": "v1.3",
 			"published": "2019-04-02T15:33:59Z",
 			"win32": {

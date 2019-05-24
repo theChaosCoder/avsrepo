@@ -17,7 +17,7 @@
 				"files": {
 					"plugins_JPSDR.dll": [
 						"x86/Release_W7/plugins_JPSDR.dll",
-						"3cfa2b53d40859e0b37e912f5d054471b310ea3aa647787aa41a7ccb25d388fe"
+						"b71159149a3ef8b566db80a62d2d6677effb06ec51be8fd2b618abc9d82311e5"
 					]
 				}
 			},
@@ -26,7 +26,7 @@
 				"files": {
 					"plugins_JPSDR.dll": [
 						"x64/Release_W7/plugins_JPSDR.dll",
-						"68e731c767008ec0e8eb28a64069061b37a2cd200c3d0784ff810733be1feba3"
+						"640a82adb30b99c05b7d0f08e2d125ca8e652d2c78c54d778fb85ddb3b2e1857"
 					]
 				}
 			}

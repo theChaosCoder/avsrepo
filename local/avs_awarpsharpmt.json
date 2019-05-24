@@ -17,7 +17,7 @@
 				"files": {
 					"aWarpsharpMT.dll": [
 						"x86/Release_W7/aWarpsharpMT.dll",
-						"bfa0e817658d890333f13236817ebad07dd634ef9e8ea346871507c26f9a4080"
+						"7ac248be6e1a3ba646caf775cd5ce6b93d1ae26b7b95b8be62dd9565895b926d"
 					]
 				}
 			},
@@ -26,7 +26,7 @@
 				"files": {
 					"aWarpsharpMT.dll": [
 						"x64/Release_W7/aWarpsharpMT.dll",
-						"3f37311ac714efb5c9ae6cd95c4665511628b6698dc4bb20854a1d1afd41c1f1"
+						"9e3306cba979d5bf3fd03ab9eb9f1f27139ebe3026e48d51d4b1f8ad0f03921d"
 					]
 				}
 			}
@@ -38,8 +38,8 @@
 				"url": "https://github.com/jpsdr/aWarpSharpMT/releases/download/2.0.0/aWarpSharpMT_v2_0_0.7z",
 				"files": {
 					"aWarpsharpMT.dll": [
-						"x64/Release_W7/aWarpsharpMT.dll",
-						"b1cd996d32c030186322016834d81cffb2f9e312fb5d23b0ea1188ff12acda12"
+						"x86/Release_W7/aWarpsharpMT.dll",
+						"77ab37c8e4d2e3efbacb1736fda91a7a818dd50c9fe4c907b222c40b3e073c38"
 					]
 				}
 			},
@@ -60,8 +60,8 @@
 				"url": "https://github.com/jpsdr/aWarpSharpMT/releases/download/1.0.4/aWarpSharpMT_v1_0_4.7z",
 				"files": {
 					"aWarpsharpMT.dll": [
-						"x64/Release_W7/aWarpsharpMT.dll",
-						"8cef6f953f0835471d114f039379359ffdbbb249dba596128fe1245fd12edc36"
+						"x86/Release_W7/aWarpsharpMT.dll",
+						"39115ef47b2bf746e60a867d41e06084f83e464dba9cb38ed6e5d454fdb5fd80"
 					]
 				}
 			},
@@ -82,8 +82,8 @@
 				"url": "https://github.com/jpsdr/aWarpSharpMT/releases/download/1.0.3/aWarpSharpMT_v1_0_3.7z",
 				"files": {
 					"aWarpsharpMT.dll": [
-						"x64/Release_W7/aWarpsharpMT.dll",
-						"368235a25ea91b06fb76a51a8ab8021d5c25a47a34417e31c20631f94dabc62f"
+						"x86/Release_W7/aWarpsharpMT.dll",
+						"e8e7b0ca6fe889a4f15ac7e4ba4575720844f0552f3d8b82c71270a12dd7003a"
 					]
 				}
 			},
@@ -104,8 +104,8 @@
 				"url": "https://github.com/jpsdr/aWarpSharpMT/releases/download/1.0.2/aWarpSharpMT_v1_0_2.7z",
 				"files": {
 					"aWarpsharpMT.dll": [
-						"x64/Release_W7/aWarpsharpMT.dll",
-						"4aa2a25dec0810fafe6e3930e25d3b9c00d1d0156c96cb2a356310ce5e43ab6a"
+						"x86/Release_W7/aWarpsharpMT.dll",
+						"78af9f605905aa689da1ceda7632de7fa3a25e4ec2183c7862e356e9207a22fa"
 					]
 				}
 			},
@@ -126,8 +126,8 @@
 				"url": "https://github.com/jpsdr/aWarpSharpMT/releases/download/1.0.1/aWarpSharpMT_v1_0_1.7z",
 				"files": {
 					"aWarpsharpMT.dll": [
-						"x64/Release_W7/aWarpsharpMT.dll",
-						"4a3cb0a209b80cd4e20b6f475624b7d56580b99beb97af3ea0b7f0aa08eb507b"
+						"x86/Release_W7/aWarpsharpMT.dll",
+						"15b6e1470722f97f93c2c124bab936092cda1aa0cd5568d4a0ab702659400d58"
 					]
 				}
 			},
@@ -148,8 +148,8 @@
 				"url": "https://github.com/jpsdr/aWarpSharpMT/releases/download/1.0.0/aWarpSharpMT_v1_0_0.7z",
 				"files": {
 					"aWarpsharpMT.dll": [
-						"x64/Release_W7/aWarpsharpMT.dll",
-						"9759d1c1a6afcb9eb4a84439be39a43a69674716fa431d971eb8756f0d3aa66f"
+						"x86/Release_W7/aWarpsharpMT.dll",
+						"38774f6f2f2dc4ab0bf885c4bf3bce354b907a6904f1a89adcc4448d20ae543d"
 					]
 				}
 			},

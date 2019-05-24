@@ -9,6 +9,28 @@
 	"github": "https://github.com/pinterf/Deflicker",
 	"releases": [
 		{
+			"version": "v0.6",
+			"published": "2019-05-23T16:18:54Z",
+			"win32": {
+				"url": "https://github.com/pinterf/Deflicker/releases/download/v0.6/Deflicker-v0.6.7z",
+				"files": {
+					"Deflicker.dll": [
+						"x86/Deflicker.dll",
+						"450c24cd63b45888dc18505f76c027e3736db27b2b2e23c56613258a205fa967"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/Deflicker/releases/download/v0.6/Deflicker-v0.6.7z",
+				"files": {
+					"Deflicker.dll": [
+						"x64/Deflicker.dll",
+						"f15fe67b476fdb2ac8e72ef4089955487f00c4f7b3522846a0d8a7d806fda905"
+					]
+				}
+			}
+		},
+		{
 			"version": "v0.5",
 			"published": "2019-05-22T11:48:51Z",
 			"win32": {

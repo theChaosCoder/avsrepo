@@ -17,7 +17,7 @@
 				"files": {
 					"HDRTools.dll": [
 						"x86/Release_W7/HDRTools.dll",
-						"32b189823c70dcf12b7f7a389a00b07d730ebeaad1a4c607bd37960d790ae733"
+						"f1ccd7f7000aa6e8cd755db7f338c0e8beccf1dafb3ef5bfbcf661d7462571c0"
 					]
 				}
 			},
@@ -26,7 +26,7 @@
 				"files": {
 					"HDRTools.dll": [
 						"x64/Release_W7/HDRTools.dll",
-						"06cfd5599a7f08c8ac05f8979cce5e4a9f0573ab4786c4c5f53319ade5cf79ba"
+						"79d24ca06ee8d038410ce761e44abf350e5324f46997c77c29d4fa09bfc7ecf3"
 					]
 				}
 			}

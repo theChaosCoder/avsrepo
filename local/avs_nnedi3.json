@@ -17,7 +17,7 @@
 				"files": {
 					"nnedi3.dll": [
 						"x86/Release_W7/nnedi3.dll",
-						"103fd78b6abf7558dd6136deb67ab4e21580dd36f627a8433604b88b004b3fb9"
+						"52fa1f3c4116abbb6e35515588b909c66dd9dd93ab60b921c3583125f3c23d25"
 					]
 				}
 			},
@@ -26,7 +26,7 @@
 				"files": {
 					"nnedi3.dll": [
 						"x64/Release_W7/nnedi3.dll",
-						"08610a50a1d088197a9ac8ac930a25587f154c4f50e750f872fd1c0d17d64a5a"
+						"161c619f8dc101410973e059ac3930537e80d8c5f4a9fb121b27608d3e23d5ef"
 					]
 				}
 			}

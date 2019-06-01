@@ -13,6 +13,19 @@
 	],
 	"releases": [
 		{
+			"version": "v1.3",
+			"published": "2019-06-01T12:46:31Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.3/FrameRateConverter-v1.3.zip",
+				"files": {
+					"FrameRateConverter.avsi": [
+						"FrameRateConverter.avsi",
+						"d651535e049e2282afc9c47d3b9d098beed134b2ded40d6efdb1798ad06fd66f"
+					]
+				}
+			}
+		},
+		{
 			"version": "v1.2.1",
 			"published": "2018-05-13T03:54:53Z",
 			"script": {

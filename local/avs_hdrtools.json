@@ -10,6 +10,28 @@
 	"github": "https://github.com/jpsdr/HDRTools",
 	"releases": [
 		{
+			"version": "0.5.0",
+			"published": "2019-05-31T12:07:48Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/HDRTools/releases/download/0.5.0/HDRTools_v0_5_0.7z",
+				"files": {
+					"HDRTools.dll": [
+						"x86/Release_W7/HDRTools.dll",
+						"f1f1cdfd64f06f0ac8335cb036e8538584abd52b5a0625989a8e9f6e79b60a88"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/HDRTools/releases/download/0.5.0/HDRTools_v0_5_0.7z",
+				"files": {
+					"HDRTools.dll": [
+						"x64/Release_W7/HDRTools.dll",
+						"dca303db77728db32afc28cfa83c31e9769b4794d9773061d8de8064eaa53e49"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.4.2",
 			"published": "2018-08-14T16:47:10Z",
 			"win32": {

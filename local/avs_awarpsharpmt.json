@@ -10,6 +10,28 @@
 	"github": "https://github.com/jpsdr/aWarpSharpMT",
 	"releases": [
 		{
+			"version": "2.1.2",
+			"published": "2019-06-06T21:21:26Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/aWarpSharpMT/releases/download/2.1.2/aWarpSharpMT_v2_1_2.7z",
+				"files": {
+					"aWarpsharpMT.dll": [
+						"x86/Release_W7/aWarpsharpMT.dll",
+						"c93c3815b935323cdb3cbaa03e540c8c7f40c5a41f2e7efece4311e50218cb90"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/aWarpSharpMT/releases/download/2.1.2/aWarpSharpMT_v2_1_2.7z",
+				"files": {
+					"aWarpsharpMT.dll": [
+						"x64/Release_W7/aWarpsharpMT.dll",
+						"3fa9441c06b6f7a6db9f9c41e1073c9ea5f80d0a6a61717aa468706c50bf4976"
+					]
+				}
+			}
+		},
+		{
 			"version": "2.1.0",
 			"published": "2019-05-31T12:06:01Z",
 			"win32": {

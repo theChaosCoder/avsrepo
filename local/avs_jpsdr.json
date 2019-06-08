@@ -11,13 +11,13 @@
 	"releases": [
 		{
 			"version": "3.1.2",
-			"published": "2019-06-06T21:25:50Z",
+			"published": "2019-06-08T16:06:41Z",
 			"win32": {
 				"url": "https://github.com/jpsdr/plugins_JPSDR/releases/download/3.1.2/plugins_JPSDR_v3_1_2.7z",
 				"files": {
 					"plugins_JPSDR.dll": [
 						"x86/Release_W7/plugins_JPSDR.dll",
-						"fae723c0082ab3085f7bc910530d74b6fa80856a47ee16f1cdd2273f1ab438e4"
+						"03ee4ffb1236caa414d4e6a343e209b0f1e058caea6d0bbc1c30180541d4b857"
 					]
 				}
 			},
@@ -26,7 +26,7 @@
 				"files": {
 					"plugins_JPSDR.dll": [
 						"x64/Release_W7/plugins_JPSDR.dll",
-						"e7b65cf89b5cba6f2e476e281bf61696bac2b6a5707975aaa66fd3f12ffbaa20"
+						"9da5f27cbecf091396db2a61e6ae66e62caf924e09736d670a6fe70796e4b5cd"
 					]
 				}
 			}

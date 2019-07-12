@@ -1,0 +1,35 @@
+{
+	"name": "MiniDeen",
+	"type": "VSPlugin",
+	"description": "MiniDeen is a spatial denoising filter. It replaces every pixel with the average of its neighbourhood.",
+	"website": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen",
+	"doom9": "https://forum.doom9.org/showthread.php?t=176554",
+	"category": "Denoising",
+	"identifier": "avs_minideen",
+	"namespace": "avs_minideen",
+	"github": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen",
+	"releases": [
+		{
+			"version": "r1",
+			"published": "2019-07-12T15:28:13Z",
+			"win32": {
+				"url": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen/releases/download/r1/MiniDeen_r1.zip",
+				"files": {
+					"MiniDeen.dll": [
+						"x86/MiniDeen.dll",
+						"2781ec131c674c6e0c9cafdcf73860252803adc36410f0d01af155f4755cf78f"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen/releases/download/r1/MiniDeen_r1.zip",
+				"files": {
+					"MiniDeen.dll": [
+						"x64/MiniDeen.dll",
+						"618200eefc72059f0dd54134854bb4e676936cf9209582a6787ff5cccf379665"
+					]
+				}
+			}
+		}
+	]
+}

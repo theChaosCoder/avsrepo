@@ -14,7 +14,7 @@
 			"win32": {
 				"url": "https://github.com/pinterf/AvsInpaint/releases/download/v1.2/AvsInpaint-v1.2.7z",
 				"files": {
-					"Deflicker.dll": [
+					"AvsInPaint.dll": [
 						"x86/AvsInPaint.dll",
 						"a0cfe2474601dcbab2d5cf45089e7d542877d9db33d5ab2c9d34e6e19fb2fc22"
 					]
@@ -23,7 +23,7 @@
 			"win64": {
 				"url": "https://github.com/pinterf/AvsInpaint/releases/download/v1.2/AvsInpaint-v1.2.7z",
 				"files": {
-					"Deflicker.dll": [
+					"AvsInPaint.dll": [
 						"x64/AvsInPaint.dll",
 						"bd49d1ca16004aec039174642c4919670d3acbc04f243611423644c32909c722"
 					]
@@ -36,7 +36,7 @@
 			"win32": {
 				"url": "https://github.com/pinterf/AvsInpaint/releases/download/v1.1/AvsInpaint-v1.1.7z",
 				"files": {
-					"Deflicker.dll": [
+					"AvsInPaint.dll": [
 						"x86/AvsInPaint.dll",
 						"088b3bfe0f2dbbc99f2ef3f708d746e311b34d4b9243c23b7e20741199386362"
 					]
@@ -45,7 +45,7 @@
 			"win64": {
 				"url": "https://github.com/pinterf/AvsInpaint/releases/download/v1.1/AvsInpaint-v1.1.7z",
 				"files": {
-					"Deflicker.dll": [
+					"AvsInPaint.dll": [
 						"x64/AvsInPaint.dll",
 						"749031c10079162d811ddb2e8367592db1dd39515666f2c99256ed8b04fbab65"
 					]

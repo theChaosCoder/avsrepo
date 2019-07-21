@@ -22,6 +22,19 @@
 	],
 	"releases": [
 		{
+			"version": "v3.363s",
+			"published": "2019-07-19T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/nGgbrBq3",
+				"files": {
+					"QTGMC.avsi": [
+						"nGgbrBq3",
+						"41404cfd742d75e3ab06b215b2f1d1e7ef28c3a2cf53ffad05c24eb67db8961e"
+					]
+				}
+			}
+		},
+		{
 			"version": "v3.362s",
 			"published": "2019-02-19T12:00:00Z",
 			"script": {

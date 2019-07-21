@@ -13,6 +13,19 @@
 	],
 	"releases": [
 		{
+			"version": "2019-07-20",
+			"published": "2019-07-20T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/p3vgWdTu",
+				"files": {
+					"DeHalo_alpha_MT2.avsi": [
+						"p3vgWdTu",
+						"cf09d1416a5746f52f6b0cbf979a1ae9237f873b93d125d669711f32e9daa5be"
+					]
+				}
+			}
+		},
+		{
 			"version": "2019-02-19",
 			"published": "2019-02-19T12:00:00Z",
 			"script": {

@@ -14,6 +14,18 @@
 	],
 	"releases": [
 		{
+			"version": "2.16",
+			"published": "2019-07-20T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/NEyPaAig",
+				"files": {
+					"LSFmod.avsi": [
+						"NEyPaAig",
+						"f84c379392e57bd5c3231889156ff9a0916fa2d4bf23e6d14dafa0c5b32824ab"
+					]
+				}
+			}
+		},		{
 			"version": "2.14",
 			"published": "2018-08-10T12:00:00Z",
 			"script": {

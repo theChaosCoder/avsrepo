@@ -19,6 +19,19 @@
 	],
 	"releases": [
 		{
+			"version": "v3.1.2.104s",
+			"published": "2019-07-22T06:28:21Z",
+			"script": {
+				"url": "https://api.github.com/repos/avisynth-repository/SMDegrain/zipball/v3.1.2.104s",
+				"files": {
+					"SMDegrain.avsi": [
+						"avisynth-repository-SMDegrain-c009d25/SMDegrain.avsi",
+						"6cec58e50cb9d7c4602184df1c6559b402bf49f22613d3cc83ba11c35b853518"
+					]
+				}
+			}
+		},
+		{
 			"version": "v3.1.2.102s",
 			"published": "2019-06-01T10:30:29Z",
 			"script": {

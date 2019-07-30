@@ -3,6 +3,7 @@
 	"type": "PyScript",
 	"description": "A LimitedSharpenFaster mod with a lot of new features and optimizations.",
 	"website": "http://avisynth.nl/index.php/LSFmod",
+	"github": "https://github.com/avisynth-repository/LSFmod",
 	"category": "Sharpening",
 	"identifier": "avs_lsfmod",
 	"modulename": "avs_lsfmod",
@@ -10,22 +11,23 @@
 		"avs_rgtools",
 		"avs_masktools",
 		"avs_variableblur",
-		"avs_warpsharp"		
+		"avs_warpsharp"
 	],
 	"releases": [
 		{
-			"version": "2.16",
-			"published": "2019-07-20T12:00:00Z",
+			"version": "v2.16",
+			"published": "2019-07-30T13:50:31Z",
 			"script": {
-				"url": "https://pastebin.com/raw/NEyPaAig",
+				"url": "https://api.github.com/repos/avisynth-repository/LSFmod/zipball/v2.16",
 				"files": {
 					"LSFmod.avsi": [
-						"NEyPaAig",
-						"f84c379392e57bd5c3231889156ff9a0916fa2d4bf23e6d14dafa0c5b32824ab"
+						"avisynth-repository-LSFmod-e956e79/LSFmod.avsi",
+						"f7f43199fa0a7dcf9538973d85be358579e9633b7800b15386e7c169f42238de"
 					]
 				}
 			}
-		},		{
+		},
+		{
 			"version": "2.14",
 			"published": "2018-08-10T12:00:00Z",
 			"script": {

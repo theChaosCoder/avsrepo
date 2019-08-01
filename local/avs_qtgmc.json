@@ -18,6 +18,7 @@
 		"avs_fft3dfilter",
 		"avs_dfttest",
 		"avs_knlmeanscl",
+		"avs_yadifmod2",
 		"avs_smdegrain"
 	],
 	"releases": [

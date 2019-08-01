@@ -5,8 +5,8 @@
 	"website": "https://github.com/pinterf/masktools",
 	"doom9": "https://forum.doom9.org/showthread.php?t=174333",
 	"category": "Other",
-	"identifier": "avs_masktools",
-	"namespace": "avs_masktools",
+	"identifier": "masktools",
+	"namespace": "masktools",
 	"github": "https://github.com/pinterf/masktools",
 	"releases": [
 		{

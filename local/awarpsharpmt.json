@@ -4,8 +4,8 @@
 	"description": "Port of aWarpSharp plugin with new v2.6 API, x64 version and internal multi-threading.",
 	"website": "http://avisynth.nl/index.php/AWarpSharp2",
 	"category": "Sharpening",
-	"identifier": "avs_awarpsharpmt",
-	"namespace": "avs_awarpsharpmt",
+	"identifier": "awarpsharpmt",
+	"namespace": "awarpsharpmt",
 	"doom9": "https://forum.doom9.org/showthread.php?t=175064",
 	"github": "https://github.com/jpsdr/aWarpSharpMT",
 	"releases": [

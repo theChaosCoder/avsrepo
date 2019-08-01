@@ -5,8 +5,8 @@
 	"website": "http://avisynth.nl/index.php/SangNom2",
 	"doom9": "https://forum.doom9.org/showthread.php?t=168315",
 	"category": "Deinterlacing",
-	"identifier": "avs_sangnom2",
-	"namespace": "avs_sangnom2",
+	"identifier": "sangnom2",
+	"namespace": "sangnom2",
 	"github": "https://github.com/tp7/SangNom2",
 	"releases": [
 		{

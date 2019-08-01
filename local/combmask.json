@@ -4,8 +4,8 @@
 	"description": "CombMask is a simple filter that creates a comb mask that can (could) be used by other filters like MaskTools2.",
 	"website": "https://github.com/chikuzen/CombMask",
 	"category": "Other",
-	"identifier": "avs_combmask",
-	"namespace": "avs_combmask",
+	"identifier": "combmask",
+	"namespace": "combmask",
 	"github": "https://github.com/chikuzen/CombMask",
 	"releases": [
 		{

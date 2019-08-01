@@ -4,8 +4,8 @@
 	"description": "PointSize is a collection of specialized resizers for pixel-art and other low resolution graphics (e.g. old or portable video game captures). (scalex, LQx, HQx, xBRZ)",
 	"website": "https://github.com/Orum/PointSize",
 	"category": "Resizing and Format Conversion",
-	"identifier": "avs_pointsize",
-	"namespace": "avs_pointsize",
+	"identifier": "pointsize",
+	"namespace": "pointsize",
 	"doom9": "https://forum.doom9.org/showthread.php?t=154674",
 	"github": "https://github.com/Orum/PointSize",
 	"releases": [

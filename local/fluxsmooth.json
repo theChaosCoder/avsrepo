@@ -5,8 +5,8 @@
 	"website": "http://avisynth.nl/index.php/FluxSmooth",
 	"doom9": "https://forum.doom9.org/showthread.php?t=176246",
 	"category": "Denoising",
-	"identifier": "avs_fluxsmooth",
-	"namespace": "avs_fluxsmooth",
+	"identifier": "fluxsmooth",
+	"namespace": "fluxsmooth",
 	"github": "https://github.com/pinterf/FluxSmooth",
 	"releases": [
 		{

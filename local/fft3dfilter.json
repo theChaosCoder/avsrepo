@@ -5,8 +5,8 @@
 	"website": "https://github.com/pinterf/fft3dfilter",
 	"doom9": "https://forum.doom9.org/showthread.php?t=174347",
 	"category": "Denoising",
-	"identifier": "avs_fft3dfilter",
-	"namespace": "avs_fft3dfilter",
+	"identifier": "fft3dfilter",
+	"namespace": "fft3dfilter",
 	"github": "https://github.com/pinterf/fft3dfilter",
 	"dependencies": [
 		"org.fftw.fftw3"

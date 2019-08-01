@@ -4,8 +4,8 @@
 	"description": "MVTools",
 	"website": "https://github.com/pinterf/mvtools",
 	"category": "Other",
-	"identifier": "avs_mvtools",
-	"namespace": "avs_mvtools",
+	"identifier": "mvtools",
+	"namespace": "mvtools",
 	"github": "https://github.com/pinterf/mvtools",
 	"ignore": [
 		"r2.7.1.22",

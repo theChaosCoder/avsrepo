@@ -5,13 +5,13 @@
 	"website": "http://avisynth.nl/index.php/LSFmod",
 	"github": "https://github.com/avisynth-repository/LSFmod",
 	"category": "Sharpening",
-	"identifier": "avs_lsfmod",
-	"modulename": "avs_lsfmod",
+	"identifier": "lsfmod",
+	"modulename": "lsfmod",
 	"dependencies": [
-		"avs_rgtools",
-		"avs_masktools",
-		"avs_variableblur",
-		"avs_warpsharp"
+		"rgtools",
+		"masktools",
+		"variableblur",
+		"warpsharp"
 	],
 	"releases": [
 		{

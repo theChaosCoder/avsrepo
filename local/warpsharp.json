@@ -4,8 +4,8 @@
 	"description": "WarpSharp",
 	"website": "http://avisynth.nl/index.php/WarpSharp",
 	"category": "Sharpening",
-	"identifier": "avs_warpsharp",
-	"namespace": "avs_warpsharp",
+	"identifier": "warpsharp",
+	"namespace": "warpsharp",
 	"releases": [
 		{
 			"version": "v1.0",

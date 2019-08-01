@@ -4,8 +4,8 @@
 	"description": "JPSDR Avisynth's plugins pack: AutoYUY2, NNEDI3, ResampleMT/Desample, aWarpSharpMT, HDRTools",
 	"website": "https://github.com/jpsdr/plugins_JPSDR",
 	"category": "Other",
-	"identifier": "avs_jpsdr",
-	"namespace": "avs_jpsdr",
+	"identifier": "jpsdr",
+	"namespace": "jpsdr",
 	"doom9": "https://forum.doom9.org/showthread.php?t=174248",
 	"github": "https://github.com/jpsdr/plugins_JPSDR",
 	"releases": [

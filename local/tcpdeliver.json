@@ -4,8 +4,8 @@
 	"description": "Send clips over your network.",
 	"website": "https://github.com/DJATOM/TCPDeliver",
 	"category": "Other",
-	"identifier": "avs_tcpdeliver",
-	"namespace": "avs_tcpdeliver",
+	"identifier": "tcpdeliver",
+	"namespace": "tcpdeliver",
 	"github": "https://github.com/DJATOM/TCPDeliver",
 	"releases": [
 		{

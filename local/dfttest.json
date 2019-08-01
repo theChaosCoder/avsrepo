@@ -4,8 +4,8 @@
 	"description": "2D/3D frequency domain denoiser using Discrete Fourier transform",
 	"website": "http://avisynth.nl/index.php/Dfttest",
 	"category": "Denoising",
-	"identifier": "avs_dfttest",
-	"namespace": "avs_dfttest",
+	"identifier": "dfttest",
+	"namespace": "dfttest",
 	"github": "https://github.com/DJATOM/dfttest",
 	"ignore": [
 		"1.9.4.2"

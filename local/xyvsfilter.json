@@ -4,8 +4,8 @@
 	"description": "xy-VSFilter, modification by pinterf",
 	"website": "https://github.com/pinterf/xy-VSFilter",
 	"category": "Subtitles",
-	"identifier": "avs_xyvsfilter",
-	"namespace": "avs_xyvsfilter",
+	"identifier": "xyvsfilter",
+	"namespace": "xyvsfilter",
 	"github": "https://github.com/pinterf/xy-VSFilter",
 	"releases": [
 		{

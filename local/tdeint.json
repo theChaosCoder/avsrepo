@@ -5,8 +5,8 @@
 	"website": "http://avisynth.nl/index.php/TDeint",
 	"github": "https://github.com/avisynth-repository/TDeint",
 	"category": "Deinterlacing",
-	"identifier": "avs_tdeint",
-	"namespace": "avs_tdeint",
+	"identifier": "tdeint",
+	"namespace": "tdeint",
 	"releases": [
 		{
 			"version": "v1.1",

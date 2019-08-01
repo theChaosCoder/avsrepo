@@ -4,8 +4,8 @@
 	"description": "Canny edge detection filter for Avisynth2.6x based on tcanny by tritical.",
 	"website": "http://avisynth.nl/index.php/TCannyMod",
 	"category": "Other",
-	"identifier": "avs_tcannymod",
-	"namespace": "avs_tcannymod",
+	"identifier": "tcannymod",
+	"namespace": "tcannymod",
 	"doom9": "https://forum.doom9.org/showthread.php?t=168449",
 	"github": "https://github.com/chikuzen/TCannyMod",
 	"releases": [

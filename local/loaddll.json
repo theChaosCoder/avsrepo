@@ -4,8 +4,8 @@
 	"description": "Load External .dll into AviSynth manually",
 	"website": "http://www.iol.ie/~schubert/gas/gas.html",
 	"category": "Other",
-	"identifier": "avs_loaddll",
-	"namespace": "avs_loaddll",
+	"identifier": "loaddll",
+	"namespace": "loaddll",
 	"doom9": "https://forum.doom9.org/showthread.php?p=918605#post918605",
 	"releases": [
 		{

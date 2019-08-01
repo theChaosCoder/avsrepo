@@ -4,8 +4,8 @@
 	"description": "Median is a plugin which generates a pixel-by-pixel median of several clips. This is particularly useful for filtering out noise and glitches from multiple VHS/SVHS/8mm/Hi8 tape captures, but can be used for other purposes also.",
 	"website": "http://avisynth.nl/index.php/Median",
 	"category": "Other",
-	"identifier": "avs_median",
-	"namespace": "avs_median",
+	"identifier": "median",
+	"namespace": "median",
 	"doom9": "https://forum.doom9.org/showthread.php?t=170216",
 	"releases": [
 		{

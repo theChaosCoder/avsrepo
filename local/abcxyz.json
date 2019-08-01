@@ -4,12 +4,12 @@
 	"description": "Reduces halo artifacts that can occur when sharpening.",
 	"website": "http://avisynth.nl/index.php/Abcxyz",
 	"category": "Scripts",
-	"identifier": "avs_abcxyz",
-	"modulename": "avs_abcxyz",
+	"identifier": "abcxyz",
+	"modulename": "abcxyz",
 	"dependencies": [
-		"avs_rgtools",
-		"avs_masktools",
-		"avs_smdegrain"
+		"rgtools",
+		"masktools",
+		"smdegrain"
 	],
 	"releases": [
 		{

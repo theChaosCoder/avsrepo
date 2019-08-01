@@ -4,8 +4,8 @@
 	"description": "A filter that finds the biggest frame difference(s) in cycles of frames and inserts new frames right before, frames picked from another clip. The plugin's name hints at the original purpose, removing skips/jumps/'jerkiness' from clips that were badly recorded.",
 	"doom9": "https://forum.doom9.org/showthread.php?t=172377",
 	"category": "Other",
-	"identifier": "avs_smoothskip",
-	"namespace": "avs_smoothskip",
+	"identifier": "smoothskip",
+	"namespace": "smoothskip",
 	"github": "https://github.com/jojje/SmoothSkip",
 	"releases": [
 		{

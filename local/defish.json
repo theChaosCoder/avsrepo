@@ -4,8 +4,8 @@
 	"description": "This filter can be used to correct (or induce) barrel and pincushion distortion.",
 	"doom9": "https://forum.doom9.org/showthread.php?t=152860",
 	"category": "Other",
-	"identifier": "avs_defish",
-	"namespace": "avs_defish",
+	"identifier": "defish",
+	"namespace": "defish",
 	"releases": [
 		{
 			"version": "v1.1",

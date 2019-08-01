@@ -5,8 +5,8 @@
 	"website": "http://avisynth.nl/index.php/RemoveDirt",
 	"doom9": "https://forum.doom9.org/showthread.php?t=176199",
 	"category": "Other",
-	"identifier": "avs_removedirt",
-	"namespace": "avs_removedirt",
+	"identifier": "removedirt",
+	"namespace": "removedirt",
 	"github": "https://github.com/pinterf/RemoveDirt",
 	"releases": [
 		{

@@ -4,8 +4,8 @@
 	"description": "DeFlicker plugin can remove old film intensity flicker by temporal mean luma smoothing. Also it can correct blinding of automatic gain control after flashes. The luma stabilizing not only improves visual impression, but can help to following noise reduction.",
 	"website": "https://github.com/pinterf/Deflicker",
 	"category": "Other",
-	"identifier": "avs_deflicker",
-	"namespace": "avs_deflicker",
+	"identifier": "deflicker",
+	"namespace": "deflicker",
 	"github": "https://github.com/pinterf/Deflicker",
 	"releases": [
 		{

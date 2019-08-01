@@ -5,8 +5,8 @@
 	"website": "https://github.com/HomeOfAviSynthPlusEvolution/DelogoHD",
 	"doom9": "https://forum.doom9.org/showthread.php?t=176658",
 	"category": "Other",
-	"identifier": "avs_delogohd",
-	"namespace": "avs_delogohd",
+	"identifier": "delogohd",
+	"namespace": "delogohd",
 	"github": "https://github.com/HomeOfAviSynthPlusEvolution/DelogoHD",
 	"releases": [
 		{

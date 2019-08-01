@@ -4,8 +4,8 @@
 	"description": "modified TEdgeMask for Avisynth2.6x",
 	"website": "http://avisynth.nl/index.php/TEdgeMask",
 	"category": "Other",
-	"identifier": "avs_temmod",
-	"namespace": "avs_temmod",
+	"identifier": "temmod",
+	"namespace": "temmod",
 	"github": "https://github.com/chikuzen/TEMmod",
 	"releases": [
 		{

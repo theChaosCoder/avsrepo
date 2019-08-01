@@ -4,8 +4,8 @@
 	"description": "TMM2 builds a motion-mask for TDeint, which TDeint uses via its 'emask' parameter.",
 	"website": "https://github.com/chikuzen/TMM2",
 	"category": "Other",
-	"identifier": "avs_tmm2",
-	"namespace": "avs_tmm2",
+	"identifier": "tmm2",
+	"namespace": "tmm2",
 	"github": "https://github.com/chikuzen/TMM2",
 	"releases": [
 		{

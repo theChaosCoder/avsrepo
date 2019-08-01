@@ -5,14 +5,14 @@
 	"website": "http://avisynth.nl/index.php/Srestore",
 	"doom9": "https://forum.doom9.org/showthread.php?t=95924",
 	"category": "Other",
-	"identifier": "avs_srestore",
-	"modulename": "avs_srestore",
+	"identifier": "srestore",
+	"modulename": "srestore",
 	"dependencies": [
-		"avs_rgtools",
-		"avs_tivtc",
-		"avs_masktools",
-		"avs_average",
-		"avs_smdegrain"
+		"rgtools",
+		"tivtc",
+		"masktools",
+		"average",
+		"smdegrain"
 	],
 	"releases": [
 		{

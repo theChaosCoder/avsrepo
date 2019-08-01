@@ -4,8 +4,8 @@
 	"description": "Is a source plugin similar to ffms2. Can also open ISO Base Media (mp4, mov, ...) without creating an indexing.",
 	"website": "http://avisynth.nl/index.php/LSMASHSource",
 	"category": "Source/Output",
-	"identifier": "avs_lsmash",
-	"namespace": "avs_lsmash",
+	"identifier": "lsmash",
+	"namespace": "lsmash",
 	"github": "https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works",
 	"releases": [
 		{

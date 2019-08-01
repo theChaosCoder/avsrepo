@@ -4,8 +4,8 @@
 	"description": "Vinverse is a simple filter to remove residual combing, based on an AviSynth script by Didée and originally written by tritical. This plugin also includes a fast implementation of Vinverse2 function.",
 	"website": "http://avisynth.nl/index.php/Vinverse",
 	"category": "Other",
-	"identifier": "avs_vinverse",
-	"namespace": "avs_vinverse",
+	"identifier": "vinverse",
+	"namespace": "vinverse",
 	"github": "https://github.com/tp7/vinverse",
 	"releases": [
 		{

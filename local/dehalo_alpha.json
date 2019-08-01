@@ -4,12 +4,12 @@
 	"description": "Reduce halo artifacts that can occur when sharpening.",
 	"website": "http://avisynth.nl/index.php/DeHalo_alpha",
 	"category": "Scripts",
-	"identifier": "avs_dehalo_alpha",
-	"modulename": "avs_dehalo_alpha",
+	"identifier": "dehalo_alpha",
+	"modulename": "dehalo_alpha",
 	"dependencies": [
-		"avs_rgtools",
-		"avs_masktools",
-		"avs_smdegrain"		
+		"rgtools",
+		"masktools",
+		"smdegrain"		
 	],
 	"releases": [
 		{

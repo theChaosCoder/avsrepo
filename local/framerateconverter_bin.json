@@ -4,8 +4,8 @@
 	"description": "Increases the frame rate with interpolation and fine artifact removal.",
 	"website": "https://github.com/mysteryx93/FrameRateConverter",
 	"category": "Other",
-	"identifier": "avs_framerateconverter_bin",
-	"namespace": "avs_framerateconverter_bin",
+	"identifier": "framerateconverter_bin",
+	"namespace": "framerateconverter_bin",
 	"doom9": "https://forum.doom9.org/showthread.php?t=174793",
 	"github": "https://github.com/mysteryx93/FrameRateConverter",
 	"releases": [

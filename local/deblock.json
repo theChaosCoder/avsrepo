@@ -4,8 +4,8 @@
 	"description": "Simple deblocking filter by Manao and Fizick. It does a deblocking of the picture, using the deblocking filter of h264. Back-ported from VapourSynth with high-bit-depth support.",
 	"website": "https://github.com/mysteryx93/Avisynth-Deblock",
 	"category": "Other",
-	"identifier": "avs_deblock",
-	"namespace": "avs_deblock",
+	"identifier": "deblock",
+	"namespace": "deblock",
 	"github": "https://github.com/mysteryx93/Avisynth-Deblock",
 	"releases": [
 		{

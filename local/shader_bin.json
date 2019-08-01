@@ -4,8 +4,8 @@
 	"description": "This plugin allows running HLSL pixel shaders within AviSynth. This gives access to various HLSL filters that haven't been programmed in AviSynth.",
 	"website": "https://github.com/mysteryx93/AviSynthShader",
 	"category": "Other",
-	"identifier": "avs_shader_bin",
-	"namespace": "avs_shader_bin",
+	"identifier": "shader_bin",
+	"namespace": "shader_bin",
 	"doom9": "https://forum.doom9.org/showthread.php?t=172698",
 	"github": "https://github.com/mysteryx93/AviSynthShader",
 	"releases": [

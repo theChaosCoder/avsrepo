@@ -4,8 +4,8 @@
 	"description": "nnedi3 is an intra-field only deinterlacer and is also very good for enlarging images by powers of 2",
 	"website": "https://github.com/jpsdr/NNEDI3",
 	"category": "Deinterlacing",
-	"identifier": "avs_nnedi3",
-	"namespace": "avs_nnedi3",
+	"identifier": "nnedi3",
+	"namespace": "nnedi3",
 	"doom9": "https://forum.doom9.org/showthread.php?t=170083",
 	"github": "https://github.com/jpsdr/NNEDI3",
 	"releases": [

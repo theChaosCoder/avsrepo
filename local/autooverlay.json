@@ -5,11 +5,11 @@
 	"website": "http://avisynth.nl/index.php/AutoOverlay",
 	"doom9": "https://forum.doom9.org/showthread.php?t=175247",
 	"category": "Other",
-	"identifier": "avs_autooverlay",
-	"namespace": "avs_autooverlay",
+	"identifier": "autooverlay",
+	"namespace": "autooverlay",
 	"github": "https://github.com/introspected/AutoOverlay",
 	"dependencies": [
-		"avs_avsfilternet"
+		"avsfilternet"
 	],
 	"releases": [
 		{

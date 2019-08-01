@@ -6,16 +6,16 @@
 	"doom9": "https://forum.doom9.org/showthread.php?t=163604",
 	"github": "https://github.com/avisynth-repository/SMDegrain",
 	"category": "Denoising",
-	"identifier": "avs_smdegrain",
-	"modulename": "avs_smdegrain",
+	"identifier": "smdegrain",
+	"modulename": "smdegrain",
 	"dependencies": [
-		"avs_rgtools",
-		"avs_lsfmod",
-		"avs_mvtools",
-		"avs_masktools",
-		"avs_nnedi3",
-		"avs_dfttest",
-		"avs_knlmeanscl"
+		"rgtools",
+		"lsfmod",
+		"mvtools",
+		"masktools",
+		"nnedi3",
+		"dfttest",
+		"knlmeanscl"
 	],
 	"releases": [
 		{

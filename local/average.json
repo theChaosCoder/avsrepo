@@ -4,8 +4,8 @@
 	"description": "A simple plugin that calculates weighted average of multiple frames.",
 	"website": "https://github.com/pinterf/Average",
 	"category": "Other",
-	"identifier": "avs_average",
-	"namespace": "avs_average",
+	"identifier": "average",
+	"namespace": "average",
 	"github": "https://github.com/pinterf/Average",
 	"releases": [
 		{

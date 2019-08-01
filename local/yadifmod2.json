@@ -4,8 +4,8 @@
 	"description": "YadifMod2 = Yadif + YadifMod",
 	"website": "http://avisynth.nl/index.php/Yadifmod",
 	"category": "Deinterlacing",
-	"identifier": "avs_yadifmod2",
-	"namespace": "avs_yadifmod2",
+	"identifier": "yadifmod2",
+	"namespace": "yadifmod2",
 	"github": "https://github.com/chikuzen/yadifmod2",
 	"ignore": [
 		"0.0.2",

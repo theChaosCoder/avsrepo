@@ -1,0 +1,65 @@
+{
+	"name": "QTGMC",
+	"type": "PyScript",
+	"description": "A high quality deinterlacer using motion-compensated temporal smoothing, with a range of features for quality and convenienceA LimitedSharpenFaster mod with a lot of new features and optimizations.",
+	"website": "http://avisynth.nl/index.php/QTGMC",
+	"doom9": "https://forum.doom9.org/showthread.php?t=174544",
+	"category": "Deinterlacing",
+	"identifier": "avs_qtgmc",
+	"modulename": "avs_qtgmc",
+	"dependencies": [
+		"avs_rgtools",
+		"avs_masktools",
+		"avs_mvtools",
+		"avs_nnedi3",
+		"avs_eedi2",
+		"avs_eedi3",
+		"avs_tdeint",
+		"avs_fft3dfilter",
+		"avs_dfttest",
+		"avs_knlmeanscl",
+		"avs_yadifmod2",
+		"avs_smdegrain"
+	],
+	"releases": [
+		{
+			"version": "v3.363s",
+			"published": "2019-07-19T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/nGgbrBq3",
+				"files": {
+					"QTGMC.avsi": [
+						"nGgbrBq3",
+						"41404cfd742d75e3ab06b215b2f1d1e7ef28c3a2cf53ffad05c24eb67db8961e"
+					]
+				}
+			}
+		},
+		{
+			"version": "v3.362s",
+			"published": "2019-02-19T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/JLGwn7mE",
+				"files": {
+					"QTGMC.avsi": [
+						"JLGwn7mE",
+						"046f40be525cd7528f92f4fe764866699c363320145d5b461c460d773d1b6330"
+					]
+				}
+			}
+		},
+		{
+			"version": "v3.361s",
+			"published": "2018-07-12T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/vm7S4PUS",
+				"files": {
+					"QTGMC.avsi": [
+						"vm7S4PUS",
+						"34dde21d276ec072d79528d24e43d44e6aaf30d7ef27532bfbbefc8a4aebc1ee"
+					]
+				}
+			}
+		}
+	]
+}

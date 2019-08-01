@@ -1,0 +1,56 @@
+{
+	"name": "Average",
+	"type": "VSPlugin",
+	"description": "A simple plugin that calculates weighted average of multiple frames.",
+	"website": "https://github.com/pinterf/Average",
+	"category": "Other",
+	"identifier": "avs_average",
+	"namespace": "avs_average",
+	"github": "https://github.com/pinterf/Average",
+	"releases": [
+		{
+			"version": "0.94",
+			"published": "2017-01-27T15:10:29Z",
+			"win32": {
+				"url": "https://github.com/pinterf/Average/releases/download/0.94/Average-v0.94.7z",
+				"files": {
+					"Average.dll": [
+						"x86/Average.dll",
+						"2c2084543b787ca4eaf1e929181ba180e33671e4b027a900dfdd729c1aa7a3ce"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/Average/releases/download/0.94/Average-v0.94.7z",
+				"files": {
+					"Average.dll": [
+						"x64/Average.dll",
+						"c42f647bc1ae48ff94588444b2d0702636c0bbae91a6639c9113bca5e57cd979"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.93",
+			"published": "2017-01-26T15:00:44Z",
+			"win32": {
+				"url": "https://github.com/pinterf/Average/releases/download/0.93/Average-v0.93.7z",
+				"files": {
+					"Average.dll": [
+						"x86/Average.dll",
+						"6bb1e000c942c7e0cd24540d1e241a581b7ff5057d488f487974826323d17b39"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/Average/releases/download/0.93/Average-v0.93.7z",
+				"files": {
+					"Average.dll": [
+						"x64/Average.dll",
+						"b9fb85fa696ae22dad9505fc9ce4621d95301f2f68b17a67e1a37b8b0b0bfbf8"
+					]
+				}
+			}
+		}
+	]
+}

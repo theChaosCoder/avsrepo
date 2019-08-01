@@ -1,0 +1,56 @@
+{
+	"name": "EEDI3",
+	"type": "VSPlugin",
+	"description": "This is a fork of Elegant's port of firesledge's EEDI3 mod so that it works with both x86 and x64",
+	"website": "https://github.com/pinterf/EEDI3",
+	"category": "Deinterlacing",
+	"identifier": "avs_eedi3",
+	"namespace": "avs_eedi3",
+	"github": "https://github.com/pinterf/EEDI3",
+	"releases": [
+		{
+			"version": "v0.9.2.3",
+			"published": "2018-03-23T15:07:37Z",
+			"win32": {
+				"url": "https://github.com/pinterf/EEDI3/releases/download/v0.9.2.3/EEDI3_v0.9.2.3.7z",
+				"files": {
+					"eedi3.dll": [
+						"x86/eedi3.dll",
+						"137c5064fc3dc01fc605ba31fb2a72bfdd3c6a6db0341c7863ba4c08dd5c5ac4"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/EEDI3/releases/download/v0.9.2.3/EEDI3_v0.9.2.3.7z",
+				"files": {
+					"eedi3.dll": [
+						"x64/eedi3.dll",
+						"9d9c4cd5a34a2199eba9a4c49bb122a203593d8f98708cc7a19faf23d79151de"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.9.2.2",
+			"published": "2018-03-23T12:10:39Z",
+			"win32": {
+				"url": "https://github.com/pinterf/EEDI3/releases/download/v0.9.2.2/EEDI3_v0.9.2.2.7z",
+				"files": {
+					"eedi3.dll": [
+						"x86/eedi3.dll",
+						"c42c670811569829911b9439d868c6dc86074b2740fc3e82693ea07304fb7dbd"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/EEDI3/releases/download/v0.9.2.2/EEDI3_v0.9.2.2.7z",
+				"files": {
+					"eedi3.dll": [
+						"x64/eedi3.dll",
+						"3d77c6f1934fb4a2cf4e976f6d9cc766a99567c17f2bcd0bf4c75893a42a09fe"
+					]
+				}
+			}
+		}
+	]
+}

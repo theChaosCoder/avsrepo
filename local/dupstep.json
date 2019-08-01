@@ -1,0 +1,52 @@
+{
+	"name": "DupStep",
+	"type": "VSPlugin",
+	"description": "Duplicate frame detector/decimator filter for AviSynth+",
+	"website": "https://github.com/Orum/DupStep",
+	"category": "Other",
+	"identifier": "avs_dupstep",
+	"namespace": "avs_dupstep",
+	"doom9": "https://forum.doom9.org/showthread.php?t=175338",
+	"github": "https://github.com/Orum/DupStep",
+	"releases": [
+		{
+			"version": "v0.03",
+			"published": "2018-04-22T11:51:23Z",
+			"win32": {
+				"url": "https://github.com/Orum/DupStep/releases/download/v0.03/DupStep_0.03.zip",
+				"files": {
+					"DupStep.dll": [
+						"DupStep.dll",
+						"60866ad7a430df1136995095de09f0db953900238292c0424e80885e476d340f"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.02",
+			"published": "2018-04-02T20:03:54Z",
+			"win32": {
+				"url": "https://github.com/Orum/DupStep/releases/download/v0.02/DupStep_0.02.zip",
+				"files": {
+					"DupStep.dll": [
+						"DupStep.dll",
+						"8542fdd593ebb45a629e1a83746d24a68130d67b56efd9c1d2876aa5db251619"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.01",
+			"published": "2018-03-23T09:19:20Z",
+			"win32": {
+				"url": "https://github.com/Orum/DupStep/releases/download/v0.01/DupStep_0.01.zip",
+				"files": {
+					"DupStep.dll": [
+						"DupStep.dll",
+						"ac393978456f2471b987bf0a4b549a695e90ebe42eb4ab38eedfbff964c56ebc"
+					]
+				}
+			}
+		}
+	]
+}

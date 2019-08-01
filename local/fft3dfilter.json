@@ -1,0 +1,104 @@
+{
+	"name": "FFT3DFilter",
+	"type": "VSPlugin",
+	"description": "FFT3DFilter ",
+	"website": "https://github.com/pinterf/fft3dfilter",
+	"doom9": "https://forum.doom9.org/showthread.php?t=174347",
+	"category": "Denoising",
+	"identifier": "avs_fft3dfilter",
+	"namespace": "avs_fft3dfilter",
+	"github": "https://github.com/pinterf/fft3dfilter",
+	"dependencies": [
+		"org.fftw.fftw3"
+	],
+	"releases": [
+		{
+			"version": "v2.6",
+			"published": "2019-02-01T08:06:23Z",
+			"win32": {
+				"url": "https://github.com/pinterf/fft3dfilter/releases/download/v2.6/FFT3dFilter-v2.6.7z",
+				"files": {
+					"fft3dfilter.dll": [
+						"x86/fft3dfilter.dll",
+						"824ac076aa1b89697c7f872073ab75dd45febdd0a1e3591d8c12dc6c185dd1c7"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/fft3dfilter/releases/download/v2.6/FFT3dFilter-v2.6.7z",
+				"files": {
+					"fft3dfilter.dll": [
+						"x64/fft3dfilter.dll",
+						"7c401b2a644264e89f88c21ecab7aaae234ff5f672426d467f1975d597af694a"
+					]
+				}
+			}
+		},
+		{
+			"version": "v2.5",
+			"published": "2018-07-02T14:25:49Z",
+			"win32": {
+				"url": "https://github.com/pinterf/fft3dfilter/releases/download/v2.5/FFT3dFilter-v2.5.7z",
+				"files": {
+					"fft3dfilter.dll": [
+						"x86/fft3dfilter.dll",
+						"0a83a65a8cd55b8819c0205ab738a9b8f7d4851695f058d64935a3de96141e3c"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/fft3dfilter/releases/download/v2.5/FFT3dFilter-v2.5.7z",
+				"files": {
+					"fft3dfilter.dll": [
+						"x64/fft3dfilter.dll",
+						"ba8429be4b0efd01aa576afcf7676142e00af0e20cf0cdb9faa319c173d39237"
+					]
+				}
+			}
+		},
+		{
+			"version": "v2.4",
+			"published": "2017-06-08T15:55:33Z",
+			"win32": {
+				"url": "https://github.com/pinterf/fft3dfilter/releases/download/v2.4/FFT3dFilter-v2.4.7z",
+				"files": {
+					"fft3dfilter.dll": [
+						"x86/fft3dfilter.dll",
+						"f4afa1149e9ec0caab06e510b7bc2fdddfe254386f58a3c5b757bb4a8eb25cc8"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/fft3dfilter/releases/download/v2.4/FFT3dFilter-v2.4.7z",
+				"files": {
+					"fft3dfilter.dll": [
+						"x64/fft3dfilter.dll",
+						"e7648fd65a13ae6766eac59814e4148112747e8d7c86fc4c28fafdaf0d7891f4"
+					]
+				}
+			}
+		},
+		{
+			"version": "v2.3",
+			"published": "2017-02-21T18:56:01Z",
+			"win32": {
+				"url": "https://github.com/pinterf/fft3dfilter/releases/download/v2.3/FFT3DFilter-v2.3.7z",
+				"files": {
+					"fft3dfilter.dll": [
+						"x86/fft3dfilter.dll",
+						"62bf6af09900519cfd613b9ee3c7b023b8f390755bcf8ef260cb7616e894e06e"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/fft3dfilter/releases/download/v2.3/FFT3DFilter-v2.3.7z",
+				"files": {
+					"fft3dfilter.dll": [
+						"x64/fft3dfilter.dll",
+						"6923d1b17ca2cd7972a812c139658feafcb938b8e2e136cb770e5af8107e5cf0"
+					]
+				}
+			}
+		}
+	]
+}

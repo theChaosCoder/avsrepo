@@ -1,0 +1,59 @@
+{
+	"name": "Dfttest",
+	"type": "VSPlugin",
+	"description": "2D/3D frequency domain denoiser using Discrete Fourier transform",
+	"website": "http://avisynth.nl/index.php/Dfttest",
+	"category": "Denoising",
+	"identifier": "avs_dfttest",
+	"namespace": "avs_dfttest",
+	"github": "https://github.com/DJATOM/dfttest",
+	"ignore": [
+		"1.9.4.2"
+	],
+	"releases": [
+		{
+			"version": "1.9.4.3",
+			"published": "2018-10-14T14:29:18Z",
+			"win32": {
+				"url": "https://github.com/DJATOM/dfttest/releases/download/1.9.4.3/dfttest-v1.9.4.3.7z",
+				"files": {
+					"dfttest.dll": [
+						"x86/dfttest.dll",
+						"d64a24177f5fc8607147b37eabbd8e1a67a6574e21c8a8109dd12907c82e9ba6"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/DJATOM/dfttest/releases/download/1.9.4.3/dfttest-v1.9.4.3.7z",
+				"files": {
+					"dfttest.dll": [
+						"x64/dfttest.dll",
+						"e27dc8e09495d08f4f0c729e9171fe0164b99df3fc6f47a66bcea5c24ef63f5a"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.9.4.1",
+			"published": "2017-08-14T22:38:54Z",
+			"win32": {
+				"url": "https://github.com/DJATOM/dfttest/releases/download/1.9.4.1/dfttest-1.9.4.1-msvc.7z",
+				"files": {
+					"dfttest.dll": [
+						"x86/dfttest.dll",
+						"19ddf00e7c40cc873471785860e727d08d48f69c156ac3b7289286be33158497"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/DJATOM/dfttest/releases/download/1.9.4.1/dfttest-1.9.4.1-msvc.7z",
+				"files": {
+					"dfttest.dll": [
+						"x64/dfttest.dll",
+						"30689c6b40d611c2cc0c2e15d25a1641fe18f5ebe3be495f17f8cc72b0250194"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"name": "RemoveDirt",
+	"type": "VSPlugin",
+	"description": "RemoveDirt is a temporal cleaner. With Avisynth v2.6 interface (x86/x64), adding new color spaces",
+	"website": "http://avisynth.nl/index.php/RemoveDirt",
+	"doom9": "https://forum.doom9.org/showthread.php?t=176199",
+	"category": "Other",
+	"identifier": "avs_removedirt",
+	"namespace": "avs_removedirt",
+	"github": "https://github.com/pinterf/RemoveDirt",
+	"releases": [
+		{
+			"version": "v0.9.2",
+			"published": "2019-03-24T14:12:08Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RemoveDirt/releases/download/v0.9.2/RemoveDirt-0.9.2.7z",
+				"files": {
+					"RemoveDirt.dll": [
+						"x86/RemoveDirt.dll",
+						"843d5fd4851089a9381a8110ccb9f829dbb8c3222bfa2f321f21a43768092929"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RemoveDirt/releases/download/v0.9.2/RemoveDirt-0.9.2.7z",
+				"files": {
+					"RemoveDirt.dll": [
+						"x64/RemoveDirt.dll",
+						"32d88662771746bc3b766ea0852dbe1720b36411d451fd7c02beb8e2d82a06be"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.9.1",
+			"published": "2019-03-14T18:38:13Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RemoveDirt/releases/download/v0.9.1/RemoveDirt-0.9.1.7z",
+				"files": {
+					"RemoveDirt.dll": [
+						"x86/RemoveDirt.dll",
+						"d2a46c07888f67e5c572846ccc625e77ba1f5c4c00459748446fbd35c93546e3"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RemoveDirt/releases/download/v0.9.1/RemoveDirt-0.9.1.7z",
+				"files": {
+					"RemoveDirt.dll": [
+						"x64/RemoveDirt.dll",
+						"f5c19c443e88ba2a71552fd828118a6f58a0a068a81a6abf6b16eacd5003f0cb"
+					]
+				}
+			}
+		}
+	]
+}

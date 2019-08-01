@@ -1,0 +1,33 @@
+{
+	"name": "EEDI2",
+	"type": "VSPlugin",
+	"description": "EEDI2 (Enhanced Edge Directed Interpolation) resizes an image by 2x in the vertical direction by copying the existing image to 2*y(n) and interpolating the missing field. It is intended for edge-directed interpolation for deinterlacing",
+	"website": "http://avisynth.nl/index.php/EEDI2",
+	"category": "Deinterlacing",
+	"identifier": "avs_eedi2",
+	"namespace": "avs_eedi2",
+	"releases": [
+		{
+			"version": "0.9.2",
+			"published": "2017-11-17T10:31:24Z",
+			"win32": {
+				"url": "http://www.iol.ie/~schubert/gas/EEDI2_092_32_64.7z",
+				"files": {
+					"EEDI2.dll": [
+						"EEDI2_092_32_64/32/EEDI2.dll",
+						"9f99f7b5b234da9b5376abe5a52d0cf878f4cafbe405579ef11fa6b8177a1532"
+					]
+				}
+			},
+			"win64": {
+				"url": "http://www.iol.ie/~schubert/gas/EEDI2_092_32_64.7z",
+				"files": {
+					"EEDI2.dll": [
+						"EEDI2_092_32_64/64/EEDI2.dll",
+						"df3dabddfb8f0b496bf7899661e4941de083a4713d1d0c7264d1072ecbc4a724"
+					]
+				}
+			}
+		}
+	]
+}

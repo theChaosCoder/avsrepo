@@ -9,6 +9,28 @@
 	"github": "https://github.com/pinterf/RgTools",
 	"releases": [
 		{
+			"version": "0.98",
+			"published": "2019-08-14T11:53:36Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.98/RgTools-0.98.7z",
+				"files": {
+					"RgTools.dll": [
+						"x86/RgTools.dll",
+						"8fc93a61c0b4bb6aeeb1b766791b30fec028bb75cfb7aeb0c6e5d982f5bda9c7"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.98/RgTools-0.98.7z",
+				"files": {
+					"RgTools.dll": [
+						"x64/RgTools.dll",
+						"144d45ab7dee4efc49156a5b292e42d3963ffb67531317a08589d003c3d4a839"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.97",
 			"published": "2018-07-02T14:38:12Z",
 			"win32": {

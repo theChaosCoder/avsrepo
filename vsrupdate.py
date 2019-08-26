@@ -1,6 +1,6 @@
 ##    MIT License
 ##
-##    Copyright (c) 2018 Fredrik Mellbin
+##    Copyright (c) 2018-2019 Fredrik Mellbin
 ##
 ##    Permission is hereby granted, free of charge, to any person obtaining a copy
 ##    of this software and associated documentation files (the "Software"), to deal
@@ -119,18 +119,24 @@ def list_archive_files(fn):
         l[t.lower()] = t
     return l
 
-def generate_fn_candidates(fn):
+def generate_fn_candidates(fn, insttype):
     tmp_fn = fn.lower()
-    return [
+    fn_guesses = [
         tmp_fn,
         tmp_fn.replace('x64', 'win64'),
         tmp_fn.replace('win64', 'x64'),
         tmp_fn.replace('x86', 'win32'),
         tmp_fn.replace('win32', 'x86')]
+    if insttype == 'win32':
+        return list(filter(lambda x: (x.find('64') == -1) and (x.find('x64') == -1) , fn_guesses))
+    elif insttype == 'win64':
+        return list(filter(lambda x: (x.find('32') == -1) and (x.find('x86') == -1) , fn_guesses))
+    else:
+        return fn_guesses;
 
-def decompress_and_hash(archivefn, fn):
+def decompress_and_hash(archivefn, fn, insttype):
     existing_files = list_archive_files(archivefn)
-    for fn_guess in generate_fn_candidates(fn):
+    for fn_guess in generate_fn_candidates(fn, insttype):
         if fn_guess in existing_files:  
             result = subprocess.run([cmd7zip_path, "e", "-so", archivefn, fn_guess], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             result.check_returncode()
@@ -145,7 +151,7 @@ def decompress_and_hash(archivefn, fn):
         if len(sfn) > 1:
             sfn[0] = base_dirs[0]
             mfn = '/'.join(sfn)
-            for fn_guess in generate_fn_candidates(mfn):
+            for fn_guess in generate_fn_candidates(mfn, insttype):
                 if fn_guess in existing_files:  
                     result = subprocess.run([cmd7zip_path, "e", "-so", archivefn, fn_guess], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                     result.check_returncode()
@@ -192,7 +198,7 @@ def update_package(name):
                                 temp_fn = fetch_url_to_cache(new_url, name, rel['tag_name'], pfile['name'] + ' ' +rel['tag_name'] + ' win32')
                                 new_rel_entry['win32'] = { 'url': new_url, 'files': {}}
                                 for fn in latest_rel['win32']['files']:
-                                    new_fn, digest = decompress_and_hash(temp_fn, latest_rel['win32']['files'][fn][0])
+                                    new_fn, digest = decompress_and_hash(temp_fn, latest_rel['win32']['files'][fn][0], 'win32')
                                     new_rel_entry['win32']['files'][fn] = [new_fn, digest]
                         except:
                             new_rel_entry.pop('win32', None)
@@ -204,7 +210,7 @@ def update_package(name):
                                 temp_fn = fetch_url_to_cache(new_url, name, rel['tag_name'], pfile['name'] + ' ' +rel['tag_name'] + ' win64')
                                 new_rel_entry['win64'] = { 'url': new_url, 'files': {} }
                                 for fn in latest_rel['win64']['files']:
-                                    new_fn, digest = decompress_and_hash(temp_fn, latest_rel['win64']['files'][fn][0])
+                                    new_fn, digest = decompress_and_hash(temp_fn, latest_rel['win64']['files'][fn][0], 'win64')
                                     new_rel_entry['win64']['files'][fn] = [new_fn, digest]
                         except:
                             new_rel_entry.pop('win64', None)
@@ -221,7 +227,7 @@ def update_package(name):
                             temp_fn = fetch_url_to_cache(new_url, name, rel['tag_name'], pfile['name'] + ' ' +rel['tag_name'] + ' script')
                             new_rel_entry['script'] = { 'url': new_url, 'files': {} }
                             for fn in latest_rel['script']['files']:
-                                new_fn, digest = decompress_and_hash(temp_fn, latest_rel['script']['files'][fn][0])
+                                new_fn, digest = decompress_and_hash(temp_fn, latest_rel['script']['files'][fn][0], 'script')
                                 new_rel_entry['script']['files'][fn] = [new_fn, digest]
                         except:
                             new_rel_entry.pop('script', None)
@@ -273,7 +279,7 @@ def verify_package(pfile, existing_identifiers):
             if dep not in existing_identifiers:
                 raise Exception('Referenced unknown identifier ' + dep + ' in ' + name)
 
-if args.operation == 'compile':
+def compile_packages():
     combined = []
     existing_identifiers = []
     for f in os.scandir('local'):
@@ -290,6 +296,7 @@ if args.operation == 'compile':
                 print('Combining: ' + f.path)
                 pfile = json.load(ml)
                 verify_package(pfile, existing_identifiers)
+                pfile.pop('ignore', None)
                 combined.append(pfile)
 
     with open('avspackages.json', 'w', encoding='utf-8') as pl:
@@ -301,8 +308,10 @@ if args.operation == 'compile':
         pass
     result = subprocess.run([cmd7zip_path, 'a', '-tzip', 'avspackages.zip', 'avspackages.json'])
     result.check_returncode()
-    
-    print('Done')
+
+if args.operation == 'compile':
+    compile_packages()
+    print('Packages successfully compiled')
 elif args.operation == 'update-local':
     if args.package is None:
         num_skipped = 0
@@ -321,6 +330,8 @@ elif args.operation == 'update-local':
     else:
         update_package(args.package[0])
 elif args.operation == 'upload':
+    compile_packages()
+    print('Packages successfully compiled')
     with open('avspackages.zip', 'rb') as pl:
         with ftplib.FTP_TLS(host=args.host[0], user=args.user[0], passwd=args.passwd[0]) as ftp:
             ftp.cwd(args.dir[0])
@@ -329,4 +340,4 @@ elif args.operation == 'upload':
             except:
                 print('Failed to delete avspackages.zip')
             ftp.storbinary('STOR avspackages.zip', pl)
-    print('Done')
+    print('Upload done')

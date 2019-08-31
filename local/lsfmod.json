@@ -15,6 +15,19 @@
 	],
 	"releases": [
 		{
+			"version": "v2.18.3",
+			"published": "2019-08-31T18:37:56Z",
+			"script": {
+				"url": "https://api.github.com/repos/avisynth-repository/LSFmod/zipball/v2.18.3",
+				"files": {
+					"LSFmod.avsi": [
+						"avisynth-repository-LSFmod-910fd4c/LSFmod.avsi",
+						"73d9277a489a61e4257c010791ca54887ad181f24be7471a675507077e562216"
+					]
+				}
+			}
+		},
+		{
 			"version": "v2.16",
 			"published": "2019-07-31T11:14:22Z",
 			"script": {

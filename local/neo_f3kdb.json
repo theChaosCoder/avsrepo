@@ -16,8 +16,8 @@
 				"url": "https://github.com/HomeOfAviSynthPlusEvolution/neo_f3kdb/releases/download/r1/neo-f3kdb_r1.zip",
 				"files": {
 					"neo-f3kdb.dll": [
-						"icc-x86/neo-f3kdb.dll",
-						"e64edabc0d5932d9a61b3e90880018480dc0a9a365d862d947cae512825d959c"
+						"msvc-x86/neo-f3kdb.dll",
+						"29aa238ade4b58e8bdb77cb5fe9a169e19fb6b1637606aeb106eb6d4193ec380"
 					]
 				}
 			},
@@ -25,8 +25,8 @@
 				"url": "https://github.com/HomeOfAviSynthPlusEvolution/neo_f3kdb/releases/download/r1/neo-f3kdb_r1.zip",
 				"files": {
 					"neo-f3kdb.dll": [
-						"icc-x64/neo-f3kdb.dll",
-						"d910a46b3618848ab106417e947d78d05ac4327de0552d30eab11a49c772b56e"
+						"msvc-x64/neo-f3kdb.dll",
+						"20a5a1c6c2f3e4e3fe40b88036fb67dc1f6b467a62d1d4cd34fea1ba1985690b"
 					]
 				}
 			}

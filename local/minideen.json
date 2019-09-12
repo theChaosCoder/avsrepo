@@ -10,6 +10,50 @@
 	"github": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen",
 	"releases": [
 		{
+			"version": "r4",
+			"published": "2019-09-12T00:33:10Z",
+			"win32": {
+				"url": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen/releases/download/r4/MiniDeen_r4.zip",
+				"files": {
+					"MiniDeen.dll": [
+						"clang-x86/MiniDeen.dll",
+						"912bb3fe08f305997cf48abbc4ef6e45f261aae3ea141fef0bda34e3592d3132"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen/releases/download/r4/MiniDeen_r4.zip",
+				"files": {
+					"MiniDeen.dll": [
+						"clang-x64/MiniDeen.dll",
+						"2a92353734c879036c99b453a8ac0a726e7f64a08e9b7e9aa3b6e8a243c7d223"
+					]
+				}
+			}
+		},
+		{
+			"version": "r3",
+			"published": "2019-09-12T00:31:56Z",
+			"win32": {
+				"url": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen/releases/download/r3/MiniDeen_r3.zip",
+				"files": {
+					"MiniDeen.dll": [
+						"clang-x86/MiniDeen.dll",
+						"d7396e517996c2c9421e7b9998ce3c7f6a33360383739474df174854d27dab06"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen/releases/download/r3/MiniDeen_r3.zip",
+				"files": {
+					"MiniDeen.dll": [
+						"clang-x64/MiniDeen.dll",
+						"49f4f758ab398a117d1f79888aacb5db850d90991af2ab028167d6b90d6a3daa"
+					]
+				}
+			}
+		},
+		{
 			"version": "r1",
 			"published": "2019-07-12T15:28:13Z",
 			"win32": {

@@ -15,6 +15,32 @@
 	],
 	"releases": [
 		{
+			"version": "v2.18.5",
+			"published": "2019-10-07T22:47:06Z",
+			"script": {
+				"url": "https://api.github.com/repos/avisynth-repository/LSFmod/zipball/v2.18.5",
+				"files": {
+					"LSFmod.avsi": [
+						"avisynth-repository-LSFmod-8e0b06a/LSFmod.avsi",
+						"d06128eabe442c804b9677910ed2395067f7737795954a895a8755c9f03c2f19"
+					]
+				}
+			}
+		},
+		{
+			"version": "v2.18.4",
+			"published": "2019-09-19T12:18:40Z",
+			"script": {
+				"url": "https://api.github.com/repos/avisynth-repository/LSFmod/zipball/v2.18.4",
+				"files": {
+					"LSFmod.avsi": [
+						"avisynth-repository-LSFmod-d65d464/LSFmod.avsi",
+						"18bf5421fb10f42f254142d06727ff927357b2fccf0a121fa0e59c5114f7e3bb"
+					]
+				}
+			}
+		},
+		{
 			"version": "v2.18.3",
 			"published": "2019-08-31T18:37:56Z",
 			"script": {

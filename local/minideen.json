@@ -10,6 +10,28 @@
 	"github": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen",
 	"releases": [
 		{
+			"version": "r5",
+			"published": "2020-03-09T07:04:24Z",
+			"win32": {
+				"url": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen/releases/download/r5/MiniDeen_r5.zip",
+				"files": {
+					"MiniDeen.dll": [
+						"clang-x86/MiniDeen.dll",
+						"9f5c676f0dafd8e1653ee05397ad267fb1360c9154e5dfbc47ec524c9d5a36e7"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen/releases/download/r5/MiniDeen_r5.zip",
+				"files": {
+					"MiniDeen.dll": [
+						"clang-x64/MiniDeen.dll",
+						"b03b4b363831725a1dd07a07a5bf125a4bc393b852111e5e408f45a1ad59b195"
+					]
+				}
+			}
+		},
+		{
 			"version": "r4",
 			"published": "2019-09-12T00:33:10Z",
 			"win32": {

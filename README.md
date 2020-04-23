@@ -1,7 +1,7 @@
 AVSRepo
 ======
 
-(fork of VSRepo https://github.com/theChaosCoder/avsrepo)
+(fork of VSRepo https://github.com/vapoursynth/vsrepo)
 
 A simple package repository for Avisynth. It is implemented in a way that
 keeps no state between invocations and can therefore be pointed at any

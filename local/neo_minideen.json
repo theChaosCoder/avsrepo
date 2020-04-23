@@ -1,5 +1,5 @@
 {
-	"name": "MiniDeen",
+	"name": "Neo MiniDeen",
 	"type": "VSPlugin",
 	"description": "MiniDeen is a spatial denoising filter. It replaces every pixel with the average of its neighbourhood.",
 	"website": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen",
@@ -9,6 +9,50 @@
 	"namespace": "minideen",
 	"github": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen",
 	"releases": [
+		{
+			"version": "r8",
+			"published": "2020-04-21T08:15:47Z",
+			"win32": {
+				"url": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen/releases/download/r8/neo-minideen_r8.zip",
+				"files": {
+					"neo-minideen.dll": [
+						"clang-x86/neo-minideen.dll",
+						"4b706f3d462ee6ac8dac65722fcbd304089e3a436fdbf070b26026edc5b076b1"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen/releases/download/r8/neo-minideen_r8.zip",
+				"files": {
+					"neo-minideen.dll": [
+						"clang-x64/neo-minideen.dll",
+						"407767369cb269881211d9fe1f965684697e22ba7575d0373151095507174923"
+					]
+				}
+			}
+		},
+		{
+			"version": "r7",
+			"published": "2020-04-13T02:19:19Z",
+			"win32": {
+				"url": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen/releases/download/r7/neo-minideen_r7.zip",
+				"files": {
+					"neo-minideen.dll": [
+						"clang-x86/neo-minideen.dll",
+						"88012e5f14b1e58ed6b1c6e3ec252d7a119474f763370397f2bc3aecf0331e24"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen/releases/download/r7/neo-minideen_r7.zip",
+				"files": {
+					"neo-minideen.dll": [
+						"clang-x64/neo-minideen.dll",
+						"ab2b238be36e31f3e3906ce82bd427913bb8b7f43dc3afa95b6107d36a23137a"
+					]
+				}
+			}
+		},
 		{
 			"version": "r6",
 			"published": "2020-03-09T21:01:49Z",

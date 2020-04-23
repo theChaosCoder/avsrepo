@@ -10,6 +10,28 @@
 	"github": "https://github.com/pinterf/masktools",
 	"releases": [
 		{
+			"version": "2.2.22",
+			"published": "2020-04-22T18:40:29Z",
+			"win32": {
+				"url": "https://github.com/pinterf/masktools/releases/download/2.2.22/masktools2-v2.2.22.7z",
+				"files": {
+					"masktools2.dll": [
+						"x86/masktools2.dll",
+						"0297831588b4228a02cc0197f6263712b01200a5d8105c5c93005e19f1b4b5ed"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/masktools/releases/download/2.2.22/masktools2-v2.2.22.7z",
+				"files": {
+					"masktools2.dll": [
+						"x64/masktools2.dll",
+						"6164967dfec66f127be30837f7093e34c65231e0594427e70ec1f7976f0f3349"
+					]
+				}
+			}
+		},
+		{
 			"version": "2.2.21",
 			"published": "2020-04-10T21:37:53Z",
 			"win32": {

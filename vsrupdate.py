@@ -80,6 +80,15 @@ def get_git_api_url(url):
     else:
         return None
 
+def get_git_api_commits_url(url, path = None):
+    if url.startswith('https://github.com/'):
+        s = url.rsplit('/', 3)
+        if path:
+            return 'https://api.github.com/repos/' + s[-2] + '/' + s[-1] + '/commits?path=' + os.path.basename(path) + '&access_token=' + args.git_token[0]
+        return 'https://api.github.com/repos/' + s[-2] + '/' + s[-1] + '/commits?access_token=' + args.git_token[0]
+    else:
+        return None
+
 def fetch_url(url, desc = None):
     with urllib.request.urlopen(url) as urlreq:
         if ('tqdm' in sys.modules) and (urlreq.headers['content-length'] is not None):
@@ -97,12 +106,15 @@ def fetch_url(url, desc = None):
             print('Fetching: ' + url)
             return urlreq.read()
 
-def fetch_url_to_cache(url, name, tag_name, desc = None):
+def fetch_url_to_cache(url, name, tag_name, desc = None, use_basename = False):
     cache_path = 'dlcache/' + name + '_' + tag_name + '/' + url.rsplit('/')[-1]
     if not os.path.isfile(cache_path):
         os.makedirs(os.path.split(cache_path)[0], exist_ok=True)
         with urllib.request.urlopen(urllib.request.Request(url, method='HEAD')) as urlreq:
-            cache_path = 'dlcache/' + name + '_' + tag_name + '/' + urlreq.info().get_filename()
+            if not use_basename:
+                cache_path = 'dlcache/' + name + '_' + tag_name + '/' + urlreq.info().get_filename()
+            else:
+                cache_path = 'dlcache/' + name + '_' + tag_name + '/' + os.path.basename(url)
             if not os.path.isfile(cache_path):
                 data = fetch_url(url, desc)
                 with open(cache_path, 'wb') as pl:
@@ -179,7 +191,58 @@ def update_package(name):
         if 'github' in pfile:
             new_rels = {}
             apifile = json.loads(fetch_url(get_git_api_url(pfile['github']), pfile['name']))
+            
             is_plugin = (pfile['type'] == 'VSPlugin')
+            is_only_commits = not apifile and not is_plugin ## PyScript with no releases on github
+
+            if is_only_commits:
+                def extract_hash_git_url(url):
+                    if url.startswith('https://raw.githubusercontent.com/'):
+                        return url.split('/', 6)[5]
+                    else:
+                        return None
+                def replace_hash_git_url(url, hash):
+                    if url.startswith('https://raw.githubusercontent.com/'):
+                        s = url.split('/', 6)
+                        s[5] = hash
+                        return "/".join(s)
+                    else:
+                        return None
+                def get_git_file_path(url):
+                    if url.startswith('https://raw.githubusercontent.com/'):
+                        s = url.split('/', 6)
+                        s[5] = hash
+                        return "/".join(s)
+                    else:
+                        return None
+                
+                try:
+                    latest_rel = get_latest_installable_release(pfile, 'script')
+                    git_commits = json.loads(fetch_url(get_git_api_commits_url(pfile['github'], latest_rel['script']['url']), pfile['name']))
+
+                    git_hash = git_commits[0]['sha']
+                    git_hash_short = git_hash[:7]
+
+                    if ('git:' + git_hash_short) not in rel_order:
+                        rel_order.insert(0, 'git:' + git_hash_short)
+                        print('git:' + git_hash_short + ' (new)')
+
+                    new_rel_entry = { 'version': 'git:' + git_hash_short, 'published': git_commits[0]['commit']['committer']['date'] }
+                    new_url = replace_hash_git_url(latest_rel['script']['url'], git_hash)
+                    temp_fn = fetch_url_to_cache(new_url, name,  git_hash_short, pfile['name'] + ' ' + git_hash_short + ' script', True)
+                    new_rel_entry['script'] = { 'url': new_url, 'files': {} }
+
+                    for fn in latest_rel['script']['files']:
+                        new_fn, digest = os.path.basename(temp_fn), hash_file(temp_fn)
+                        new_rel_entry['script']['files'][fn] = [new_fn, digest]
+
+                    new_rels[new_rel_entry['version']] = new_rel_entry
+               
+                except:
+                    new_rel_entry.pop('script', None)
+                    print('No script found')
+
+
             for rel in apifile:
                 if rel['tag_name'] in pfile.get('ignore', []):
                     continue

@@ -224,7 +224,7 @@ def update_package(name):
                     git_hash = git_commits[0]['sha']
                     git_hash_short = git_hash[:7]
 
-                    if ('git:' + git_hash_short) not in rel_order:
+                    if not any(git_hash_short in ver for ver in rel_order):
                         rel_order.insert(0, 'git:' + git_hash_short)
                         print('git:' + git_hash_short + ' (new)')
 

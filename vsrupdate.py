@@ -31,6 +31,7 @@ import subprocess
 import difflib
 import tempfile
 import ftplib
+from requests.utils import requote_uri
 
 try:
     import winreg
@@ -84,7 +85,7 @@ def get_git_api_commits_url(url, path = None):
     if url.startswith('https://github.com/'):
         s = url.rsplit('/', 3)
         if path:
-            return 'https://api.github.com/repos/' + s[-2] + '/' + s[-1] + '/commits?path=' + os.path.basename(path) + '&access_token=' + args.git_token[0]
+            return 'https://api.github.com/repos/' + s[-2] + '/' + s[-1] + '/commits?path=' + path + '&access_token=' + args.git_token[0]
         return 'https://api.github.com/repos/' + s[-2] + '/' + s[-1] + '/commits?access_token=' + args.git_token[0]
     else:
         return None
@@ -108,6 +109,7 @@ def fetch_url(url, desc = None):
 
 def fetch_url_to_cache(url, name, tag_name, desc = None, use_basename = False):
     cache_path = 'dlcache/' + name + '_' + tag_name + '/' + url.rsplit('/')[-1]
+    url = requote_uri(url)
     if not os.path.isfile(cache_path):
         os.makedirs(os.path.split(cache_path)[0], exist_ok=True)
         with urllib.request.urlopen(urllib.request.Request(url, method='HEAD')) as urlreq:
@@ -211,14 +213,13 @@ def update_package(name):
                 def get_git_file_path(url):
                     if url.startswith('https://raw.githubusercontent.com/'):
                         s = url.split('/', 6)
-                        s[5] = hash
-                        return "/".join(s)
+                        return requote_uri(s[-1])
                     else:
                         return None
                 
                 try:
                     latest_rel = get_latest_installable_release(pfile, 'script')
-                    git_commits = json.loads(fetch_url(get_git_api_commits_url(pfile['github'], latest_rel['script']['url']), pfile['name']))
+                    git_commits = json.loads(fetch_url(get_git_api_commits_url(pfile['github'], get_git_file_path(latest_rel['script']['url'])), pfile['name']))
 
                     git_hash = git_commits[0]['sha']
                     git_hash_short = git_hash[:7]
@@ -229,7 +230,7 @@ def update_package(name):
 
                     new_rel_entry = { 'version': 'git:' + git_hash_short, 'published': git_commits[0]['commit']['committer']['date'] }
                     new_url = replace_hash_git_url(latest_rel['script']['url'], git_hash)
-                    temp_fn = fetch_url_to_cache(new_url, name,  git_hash_short, pfile['name'] + ' ' + git_hash_short + ' script', True)
+                    temp_fn = fetch_url_to_cache(new_url, name,  git_hash_short, pfile['name'] + ' ' + git_hash_short + ' script', use_basename = True)
                     new_rel_entry['script'] = { 'url': new_url, 'files': {} }
 
                     for fn in latest_rel['script']['files']:

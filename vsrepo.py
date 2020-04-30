@@ -1,6 +1,6 @@
 ##    MIT License
 ##
-##    Copyright (c) 2018-2019 Fredrik Mellbin
+##    Copyright (c) 2018-2020 Fredrik Mellbin
 ##
 ##    Permission is hereby granted, free of charge, to any person obtaining a copy
 ##    of this software and associated documentation files (the "Software"), to deal
@@ -69,19 +69,19 @@ if (args.operation in ['install', 'upgrade', 'uninstall']) == ((args.package is 
     print('Package argument only required for install, upgrade and uninstall operations')
     sys.exit(1)
 
-package_json_path = os.path.join(os.path.dirname(sys.executable), 'avspackages.json') if args.portable else os.path.join(os.getenv('APPDATA'), 'VapourSynth', 'vsrepo', 'avspackages.json')
-
-py_script_path = os.path.dirname(sys.executable) #if args.portable else site.getusersitepackages()
+file_dirname = os.path.dirname(os.path.abspath(__file__))
+package_json_path = os.path.join(file_dirname, 'avspackages.json') if args.portable else os.path.join(os.getenv('APPDATA'), 'VapourSynth', 'vsrepo', 'vspackages.json')
+py_script_path = file_dirname #if args.portable else site.getusersitepackages()
 if args.script_path is not None:
     py_script_path = args.script_path
 
 if args.portable:
-    base_path = os.path.dirname(sys.executable)
+    base_path = file_dirname
     plugin32_path = os.path.join(base_path, 'avisynth32', 'plugins')
     plugin64_path = os.path.join(base_path, 'avisynth64', 'plugins')
 elif is_sitepackage_install_portable():
     import vapoursynth
-    base_path = os.path.dirname(vapoursynth.sys.executable)
+    base_path = os.path.dirname(vapoursynth.__file__)
     plugin32_path = os.path.join(base_path, 'vapoursynth32', 'plugins')
     plugin64_path = os.path.join(base_path, 'vapoursynth64', 'plugins')
     del vapoursynth
@@ -98,12 +98,15 @@ os.makedirs(py_script_path, exist_ok=True)
 os.makedirs(plugin_path, exist_ok=True)
 os.makedirs(os.path.dirname(package_json_path), exist_ok=True)
 
-cmd7zip_path = '7z.exe'
-try:
-    with winreg.OpenKeyEx(winreg.HKEY_LOCAL_MACHINE, 'SOFTWARE\\7-Zip', reserved=0, access=winreg.KEY_READ) as regkey:
-        cmd7zip_path = os.path.join(winreg.QueryValueEx(regkey, 'Path')[0], '7z.exe')
-except:
-    pass
+
+
+cmd7zip_path = os.path.join(file_dirname, '7z.exe')
+if not os.path.isfile(cmd7zip_path):
+    try:
+        with winreg.OpenKeyEx(winreg.HKEY_LOCAL_MACHINE, 'SOFTWARE\\7-Zip', reserved=0, access=winreg.KEY_READ) as regkey:
+            cmd7zip_path = os.path.join(winreg.QueryValueEx(regkey, 'Path')[0], '7z.exe')
+    except:
+        cmd7zip_path = '7z.exe'
 
 installed_packages = {}
 download_cache = {}
@@ -139,7 +142,7 @@ try:
     with open(package_json_path, 'r', encoding='utf-8') as pl:
         package_list = json.load(pl)       
     if package_list['file-format'] != 2:
-        print('Package definition format is {} but only version 1 is supported'.format(package_list['file_format']))
+        print('Package definition format is {} but only version 2 is supported'.format(package_list['file-format']))
         package_list = None
     package_list = package_list['packages']
 except:
@@ -439,6 +442,10 @@ def print_paths():
     print('Definitions: ' + package_json_path)
     print('Binaries: ' + plugin_path)
     print('Scripts: ' + py_script_path)    
+
+if args.operation != 'update' and package_list is None:
+    print('Failed to open vspackages.json. Run update command.')
+    sys.exit(1)
 
 for name in args.package:
     try:

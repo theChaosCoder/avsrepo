@@ -9,6 +9,50 @@
 	"github": "https://github.com/pinterf/RgTools",
 	"releases": [
 		{
+			"version": "1.0",
+			"published": "2020-04-27T21:10:17Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/1.0/RgTools-v1.0.7z",
+				"files": {
+					"RgTools.dll": [
+						"x86/RgTools.dll",
+						"2c8ca8312bbc2af89c75ba549583e8eacfff96c2dc224e1975f219921b57d0ae"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/1.0/RgTools-v1.0.7z",
+				"files": {
+					"RgTools.dll": [
+						"x64/RgTools.dll",
+						"19f89362b2b529c0b2aec6913cd5f2177c4b56699b35117c04cdb8d9f637cf0a"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.99",
+			"published": "2020-04-26T19:58:00Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.99/RgTools-0.99.7z",
+				"files": {
+					"RgTools.dll": [
+						"x86/RgTools.dll",
+						"18268e060afeace1573f7b6ef02e789c924433ac416c2556ae46ee26ec2427ae"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.99/RgTools-0.99.7z",
+				"files": {
+					"RgTools.dll": [
+						"x64/RgTools.dll",
+						"4efe51d7c12063a9390267b2dc6a61a503ac1a6ddcef45b146f81da157dd308e"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.98",
 			"published": "2019-08-14T11:53:36Z",
 			"win32": {

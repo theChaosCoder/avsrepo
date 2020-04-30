@@ -1,0 +1,31 @@
+{
+	"name": "Zs_RF_Shared",
+	"type": "PyScript",
+	"description": "Shared Functions and utility",
+	"website": "https://forum.doom9.org/showthread.php?t=174121",
+	"doom9": "https://forum.doom9.org/showthread.php?t=174121",
+	"github": "https://github.com/realfinder/AVS-Stuff",
+	"category": "Scripts",
+	"identifier": "zs_rf_shared",
+	"modulename": "zs_rf_shared",
+	"dependencies": [
+		"mvtools",
+		"sangnom2",
+		"rgtools"
+	],
+	"releases": [
+		{
+			"version": "V1.121 - git:c2d3148",
+			"published": "2020-04-18T18:59:02Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/c2d3148240dbc41c8d40c1ce2dd472d0031a8453/avs%202.5%20and%20up/Zs_RF_Shared.avsi",
+				"files": {
+					"Zs_RF_Shared.avsi": [
+						"Zs_RF_Shared.avsi",
+						"aa79152b844ee3aab09f1dd696caa8b811d080c6b036fbca9f0fc09294e912f0"
+					]
+				}
+			}
+		}
+	]
+}

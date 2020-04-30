@@ -46,6 +46,10 @@ try:
 except ImportError:
     pass
 
+if getattr(sys, 'frozen', False):
+    app_file = sys.executable
+else:
+    app_file = __file__
 
 def is_sitepackage_install_portable():
     return False
@@ -69,7 +73,7 @@ if (args.operation in ['install', 'upgrade', 'uninstall']) == ((args.package is 
     print('Package argument only required for install, upgrade and uninstall operations')
     sys.exit(1)
 
-file_dirname = os.path.dirname(os.path.abspath(__file__))
+file_dirname = os.path.dirname(os.path.abspath(app_file))
 package_json_path = os.path.join(file_dirname, 'avspackages.json') if args.portable else os.path.join(os.getenv('APPDATA'), 'VapourSynth', 'vsrepo', 'vspackages.json')
 py_script_path = file_dirname #if args.portable else site.getusersitepackages()
 if args.script_path is not None:
@@ -81,7 +85,7 @@ if args.portable:
     plugin64_path = os.path.join(base_path, 'avisynth64', 'plugins')
 elif is_sitepackage_install_portable():
     import vapoursynth
-    base_path = os.path.dirname(vapoursynth.__file__)
+    base_path = os.path.dirname(vapoursynth.app_file)
     plugin32_path = os.path.join(base_path, 'vapoursynth32', 'plugins')
     plugin64_path = os.path.join(base_path, 'vapoursynth64', 'plugins')
     del vapoursynth

@@ -4,7 +4,7 @@
 	"description": "General purpose simple degrain function. Pure temporal denoiser. Basically a wrapper(function)/frontend of mvtools2+mdegrain with some added common related options",
 	"website": "http://avisynth.nl/index.php/SMDegrain",
 	"doom9": "https://forum.doom9.org/showthread.php?t=163604",
-	"github": "https://github.com/avisynth-repository/SMDegrain",
+	"github": "https://github.com/realfinder/AVS-Stuff",
 	"category": "Denoising",
 	"identifier": "smdegrain",
 	"modulename": "smdegrain",
@@ -15,9 +15,23 @@
 		"masktools",
 		"nnedi3",
 		"dfttest",
-		"knlmeanscl"
+		"knlmeanscl",
+		"zs_rf_shared"
 	],
 	"releases": [
+		{
+			"version": "v3.1.2.106s - git:ef64bca",
+			"published": "2020-03-06T13:50:59Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/ef64bca62a430ee17f76f651a0f032a586912a93/avs%202.5%20and%20up/SMDegrain.avsi",
+				"files": {
+					"SMDegrain.avsi": [
+						"SMDegrain.avsi",
+						"3c7bbd57675f5d88c79064562eae24076c87ea56d843e2300141a8c80acdc923"
+					]
+				}
+			}
+		},
 		{
 			"version": "v3.1.2.104s",
 			"published": "2019-07-22T06:28:21Z",

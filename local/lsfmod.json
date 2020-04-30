@@ -3,7 +3,7 @@
 	"type": "PyScript",
 	"description": "A LimitedSharpenFaster mod with a lot of new features and optimizations.",
 	"website": "http://avisynth.nl/index.php/LSFmod",
-	"github": "https://github.com/avisynth-repository/LSFmod",
+	"github": "https://github.com/realfinder/AVS-Stuff",
 	"category": "Sharpening",
 	"identifier": "lsfmod",
 	"modulename": "lsfmod",
@@ -11,9 +11,23 @@
 		"rgtools",
 		"masktools",
 		"variableblur",
-		"warpsharp"
+		"warpsharp",
+		"zs_rf_shared"
 	],
 	"releases": [
+		{
+			"version": "v2.186 - git:d8cb6eb",
+			"published": "2020-03-03T18:06:35Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/d8cb6eb025e1990e270d28ca88c5ee7bd771bdc5/avs%202.5%20and%20up/LSFmod.avsi",
+				"files": {
+					"LSFmod.avsi": [
+						"LSFmod.avsi",
+						"def5e47e28633cc545a74d2362860dcea753f384e5a45b3a8caf397c71b91031"
+					]
+				}
+			}
+		},
 		{
 			"version": "v2.18.5",
 			"published": "2019-10-07T22:47:06Z",

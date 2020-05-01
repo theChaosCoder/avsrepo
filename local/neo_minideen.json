@@ -5,8 +5,8 @@
 	"website": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen",
 	"doom9": "https://forum.doom9.org/showthread.php?t=176554",
 	"category": "Denoising",
-	"identifier": "minideen",
-	"namespace": "minideen",
+	"identifier": "neo_minideen",
+	"namespace": "neo_minideen",
 	"github": "https://github.com/HomeOfAviSynthPlusEvolution/MiniDeen",
 	"releases": [
 		{

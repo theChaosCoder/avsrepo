@@ -4,7 +4,7 @@
 	"description": "Reduces halo artifacts that can occur when sharpening.",
 	"website": "http://avisynth.nl/index.php/Abcxyz",
 	"github": "https://github.com/realfinder/AVS-Stuff",
-	"category": "Scripts",
+	"category": "Dehaloing",
 	"identifier": "abcxyz",
 	"modulename": "abcxyz",
 	"dependencies": [

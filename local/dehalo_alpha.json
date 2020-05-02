@@ -4,7 +4,7 @@
 	"description": "Reduce halo artifacts that can occur when sharpening.",
 	"website": "http://avisynth.nl/index.php/DeHalo_alpha",
 	"github": "https://github.com/realfinder/AVS-Stuff",
-	"category": "Scripts",
+	"category": "Dehaloing",
 	"identifier": "dehalo_alpha",
 	"modulename": "dehalo_alpha",
 	"dependencies": [

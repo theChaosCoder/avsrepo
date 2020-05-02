@@ -3,7 +3,7 @@
 	"type": "PyScript",
 	"description": "Y'et A'nother H'alo R'educing script",
 	"github": "https://github.com/realfinder/AVS-Stuff",
-	"category": "Scripts",
+	"category": "Dehaloing",
 	"identifier": "yahr",
 	"modulename": "yahr",
 	"dependencies": [

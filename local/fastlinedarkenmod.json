@@ -1,0 +1,29 @@
+{
+	"name": "FastLineDarkMOD",
+	"type": "PyScript",
+	"description": "Line darkening script.",
+	"github": "https://github.com/realfinder/AVS-Stuff",
+	"category": "Scripts",
+	"identifier": "fastlinedarkenmod",
+	"modulename": "fastlinedarkenmod",
+	"dependencies": [
+		"rgtools",
+		"masktools",
+		"zs_rf_shared"
+	],
+	"releases": [
+		{
+			"version": "git:d8cb6eb",
+			"published": "2020-03-03T18:06:35Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/d8cb6eb025e1990e270d28ca88c5ee7bd771bdc5/avs%202.5%20and%20up/FastLineDarkMOD2.avsi",
+				"files": {
+					"FastLineDarkMOD2.avsi": [
+						"FastLineDarkMOD2.avsi",
+						"16a610959b744fe5881339d443371fba1a23584c97d351fa65d3352f73c7bbfd"
+					]
+				}
+			}
+		}
+	]
+}

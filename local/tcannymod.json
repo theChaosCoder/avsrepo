@@ -1,6 +1,6 @@
 {
 	"name": "TCannyMod",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "Canny edge detection filter for Avisynth2.6x based on tcanny by tritical.",
 	"website": "http://avisynth.nl/index.php/TCannyMod",
 	"category": "Other",

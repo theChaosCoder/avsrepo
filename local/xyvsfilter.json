@@ -1,6 +1,6 @@
 {
 	"name": "xyVSFilter",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "xy-VSFilter, modification by pinterf",
 	"website": "https://github.com/pinterf/xy-VSFilter",
 	"category": "Subtitles",

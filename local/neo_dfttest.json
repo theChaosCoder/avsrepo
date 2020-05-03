@@ -1,6 +1,6 @@
 {
 	"name": "Neo DFTTest",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "A 2D/3D Frequency Domain denoiser",
 	"website": "https://github.com/HomeOfAviSynthPlusEvolution/neo_DFTTest",
 	"doom9": "https://forum.doom9.org/showthread.php?t=181294",

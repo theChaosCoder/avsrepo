@@ -1,6 +1,6 @@
 {
 	"name": "AutoOverlay",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "The plugin is designed for auto-aligned optimal overlay of one video clip onto another.",
 	"website": "http://avisynth.nl/index.php/AutoOverlay",
 	"doom9": "https://forum.doom9.org/showthread.php?t=175247",

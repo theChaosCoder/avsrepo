@@ -1,6 +1,6 @@
 {
 	"name": "TCPDeliver",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "Send clips over your network.",
 	"website": "https://github.com/DJATOM/TCPDeliver",
 	"category": "Other",

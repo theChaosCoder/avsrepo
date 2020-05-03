@@ -1,6 +1,6 @@
 {
 	"name": "VSFilterMod",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "VSFilterMod",
 	"website": "https://github.com/sorayuki/VSFilterMod",
 	"category": "Subtitles",

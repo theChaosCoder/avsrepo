@@ -1,6 +1,6 @@
 {
 	"name": "FastLineDarkMOD",
-	"type": "PyScript",
+	"type": "AviScript",
 	"description": "Line darkening script.",
 	"github": "https://github.com/realfinder/AVS-Stuff",
 	"category": "Scripts",

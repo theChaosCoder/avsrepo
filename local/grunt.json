@@ -1,6 +1,6 @@
 {
 	"name": "GRunT",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "GRunT (Gavino's Run-Time )",
 	"website": "http://avisynth.nl/index.php/GRunT",
 	"doom9": "https://forum.doom9.org/showthread.php?t=139337",

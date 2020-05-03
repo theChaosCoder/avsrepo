@@ -1,6 +1,6 @@
 {
 	"name": "SMDegrain",
-	"type": "PyScript",
+	"type": "AviScript",
 	"description": "General purpose simple degrain function. Pure temporal denoiser. Basically a wrapper(function)/frontend of mvtools2+mdegrain with some added common related options",
 	"website": "http://avisynth.nl/index.php/SMDegrain",
 	"doom9": "https://forum.doom9.org/showthread.php?t=163604",

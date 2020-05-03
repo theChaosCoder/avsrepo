@@ -1,6 +1,6 @@
 {
 	"name": "AvsFilterNet",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "The main objective of AvsFilterNet is to provide a wrapper for avisynth, making it possible to write simple filter in any .Net languages.",
 	"website": "https://github.com/introspected/AvsFilterNet",
 	"doom9": "https://forum.doom9.org/showthread.php?t=144663",

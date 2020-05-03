@@ -1,6 +1,6 @@
 {
 	"name": "DCTFilter",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "This plugin is a rewrite of DctFilter for avisynth.",
 	"website": "https://github.com/chikuzen/DCTFilter",
 	"category": "Other",

@@ -1,6 +1,6 @@
 {
 	"name": "HDRTools",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "HDRTools",
 	"website": "https://github.com/jpsdr/HDRTools",
 	"category": "Color/Levels",

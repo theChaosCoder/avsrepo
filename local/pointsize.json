@@ -1,6 +1,6 @@
 {
 	"name": "PointSize",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "PointSize is a collection of specialized resizers for pixel-art and other low resolution graphics (e.g. old or portable video game captures). (scalex, LQx, HQx, xBRZ)",
 	"website": "https://github.com/Orum/PointSize",
 	"category": "Resizing and Format Conversion",

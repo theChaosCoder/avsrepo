@@ -1,6 +1,6 @@
 {
 	"name": "AviSynthShader + SuperRes",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "This plugin allows running HLSL pixel shaders within AviSynth. This gives access to various HLSL filters that haven't been programmed in AviSynth.",
 	"website": "https://github.com/mysteryx93/AviSynthShader",
 	"category": "Other",

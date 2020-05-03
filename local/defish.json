@@ -1,6 +1,6 @@
 {
 	"name": "Defish",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "This filter can be used to correct (or induce) barrel and pincushion distortion.",
 	"doom9": "https://forum.doom9.org/showthread.php?t=152860",
 	"github": "https://github.com/avisynth-repository/Defish",

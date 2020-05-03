@@ -1,6 +1,6 @@
 {
 	"name": "RemoveDirt",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "RemoveDirt is a temporal cleaner. With Avisynth v2.6 interface (x86/x64), adding new color spaces",
 	"website": "http://avisynth.nl/index.php/RemoveDirt",
 	"doom9": "https://forum.doom9.org/showthread.php?t=176199",

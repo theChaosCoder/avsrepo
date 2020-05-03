@@ -51,9 +51,6 @@ if getattr(sys, 'frozen', False):
 else:
     app_file = __file__
 
-def is_sitepackage_install_portable():
-    return False
-
 is_64bits = sys.maxsize > 2**32
 
 parser = argparse.ArgumentParser(description='A simple Avisynth package manager')
@@ -74,32 +71,22 @@ if (args.operation in ['install', 'upgrade', 'uninstall']) == ((args.package is 
     sys.exit(1)
 
 file_dirname = os.path.dirname(os.path.abspath(app_file))
-package_json_path = os.path.join(file_dirname, 'avspackages.json') if args.portable else os.path.join(os.getenv('APPDATA'), 'VapourSynth', 'vsrepo', 'vspackages.json')
-py_script_path = file_dirname #if args.portable else site.getusersitepackages()
+package_json_path = os.path.join(file_dirname, 'avspackages.json')
+avi_script_path = file_dirname #if args.portable else site.getusersitepackages()
 if args.script_path is not None:
-    py_script_path = args.script_path
+    avi_script_path = args.script_path
 
 if args.portable:
     base_path = file_dirname
     plugin32_path = os.path.join(base_path, 'avisynth32', 'plugins')
     plugin64_path = os.path.join(base_path, 'avisynth64', 'plugins')
-elif is_sitepackage_install_portable():
-    import vapoursynth
-    base_path = os.path.dirname(vapoursynth.app_file)
-    plugin32_path = os.path.join(base_path, 'vapoursynth32', 'plugins')
-    plugin64_path = os.path.join(base_path, 'vapoursynth64', 'plugins')
-    del vapoursynth
-else:
-    sys.exit("Only portable mode (-p) is working for now")
-    plugin32_path = os.path.join(os.getenv('APPDATA'), 'VapourSynth', 'plugins32')
-    plugin64_path = os.path.join(os.getenv('APPDATA'), 'VapourSynth', 'plugins64')
 
-plugin_path = plugin64_path if is_64bits else plugin32_path
+avi_plugin_path = plugin64_path if is_64bits else plugin32_path
 if args.binary_path is not None:
-    plugin_path = args.binary_path
+    avi_plugin_path = args.binary_path
 	
-os.makedirs(py_script_path, exist_ok=True)
-os.makedirs(plugin_path, exist_ok=True)
+os.makedirs(avi_script_path, exist_ok=True)
+os.makedirs(avi_plugin_path, exist_ok=True)
 os.makedirs(os.path.dirname(package_json_path), exist_ok=True)
 
 
@@ -157,9 +144,9 @@ def check_hash(data, ref_hash):
     return (data_hash == ref_hash, data_hash, ref_hash)        
 
 def get_bin_name(p):
-    if p['type'] == 'PyScript':
+    if p['type'] == 'AviScript':
         return 'script'
-    elif p['type'] == 'VSPlugin':
+    elif p['type'] == 'AviPlugin':
         if is_64bits:
             return 'win64'
         else:
@@ -168,10 +155,10 @@ def get_bin_name(p):
         raise Exception('Unknown install type')
 
 def get_install_path(p):
-    if p['type'] == 'PyScript':
-        return py_script_path
-    elif p['type'] == 'VSPlugin':
-        return plugin_path
+    if p['type'] == 'AviScript':
+        return avi_script_path
+    elif p['type'] == 'AviPlugin':
+        return avi_plugin_path
     else:
         raise Exception('Unknown install type')
 
@@ -264,7 +251,7 @@ def print_package_status(p):
         name = '*' + name
     elif is_package_upgradable(p['identifier'], True):
         name = '+' + name
-    print(package_print_string.format(name, p['namespace'] if p['type'] == 'VSPlugin' else p['modulename'], installed_packages[p['identifier']] if p['identifier'] in installed_packages else '', lastest_installable['version'] if lastest_installable is not None else '', p['identifier']))
+    print(package_print_string.format(name, p['namespace'] if p['type'] == 'AviPlugin' else p['modulename'], installed_packages[p['identifier']] if p['identifier'] in installed_packages else '', lastest_installable['version'] if lastest_installable is not None else '', p['identifier']))
 
 def list_installed_packages():
     print(package_print_string.format('Name', 'Namespace', 'Installed', 'Latest', 'Identifier'))
@@ -444,11 +431,11 @@ def update_package_definition(url):
 def print_paths():
     print('Paths:')
     print('Definitions: ' + package_json_path)
-    print('Binaries: ' + plugin_path)
-    print('Scripts: ' + py_script_path)    
+    print('Binaries: ' + avi_plugin_path)
+    print('Scripts: ' + avi_script_path)    
 
 if args.operation != 'update' and package_list is None:
-    print('Failed to open vspackages.json. Run update command.')
+    print('Failed to open avspackages.json. Run update command.')
     sys.exit(1)
 
 for name in args.package:

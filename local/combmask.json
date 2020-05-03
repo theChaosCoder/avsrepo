@@ -1,6 +1,6 @@
 {
 	"name": "CombMask",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "CombMask is a simple filter that creates a comb mask that can (could) be used by other filters like MaskTools2.",
 	"website": "https://github.com/chikuzen/CombMask",
 	"category": "Other",

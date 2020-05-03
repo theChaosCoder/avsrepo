@@ -1,6 +1,6 @@
 {
 	"name": "SangNom2",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "It's a single field deinterlacer using edge-directed interpolation but nowadays it's mainly used in anti-aliasing scripts. Replaces old SangNom.",
 	"website": "http://avisynth.nl/index.php/SangNom2",
 	"doom9": "https://forum.doom9.org/showthread.php?t=168315",

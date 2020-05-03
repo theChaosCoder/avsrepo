@@ -1,6 +1,6 @@
 {
 	"name": "FFTW3 Library",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "Package for the FFTW3 library shared between several plugins",
 	"website": "http://www.fftw.org/",
 	"category": "Plugin Dependency",

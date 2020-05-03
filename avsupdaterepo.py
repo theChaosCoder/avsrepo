@@ -44,7 +44,7 @@ try:
 except ImportError:
     pass
 
-parser = argparse.ArgumentParser(description='Package list generator for VSRepo')
+parser = argparse.ArgumentParser(description='Package list generator for AVSRepo')
 parser.add_argument('operation', choices=['compile', 'update-local', 'upload'])
 parser.add_argument('-g', dest='git_token', nargs=1, help='OAuth access token for github')
 parser.add_argument('-p', dest='package', nargs=1, help='Package to update')
@@ -194,8 +194,8 @@ def update_package(name):
             new_rels = {}
             apifile = json.loads(fetch_url(get_git_api_url(pfile['github']), pfile['name']))
             
-            is_plugin = (pfile['type'] == 'VSPlugin')
-            is_only_commits = not apifile and not is_plugin ## PyScript with no releases on github
+            is_plugin = (pfile['type'] == 'AviPlugin')
+            is_only_commits = not apifile and not is_plugin ## AviScript with no releases on github
 
             if is_only_commits:
                 def extract_hash_git_url(url):
@@ -337,13 +337,13 @@ def verify_package(pfile, existing_identifiers):
     for key in pfile.keys():
         if key not in ('name', 'type', 'description', 'website', 'category', 'identifier', 'modulename', 'namespace', 'github', 'doom9', 'dependencies', 'ignore', 'releases'):
             raise Exception('Unkown key: ' + key + ' in ' + name)
-    if pfile['type'] not in ('VSPlugin', 'PyScript'):
+    if pfile['type'] not in ('AviPlugin', 'AviScript'):
         raise Exception('Invalid type in ' + name)
-    if (pfile['type'] == 'VSPlugin') and ('modulename' in pfile):
+    if (pfile['type'] == 'AviPlugin') and ('modulename' in pfile):
         raise Exception('Plugins can\'t have modulenames: ' + name)
-    if (pfile['type'] == 'VSPlugin') and (('modulename' in pfile) or ('namespace' not in pfile)):
+    if (pfile['type'] == 'AviPlugin') and (('modulename' in pfile) or ('namespace' not in pfile)):
         raise Exception('Plugins must have namespace, not modulename: ' + name)
-    if (pfile['type'] == 'PyScript') and (('namespace' in pfile) or ('modulename' not in pfile)):
+    if (pfile['type'] == 'AviScript') and (('namespace' in pfile) or ('modulename' not in pfile)):
         raise Exception('Scripts must have modulename, not namespace: ' + name)
     allowed_categories = ('Scripts', 'Plugin Dependency', 'Resizing and Format Conversion', 'Other', 'Dot Crawl and Rainbows', 'Dehaloing', 'Sharpening', 'Denoising', 'Deinterlacing', 'Inverse Telecine', 'Source/Output', 'Subtitles', 'Color/Levels')
     if pfile['category'] not in allowed_categories:

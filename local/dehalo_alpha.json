@@ -1,6 +1,6 @@
 {
 	"name": "Dehalo_alpha",
-	"type": "PyScript",
+	"type": "AviScript",
 	"description": "Reduce halo artifacts that can occur when sharpening.",
 	"website": "http://avisynth.nl/index.php/DeHalo_alpha",
 	"github": "https://github.com/realfinder/AVS-Stuff",

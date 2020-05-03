@@ -1,6 +1,6 @@
 {
 	"name": "Yadifmod2",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "YadifMod2 = Yadif + YadifMod",
 	"website": "http://avisynth.nl/index.php/Yadifmod",
 	"category": "Deinterlacing",

@@ -1,6 +1,6 @@
 {
 	"name": "MVTools",
-	"type": "VSPlugin",
+	"type": "AviPlugin",
 	"description": "MVTools",
 	"website": "https://github.com/pinterf/mvtools",
 	"category": "Other",

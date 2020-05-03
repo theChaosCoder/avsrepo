@@ -1,0 +1,47 @@
+{
+	"name": "Defish",
+	"type": "avsPlugin",
+	"description": "This filter can be used to correct (or induce) barrel and pincushion distortion.",
+	"doom9": "https://forum.doom9.org/showthread.php?t=152860",
+	"github": "https://github.com/avisynth-repository/Defish",
+	"category": "Other",
+	"identifier": "defish",
+	"namespace": "defish",
+	"releases": [
+		{
+			"version": "v1.1",
+			"published": "2019-06-09T17:59:20Z",
+			"win32": {
+				"url": "https://github.com/avisynth-repository/Defish/releases/download/v1.1/Defish_v1.1.7z",
+				"files": {
+					"defish32mt.dll": [
+						"x86/defish32mt.dll",
+						"d89f21f97f84c71f70159f172fc99e2b66bdbd1631c84095f5f372edc8be9652"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/avisynth-repository/Defish/releases/download/v1.1/Defish_v1.1.7z",
+				"files": {
+					"defish64mt.dll": [
+						"x64/defish64mt.dll",
+						"334ebf7694c5ef2a03032c2b3f267319dd2ec59a340b1c545de560b76ef6ca49"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.1-old",
+			"published": "2010-02-21T12:00:00Z",
+			"win32": {
+				"url": "http://horman.net/defish.zip",
+				"files": {
+					"defish.dll": [
+						"defish.dll",
+						"53702aa460ccf5d695c59e5f17a9a08cd0859be56fdaa84391479772fe4667f2"
+					]
+				}
+			}
+		}
+	]
+}

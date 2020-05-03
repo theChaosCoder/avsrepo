@@ -1,0 +1,30 @@
+{
+	"name": "YAHR",
+	"type": "avsiScript",
+	"description": "Y'et A'nother H'alo R'educing script",
+	"github": "https://github.com/realfinder/AVS-Stuff",
+	"category": "Dehaloing",
+	"identifier": "yahr",
+	"modulename": "yahr",
+	"dependencies": [
+		"rgtools",
+		"masktools",
+		"awarpsharpmt",
+		"zs_rf_shared"
+	],
+	"releases": [
+		{
+			"version": "git:e10611d",
+			"published": "2020-03-13T07:18:59Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/e10611d3718de5b88538b68c0a62052366a26526/avs%202.5%20and%20up/YAHR.avsi",
+				"files": {
+					"YAHR.avsi": [
+						"YAHR.avsi",
+						"0a3256fb4d2beafe6f32170a70271da26c968679e53ccd0733e9d7773c32ec74"
+					]
+				}
+			}
+		}
+	]
+}

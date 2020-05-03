@@ -1,0 +1,277 @@
+{
+	"name": "AvsFilterNet",
+	"type": "avsPlugin",
+	"description": "The main objective of AvsFilterNet is to provide a wrapper for avisynth, making it possible to write simple filter in any .Net languages.",
+	"website": "https://github.com/introspected/AvsFilterNet",
+	"doom9": "https://forum.doom9.org/showthread.php?t=144663",
+	"category": "Other",
+	"identifier": "avsfilternet",
+	"namespace": "avsfilternet",
+	"github": "https://github.com/introspected/AutoOverlay",
+	"releases": [
+		{
+			"version": "0.2.5",
+			"published": "2018-09-09T09:28:37Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.2.5/AutoOverlay_0.2.5.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"14041d831198b0814708b321b6e23d71be63d067c5467de9288d737339a28be4"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.2.5/AutoOverlay_0.2.5.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"58864213a383b1ceba35943d416eb3fe00087bf98b9517592a577094a893e544"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.2.4",
+			"published": "2018-08-25T13:45:35Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.2.4/AutoOverlay_0.2.4.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"6f5b1d481cd2c9e105cd3cb3e45e34b6947bf08aad0a1249f865cd2ed7c6d3b3"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.2.4/AutoOverlay_0.2.4.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"69bcbdaffd5d9824aa10b43a661d2826a610e31037fd99c70ee1891ffa9abc9b"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.2.3",
+			"published": "2018-08-15T04:41:39Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.2.3/AutoOverlay_0.2.3.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"b5e118eef0c580dddc6b5049548028d14aff8dfa5a483ef6beb645d24de3ba89"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.2.3/AutoOverlay_0.2.3.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"46fc46877229ba43498d1161d4d07a58991b20f9e6ad824f23b9377185f243d5"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.2.2",
+			"published": "2018-08-11T11:54:22Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.2.2/AutoOverlay_0.2.2.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"f755426eb7257e5e251d6a0b21baac5fd016ca49ed4ab235d76fefdf237d2337"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.2.2/AutoOverlay_0.2.2.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"aba33f44fb9257482cee89f0206a289cb93da5d522a1f3bcaceb7a6000c764a3"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.2.1",
+			"published": "2018-06-14T19:38:58Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.2.1/AutoOverlay_0.2.1.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"60a63705743eb3dc47240beb0365e9eae58bdb58c7b18ab5ae649fadb91edfbf"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.2.1/AutoOverlay_0.2.1.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"9cd4460e143049b0afdc7d16c92750fd5996b2e06bed631483f9adeda6bf53e7"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.2",
+			"published": "2018-05-24T18:37:40Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.2/AutoOverlay_0.2.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"431809ea9a9b6f3ec70ff3424749f956bf28d78e18d6a43e3454f632d3468147"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.2/AutoOverlay_0.2.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"8aab35f0290860030e9e570f64559fba53e568f3026e829bec979d5191e5a256"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.1.9",
+			"published": "2018-03-23T04:52:16Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.1.9/AutoOverlay_0.1.9.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"810ea4065e99ca0ffacf26dd4c561f72e73f70fabe598b88c245300dcba8757b"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.1.9/AutoOverlay_0.1.9.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"67883009367a38ccc4162652437f106a83373578715619705726c48e3a1726e8"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.1.8",
+			"published": "2018-02-02T19:23:56Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.1.8/AutoOverlay_0.1.8.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"40b00d649d31b0ba6a3066d0ed1a3ac5288db24180e48735e948f576753215bb"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.1.8/AutoOverlay_0.1.8.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"08574b55f20ab6089cb9575890410b528aa3b895aec330b13c1d24dd4524a3f3"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.1.7",
+			"published": "2018-01-12T07:54:30Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.1.7/AutoOverlay_0.1.7.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"40b00d649d31b0ba6a3066d0ed1a3ac5288db24180e48735e948f576753215bb"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.1.7/AutoOverlay_0.1.7.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"08574b55f20ab6089cb9575890410b528aa3b895aec330b13c1d24dd4524a3f3"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.1.6",
+			"published": "2018-01-08T17:27:53Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.1.6/AutoOverlay_0.1.6.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"40b00d649d31b0ba6a3066d0ed1a3ac5288db24180e48735e948f576753215bb"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.1.6/AutoOverlay_0.1.6.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"08574b55f20ab6089cb9575890410b528aa3b895aec330b13c1d24dd4524a3f3"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.1.5",
+			"published": "2018-01-07T11:09:52Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.1.5/AutoOverlay_0.1.5.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"40b00d649d31b0ba6a3066d0ed1a3ac5288db24180e48735e948f576753215bb"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.1.5/AutoOverlay_0.1.5.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"08574b55f20ab6089cb9575890410b528aa3b895aec330b13c1d24dd4524a3f3"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.1.4",
+			"published": "2017-12-22T00:27:11Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.1.4/AutoOverlay_0.1.4.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"9ffe24b8f34f1fda3d83fe0b6d200f37589a99b1cbf37602ed666edb3cbce086"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.1.4/AutoOverlay_0.1.4.zip",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"0e425d6b5a9f8d5cddba033ecc99f40915480d6a0adc96581a355db7a18e1a4f"
+					]
+				}
+			}
+		}
+	]
+}

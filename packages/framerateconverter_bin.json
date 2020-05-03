@@ -1,0 +1,321 @@
+{
+	"name": "FrameRateConverter",
+	"type": "avsPlugin",
+	"description": "Increases the frame rate with interpolation and fine artifact removal.",
+	"website": "https://github.com/mysteryx93/FrameRateConverter",
+	"category": "Other",
+	"identifier": "framerateconverter_bin",
+	"namespace": "framerateconverter_bin",
+	"doom9": "https://forum.doom9.org/showthread.php?t=174793",
+	"github": "https://github.com/mysteryx93/FrameRateConverter",
+	"releases": [
+		{
+			"version": "v1.3",
+			"published": "2019-06-01T12:46:31Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.3/FrameRateConverter-v1.3.zip",
+				"files": {
+					"FrameRateConverter.dll": [
+						"FrameRateConverter.dll",
+						"2cf7440f776a913ce2907070f9b7e77f8783c9ea04a9ed47b763c925d28c1df6"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.3/FrameRateConverter-v1.3.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"1296c4c998395fa73a8aacc992fb654936cc7522a1b8b8db57443e131ea48c53"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.2.1",
+			"published": "2018-05-13T03:54:53Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.2.1/FrameRateConverter-v1.2.1.zip",
+				"files": {
+					"FrameRateConverter.dll": [
+						"FrameRateConverter.dll",
+						"ccf1f40fbf9cd887739096447c43e6b40226211134a0a71f8c20bb4428b82a9a"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.2.1/FrameRateConverter-v1.2.1.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"4d8e0609b4dc29a3dd297103f164e3a4d40d752b406b23b7ac42dee6bbed49ad"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.2",
+			"published": "2017-09-03T02:45:16Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.2/FrameRateConverter-v1.2.zip",
+				"files": {
+					"FrameRateConverter.dll": [
+						"FrameRateConverter.dll",
+						"ccf1f40fbf9cd887739096447c43e6b40226211134a0a71f8c20bb4428b82a9a"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.2/FrameRateConverter-v1.2.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"4d8e0609b4dc29a3dd297103f164e3a4d40d752b406b23b7ac42dee6bbed49ad"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.1",
+			"published": "2017-09-02T03:25:36Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.1/FrameRateConverter-v1.1.zip",
+				"files": {
+					"FrameRateConverter.dll": [
+						"FrameRateConverter.dll",
+						"ccf1f40fbf9cd887739096447c43e6b40226211134a0a71f8c20bb4428b82a9a"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.1/FrameRateConverter-v1.1.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"4d8e0609b4dc29a3dd297103f164e3a4d40d752b406b23b7ac42dee6bbed49ad"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.0",
+			"published": "2017-08-09T02:35:52Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.0/FrameRateConverter-v1.0.zip",
+				"files": {
+					"FrameRateConverter.dll": [
+						"FrameRateConverter.dll",
+						"0b4a5477b3bce11a494ff66795d944a64a297880e96f19e9aea933bc473c54c4"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v1.0/FrameRateConverter-v1.0.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"ca2619a642155122f9ea506d0d87a92662729c22dfd747e9382767b492693310"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.8-beta",
+			"published": "2017-06-23T01:41:27Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.8-beta/FrameRateConverter-2017-06-22.zip",
+				"files": {
+					"FrameRateConverter.dll": [
+						"FrameRateConverter.dll",
+						"0b4a5477b3bce11a494ff66795d944a64a297880e96f19e9aea933bc473c54c4"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.8-beta/FrameRateConverter-2017-06-22.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"ca2619a642155122f9ea506d0d87a92662729c22dfd747e9382767b492693310"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.7-alpha",
+			"published": "2017-06-08T20:44:32Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.7-alpha/FrameRateConverter-2017-06-08.zip",
+				"files": {
+					"FrameRateConverter.dll": [
+						"FrameRateConverter.dll",
+						"4876cc52b019c19f51017d3ca7febef28dc463df3412e6b4e69f9b7eaa40b17b"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.7-alpha/FrameRateConverter-2017-06-08.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"baf2cfeea9226f53fbf1a226431f07fac2f16472b168aad71e0486a6f00e5177"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.6-alpha",
+			"published": "2017-06-08T00:11:54Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.6-alpha/FrameRateConverter-2017-06-07.zip",
+				"files": {
+					"FrameRateConverter.dll": [
+						"FrameRateConverter.dll",
+						"6f81da4e394688e6eb6f63167845c061b48abc216c075e53b1da2dca6461c068"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.6-alpha/FrameRateConverter-2017-06-07.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"0c5049ce4ba44ec84ad632a8704d88ccb92223b5c7d927b5621f5536b9801c48"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.5.1-alpha",
+			"published": "2017-06-06T22:17:53Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.5.1-alpha/FrameRateConverter-2017-06-06.zip",
+				"files": {
+					"FrameRateConverter.dll": [
+						"FrameRateConverter.dll",
+						"8cadd4d5b0de20ec8382840c1e9b240bed1b9059ea5d4e6ce89c4b70bdc20771"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.5.1-alpha/FrameRateConverter-2017-06-06.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"d6240b4a173c065edb36caf84ceada37d51e77e9442c5d830816363b74d3f9ad"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.5-alpha",
+			"published": "2017-06-05T23:17:49Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.5-alpha/FrameRateConverter-2017-06-05.zip",
+				"files": {
+					"FrameRateConverter.dll": [
+						"FrameRateConverter.dll",
+						"19b5d4f540b9aa639ea08c0a0f31ad0c6cc14646595ab7e86652a48ddc0dcc9e"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.5-alpha/FrameRateConverter-2017-06-05.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"8936eec8db5ac438358f4b0b91592721b76363fcee5b2ca257d9b3dae38edc41"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.4-alpha",
+			"published": "2017-05-30T15:20:15Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.4-alpha/FrameRateConverter-2017-05-30.zip",
+				"files": {
+					"FrameRateConverter.dll": [
+						"FrameRateConverter.dll",
+						"fc8ebe10f615e4230e07162ea8a0038aeef158ad1a04bcc2646e62b95b0aca18"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.4-alpha/FrameRateConverter-2017-05-30.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"4965848ee886addb92265443badcd194abd0de878ca4c8c7f43f1c90bfed7401"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.3-alpha",
+			"published": "2017-05-29T03:20:46Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.3-alpha/FrameRateConverter-2017-05-28.zip",
+				"files": {
+					"FrameRateConverter.dll": [
+						"FrameRateConverter.dll",
+						"348c00f92380fbd60b94c7e46d624fa545867235d69dc1b6a18825409690085d"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.3-alpha/FrameRateConverter-2017-05-28.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"1a28f8ec4601d3ccfce0aef5b29bc1dd1b3a2c44d24e5feb08a15dcf9fb038e1"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.2-alpha",
+			"published": "2017-05-27T02:10:28Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.2-alpha/FrameRateConverter-2017-05-26.zip",
+				"files": {
+					"FrameRateConverter.dll": [
+						"FrameRateConverter.dll",
+						"c8653db80e04eff7f6a8a4fed196beebfded9597ef058b81ea231f96c4fcc73e"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.2-alpha/FrameRateConverter-2017-05-26.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"47d299eb04f2de050f7daea6a6e96452f71a5cf00d94f8684f799bff10f6f4fd"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.1-alpha",
+			"published": "2017-05-16T23:25:45Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.1-alpha/FrameRateConverter-alpha-2017-05-16.zip",
+				"files": {
+					"FrameRateConverter.dll": [
+						"FrameRateConverter.dll",
+						"cd045453a53722b2251486e3dc6cabaffeb2e434fac2e9e7a9710f352dd66d24"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v0.1-alpha/FrameRateConverter-alpha-2017-05-16.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"253b17ed54c340202a4816795f3eff5b84b08459e294e6dcc67c002cc8899fc8"
+					]
+				}
+			}
+		}
+	]
+}

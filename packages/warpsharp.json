@@ -1,0 +1,24 @@
+{
+	"name": "WarpSharp",
+	"type": "avsPlugin",
+	"description": "WarpSharp",
+	"website": "http://avisynth.nl/index.php/WarpSharp",
+	"category": "Sharpening",
+	"identifier": "warpsharp",
+	"namespace": "warpsharp",
+	"releases": [
+		{
+			"version": "v1.0",
+			"published": "2012-04-25T16:48:22Z",
+			"win32": {
+				"url": "http://xhmikosr.1f0.de/_old/avisynth/plugins/warpsharp-v1.0.zip",
+				"files": {
+					"WarpSharp.dll": [
+						"warpsharp-v1.0/bin/VS2010/WarpSharp.dll",
+						"c59c214ffb4ff6028a2473baa0bf2ce28c29156eeb45aab2c6a579e921bb5158"
+					]
+				}
+			}
+		}
+	]
+}

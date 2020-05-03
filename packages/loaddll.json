@@ -1,0 +1,57 @@
+{
+	"name": "LoadDLL",
+	"type": "avsPlugin",
+	"description": "Load External .dll into AviSynth manually",
+	"website": "http://www.iol.ie/~schubert/gas/gas.html",
+	"doom9": "https://forum.doom9.org/showthread.php?p=918605#post918605",
+	"github": "https://github.com/avisynth-repository/LoadDLL",
+	"category": "Other",
+	"identifier": "loaddll",
+	"namespace": "loaddll",
+	"releases": [
+		{
+			"version": "v1.0",
+			"published": "2020-05-01T11:16:26Z",
+			"win32": {
+				"url": "https://github.com/avisynth-repository/LoadDLL/releases/download/v1.0/LoadDLL-1.0.zip",
+				"files": {
+					"LoadDLL32.dll": [
+						"LoadDLL32.dll",
+						"a23b587d170bd118426d44f758bf25228bd122e39c406c1dd1c8110f21846b68"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/avisynth-repository/LoadDLL/releases/download/v1.0/LoadDLL-1.0.zip",
+				"files": {
+					"LoadDLL64.dll": [
+						"LoadDLL64.dll",
+						"0ed35d90429a667e995fdc53f6054286d7c45f2f9e74e8c1542a300eb5b121e1"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0",
+			"published": "2019-03-02T12:00:00Z",
+			"win32": {
+				"url": "http://www.iol.ie/~schubert/gas/LoadDLL10.7z",
+				"files": {
+					"LoadDLL32.dll": [
+						"LoadDLL/LoadDLL32.dll",
+						"a23b587d170bd118426d44f758bf25228bd122e39c406c1dd1c8110f21846b68"
+					]
+				}
+			},
+			"win64": {
+				"url": "http://www.iol.ie/~schubert/gas/LoadDLL10.7z",
+				"files": {
+					"LoadDLL64.dll": [
+						"LoadDLL/LoadDLL64.dll",
+						"0ed35d90429a667e995fdc53f6054286d7c45f2f9e74e8c1542a300eb5b121e1"
+					]
+				}
+			}
+		}
+	]
+}

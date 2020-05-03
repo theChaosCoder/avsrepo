@@ -1,0 +1,34 @@
+{
+	"name": "FileSize",
+	"type": "avsPlugin",
+	"description": "Get filesize in AviSynth. -1 bytes if file not found. Please note that return type is Float to avoid integer overflow.",
+	"website": "https://github.com/pureexe/FileSize_Avisynth",
+	"category": "Other",
+	"identifier": "filesize",
+	"namespace": "filesize",
+	"github": "https://github.com/pureexe/FileSize_Avisynth",
+	"releases": [
+		{
+			"version": "v1.00",
+			"published": "2019-01-26T18:22:35Z",
+			"win32": {
+				"url": "https://github.com/pureexe/FileSize_Avisynth/releases/download/v1.00/FileSize_x86.dll",
+				"files": {
+					"FileSize_x86.dll": [
+						"FileSize_x86.dll",
+						"70d9eb841ae9e652abd2ff752e4da295b611d72d30435365597cae147797be3d"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pureexe/FileSize_Avisynth/releases/download/v1.00/FileSize_x64.dll",
+				"files": {
+					"FileSize_x64.dll": [
+						"FileSize_x64.dll",
+						"30e174029a8ee9e562f0c745d6b545353ec124a0d010df8a80d3ca6b3d90fa3c"
+					]
+				}
+			}
+		}
+	]
+}

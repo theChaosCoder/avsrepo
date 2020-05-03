@@ -1,0 +1,69 @@
+{
+	"name": "Abcxyz",
+	"type": "avsiScript",
+	"description": "Reduces halo artifacts that can occur when sharpening.",
+	"website": "http://avisynth.nl/index.php/Abcxyz",
+	"github": "https://github.com/realfinder/AVS-Stuff",
+	"category": "Dehaloing",
+	"identifier": "abcxyz",
+	"modulename": "abcxyz",
+	"dependencies": [
+		"rgtools",
+		"masktools",
+		"zs_rf_shared"
+	],
+	"releases": [
+		{
+			"version": "git:3d50fb1",
+			"published": "2020-03-24T14:19:16Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/3d50fb1fbb9a1dbeaa0463ef5283aa3c8935eae1/avs%202.5%20and%20up/Abcxyz_MT2.avsi",
+				"files": {
+					"Abcxyz_MT2.avsi": [
+						"Abcxyz_MT2.avsi",
+						"c430222927e3c186c178f632d5b31bb2f6da718d2f1b2a58da1745d397b8b8a9"
+					]
+				}
+			}
+		},
+		{
+			"version": "2019-02-19",
+			"published": "2019-02-19T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/UL6ycpbp",
+				"files": {
+					"Abcxyz_MT2.avsi": [
+						"UL6ycpbp",
+						"96cea3477cc0f1b0ddcbadbd3a2572596858bbf57fcdae75234b3f8f20316d91"
+					]
+				}
+			}
+		},
+		{
+			"version": "2018-07-13",
+			"published": "2018-07-12T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/kWna0knS",
+				"files": {
+					"Abcxyz_MT2.avsi": [
+						"kWna0knS",
+						"6415b962eec772deff0e4dc102642692e4ec22c523bb7ee3f59533e7d3df01b2"
+					]
+				}
+			}
+		},
+		{
+			"version": "2013-10-16",
+			"published": "2013-10-16T12:00:00Z",
+			"script": {
+				"url": "http://avisynth.nl/images/Abcxyz_MT2.avsi",
+				"files": {
+					"Abcxyz_MT2.avsi": [
+						"Abcxyz_MT2.avsi",
+						"3fe2758d77cd5f9b76f68bc92ec6b70bc0b23bc0c76af73cc281b6e09148a17d"
+					]
+				}
+			}
+		}
+	]
+}

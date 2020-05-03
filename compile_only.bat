@@ -1,2 +1,2 @@
-python vsrupdate.py compile
+python avsupdaterepo.py compile
 pause

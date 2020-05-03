@@ -1,0 +1,541 @@
+{
+	"name": "NNEDI3",
+	"type": "avsPlugin",
+	"description": "nnedi3 is an intra-field only deinterlacer and is also very good for enlarging images by powers of 2",
+	"website": "https://github.com/jpsdr/NNEDI3",
+	"category": "Deinterlacing",
+	"identifier": "nnedi3",
+	"namespace": "nnedi3",
+	"doom9": "https://forum.doom9.org/showthread.php?t=170083",
+	"github": "https://github.com/jpsdr/NNEDI3",
+	"releases": [
+		{
+			"version": "0.9.4.54",
+			"published": "2020-04-28T18:11:27Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.54/NNEDI3_v0_9_4_54.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"9172be213b919882df81b3b80a0ee41d14ee77846bda451184009a8fb5281cc6"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.54/NNEDI3_v0_9_4_54.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"1fd2725973f8b1b64edcb9c9dec8b198f6df271717c24fca3565587f84c63f0b"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.53",
+			"published": "2019-06-06T21:24:14Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.53/NNEDI3_v0_9_4_53.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"1ba301459144296b30fbd826481e1bb8a3af6f2a598db281dffd864ed310d571"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.53/NNEDI3_v0_9_4_53.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"7c94ec3aaa1d0fd3fbde8d062408db1f8ea863ee89d2c57feb9c7d2b115e208f"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.52",
+			"published": "2019-05-31T12:08:51Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.52/NNEDI3_v0_9_4_52.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"7e9a0415ff68502136c37df380296ecd0d299b9a36a6fb32fb5c1d0a928df71f"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.52/NNEDI3_v0_9_4_52.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"09d0a73b705bff457a6eb9a3c15509b595fbc6c17c0bbbecc72f8ceee948b7f7"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.51",
+			"published": "2018-05-31T17:31:23Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.51/NNEDI3_v0_9_4_51.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"52fa1f3c4116abbb6e35515588b909c66dd9dd93ab60b921c3583125f3c23d25"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.51/NNEDI3_v0_9_4_51.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"161c619f8dc101410973e059ac3930537e80d8c5f4a9fb121b27608d3e23d5ef"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.50",
+			"published": "2018-04-07T11:09:38Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.50/NNEDI3_v0_9_4_50.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"98d725bc37615daf9703dbd08d9d119ec68f051eeda845324e6fb98c01c32011"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.50/NNEDI3_v0_9_4_50.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"7c30f1a98ea2ec125ad00b6244d3c528ac34504ebec0f10e73da9df2458a92be"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.49",
+			"published": "2018-03-27T18:54:36Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.49/NNEDI3_v0_9_4_49.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"a306d0b3e52bf1c019da566b7632b0d49bbd719e51e239b0a6dc14ae5401beaa"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.49/NNEDI3_v0_9_4_49.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"fc5a58a76c73444b51069ff7668518f52a2b3fbf62793fcf52ce1242dd1d044f"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.48",
+			"published": "2017-11-23T21:00:46Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.48/NNEDI3_v0_9_4_48.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"30c8d53bc6fdb4f5f6f1f8daf4765fca45d25d028a8f202cc3a8a5aad5705bc9"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.48/NNEDI3_v0_9_4_48.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"9a0eb00b481f2714f761acb9b9417cd2bba51c955d3df07554da1fe4c03987e7"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.47",
+			"published": "2017-08-27T07:09:37Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.47/NNEDI3_v0_9_4_47.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"d211be4655b2e3250d2ed63dd5c200d4ad1a6e705f4274f6be5d37170d8f1b9f"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.47/NNEDI3_v0_9_4_47.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"702c49d78424d418ee1623f2192e50de8b5b4bf5ae27fb26a45b9eeb7d1897d3"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.46",
+			"published": "2017-08-10T17:33:57Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.46/NNEDI3_v0_9_4_46.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"e35999e8a974464aadd024bc3e5328b3d1717e89684197465e0b2db48aacc719"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.46/NNEDI3_v0_9_4_46.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"c83a0941533c20cb4f7da4ce21bed008d18b325318dcb15affed61ace9bc208b"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.45",
+			"published": "2017-08-09T20:00:02Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.45/NNEDI3_v0_9_4_45.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"34014395b96262e5bb550252c7ea93f93ae9ee917687b78aad6e95a2f4cece5a"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.45/NNEDI3_v0_9_4_45.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"e70060989b1eba8682a12e8aed39316bed71f5436f49d36d3237b10d548bb80f"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.44",
+			"published": "2017-06-18T12:16:18Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.44/NNEDI3_v0_9_4_44.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"e887b17d288cba340d9602b37b66d457b9cfc1ae0d35548d514459a25242a106"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.44/NNEDI3_v0_9_4_44.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"aa1b65c1ee8e305fbba4b2ba7af226739ffd39f8e5c1dfdd7736dfa52a9ec99a"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.43",
+			"published": "2017-06-03T18:29:41Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.43/NNEDI3_v0_9_4_43.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"0316d97168db1358bfd8762ab4ac7a918d5e78a86fa9a72a808cbff233fe873f"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.43/NNEDI3_v0_9_4_43.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"1f1f7fa5d352d90508e06b9757127afade045cbcf8a47c145d1226eb849df180"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.42",
+			"published": "2017-05-20T14:22:46Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.42/NNEDI3_v0_9_4_42.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"ceb1dac22930c78bfe42dd8792373c0672030b6eeeb1ccc95b0a0bb16fe97113"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.42/NNEDI3_v0_9_4_42.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"3bd53054a3482bbfa7ba43f0f4d33ebe197dbedff3fdc9850756b1e727324d25"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.41",
+			"published": "2017-05-10T11:32:13Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.41/NNEDI3_v0_9_4_41.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"3f147d4bc907afc6ca2bfcac46a9328f1f0ecda572e2f1ca45e0f17191be2803"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.41/NNEDI3_v0_9_4_41.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"2a53ff1400235411895dc1ad55355e95960586262fc9d10c31fc95cb93165be2"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.40",
+			"published": "2017-04-17T09:13:57Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.40/NNEDI3_v0_9_4_40.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"3119289cc793e76907a85021a3cddada17598d73c5b1d3b53c156bc7b6e53f23"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.40/NNEDI3_v0_9_4_40.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"b5ae300cceb2ec886b6499dc749f30203f5bc8a4635c1a529421d83bdb4a180a"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.39",
+			"published": "2017-04-02T09:03:06Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.39/NNEDI3_v0_9_4_39.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"38b85dea40d038220f15f2127de0d8aa782915f9cdd32b3e4d2c5f0978a5be5b"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.39/NNEDI3_v0_9_4_39.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"cf52e9ce2120eca12218eaa496aed78d7a2f8f62855f84922650858e3941d994"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.38",
+			"published": "2017-03-22T21:12:05Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.38/NNEDI3_v0_9_4_38.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"8056adce49aa52620a47ba259323c91cede7483edabc15d79e0e3e2af165c9ba"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.38/NNEDI3_v0_9_4_38.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"6215832dffa67e32fe76a93b43fac7d76d6c96a3dcd08caa06ec64f78bde1d75"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.37",
+			"published": "2017-03-05T14:31:20Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.37/NNEDI3_v0_9_4_37.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"5783836aa3164a9d28292938d87c97c09cec51edc0857eb26990bec25c2ce69e"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.37/NNEDI3_v0_9_4_37.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"e8a23dd14cf85e5e1fde3fc5be1cc6685e17091776680d69b28cfb2e90ff263c"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.36",
+			"published": "2017-01-24T19:53:38Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.36/NNEDI3_v0_9_4_36.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"68fe62028fceb8493208829ab75566bdc749e4894f81a47aac00cf29ffdda7cb"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.36/NNEDI3_v0_9_4_36.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"50a62c93ba9096605edc9d3a8de0b641ddd4deadb2f6471ef516a8935cadfd0a"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.35",
+			"published": "2017-01-22T14:31:27Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.35/NNEDI3_v0_9_4_35.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"09b668db24b036f655a6ab1419d98c28d422b4cd666a9a6291b1ed5f95186e7d"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.35/NNEDI3_v0_9_4_35.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"8588dba7b501d2663e87ce0018ec92438789b51c55ee420b01ee2a06cbbc9f66"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.34",
+			"published": "2017-01-17T21:18:31Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.34/NNEDI3_v0_9_4_34.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"e67d98d5aabeed2e57a329ce081d8dcc238a45fe9294c24cc5cbd142c0eee2c0"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.34/NNEDI3_v0_9_4_34.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"451c4145732c214cbb60303ea04f4c7738b2c7a61391727a07f94aa652d9dba1"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.4.33",
+			"published": "2017-01-07T14:33:53Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.33/NNEDI3_v0_9_4_33.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"8a27ac5003c10d1b8fa58147dab1c3e04e369645a8c7c4e7181b4a2be3c090ea"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.33/NNEDI3_v0_9_4_33.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"5095733a20a18501317b7fa1dc1fdafc19693887ce7b9a852f050724b3c625bb"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.9.4.32",
+			"published": "2016-12-05T13:16:10Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/v0.9.4.32/NNEDI3_v0_9_4_32.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"e76327f558c5e69cca82540507630d7d0c2ab5f8cc6f03ee727a94195e239f02"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/v0.9.4.32/NNEDI3_v0_9_4_32.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"30571227c508e14b338c48a39a40761f7d5af2e292aff4f02b8dd71b86f858ff"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.9.4.31",
+			"published": "2014-04-25T22:08:08Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/v0.9.4.31/NNEDI3_v0_9_4_31.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"f90a9deee4997fbad2be7796a620355087f7b47a0cb9375d403dad651d62b2e2"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/v0.9.4.31/NNEDI3_v0_9_4_31.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"90a51623fb376655fa33ab442d966c15dbeb10e9b975f61fb2b50e5f2bcb930b"
+					]
+				}
+			}
+		}
+	]
+}

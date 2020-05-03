@@ -1,0 +1,34 @@
+{
+	"name": "L-SMASH-Works",
+	"type": "avsPlugin",
+	"description": "Is a source plugin similar to ffms2. Can also open ISO Base Media (mp4, mov, ...) without creating a separate file index.",
+	"website": "http://avisynth.nl/index.php/LSMASHSource",
+	"category": "Source/Output",
+	"identifier": "lsmash",
+	"namespace": "lsmash",
+	"github": "https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works",
+	"releases": [
+		{
+			"version": "r935+2",
+			"published": "2019-02-16T08:01:24Z",
+			"win32": {
+				"url": "https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works/releases/download/r935%2B2/LSMASHSource-AviSynth-plugin-r935%2B2-msvc.zip",
+				"files": {
+					"LSMASHSource.dll": [
+						"32-bit/LSMASHSource.dll",
+						"9fd7081dab3687d7b2522e9d96192dc164c96f6d439281de5f484ef6770cca3a"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works/releases/download/r935%2B2/LSMASHSource-AviSynth-plugin-r935%2B2-msvc.zip",
+				"files": {
+					"LSMASHSource.dll": [
+						"64-bit/LSMASHSource.dll",
+						"5cdb0c190bb4e6343524e22bb102d1b296d77ed80c0bd7ae315d85176804443b"
+					]
+				}
+			}
+		}
+	]
+}

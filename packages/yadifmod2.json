@@ -1,0 +1,83 @@
+{
+	"name": "Yadifmod2",
+	"type": "avsPlugin",
+	"description": "YadifMod2 = Yadif + YadifMod",
+	"website": "http://avisynth.nl/index.php/Yadifmod",
+	"category": "Deinterlacing",
+	"identifier": "yadifmod2",
+	"namespace": "yadifmod2",
+	"github": "https://github.com/chikuzen/yadifmod2",
+	"ignore": [
+		"0.0.2",
+		"0.0.1",
+		"0.0.0"
+	],
+	"releases": [
+		{
+			"version": "0.0.4-1",
+			"published": "2016-07-05T00:31:03Z",
+			"win32": {
+				"url": "https://github.com/chikuzen/yadifmod2/releases/download/0.0.4-1/yadifmod2-0.0.4-1.zip",
+				"files": {
+					"yadifmod2.dll": [
+						"yadifmod2.dll",
+						"080013bc04243d9c897c9b3fad7cfdf1850dc0bdf209a7d764bf00027dfa86fa"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/chikuzen/yadifmod2/releases/download/0.0.4-1/yadifmod2-0.0.4-1.zip",
+				"files": {
+					"yadifmod2.dll": [
+						"x64/yadifmod2.dll",
+						"8657fb36ea21f8c2d20c6c8f921d865b9c47b8bb236211e92f2b088d564ceed7"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.0.4/0.0.0",
+			"published": "2016-05-27T12:21:34Z",
+			"win32": {
+				"url": "https://github.com/chikuzen/yadifmod2/releases/download/0.0.4/0.0.0/yadifmod2-0.0.4.zip",
+				"files": {
+					"yadifmod2.dll": [
+						"yadifmod2.dll",
+						"79baed789bc988399effa59cad49c7d17cb26b6c57d0c5d4da1836663fc731c8"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/chikuzen/yadifmod2/releases/download/0.0.4/0.0.0/yadifmod2-0.0.4.zip",
+				"files": {
+					"yadifmod2.dll": [
+						"x64/yadifmod2.dll",
+						"f355ae64d601fe507c222d7ffdc13a1b856a25b332df80acbc2a314046780a85"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.0.3",
+			"published": "2016-03-20T08:03:52Z",
+			"win32": {
+				"url": "https://github.com/chikuzen/yadifmod2/releases/download/0.0.3/yadifmod2-0.0.3.zip",
+				"files": {
+					"yadifmod2.dll": [
+						"yadifmod2.dll",
+						"9eb31554ac3f1c6a953ba06a330906b60ddefc90df31d7b2d2f3240d6e79cdb9"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/chikuzen/yadifmod2/releases/download/0.0.3/yadifmod2-0.0.3.zip",
+				"files": {
+					"yadifmod2.dll": [
+						"x64/yadifmod2.dll",
+						"ea677543334d38bd1de343b6bf2e571c8cd67e730ac46cdf5dec7b5529e557fa"
+					]
+				}
+			}
+		}
+	]
+}

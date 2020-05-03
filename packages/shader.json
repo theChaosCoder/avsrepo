@@ -1,0 +1,343 @@
+{
+	"name": "AviSynthShader + SuperRes",
+	"type": "avsiScript",
+	"description": "This plugin allows running HLSL pixel shaders within AviSynth. This gives access to various HLSL filters that haven't been programmed in AviSynth.",
+	"website": "https://github.com/mysteryx93/AviSynthShader",
+	"category": "Other",
+	"identifier": "shader",
+	"modulename": "shader",
+	"doom9": "https://forum.doom9.org/showthread.php?t=172698",
+	"github": "https://github.com/mysteryx93/AviSynthShader",
+	"dependencies": [
+		"shader_bin"
+	],
+	"releases": [
+		{
+			"version": "v1.6.5",
+			"published": "2018-05-13T05:17:59Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.6.5/AviSynthShader-1.6.5.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"96f5aaba2232ae8e8a3b1ceb3e3010beec9d3ecd3814951970fdbab11d78e8a1"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.6.4",
+			"published": "2017-09-20T17:00:18Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.6.4/AviSynthShader-1.6.4.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"c21a842774f275e1089bebb635513b0a5270d6e9f3dee8a854fcfbc95539a057"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.6.3",
+			"published": "2017-09-08T18:27:43Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.6.3/AviSynthShader-1.6.3.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"418ccb44f5d6304260770254d0e7b4f3ec7ca9cc07742cc3a27ec8b4f6e3886d"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.6.2",
+			"published": "2017-08-09T20:37:17Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.6.2/AviSynthShader-1.6.2.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"418ccb44f5d6304260770254d0e7b4f3ec7ca9cc07742cc3a27ec8b4f6e3886d"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.6.1",
+			"published": "2017-03-21T18:57:53Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.6.1/AviSynthShader-1.6.1.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"a9bfeb43a44db50dd5e9e0bfd31d42c26607eb1ea11d24ee13320a8e12977d28"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.6",
+			"published": "2017-02-13T22:10:46Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.6/AviSynthShader-1.6.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"fbe3d17d1a4016b5d0cfbc73f4a91ef2fd5025f1b58131ed45f8047eca872f60"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.5.6",
+			"published": "2016-10-19T06:41:35Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.5.6/AviSynthShader-1.5.6.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"9d471d2793db52449c1b78b0632ac97acdf6bed027c4de47aeb361e59fed8dca"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.5.5",
+			"published": "2016-08-18T10:00:49Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.5.5/AviSynthShader-1.5.5.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"7dfab3c16eb5c9eb81c45f1f51fd111909e6a98c73c61abc0e87b9dd3cb29744"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.5.4",
+			"published": "2016-07-15T04:03:14Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.5.4/AviSynthShader-1.5.4.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"78f6bcb6e251154edeb20d81cf4b1231cd721d933cf7e78f3e78a993af38ab22"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.5.3",
+			"published": "2016-07-12T12:24:01Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.5.3/AviSynthShader-1.5.3.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"2e1e9a5a138d358c09aee502237a4fb9e733ef70ddfa93f79c42a35734731572"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.5.2",
+			"published": "2016-07-06T14:15:52Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.5.2/AviSynthShader-1.5.2.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"de939005df21f4e48c90422ab7f3e2105dd36bb6d6c541c950b1e00a4849a57a"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.5.1",
+			"published": "2016-06-29T08:10:32Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.5.1/AviSynthShader-1.5.1.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"0513ec78e6c6664292feb67422f49b2f0ee0b5208fee0b97b2a470cd541241d6"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.5",
+			"published": "2016-06-21T17:03:18Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.5/AviSynthShader-1.5.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"af2b42645530691634a9c681e2c11ef818b3426ae4ea1c30178fc182807c191f"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.4.6",
+			"published": "2016-06-06T09:57:13Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.4.6/AviSynthShader-1.4.6.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"02de6f3e3bfaac2567abba5847671fe1f549305e044b3e065b19f00a27ef6895"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.4.5",
+			"published": "2016-06-03T10:07:07Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.4.5/AviSynthShader-1.4.5.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"fa222610c61393f6c356e4434dec510b6708d6e93b86785930dfefde02653551"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.4.4",
+			"published": "2016-05-25T13:40:32Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.4.4/AviSynthShader-1.4.4.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"cbec0a01c376b1f50254480f24f378cfe212ac65d2630ee698a0d323fb6b1627"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1,4,3",
+			"published": "2016-05-20T05:57:19Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1%2C4%2C3/AviSynthShader-1.4.3.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"2ee2d9d58ab909a3910191b222ec81666b18a4c959079c07b410fe3dc0718a6a"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.4.2",
+			"published": "2016-05-19T16:06:10Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.4.2/AviSynthShader-1.4.2.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"0584a103d9714e488a3a20e617f20e22a94060979e6f3bdf1f7d9360252ba095"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.4.1",
+			"published": "2016-05-18T06:47:09Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.4.1/AviSynthShader-1.4.1.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"52537828bb6220872aa62260f643847f57b0b2862e8511d45c4a84dd91121dde"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.4",
+			"published": "2016-05-17T07:49:55Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.4/AviSynthShader-1.4.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"134e4777385bb776f4e81702081e7c0acfd35d2854f7d93f96cdc7b24ff332c8"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.3.7",
+			"published": "2016-05-05T10:03:55Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.3.7/AviSynthShader-1.3.7.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"5d01c7b2933ecf571388fa21a9f1e101bd3d0ca9c641cfcb01f70a5cab5820c2"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.3.6",
+			"published": "2016-05-02T08:40:59Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.3.6/AviSynthShader-1.3.6.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"b8c83d0334a8d7c6a302c652ebe5c24dcdd0cae5e565750052631b9ea1a23fe7"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.3.5",
+			"published": "2016-01-13T05:43:10Z",
+			"script": {
+				"url": "https://github.com/mysteryx93/AviSynthShader/releases/download/v1.3.5/AviSynthShader-1.3.5.zip",
+				"files": {
+					"Shader.avsi": [
+						"Shader.avsi",
+						"99f5b64eb5efc29cad50b73e3788399a1254122164d9e661ab1c5b5e44eb00a4"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.3.4",
+			"published": "2016-01-07T18:54:03Z"
+		},
+		{
+			"version": "v1.3.3",
+			"published": "2015-12-30T22:21:33Z"
+		},
+		{
+			"version": "v1.3.2",
+			"published": "2015-12-29T00:53:56Z"
+		},
+		{
+			"version": "v1.3.1",
+			"published": "2015-12-06T21:39:28Z"
+		},
+		{
+			"version": "v1.3",
+			"published": "2015-12-02T03:37:46Z"
+		},
+		{
+			"version": "v1.2.2",
+			"published": "2015-11-29T20:41:50Z"
+		},
+		{
+			"version": "v1.2.1",
+			"published": "2015-11-28T18:16:51Z"
+		}
+	]
+}

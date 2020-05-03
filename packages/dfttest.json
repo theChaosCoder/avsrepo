@@ -1,0 +1,125 @@
+{
+	"name": "Dfttest",
+	"type": "avsPlugin",
+	"description": "2D/3D frequency domain denoiser using Discrete Fourier transform",
+	"website": "http://avisynth.nl/index.php/Dfttest",
+	"category": "Denoising",
+	"identifier": "dfttest",
+	"namespace": "dfttest",
+	"github": "https://github.com/pinterf/dfttest",
+	"ignore": [
+		"1.9.4.2"
+	],
+	"releases": [
+		{
+			"version": "1.9.6",
+			"published": "2020-03-24T15:16:59Z",
+			"win32": {
+				"url": "https://github.com/pinterf/dfttest/releases/download/1.9.6/dfttest-v1.9.6.7z",
+				"files": {
+					"dfttest.dll": [
+						"clang/x86/dfttest.dll",
+						"cc50cd022eda5b63be2251529d3b57f7ff9506fad39d42a234d34fe367494ac3"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/dfttest/releases/download/1.9.6/dfttest-v1.9.6.7z",
+				"files": {
+					"dfttest.dll": [
+						"clang/x64/dfttest.dll",
+						"0d147f3bc998f5186e6c63587924fef13e8d54e7c79d818823a9b0a5052e7099"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.9.5",
+			"published": "2020-03-23T20:40:18Z",
+			"win32": {
+				"url": "https://github.com/pinterf/dfttest/releases/download/1.9.5/dfttest-v1.9.5.7z",
+				"files": {
+					"dfttest.dll": [
+						"clang/x86/dfttest.dll",
+						"5e71a55677376401dec04c21fb91d78066d4cee76ef27d3507c7e9f3de25eda5"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/dfttest/releases/download/1.9.5/dfttest-v1.9.5.7z",
+				"files": {
+					"dfttest.dll": [
+						"clang/x64/dfttest.dll",
+						"716a508cb13438d186190f5f667e5fbe57274f42e869a647ce5638cab0b7f988"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.9.4.4",
+			"published": "2020-03-23T12:39:52Z",
+			"win32": {
+				"url": "https://github.com/pinterf/dfttest/releases/download/1.9.4.4/dfttest-v1.9.4.4.7z",
+				"files": {
+					"dfttest.dll": [
+						"clang/x86/dfttest.dll",
+						"ca9c814ecb567dcac8be0c903ec2373f4034596413b775019a73eaaaf622e7e8"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/dfttest/releases/download/1.9.4.4/dfttest-v1.9.4.4.7z",
+				"files": {
+					"dfttest.dll": [
+						"clang/x64/dfttest.dll",
+						"ecf468969870a20f1e3e8f351a042017b57f6a1d0d3bc2158fddbdeecf4ca482"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.9.4.3",
+			"published": "2018-10-14T14:29:18Z",
+			"win32": {
+				"url": "https://github.com/DJATOM/dfttest/releases/download/1.9.4.3/dfttest-v1.9.4.3.7z",
+				"files": {
+					"dfttest.dll": [
+						"x86/dfttest.dll",
+						"d64a24177f5fc8607147b37eabbd8e1a67a6574e21c8a8109dd12907c82e9ba6"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/DJATOM/dfttest/releases/download/1.9.4.3/dfttest-v1.9.4.3.7z",
+				"files": {
+					"dfttest.dll": [
+						"x64/dfttest.dll",
+						"e27dc8e09495d08f4f0c729e9171fe0164b99df3fc6f47a66bcea5c24ef63f5a"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.9.4.1",
+			"published": "2017-08-14T22:38:54Z",
+			"win32": {
+				"url": "https://github.com/DJATOM/dfttest/releases/download/1.9.4.1/dfttest-1.9.4.1-msvc.7z",
+				"files": {
+					"dfttest.dll": [
+						"x86/dfttest.dll",
+						"19ddf00e7c40cc873471785860e727d08d48f69c156ac3b7289286be33158497"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/DJATOM/dfttest/releases/download/1.9.4.1/dfttest-1.9.4.1-msvc.7z",
+				"files": {
+					"dfttest.dll": [
+						"x64/dfttest.dll",
+						"30689c6b40d611c2cc0c2e15d25a1641fe18f5ebe3be495f17f8cc72b0250194"
+					]
+				}
+			}
+		}
+	]
+}

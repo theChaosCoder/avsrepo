@@ -1,0 +1,82 @@
+{
+	"name": "Dehalo_alpha",
+	"type": "avsiScript",
+	"description": "Reduce halo artifacts that can occur when sharpening.",
+	"website": "http://avisynth.nl/index.php/DeHalo_alpha",
+	"github": "https://github.com/realfinder/AVS-Stuff",
+	"category": "Dehaloing",
+	"identifier": "dehalo_alpha",
+	"modulename": "dehalo_alpha",
+	"dependencies": [
+		"rgtools",
+		"masktools",
+		"zs_rf_shared"
+	],
+	"releases": [
+		{
+			"version": "2020.01.28 - git:d8cb6eb",
+			"published": "2020-03-03T18:06:35Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/d8cb6eb025e1990e270d28ca88c5ee7bd771bdc5/avs%202.5%20and%20up/DeHalo_alpha_mt2.avsi",
+				"files": {
+					"DeHalo_alpha_mt2.avsi": [
+						"DeHalo_alpha_mt2.avsi",
+						"4c2b888c9371d1940b456dac5d583ff7c9859718694ece725614d56ca193147f"
+					]
+				}
+			}
+		},
+		{
+			"version": "2019-07-22",
+			"published": "2019-07-22T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/TMQuPWq7",
+				"files": {
+					"DeHalo_alpha_mt2.avsi": [
+						"TMQuPWq7",
+						"4dd77d5f4d8c745755eb555b0d2403b4ca459373e90d0b7ebbd85aeb66d5b7c5"
+					]
+				}
+			}
+		},
+		{
+			"version": "2019-07-22",
+			"published": "2019-07-22T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/TMQuPWq7",
+				"files": {
+					"DeHalo_alpha_mt2.avsi": [
+						"TMQuPWq7",
+						"4dd77d5f4d8c745755eb555b0d2403b4ca459373e90d0b7ebbd85aeb66d5b7c5"
+					]
+				}
+			}
+		},
+		{
+			"version": "2019-07-20",
+			"published": "2019-07-20T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/p3vgWdTu",
+				"files": {
+					"DeHalo_alpha_MT2.avsi": [
+						"p3vgWdTu",
+						"cf09d1416a5746f52f6b0cbf979a1ae9237f873b93d125d669711f32e9daa5be"
+					]
+				}
+			}
+		},
+		{
+			"version": "2019-02-19",
+			"published": "2019-02-19T12:00:00Z",
+			"script": {
+				"url": "https://pastebin.com/raw/uB6Pynhr",
+				"files": {
+					"DeHalo_alpha_MT2.avsi": [
+						"uB6Pynhr",
+						"1bfbe5f29d86f82a1cf4c117b21a30f77fb4205a6c837c2bc4f829c0ceac955a"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,188 @@
+{
+	"name": "RgTools",
+	"type": "avsPlugin",
+	"description": "RgTools is a modern rewrite of RemoveGrain, Repair, BackwardClense, Clense, ForwardClense and VerticalCleaner in a single plugin. RgTools is mostly backward compatible to the original plugins.",
+	"website": "https://github.com/pinterf/RgTools",
+	"category": "Other",
+	"identifier": "rgtools",
+	"namespace": "rgtools",
+	"github": "https://github.com/pinterf/RgTools",
+	"releases": [
+		{
+			"version": "1.0",
+			"published": "2020-04-27T21:10:17Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/1.0/RgTools-v1.0.7z",
+				"files": {
+					"RgTools.dll": [
+						"x86/RgTools.dll",
+						"2c8ca8312bbc2af89c75ba549583e8eacfff96c2dc224e1975f219921b57d0ae"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/1.0/RgTools-v1.0.7z",
+				"files": {
+					"RgTools.dll": [
+						"x64/RgTools.dll",
+						"19f89362b2b529c0b2aec6913cd5f2177c4b56699b35117c04cdb8d9f637cf0a"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.99",
+			"published": "2020-04-26T19:58:00Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.99/RgTools-0.99.7z",
+				"files": {
+					"RgTools.dll": [
+						"x86/RgTools.dll",
+						"18268e060afeace1573f7b6ef02e789c924433ac416c2556ae46ee26ec2427ae"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.99/RgTools-0.99.7z",
+				"files": {
+					"RgTools.dll": [
+						"x64/RgTools.dll",
+						"4efe51d7c12063a9390267b2dc6a61a503ac1a6ddcef45b146f81da157dd308e"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.98",
+			"published": "2019-08-14T11:53:36Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.98/RgTools-0.98.7z",
+				"files": {
+					"RgTools.dll": [
+						"x86/RgTools.dll",
+						"8fc93a61c0b4bb6aeeb1b766791b30fec028bb75cfb7aeb0c6e5d982f5bda9c7"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.98/RgTools-0.98.7z",
+				"files": {
+					"RgTools.dll": [
+						"x64/RgTools.dll",
+						"144d45ab7dee4efc49156a5b292e42d3963ffb67531317a08589d003c3d4a839"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.97",
+			"published": "2018-07-02T14:38:12Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.97/RgTools-0.97.7z",
+				"files": {
+					"RgTools.dll": [
+						"x86/RgTools.dll",
+						"2311cb18610d14350c9cf649cce17e0d676a5643f2e640db06e200a9ff293de0"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.97/RgTools-0.97.7z",
+				"files": {
+					"RgTools.dll": [
+						"x64/RgTools.dll",
+						"254dc87d6d61d112db54ae913caa6af7397d3883514867c4b151dd01aeb8dcd4"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.96",
+			"published": "2017-06-09T14:25:09Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.96/RgTools-0.96.7z",
+				"files": {
+					"RgTools.dll": [
+						"x86/RgTools.dll",
+						"e92cd5ba07ff7f4718c9f76b55d1cc5180f169f26d926c8a6e59f12c4b039104"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.96/RgTools-0.96.7z",
+				"files": {
+					"RgTools.dll": [
+						"x64/RgTools.dll",
+						"7f1bcefeb658fb7fb177c1de36ad2a7d64f7f461318019d7cab29da3d29fd535"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.95",
+			"published": "2017-03-14T17:05:40Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.95/RgTools-0.95.7z",
+				"files": {
+					"RgTools.dll": [
+						"x86/RgTools.dll",
+						"3764c44992877e5db0d1eda078a1d3d4f331608a24316dbcecd1ebf03c3f8950"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.95/RgTools-0.95.7z",
+				"files": {
+					"RgTools.dll": [
+						"x64/RgTools.dll",
+						"670ffbbd02488b83dce00c7b9f6fb98e10a8af31d3c43f5540c10253053efe97"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.94",
+			"published": "2017-01-26T20:52:23Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.94/RgTools-0.94.7z",
+				"files": {
+					"RgTools.dll": [
+						"x86/RgTools.dll",
+						"245dd707b32d39e6515572d7d10a3e2534f764e99e24cdbb052f0b51d8c8c72a"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.94/RgTools-0.94.7z",
+				"files": {
+					"RgTools.dll": [
+						"x64/RgTools.dll",
+						"917fa80dd18a0bc318c2642700f01640ab82ee3e47a8acb9b62dfa311474da1f"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.93",
+			"published": "2016-11-27T09:15:20Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.93/RgTools-0.93.7z",
+				"files": {
+					"RgTools.dll": [
+						"x86/RgTools.dll",
+						"d0e59c7d9fa8d4d0825ae0efc233915712187fe658ffc2d19819803940558d8a"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/0.93/RgTools-0.93.7z",
+				"files": {
+					"RgTools.dll": [
+						"x64/RgTools.dll",
+						"cb3c1f76077ac759efdcf8564ad3249f8c4c2460308621c1fcd644b696c72b45"
+					]
+				}
+			}
+		}
+	]
+}

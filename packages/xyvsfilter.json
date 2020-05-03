@@ -1,0 +1,106 @@
+{
+	"name": "xyVSFilter",
+	"type": "avsPlugin",
+	"description": "xy-VSFilter, modification by pinterf",
+	"website": "https://github.com/pinterf/xy-VSFilter",
+	"category": "Subtitles",
+	"identifier": "xyvsfilter",
+	"namespace": "xyvsfilter",
+	"github": "https://github.com/pinterf/xy-VSFilter",
+	"releases": [
+		{
+			"version": "3.2.0.802",
+			"published": "2018-10-31T10:09:42Z",
+			"win32": {
+				"url": "https://github.com/pinterf/xy-VSFilter/releases/download/3.2.0.802/xyVSFilterSubFilter-pfmod-3.2.0.802.7z",
+				"files": {
+					"VSFilter.dll": [
+						"x86/VSFilter.dll",
+						"204f7e29cf428339efc4d291d81ca80602ee7577fd35edd1fd6814dd184a2af2"
+					],
+					"XySubFilter.dll": [
+						"x86/XySubFilter.dll",
+						"176107928a7e409c840771a1d23bffbff169741898306b46f8a915268ba7bb93"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/xy-VSFilter/releases/download/3.2.0.802/xyVSFilterSubFilter-pfmod-3.2.0.802.7z",
+				"files": {
+					"VSFilter.dll": [
+						"x64/VSFilter.dll",
+						"e8e21083a397b414bb6617276f7e5282ae4d3734a3f7df6ec4d69cbada064be1"
+					],
+					"XySubFilter.dll": [
+						"x64/XySubFilter.dll",
+						"5bcf94fd5e8134c865e408e99f545a813de5b292e2d83c85ff0fd4f7dea56818"
+					]
+				}
+			}
+		},
+		{
+			"version": "3.1.0.801",
+			"published": "2018-09-04T10:59:55Z",
+			"win32": {
+				"url": "https://github.com/pinterf/xy-VSFilter/releases/download/3.1.0.801/xyVSFilterSubFilter-3.1.0.801.7z",
+				"files": {
+					"VSFilter.dll": [
+						"x86/VSFilter.dll",
+						"5feb5e948cdbce1da32d5dad9351f0be5334cbaa2680b5197716462d0f90cde8"
+					],
+					"XySubFilter.dll": [
+						"x86/XySubFilter.dll",
+						"ed8e75de80a1d2a49eea73c2047266faa996642316a1d05dd9f241d9750789e3"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/xy-VSFilter/releases/download/3.1.0.801/xyVSFilterSubFilter-3.1.0.801.7z",
+				"files": {
+					"VSFilter.dll": [
+						"x64/VSFilter.dll",
+						"2e4f85b60646873cbab1522b83673733cf0cd0e7aec641d896f2464cbff53488"
+					],
+					"XySubFilter.dll": [
+						"x64/XySubFilter.dll",
+						"5b2ac1ede9374f5ecb55ac11803defd3b95723bd880b03e9373783806981fe92"
+					]
+				}
+			}
+		},
+		{
+			"version": "3.1.0.800",
+			"published": "2018-04-11T16:34:16Z",
+			"win32": {
+				"url": "https://github.com/pinterf/xy-VSFilter/releases/download/3.1.0.800/xyVSFilterSubFilter-3.1.0.800.7z",
+				"files": {
+					"VSFilter.dll": [
+						"x86/VSFilter.dll",
+						"b06dcde7471d976e539fa2659ddab9fe4d8e5d40f1a250429e22b37d10ce31ee"
+					],
+					"XySubFilter.dll": [
+						"x86/XySubFilter.dll",
+						"8a8baa01257d5fb7e35076f99237c6220360a72a4a71c45312076c94e72f3fc2"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/xy-VSFilter/releases/download/3.1.0.800/xyVSFilterSubFilter-3.1.0.800.7z",
+				"files": {
+					"VSFilter.dll": [
+						"x64/VSFilter.dll",
+						"1a77cd547e83f4acc8a9a08d70876e0b1737116022dcc8b2c648a851add309be"
+					],
+					"XySubFilter.dll": [
+						"x64/XySubFilter.dll",
+						"2686f887240e7bf7219d88cfdd38aa0cfffaaeb612c4d1d6c8746ba73e322db0"
+					]
+				}
+			}
+		},
+		{
+			"version": "3.0.0.400",
+			"published": "2018-04-05T18:09:18Z"
+		}
+	]
+}

@@ -183,7 +183,7 @@ def get_latest_installable_release(p, bin_name):
     return None
 
 def update_package(name):
-    with open('local/' + name + '.json', 'r', encoding='utf-8') as ml:
+    with open('packages/' + name + '.json', 'r', encoding='utf-8') as ml:
         pfile = json.load(ml)
         existing_rel_list = []
         for rel in pfile['releases']:
@@ -318,10 +318,10 @@ def update_package(name):
             
             if has_new_releases:
                 if args.overwrite:
-                    with open('local/' + name + '.json', 'w', encoding='utf-8') as pl:
+                    with open('packages/' + name + '.json', 'w', encoding='utf-8') as pl:
                         json.dump(fp=pl, obj=pfile, ensure_ascii=False, indent='\t')
                 else:
-                    with open('local/' + name + '.new.json', 'w', encoding='utf-8') as pl:
+                    with open('packages/' + name + '.new.json', 'w', encoding='utf-8') as pl:
                         json.dump(fp=pl, obj=pfile, ensure_ascii=False, indent='\t')
                 print('Release file updated')
                 return 1
@@ -356,7 +356,7 @@ def verify_package(pfile, existing_identifiers):
 def compile_packages():
     combined = []
     existing_identifiers = []
-    for f in os.scandir('local'):
+    for f in os.scandir('packages'):
         if f.is_file() and f.path.endswith('.json'):
             with open(f.path, 'r', encoding='utf-8') as ml:
                 pfile = json.load(ml)
@@ -364,7 +364,7 @@ def compile_packages():
                     raise Exception('Duplicate identifier: ' + pfile['identifier'])
                 existing_identifiers.append(pfile['identifier'])
 
-    for f in os.scandir('local'):
+    for f in os.scandir('packages'):
         if f.is_file() and f.path.endswith('.json'):
             with open(f.path, 'r', encoding='utf-8') as ml:
                 print('Combining: ' + f.path)
@@ -391,7 +391,7 @@ elif args.operation == 'update-local':
         num_skipped = 0
         num_nochange = 0
         num_updated = 0
-        for f in os.scandir('local'):
+        for f in os.scandir('packages'):
             if f.is_file() and f.path.endswith('.json'):         
                 result = update_package(os.path.splitext(os.path.basename(f))[0])
                 if result == -1:

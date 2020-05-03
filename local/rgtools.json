@@ -1,6 +1,6 @@
 {
 	"name": "RgTools",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "RgTools is a modern rewrite of RemoveGrain, Repair, BackwardClense, Clense, ForwardClense and VerticalCleaner in a single plugin. RgTools is mostly backward compatible to the original plugins.",
 	"website": "https://github.com/pinterf/RgTools",
 	"category": "Other",

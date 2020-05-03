@@ -1,6 +1,6 @@
 {
 	"name": "L-SMASH-Works",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "Is a source plugin similar to ffms2. Can also open ISO Base Media (mp4, mov, ...) without creating a separate file index.",
 	"website": "http://avisynth.nl/index.php/LSMASHSource",
 	"category": "Source/Output",

@@ -1,6 +1,6 @@
 {
 	"name": "MedianBlur2",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "MedianBlur2 is an implementation of constant time median filter",
 	"website": "http://avisynth.nl/index.php/MedianBlur2",
 	"github": "https://github.com/pinterf/MedianBlur2",

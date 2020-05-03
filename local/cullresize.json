@@ -1,6 +1,6 @@
 {
 	"name": "CullResize",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "x64 port of modified resize functions for Destripe.avsi",
 	"website": "https://github.com/DJATOM/CullResize",
 	"category": "Resizing and Format Conversion",

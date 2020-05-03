@@ -1,6 +1,6 @@
 {
 	"name": "TMM2",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "TMM2 builds a motion-mask for TDeint, which TDeint uses via its 'emask' parameter.",
 	"website": "https://github.com/chikuzen/TMM2",
 	"category": "Other",

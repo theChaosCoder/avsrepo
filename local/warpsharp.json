@@ -1,6 +1,6 @@
 {
 	"name": "WarpSharp",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "WarpSharp",
 	"website": "http://avisynth.nl/index.php/WarpSharp",
 	"category": "Sharpening",

@@ -1,6 +1,6 @@
 {
 	"name": "srestore",
-	"type": "AviScript",
+	"type": "avsiScript",
 	"description": "Mighty deblending and decimation filter",
 	"website": "http://avisynth.nl/index.php/Srestore",
 	"doom9": "https://forum.doom9.org/showthread.php?t=95924",

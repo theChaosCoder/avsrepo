@@ -1,6 +1,6 @@
 {
 	"name": "JPSDR plugins pack",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "JPSDR Avisynth's plugins pack: AutoYUY2, NNEDI3, ResampleMT/Desample, aWarpSharpMT, HDRTools",
 	"website": "https://github.com/jpsdr/plugins_JPSDR",
 	"category": "Other",

@@ -1,6 +1,6 @@
 {
 	"name": "Average",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "A simple plugin that calculates weighted average of multiple frames.",
 	"website": "https://github.com/pinterf/Average",
 	"category": "Other",

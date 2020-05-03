@@ -1,6 +1,6 @@
 {
 	"name": "MaskTools2",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "MaskTools 2",
 	"website": "https://github.com/pinterf/masktools",
 	"doom9": "https://forum.doom9.org/showthread.php?t=174333",

@@ -1,6 +1,6 @@
 {
 	"name": "LSFmod",
-	"type": "AviScript",
+	"type": "avsiScript",
 	"description": "A LimitedSharpenFaster mod with a lot of new features and optimizations.",
 	"website": "http://avisynth.nl/index.php/LSFmod",
 	"github": "https://github.com/realfinder/AVS-Stuff",

@@ -1,6 +1,6 @@
 {
 	"name": "Dfttest",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "2D/3D frequency domain denoiser using Discrete Fourier transform",
 	"website": "http://avisynth.nl/index.php/Dfttest",
 	"category": "Denoising",

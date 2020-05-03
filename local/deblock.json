@@ -1,6 +1,6 @@
 {
 	"name": "Deblock",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "Simple deblocking filter by Manao and Fizick. It does a deblocking of the picture, using the deblocking filter of h264. Back-ported from VapourSynth with high-bit-depth support.",
 	"website": "https://github.com/mysteryx93/Avisynth-Deblock",
 	"category": "Other",

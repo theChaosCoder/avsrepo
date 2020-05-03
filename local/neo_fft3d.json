@@ -1,6 +1,6 @@
 {
 	"name": "Neo FFT3D",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "3D frequency domain denoiser/sharpener. Forked from fft3dfilter.",
 	"category": "Denoising",
 	"identifier": "neo_fft3d",

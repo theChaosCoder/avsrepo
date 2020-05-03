@@ -1,6 +1,6 @@
 {
 	"name": "YAHR",
-	"type": "AviScript",
+	"type": "avsiScript",
 	"description": "Y'et A'nother H'alo R'educing script",
 	"github": "https://github.com/realfinder/AVS-Stuff",
 	"category": "Dehaloing",

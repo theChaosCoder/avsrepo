@@ -1,6 +1,6 @@
 {
 	"name": "DupStep",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "Duplicate frame detector/decimator filter for AviSynth+",
 	"website": "https://github.com/Orum/DupStep",
 	"category": "Other",

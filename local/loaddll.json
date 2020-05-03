@@ -1,6 +1,6 @@
 {
 	"name": "LoadDLL",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "Load External .dll into AviSynth manually",
 	"website": "http://www.iol.ie/~schubert/gas/gas.html",
 	"doom9": "https://forum.doom9.org/showthread.php?p=918605#post918605",

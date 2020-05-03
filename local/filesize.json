@@ -1,6 +1,6 @@
 {
 	"name": "FileSize",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "Get filesize in AviSynth. -1 bytes if file not found. Please note that return type is Float to avoid integer overflow.",
 	"website": "https://github.com/pureexe/FileSize_Avisynth",
 	"category": "Other",

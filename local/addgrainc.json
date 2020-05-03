@@ -1,6 +1,6 @@
 {
 	"name": "AddGrainC",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "Generates film like grain or other effects (like rain) by adding random noise to a video clip.",
 	"website": "http://avisynth.nl/index.php/AddGrainC",
 	"doom9": "https://forum.doom9.org/showthread.php?t=111849",

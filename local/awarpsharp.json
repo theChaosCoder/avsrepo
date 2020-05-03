@@ -1,6 +1,6 @@
 {
 	"name": "aWarpSharp",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "This filter implements the same WarpSharpening algorithm as aWarpSharp by MarcFD, but with several bugfixes and optimizations. In addition to complete algorithm filter aWarpSharp2 parts of algorithm are also available as aSobel, aBlur, aWarp.",
 	"website": "https://github.com/pinterf/aWarpSharp",
 	"category": "Sharpening",

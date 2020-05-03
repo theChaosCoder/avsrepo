@@ -1,6 +1,6 @@
 {
 	"name": "TEdgeMask",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "modified TEdgeMask for Avisynth2.6x",
 	"website": "http://avisynth.nl/index.php/TEdgeMask",
 	"category": "Other",

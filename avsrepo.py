@@ -144,9 +144,9 @@ def check_hash(data, ref_hash):
     return (data_hash == ref_hash, data_hash, ref_hash)        
 
 def get_bin_name(p):
-    if p['type'] == 'AviScript':
+    if p['type'] == 'avsiScript':
         return 'script'
-    elif p['type'] == 'AviPlugin':
+    elif p['type'] == 'avsPlugin':
         if is_64bits:
             return 'win64'
         else:
@@ -155,9 +155,9 @@ def get_bin_name(p):
         raise Exception('Unknown install type')
 
 def get_install_path(p):
-    if p['type'] == 'AviScript':
+    if p['type'] == 'avsiScript':
         return avi_script_path
-    elif p['type'] == 'AviPlugin':
+    elif p['type'] == 'avsPlugin':
         return avi_plugin_path
     else:
         raise Exception('Unknown install type')
@@ -251,7 +251,7 @@ def print_package_status(p):
         name = '*' + name
     elif is_package_upgradable(p['identifier'], True):
         name = '+' + name
-    print(package_print_string.format(name, p['namespace'] if p['type'] == 'AviPlugin' else p['modulename'], installed_packages[p['identifier']] if p['identifier'] in installed_packages else '', lastest_installable['version'] if lastest_installable is not None else '', p['identifier']))
+    print(package_print_string.format(name, p['namespace'] if p['type'] == 'avsPlugin' else p['modulename'], installed_packages[p['identifier']] if p['identifier'] in installed_packages else '', lastest_installable['version'] if lastest_installable is not None else '', p['identifier']))
 
 def list_installed_packages():
     print(package_print_string.format('Name', 'Namespace', 'Installed', 'Latest', 'Identifier'))

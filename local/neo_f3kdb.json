@@ -1,6 +1,6 @@
 {
 	"name": "Neo f3kdb",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "Feband filter originally written for AviUtl. Fork of flash3kyuu_deband with focus on AviSynth+ native high bit depth support.",
 	"website": "https://github.com/HomeOfAviSynthPlusEvolution/neo_f3kdb",
 	"doom9": "https://forum.doom9.org/showthread.php?t=176553",

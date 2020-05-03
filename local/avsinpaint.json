@@ -1,6 +1,6 @@
 {
 	"name": "AvsInpaint",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "Uses AVSInpaint to remove a logo, such as that of a TV station, from a specified clip. Image Inpainting is the art of restoring destroyed parts of an image by using information of valid parts of the image in a way, so that the human eye does not recognize the damaged areas (at least not at a first sight). In video processing image inpainting is often applied to videos in order to remove TV station logos.",
 	"website": "http://avisynth.nl/index.php/InpaintFunc",
 	"category": "Other",

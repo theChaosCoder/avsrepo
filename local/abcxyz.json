@@ -1,6 +1,6 @@
 {
 	"name": "Abcxyz",
-	"type": "AviScript",
+	"type": "avsiScript",
 	"description": "Reduces halo artifacts that can occur when sharpening.",
 	"website": "http://avisynth.nl/index.php/Abcxyz",
 	"github": "https://github.com/realfinder/AVS-Stuff",

@@ -1,6 +1,6 @@
 {
 	"name": "FrameRateConverter",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "Increases the frame rate with interpolation and fine artifact removal.",
 	"website": "https://github.com/mysteryx93/FrameRateConverter",
 	"category": "Other",

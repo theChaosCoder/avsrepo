@@ -1,6 +1,6 @@
 {
 	"name": "NNEDI3",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "nnedi3 is an intra-field only deinterlacer and is also very good for enlarging images by powers of 2",
 	"website": "https://github.com/jpsdr/NNEDI3",
 	"category": "Deinterlacing",

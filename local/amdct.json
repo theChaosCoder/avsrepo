@@ -1,6 +1,6 @@
 {
 	"name": "amDCT",
-	"type": "AviPlugin",
+	"type": "avsPlugin",
 	"description": "amDCT() is an adaptive video filter providing deblocking, sharpening, local range expansion, smoothing, and bright noise removal in a single filter that can be used on video of any level of quality. These four operations work synergistically to drastically reduce block artifacts while maintaining detail and increasing local contrast.",
 	"website": "https://sites.google.com/site/amdctfilter",
 	"category": "Other",

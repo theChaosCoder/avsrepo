@@ -25,6 +25,7 @@ jobs:
     - name: Install PyInstaller
       run: |
         python -m pip install --upgrade pip
+        pip install tqdm
         pip install pyinstaller
     - name: build with PyInstaller
       run: |
@@ -52,6 +53,7 @@ jobs:
     - name: Install PyInstaller
       run: |
         python -m pip install --upgrade pip
+        pip install tqdm
         pip install pyinstaller
     - name: build with PyInstaller
       run: |

@@ -497,6 +497,6 @@ elif args.operation == 'available':
     detect_installed_packages()
     list_available_packages()
 elif args.operation == 'update':
-    update_package_definition('http://vsdb.top/avspackages.zip')
+    update_package_definition('https://vsdb.top/avspackages.zip')
 elif args.operation == 'paths':
     print_paths()

@@ -72,21 +72,21 @@ if (args.operation in ['install', 'upgrade', 'uninstall']) == ((args.package is 
 
 file_dirname = os.path.dirname(os.path.abspath(app_file))
 package_json_path = os.path.join(file_dirname, 'avspackages.json')
-avi_script_path = file_dirname #if args.portable else site.getusersitepackages()
+avs_script_path = file_dirname #if args.portable else site.getusersitepackages()
 if args.script_path is not None:
-    avi_script_path = args.script_path
+    avs_script_path = args.script_path
 
 if args.portable:
     base_path = file_dirname
     plugin32_path = os.path.join(base_path, 'avisynth32', 'plugins')
     plugin64_path = os.path.join(base_path, 'avisynth64', 'plugins')
 
-avi_plugin_path = plugin64_path if is_64bits else plugin32_path
+avs_plugin_path = plugin64_path if is_64bits else plugin32_path
 if args.binary_path is not None:
-    avi_plugin_path = args.binary_path
+    avs_plugin_path = args.binary_path
 	
-os.makedirs(avi_script_path, exist_ok=True)
-os.makedirs(avi_plugin_path, exist_ok=True)
+os.makedirs(avs_script_path, exist_ok=True)
+os.makedirs(avs_plugin_path, exist_ok=True)
 os.makedirs(os.path.dirname(package_json_path), exist_ok=True)
 
 
@@ -156,9 +156,9 @@ def get_bin_name(p):
 
 def get_install_path(p):
     if p['type'] == 'avsiScript':
-        return avi_script_path
+        return avs_script_path
     elif p['type'] == 'avsPlugin':
-        return avi_plugin_path
+        return avs_plugin_path
     else:
         raise Exception('Unknown install type')
 
@@ -431,8 +431,8 @@ def update_package_definition(url):
 def print_paths():
     print('Paths:')
     print('Definitions: ' + package_json_path)
-    print('Binaries: ' + avi_plugin_path)
-    print('Scripts: ' + avi_script_path)    
+    print('Binaries: ' + avs_plugin_path)
+    print('Scripts: ' + avs_script_path)    
 
 if args.operation != 'update' and package_list is None:
     print('Failed to open avspackages.json. Run update command.')

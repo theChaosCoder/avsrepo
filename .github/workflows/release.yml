@@ -4,6 +4,10 @@ on:
   push:
     tags:
       - '*.*.*'
+env:
+  PYTHON_VERSION: '3.7'
+  UPX_VERSION: '3.96'
+  UPX_SOURCE: 'https://github.com/upx/upx/releases/download/v'
 
 jobs:
 
@@ -17,19 +21,22 @@ jobs:
       shell: bash
       run: |
         echo ::set-output name=tag::${GITHUB_REF#refs/tags/}
-    - name: Set up Python 3.7
+    - name: Set up Python ${{ env.PYTHON_VERSION }}
       uses: actions/setup-python@v2
       with:
-        python-version: 3.7
+        python-version: ${{ env.PYTHON_VERSION }}
         architecture: 'x86'
-    - name: Install PyInstaller
+    - name: Install PyInstaller and UPX
       run: |
         python -m pip install --upgrade pip
         pip install tqdm
         pip install pyinstaller
+        mkdir ./UPX && mkdir ./UPX/dist
+        curl -sL -o ./UPX/upx-compress ${{ env.UPX_SOURCE }}${{ env.UPX_VERSION }}/upx-${{ env.UPX_VERSION }}-win32.zip
+        unzip ./UPX/upx-compress -d ./UPX/dist/
     - name: build with PyInstaller
       run: |
-        pyinstaller -F -n avsrepo-32 avsrepo.py
+        set PYTHONOPTIMIZE=1 && pyinstaller -F -w -i ./resources/app.ico --clean --upx-dir=./UPX/dist/ -n avsrepo-32 avsrepo.py
     - name: Upload release file
       uses: actions/upload-artifact@v1
       with:
@@ -45,19 +52,22 @@ jobs:
       shell: bash
       run: |
         echo ::set-output name=tag::${GITHUB_REF#refs/tags/}
-    - name: Set up Python 3.7
+    - name: Set up Python ${{ env.PYTHON_VERSION }}
       uses: actions/setup-python@v2
       with:
-        python-version: 3.7
+        python-version: ${{ env.PYTHON_VERSION }}
         architecture: 'x64'
     - name: Install PyInstaller
       run: |
         python -m pip install --upgrade pip
         pip install tqdm
         pip install pyinstaller
+        mkdir ./UPX && mkdir ./UPX/dist
+        curl -sL -o ./UPX/upx-compress ${{ env.UPX_SOURCE }}${{ env.UPX_VERSION }}/upx-${{ env.UPX_VERSION }}-win64.zip
+        unzip ./UPX/upx-compress -d ./UPX/dist/
     - name: build with PyInstaller
       run: |
-        pyinstaller -F -n avsrepo-64 avsrepo.py
+        set PYTHONOPTIMIZE=1 && pyinstaller -F -w -i ./resources/app.ico --clean --upx-dir=./UPX/dist/ -n avsrepo-64 avsrepo.py
     - name: Upload release file
       uses: actions/upload-artifact@v1
       with:

@@ -73,7 +73,7 @@ jobs:
     - name: Build 64-bit version with PyInstaller
       shell: bash
       run: |
-        set PYTHONOPTIMIZE=1 && pyinstaller -F -w -i ./resources/app.ico --clean --upx-dir=./UPX/dist/upx-${{ env.UPX_VERSION }}-win32/ -n avsrepo-64 avsrepo.py
+        PYTHONOPTIMIZE=1 pipenv run pyinstaller --upx-exclude=vcruntime140.dll --upx-exclude=ucrtbase.dll -F -i ./resources/app.ico --clean --upx-dir=./UPX/dist/upx-${{ env.UPX_VERSION }}-win64/ -n avsrepo-64 avsrepo.py
     - name: Upload release file
       uses: actions/upload-artifact@v1
       with:

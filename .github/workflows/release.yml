@@ -37,7 +37,7 @@ jobs:
         unzip ./UPX/upx-compress -d ./UPX/dist/
     - name: build with PyInstaller
       run: |
-        set PYTHONOPTIMIZE=1 && pyinstaller -F -w -i ./resources/app.ico --clean --upx-dir=./UPX/dist/upx-${{ env.UPX_VERSION }}-win32/ -n avsrepo-32 avsrepo.py
+        set PYTHONOPTIMIZE=1 && pyinstaller -F -i ./resources/app.ico --clean --upx-dir=./UPX/dist/upx-${{ env.UPX_VERSION }}-win32/ -n avsrepo-32 avsrepo.py
     - name: Upload release file
       uses: actions/upload-artifact@v1
       with:
@@ -69,7 +69,7 @@ jobs:
         unzip ./UPX/upx-compress -d ./UPX/dist/
     - name: build with PyInstaller
       run: |
-        set PYTHONOPTIMIZE=1 && pyinstaller -F -w -i ./resources/app.ico --clean --upx-dir=./UPX/dist/upx-${{ env.UPX_VERSION }}-win32/ -n avsrepo-64 avsrepo.py
+        set PYTHONOPTIMIZE=1 && pyinstaller -F -i ./resources/app.ico --clean --upx-dir=./UPX/dist/upx-${{ env.UPX_VERSION }}-win64/ -n avsrepo-64 avsrepo.py
     - name: Upload release file
       uses: actions/upload-artifact@v1
       with:

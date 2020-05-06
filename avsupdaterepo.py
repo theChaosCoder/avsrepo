@@ -56,10 +56,10 @@ parser.add_argument('-dir', dest='dir', nargs=1, help='FTP dir')
 
 args = parser.parse_args()
 
-7z_path = '7z'
+cmd7zip_path = '7z.exe'
 try:
     with winreg.OpenKeyEx(winreg.HKEY_LOCAL_MACHINE, 'SOFTWARE\\7-Zip', reserved=0, access=winreg.KEY_READ) as regkey:
-        7z_path = winreg.QueryValueEx(regkey, 'Path')[0] + '7z.exe'
+        cmd7zip_path = winreg.QueryValueEx(regkey, 'Path')[0] + '7z.exe'
 except:
     pass
 
@@ -124,7 +124,7 @@ def fetch_url_to_cache(url, name, tag_name, desc = None, use_basename = False):
     return cache_path
 
 def list_archive_files(fn):
-    result = subprocess.run([7z_path, "l", "-ba", fn], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    result = subprocess.run([cmd7zip_path, "l", "-ba", fn], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     result.check_returncode()
     l = {}
     lines = result.stdout.decode('utf-8').splitlines()
@@ -152,7 +152,7 @@ def decompress_and_hash(archivefn, fn, insttype):
     existing_files = list_archive_files(archivefn)
     for fn_guess in generate_fn_candidates(fn, insttype):
         if fn_guess in existing_files:  
-            result = subprocess.run([7z_path, "e", "-so", archivefn, fn_guess], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            result = subprocess.run([cmd7zip_path, "e", "-so", archivefn, fn_guess], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             result.check_returncode()
             return (existing_files[fn_guess], hashlib.sha256(result.stdout).hexdigest())
     base_dirs = []
@@ -167,7 +167,7 @@ def decompress_and_hash(archivefn, fn, insttype):
             mfn = '/'.join(sfn)
             for fn_guess in generate_fn_candidates(mfn, insttype):
                 if fn_guess in existing_files:  
-                    result = subprocess.run([7z_path, "e", "-so", archivefn, fn_guess], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                    result = subprocess.run([cmd7zip_path, "e", "-so", archivefn, fn_guess], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                     result.check_returncode()
                     return (existing_files[fn_guess], hashlib.sha256(result.stdout).hexdigest())
     raise Exception('No file match found')
@@ -380,7 +380,7 @@ def compile_packages():
         os.remove('avspackages.zip')
     except:
         pass
-    result = subprocess.run([7z_path, 'a', '-tzip', 'avspackages.zip', 'avspackages.json'])
+    result = subprocess.run([cmd7zip_path, 'a', '-tzip', 'avspackages.zip', 'avspackages.json'])
     result.check_returncode()
 
 if args.operation == 'compile':

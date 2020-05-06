@@ -3,12 +3,44 @@
 	"type": "avsPlugin",
 	"description": "TDeint is a bi-directionally, motion adaptive, sharp deinterlacer.",
 	"website": "http://avisynth.nl/index.php/TDeint",
-	"github": "https://github.com/avisynth-repository/TDeint",
+	"github": "https://github.com/pinterf/TIVTC",
 	"category": "Deinterlacing",
 	"identifier": "tdeint",
 	"namespace": "tdeint",
+	"ignore": [
+		"v1.0.14",
+		"v1.0.12",
+		"v1.0.11",
+		"v1.0.10",
+		"v1.0.9",
+		"v1.0.8",
+		"v1.0.7",
+		"v1.0.6"
+	],
 	"releases": [
 		{
+			"version": "v1.0.14b",
+			"published": "2020-05-05T19:24:13Z",
+			"win32": {
+				"url": "https://github.com/pinterf/TIVTC/releases/download/v1.0.14b/TDeint_v1.20.7z",
+				"files": {
+					"TDeint.dll": [
+						"x86/TDeint.dll",
+						"b4e504980c04a68060c07092e9b02764948249c289cfa73f78cf21f5c30f7a5b"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/TIVTC/releases/download/v1.0.14b/TDeint_v1.20.7z",
+				"files": {
+					"TDeint.dll": [
+						"x64/TDeint.dll",
+						"f2d949b4f73a155e5bb8114703009961c18f982b997fbfd6e60f57c6f8849a78"
+					]
+				}
+			}
+		},
+				{
 			"version": "v1.1",
 			"published": "2019-07-21T20:24:55Z",
 			"win32": {

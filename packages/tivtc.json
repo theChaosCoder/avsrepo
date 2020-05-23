@@ -9,6 +9,94 @@
 	"github": "https://github.com/pinterf/TIVTC",
 	"releases": [
 		{
+			"version": "v1.0.17b",
+			"published": "2020-05-13T15:10:15Z",
+			"win32": {
+				"url": "https://github.com/pinterf/TIVTC/releases/download/v1.0.17b/TIVTC-v1.0.17.7z",
+				"files": {
+					"TIVTC.dll": [
+						"x86/TIVTC.dll",
+						"37e15c365f58c75917ce02ed1b8243914deef052ffceda74c287ff75b8f6c63c"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/TIVTC/releases/download/v1.0.17b/TIVTC-v1.0.17.7z",
+				"files": {
+					"TIVTC.dll": [
+						"x64/TIVTC.dll",
+						"ab3ec88462655ea0f880d7cd28e5222fb725fdf54da1ce79120a6d1c2cd31c6a"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.0.17",
+			"published": "2020-05-12T21:24:22Z",
+			"win32": {
+				"url": "https://github.com/pinterf/TIVTC/releases/download/v1.0.17/TIVTC-v1.0.17.7z",
+				"files": {
+					"TIVTC.dll": [
+						"x86/TIVTC.dll",
+						"37e15c365f58c75917ce02ed1b8243914deef052ffceda74c287ff75b8f6c63c"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/TIVTC/releases/download/v1.0.17/TIVTC-v1.0.17.7z",
+				"files": {
+					"TIVTC.dll": [
+						"x64/TIVTC.dll",
+						"ab3ec88462655ea0f880d7cd28e5222fb725fdf54da1ce79120a6d1c2cd31c6a"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.0.16",
+			"published": "2020-05-10T16:56:32Z",
+			"win32": {
+				"url": "https://github.com/pinterf/TIVTC/releases/download/v1.0.16/TIVTC-v1.0.16.7z",
+				"files": {
+					"TIVTC.dll": [
+						"x86/TIVTC.dll",
+						"96e3bdca90ce0c648a48f614629aed0c027a0bf2458340f533d8aef36595df27"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/TIVTC/releases/download/v1.0.16/TIVTC-v1.0.16.7z",
+				"files": {
+					"TIVTC.dll": [
+						"x64/TIVTC.dll",
+						"babab1884ff2154c202c761a049ca4b547a4c131e0986ff684f42f8fa6cf7a87"
+					]
+				}
+			}
+		},
+		{
+			"version": "v1.0.15",
+			"published": "2020-05-08T20:27:06Z",
+			"win32": {
+				"url": "https://github.com/pinterf/TIVTC/releases/download/v1.0.15/TIVTC-v1.0.15.7z",
+				"files": {
+					"TIVTC.dll": [
+						"x86/TIVTC.dll",
+						"f67d45d3d405867ace99e0dfe20c8e0422a9d73504b3a133c2f89224be6baf1e"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/TIVTC/releases/download/v1.0.15/TIVTC-v1.0.15.7z",
+				"files": {
+					"TIVTC.dll": [
+						"x64/TIVTC.dll",
+						"b3823b260cba6fcd67de8b15f5fb54c6b179e21da7ab9cd6527795e7f6eeea31"
+					]
+				}
+			}
+		},
+		{
 			"version": "v1.0.14b",
 			"published": "2020-05-05T19:24:13Z",
 			"win32": {

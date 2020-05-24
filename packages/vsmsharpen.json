@@ -32,7 +32,7 @@
 		},
 		{
 			"version": "1.2.0",
-			"published": "2020-05-17T20:19:07Z"
+			"published": "2020-05-17T20:19:07Z",
 			"win32": {
 				"url": "https://github.com/Asd-g/AviSynth-vsMSharpen/releases/download/1.2.0/MSharpen-1.2.0.7z",
 				"files": {

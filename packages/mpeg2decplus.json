@@ -1,0 +1,34 @@
+{
+	"name": "MPEG2DecPlus",
+	"type": "avsPlugin",
+	"description": "MPEG2DecPlus is a project to modernize DGDecode.dll for AviSynth+",
+	"website": "http://avisynth.nl/index.php/MPEG2DecPlus",
+	"github": "https://github.com/Asd-g/MPEG2DecPlus",
+	"category": "Source/Output",
+	"identifier": "mpeg2decplus",
+	"namespace": "mpeg2decplus",
+	"releases": [
+		{
+			"version": "0.1.2",
+			"published": "2020-05-13T19:30:53Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/MPEG2DecPlus/releases/download/0.1.2/MPEG2DecPlus-0.1.2.7z",
+				"files": {
+					"MPEG2DecPlus.dll": [
+						"Release/MPEG2DecPlus.dll",
+						"10459b8bd0ff0e9ea3401e18a2447d753934497f418f1e1f963d059df8bbdaf3"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/MPEG2DecPlus/releases/download/0.1.2/MPEG2DecPlus-0.1.2.7z",
+				"files": {
+					"MPEG2DecPlus64.dll": [
+						"x64/Release/MPEG2DecPlus64.dll",
+						"28e6d6942534b5d0a13cca2c0f5b1e3a2e5de48dd558db331efc9577ec842986"
+					]
+				}
+			}
+		}
+	]
+}

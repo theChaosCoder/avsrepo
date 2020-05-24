@@ -1,0 +1,34 @@
+{
+	"name": "DeCross",
+	"type": "avsPlugin",
+	"description": "DeCross is a spatio-temporal cross color (rainbow) reduction filter. Must be used right after the source filter, before any field matching or deinterlacing.",
+	"website": "http://avisynth.nl/index.php/DeCross",
+	"category": "Dot Crawl and Rainbows",
+	"identifier": "decross",
+	"namespace": "decross",
+	"github": "https://github.com/Asd-g/AviSynth-DeCross",
+	"releases": [
+		{
+			"version": "2.0.0",
+			"published": "2020-05-15T18:32:15Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-DeCross/releases/download/2.0.0/DeCross-2.0.0.7z",
+				"files": {
+					"DeCross.dll": [
+						"Release/DeCross.dll",
+						"f428c0278361c4dd345cce01046ed1918c98ec938c86d7e58f8eb2969dd5a1e1"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-DeCross/releases/download/2.0.0/DeCross-2.0.0.7z",
+				"files": {
+					"DeCross.dll": [
+						"x64/Release/DeCross.dll",
+						"ed18b039b919e7d3ad5569be4bce4c1868b06cb10ad32df0f766ec60dad8a04e"
+					]
+				}
+			}
+		}
+	]
+}

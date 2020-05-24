@@ -1,0 +1,34 @@
+{
+	"name": "SmoothUV",
+	"type": "avsPlugin",
+	"description": "A spatial derainbow filter",
+	"doom9": "https://forum.doom9.org/showthread.php?t=175520",
+	"category": "Dot Crawl and Rainbows",
+	"identifier": "smoothuv",
+	"namespace": "smoothuv",
+	"github": "https://github.com/Asd-g/AviSynth-SmoothUV2",
+	"releases": [
+		{
+			"version": "2.1.0",
+			"published": "2020-05-17T20:59:03Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/2.1.0/SmoothUV2-2.1.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"90951ae507b8c793776c451863aa1352d3f5c4b3bd35d274c2f0ec8f15ce738f"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/2.1.0/SmoothUV2-2.1.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"808279d4756ed9eb1db789735039872f31d2e9fe26fb48abb71b532116952c93"
+					]
+				}
+			}
+		}
+	]
+}

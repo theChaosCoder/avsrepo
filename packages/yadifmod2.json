@@ -6,13 +6,79 @@
 	"category": "Deinterlacing",
 	"identifier": "yadifmod2",
 	"namespace": "yadifmod2",
-	"github": "https://github.com/chikuzen/yadifmod2",
+	"github": "https://github.com/Asd-g/yadifmod2",
 	"ignore": [
 		"0.0.2",
 		"0.0.1",
 		"0.0.0"
 	],
 	"releases": [
+		{
+			"version": "0.2.3",
+			"published": "2020-05-23T04:17:05Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/yadifmod2/releases/download/0.2.3/yadifmod2-0.2.3.7z",
+				"files": {
+					"yadifmod2.dll": [
+						"Release/yadifmod2.dll",
+						"54d6ebee2aeb2e8ecd94da2e95f6af03e5bd938c6b4827fd7e12be9598ecd91d"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/yadifmod2/releases/download/0.2.3/yadifmod2-0.2.3.7z",
+				"files": {
+					"yadifmod2.dll": [
+						"x64/Release/yadifmod2.dll",
+						"74e69644e9aea0bc77e021c5b1387dee1c2a80b910cfd7f5235d9e628cc5b14e"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.2.2",
+			"published": "2020-05-14T19:23:32Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/yadifmod2/releases/download/0.2.2/yadifmod2-0.2.2.7z",
+				"files": {
+					"yadifmod2.dll": [
+						"Release/yadifmod2.dll",
+						"429016de8c707c3f03b3eb6952ed067314caf2a3aa888347ef166d08bb33819e"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/yadifmod2/releases/download/0.2.2/yadifmod2-0.2.2.7z",
+				"files": {
+					"yadifmod2.dll": [
+						"x64/Release/yadifmod2.dll",
+						"001564f2f4b9eac34818ad4b689fb62c483dd4d016d5ebdbd861a73e681f8f59"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.2.1",
+			"published": "2020-05-13T22:52:53Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/yadifmod2/releases/download/0.2.1/yadifmod2-0.2.1.7z",
+				"files": {
+					"yadifmod2.dll": [
+						"Release/yadifmod2.dll",
+						"88d4b5e21a2fd178d18ccaf786c84ebcce21132a2582c67ce48e39934cc747ba"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/yadifmod2/releases/download/0.2.1/yadifmod2-0.2.1.7z",
+				"files": {
+					"yadifmod2.dll": [
+						"x64/Release/yadifmod2.dll",
+						"4bed66f5f759091a6e5b0081fdb1781627e23d28637aabb182f8b2a796b54985"
+					]
+				}
+			}
+		},
 		{
 			"version": "0.0.4-1",
 			"published": "2016-07-05T00:31:03Z",

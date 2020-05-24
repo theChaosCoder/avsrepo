@@ -6,8 +6,30 @@
 	"category": "Other",
 	"identifier": "temmod",
 	"namespace": "temmod",
-	"github": "https://github.com/chikuzen/TEMmod",
+	"github": "https://github.com/Asd-g/TEMmod",
 	"releases": [
+		{
+			"version": "0.2.2",
+			"published": "2020-05-13T22:06:47Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/TEMmod/releases/download/0.2.2/TEMmod-0.2.2.7z",
+				"files": {
+					"TEMmod.dll": [
+						"Release/TEMmod.dll",
+						"b5b23e89f601569394741c3ad17a9b7dee9e5e5a0a77226f6b7e0ed2a5d500d4"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/TEMmod/releases/download/0.2.2/TEMmod-0.2.2.7z",
+				"files": {
+					"TEMmod.dll": [
+						"x64/Release/TEMmod.dll",
+						"377074f12213cae2426bff2a4e2d78a323e0715b2f9adfb9424d35108556c1df"
+					]
+				}
+			}
+		},
 		{
 			"version": "0.2.1",
 			"published": "2016-05-29T18:02:39Z",

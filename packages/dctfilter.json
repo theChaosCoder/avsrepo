@@ -2,11 +2,11 @@
 	"name": "DCTFilter",
 	"type": "avsPlugin",
 	"description": "This plugin is a rewrite of DctFilter for avisynth.",
-	"website": "https://github.com/chikuzen/DCTFilter",
+	"website": "https://github.com/Asd-g/DCTFilter",
 	"category": "Other",
 	"identifier": "dctfilter",
 	"namespace": "dctfilter",
-	"github": "https://github.com/chikuzen/DCTFilter",
+	"github": "https://github.com/Asd-g/DCTFilter",
 	"ignore": [
 		"0.4.0",
 		"0.3.0",
@@ -16,6 +16,28 @@
 		"0.0.0"
 	],
 	"releases": [
+		{
+			"version": "0.5.1",
+			"published": "2020-05-13T18:54:06Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/DCTFilter/releases/download/0.5.1/DCTFilter-0.5.1.7z",
+				"files": {
+					"DCTFilter.dll": [
+						"Release/DCTFilter.dll",
+						"719e91db0911ffe79aa9bbcb86395192e95446f0c1f95b586eeeeea7ed24ba2f"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/DCTFilter/releases/download/0.5.1/DCTFilter-0.5.1.7z",
+				"files": {
+					"DCTFilter.dll": [
+						"x64/Release/DCTFilter.dll",
+						"894ec89c7f13e5ae8ad2270e3ea1751e595ffe66a652eb3cc3729dd5b1c0db33"
+					]
+				}
+			}
+		},
 		{
 			"version": "0.5.0",
 			"published": "2016-08-17T13:33:40Z",

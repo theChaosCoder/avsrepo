@@ -7,8 +7,30 @@
 	"category": "Deinterlacing",
 	"identifier": "sangnom2",
 	"namespace": "sangnom2",
-	"github": "https://github.com/tp7/SangNom2",
+	"github": "https://github.com/Asd-g/AviSynth-SangNom2",
 	"releases": [
+		{
+			"version": "0.4.0",
+			"published": "2020-05-22T23:45:30Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SangNom2/releases/download/0.4.0/SangNom2-0.4.0.7z",
+				"files": {
+					"SangNom2.dll": [
+						"Release/SangNom2.dll",
+						"589e333d3db7bdcbd8492f43ccb18173923f0c339bb628641583cbeb3840b6fd"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SangNom2/releases/download/0.4.0/SangNom2-0.4.0.7z",
+				"files": {
+					"SangNom2.dll": [
+						"x64/Release/SangNom2.dll",
+						"94c8726fe99beeb279b01c89f41a0dab87ced0c45c0c49febcbba08312741bc6"
+					]
+				}
+			}
+		},
 		{
 			"version": "0.35",
 			"published": "2013-11-30T11:55:20Z",

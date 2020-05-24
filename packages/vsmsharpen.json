@@ -1,0 +1,56 @@
+{
+	"name": "vsMSharpen",
+	"type": "avsPlugin",
+	"description": "MSharpen is a sharpener that tries to sharpen only edges. VapourSynth port.",
+	"website": "http://avisynth.nl/index.php/MSharpen",
+	"github": "https://github.com/Asd-g/AviSynth-vsMSharpen",
+	"category": "Sharpening",
+	"identifier": "vsmsharpen",
+	"namespace": "vsmsharpen",
+	"releases": [
+		{
+			"version": "2.0.0",
+			"published": "2020-05-21T20:30:01Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsMSharpen/releases/download/2.0.0/vsMSharpen-2.0.0.7z",
+				"files": {
+					"vsMSharpen.dll": [
+						"Release/vsMSharpen.dll",
+						"c952ce1bc61d559e6102380c7a32719e3c96549c78e77ffd8c8f9007fefb99f4"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsMSharpen/releases/download/2.0.0/vsMSharpen-2.0.0.7z",
+				"files": {
+					"vsMSharpen.dll": [
+						"x64/Release/vsMSharpen.dll",
+						"d287643aa3d57328d20435db70f720c1a65806c1bf858756ac905ad39d9bf860"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.2.0",
+			"published": "2020-05-17T20:19:07Z"
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsMSharpen/releases/download/1.2.0/MSharpen-1.2.0.7z",
+				"files": {
+					"MSharpen.dll": [
+						"Release/MSharpen.dll",
+						"8671c9d7877d203c3b55861a64be495c7baf9c25c0e6b9cfdd5f65bd5249e2eb"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsMSharpen/releases/download/1.2.0/MSharpen-1.2.0.7z",
+				"files": {
+					"MSharpen.dll": [
+						"x64/Release/MSharpen.dll",
+						"1a7658a7bb4f8bcc7e40b62afe919608b41e74cc160e6f8db7c13cadc8a22ef1"
+					]
+				}
+			}
+		}
+	]
+}

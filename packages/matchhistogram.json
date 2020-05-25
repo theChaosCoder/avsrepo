@@ -5,6 +5,7 @@
 	"doom9": "https://forum.doom9.org/showthread.php?t=153196",
 	"website": "http://avisynth.nl/index.php?title=MatchHistogram",
 	"github": "https://github.com/Asd-g/AviSynth-MatchHistogram",
+	"category": "Color/Levels",
 	"identifier": "matchhistogram",
 	"namespace": "matchhistogram",
 	"releases": [

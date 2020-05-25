@@ -4,6 +4,7 @@
 	"description": "Reduces temporal oscillations.",
 	"website": "http://avisynth.nl/index.php/ReduceFlicker",
 	"github": "https://github.com/Asd-g/ReduceFlicker",
+	"category": "Other",
 	"identifier": "reduceflicker",
 	"namespace": "reduceflicker",
 	"releases": [

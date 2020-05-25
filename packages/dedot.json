@@ -4,6 +4,7 @@
 	"description": "Dedot is a temporal cross color (rainbow) and cross luminance (dotcrawl) reduction filter.",
 	"website": "Dedot is a temporal cross color (rainbow) and cross luminance (dotcrawl) reduction filter.",
 	"github": "https://github.com/Asd-g/AviSynth-DeDot",
+	"category": "Dot Crawl and Rainbows",
 	"identifier": "dedot",
 	"namespace": "dedot",
 	"releases": [

@@ -4,6 +4,7 @@
 	"description": "This is a simple filter that fills the borders of a clip, without changing the clip's dimensions. VapourSynth port.",
 	"website": "http://avisynth.nl/index.php/FillBorders",
 	"github": "https://github.com/Asd-g/AviSynth-FillBorders",
+	"category": "Other",
 	"identifier": "fillborders",
 	"namespace": "fillborders",
 	"releases": [

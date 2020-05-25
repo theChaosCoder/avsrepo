@@ -5,6 +5,7 @@
 	"doom9": "",
 	"website": "http://avisynth.nl/index.php/RawSource26",
 	"github": "https://github.com/Asd-g/RawSource_2.6x",
+	"category": "Source/Output",
 	"identifier": "rawsource",
 	"namespace": "rawsource",
 	"releases": [

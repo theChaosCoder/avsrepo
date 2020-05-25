@@ -3,6 +3,7 @@
 	"type": "avsPlugin",
 	"description": "This filter produces a mask showing areas that are combed.",
 	"github": "https://github.com/Asd-g/MTCombMask",
+	"category": "Other",
 	"identifier": "mtcombmask",
 	"namespace": "mtcombmask",
 	"releases": [

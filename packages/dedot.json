@@ -1,0 +1,33 @@
+{
+	"name": "DeDot",
+	"type": "avsPlugin",
+	"description": "Dedot is a temporal cross color (rainbow) and cross luminance (dotcrawl) reduction filter.",
+	"website": "Dedot is a temporal cross color (rainbow) and cross luminance (dotcrawl) reduction filter.",
+	"github": "https://github.com/Asd-g/AviSynth-DeDot",
+	"identifier": "dedot",
+	"namespace": "dedot",
+	"releases": [
+		{
+			"version": "1.1.0",
+			"published": "2020-05-15T19:22:49Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-DeDot/releases/download/1.1.0/DeDot-1.1.0.7z",
+				"files": {
+					"DeDot.dll": [
+						"Release/DeDot.dll",
+						"4636482e5af57563c7f718856afbd1354999e66901418dfe261f6e4cc095642a"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-DeDot/releases/download/1.1.0/DeDot-1.1.0.7z",
+				"files": {
+					"DeDot.dll": [
+						"x64/Release/DeDot.dll",
+						"12944850c1ae939760ce0bba5f3cc86b05057f92193c54785a7630b79d265ba5"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"name": "MTCombMask",
+	"type": "avsPlugin",
+	"description": "This filter produces a mask showing areas that are combed.",
+	"github": "https://github.com/Asd-g/MTCombMask",
+	"identifier": "mtcombmask",
+	"namespace": "mtcombmask",
+	"releases": [
+		{
+			"version": "2.0.0",
+			"published": "2020-05-20T20:22:12Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/MTCombMask/releases/download/2.0.0/MTCombMask-2.0.0.7z",
+				"files": {
+					"MTCombMask.dll": [
+						"Release/MTCombMask.dll",
+						"bcf0d3ff63d1291505629f8fbd66a53846f899d46ac3ddb8c718bd10dc8dacf3"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/MTCombMask/releases/download/2.0.0/MTCombMask-2.0.0.7z",
+				"files": {
+					"MTCombMask.dll": [
+						"x64/Release/MTCombMask.dll",
+						"7ec2f1157a033533e308ac00cd19e88d6b810ae942fbe102f2400269991fdfae"
+					]
+				}
+			}
+		}
+	]
+}

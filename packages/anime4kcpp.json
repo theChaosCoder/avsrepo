@@ -1,0 +1,39 @@
+{
+	"name": "Anime4KCPP",
+	"type": "avsPlugin",
+	"description": "Implementation of Anime4K upscaler in C++",
+	"github": "https://github.com/TianZerL/Anime4KCPP",
+	"category": "Resizing and Format Conversion",
+	"identifier": "anime4kcpp",
+	"namespace": "anime4kcpp",
+	"ignore": [
+		"v1.8.0",
+		"v1.7.0",
+		"v1.6.0",
+		"v1.5.0",
+		"v1.3.1",
+		"v1.3",
+		"v1.2",
+		"v1.1",
+		"v1.0"
+	],
+	"releases": [
+		{
+			"version": "v1.8.1",
+			"published": "2020-05-17T10:43:08Z",
+			"win64": {
+				"url": "https://github.com/TianZerL/Anime4KCPP/releases/download/v1.8.1/Anime4KCPP_AviSynthPlus_plugin-beta-Win64-msvc.7z",
+				"files": {
+					"Anime4KCPP_AviSynthPlus.dll": [
+						"AviSynthPlus/dll/Anime4KCPP_AviSynthPlus.dll",
+						"171d826c7cfca15007f80e606a86020a28437080f0899caefd73c46efd2da030"
+					],
+					"opencv_world430.dll": [
+						"AviSynthPlus/dll/opencv_world430.dll",
+						"db70a0e572acea07b9a3385a2b177afb4e27b30520440217c63aa886bf38897e"
+					]
+				}
+			}
+		}
+	]
+}

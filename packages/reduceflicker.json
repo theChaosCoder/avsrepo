@@ -1,0 +1,55 @@
+{
+	"name": "ReduceFlicker",
+	"type": "avsPlugin",
+	"description": "Reduces temporal oscillations.",
+	"website": "http://avisynth.nl/index.php/ReduceFlicker",
+	"github": "https://github.com/Asd-g/ReduceFlicker",
+	"identifier": "reduceflicker",
+	"namespace": "reduceflicker",
+	"releases": [
+		{
+			"version": "0.1.0",
+			"published": "2020-05-24T21:08:42Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/ReduceFlicker/releases/download/0.1.0/ReduceFlicker-0.1.0.7z",
+				"files": {
+					"ReduceFlicker.dll": [
+						"Release/ReduceFlicker.dll",
+						"7aedbc40233697c539045175f1fe4bf01c0366564b6c54e1981cba678188bd20"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/ReduceFlicker/releases/download/0.1.0/ReduceFlicker-0.1.0.7z",
+				"files": {
+					"ReduceFlicker.dll": [
+						"x64/Release/ReduceFlicker.dll",
+						"a943b26738fce8bd48f4d0c0fab3dfa57a3bb428624d4c958c7ea482aa1246e7"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.0.1",
+			"published": "2020-05-13T20:30:06Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/ReduceFlicker/releases/download/0.0.1/ReduceFlicker-0.0.1.7z",
+				"files": {
+					"ReduceFlicker.dll": [
+						"Release/ReduceFlicker.dll",
+						"a1309116dafa39ce5859673231f5310d8dffafd00d3b232886d1e341160c97c3"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/ReduceFlicker/releases/download/0.0.1/ReduceFlicker-0.0.1.7z",
+				"files": {
+					"ReduceFlicker.dll": [
+						"x64/Release/ReduceFlicker.dll",
+						"8f437be2324835d920507ba131b8ff807917213f98602aab84b1b4aa2cc4f7ea"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"name": "MatchHistogram",
+	"type": "avsPlugin",
+	"description": "MatchHistogram modifies one clip's histogram to match the histogram of another clip. VapourSynth port.",
+	"doom9": "https://forum.doom9.org/showthread.php?t=153196",
+	"website": "http://avisynth.nl/index.php?title=MatchHistogram",
+	"github": "https://github.com/Asd-g/AviSynth-MatchHistogram",
+	"identifier": "matchhistogram",
+	"namespace": "matchhistogram",
+	"releases": [
+		{
+			"version": "2.1.0",
+			"published": "2020-05-17T19:43:03Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-MatchHistogram/releases/download/2.1.0/MatchHistogram-2.1.0.7z",
+				"files": {
+					"MatchHistogram.dll": [
+						"Release/MatchHistogram.dll",
+						"ebef918cc84aa07211866e69984c0ca5de46dbe2654c71026f6ce9913dbe10f7"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-MatchHistogram/releases/download/2.1.0/MatchHistogram-2.1.0.7z",
+				"files": {
+					"MatchHistogram.dll": [
+						"x64/Release/MatchHistogram.dll",
+						"5df7cdc2d9e9bc89a35617d9781c519f498729508994f532aa8a3f492742fd96"
+					]
+				}
+			}
+		}
+	]
+}

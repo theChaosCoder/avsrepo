@@ -1,0 +1,56 @@
+{
+	"name": "RawSource_2.6x",
+	"type": "avsPlugin",
+	"description": "AviSynth source filter plugin for loading raw video data from files",
+	"doom9": "",
+	"website": "http://avisynth.nl/index.php/RawSource26",
+	"github": "https://github.com/Asd-g/RawSource_2.6x",
+	"identifier": "rawsource",
+	"namespace": "rawsource",
+	"releases": [
+		{
+			"version": "0.0.1",
+			"published": "2020-05-15T16:02:45Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/RawSource_2.6x/releases/download/0.0.1/RawSourcePlus-0.01.7z",
+				"files": {
+					"RawSourcePlus.dll": [
+						"Release/RawSourcePlus.dll",
+						"726750c1b7dd402aee83f970432dc700dba983943ea3cd22e9ddddae6be9b3da"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/RawSource_2.6x/releases/download/0.0.1/RawSourcePlus-0.01.7z",
+				"files": {
+					"RawSourcePlus.dll": [
+						"x64/Release/RawSourcePlus.dll",
+						"efb59b1001ca136af9efaa331ef5d5a55855acf59a75a9982f5ecca28a2bf71e"
+					]
+				}
+			}
+		},
+		{
+			"version": "20200513",
+			"published": "2020-05-13T19:58:22Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/RawSource_2.6x/releases/download/20200513/RawSourcePlus-20200513.7z",
+				"files": {
+					"RawSourcePlus.dll": [
+						"Release/RawSourcePlus.dll",
+						"16e2f24adc6ad43a35d3fcba75cfaa7f4e61e66b64fff9b1f75521e4ff717278"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/RawSource_2.6x/releases/download/20200513/RawSourcePlus-20200513.7z",
+				"files": {
+					"RawSourcePlus.dll": [
+						"x64/Release/RawSourcePlus.dll",
+						"12213e0c523098618a05da520363bfe4f4c565eefa68be6c0f710be93867bca0"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"name": "FillBorders",
+	"type": "avsPlugin",
+	"description": "This is a simple filter that fills the borders of a clip, without changing the clip's dimensions. VapourSynth port.",
+	"website": "http://avisynth.nl/index.php/FillBorders",
+	"github": "https://github.com/Asd-g/AviSynth-FillBorders",
+	"identifier": "fillborders",
+	"namespace": "fillborders",
+	"releases": [
+		{
+			"version": "v1.0.0",
+			"published": "2020-05-17T18:20:46Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-FillBorders/releases/download/v1.0.0/AviSynth-FillBorders-v1.0.0.7z",
+				"files": {
+					"FillBorders.dll": [
+						"Release/FillBorders.dll",
+						"01c53b4adcf45d9b3a090aea7e296b7c9ab904b4086f47815c0941649812b443"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-FillBorders/releases/download/v1.0.0/AviSynth-FillBorders-v1.0.0.7z",
+				"files": {
+					"FillBorders.dll": [
+						"x64/Release/FillBorders.dll",
+						"9532e631366dca900bd8d51a7bc15b2eaf0f4ab6fc7ef8be4800ba747f1e55b9"
+					]
+				}
+			}
+		}
+	]
+}

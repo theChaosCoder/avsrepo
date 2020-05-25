@@ -6,8 +6,52 @@
 	"category": "Other",
 	"identifier": "combmask",
 	"namespace": "combmask",
-	"github": "https://github.com/chikuzen/CombMask",
+	"github": "https://github.com/Asd-g/CombMask",
 	"releases": [
+		{
+			"version": "2.0.0",
+			"published": "2020-05-20T13:00:22Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/CombMask/releases/download/2.0.0/CombMask-2.0.0.7z",
+				"files": {
+					"CombMask.dll": [
+						"Release/CombMask.dll",
+						"50844646e86e6ef0713c7a434b92b78b1dc2f3809d6ad64eb65ebe3463be96bd"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/CombMask/releases/download/2.0.0/CombMask-2.0.0.7z",
+				"files": {
+					"CombMask.dll": [
+						"x64/Release/CombMask.dll",
+						"44de391a3a57793c35aeb4b170cb15cd77e75f54111ac9a6db055a13cbd046d3"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.1.1",
+			"published": "2020-05-13T18:38:23Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/CombMask/releases/download/1.1.1/CombMask-1.1.1.7z",
+				"files": {
+					"CombMask.dll": [
+						"Release/CombMask.dll",
+						"b15fc351fcd6ed4bca24c42473913a76ee092aa274b3377c3d3bdac1412638f0"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/CombMask/releases/download/1.1.1/CombMask-1.1.1.7z",
+				"files": {
+					"CombMask.dll": [
+						"x64/Release/CombMask.dll",
+						"a072a9772d482346cd935db74e63c3be989ae1917999fb3cf67e42b8fc8ba5c4"
+					]
+				}
+			}
+		},
 		{
 			"version": "1.1.0",
 			"published": "2016-07-05T04:13:10Z",

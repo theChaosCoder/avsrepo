@@ -37,7 +37,7 @@ try:
     import winreg
 except ImportError:
     print('{} is only supported on Windows.'.format(__file__))
-    exit(1)
+    sys.exit(1)
 
 try:
     import tqdm
@@ -57,6 +57,7 @@ parser.add_argument('-url', dest='packageurl', nargs=1, help='URL of the archive
 parser.add_argument('-pname', dest='packagename', nargs=1, help='Filename or namespace of your package')
 parser.add_argument('-script', action='store_true', dest='packagescript', help='Type of the package is script. Otherwise a package of type plugin is created')
 parser.add_argument('-types', dest='packagefiletypes', nargs='+', help='Which file types should be included. default is .dll')
+parser.add_argument('-kf', dest='keepfolder', type=int, default=0, nargs='?', help='Keep the folder structure')
 
 args = parser.parse_args()
 
@@ -401,15 +402,26 @@ def decompress_hash_simple(archive, file):
 	result.check_returncode()
 	return (file, hashlib.sha256(result.stdout).hexdigest(), getBinaryArch(result.stdout))
 
-def blank_package(name ="", is_script = False):
+def extract_git_repo(url):
+    if url.startswith('https://github.com/'):
+        return url.rsplit('/', 4)[0]
+    else:
+        return None
+
+def keep_folder_structure(path, level = 0):
+	folder = path.split('/', level)
+	return folder[-1]
+
+def blank_package(name = "", is_script = False, url = ""):
 	return { 	'name': '',
 				'type': 'avsiScript' if is_script else 'avsPlugin',
+				'category': '',
 				'description': '',
 				'doom9': '',
 				'website': '',
-				'github': '',
-				'identifier': name,
-				'namespace': name,
+				'github': extract_git_repo(url) if extract_git_repo(url) else '',
+				'identifier': '',
+				'modulename' if is_script else 'namespace': name,
 				'releases': ''
 			}
 
@@ -456,9 +468,12 @@ elif args.operation == 'create-package':
 	listzip = list_archive_files(dlfile)
 	files_to_hash = []
 	for f in listzip.values():
-		if pathlib.Path(f).suffix in filetypes:
-			files_to_hash.append(f)	
-
+		if pathlib.Path(f).suffix: # simple folder filter
+			if "*" in filetypes:
+				files_to_hash.append(f)
+			else:
+				if pathlib.Path(f).suffix in filetypes:
+					files_to_hash.append(f)
 
 	new_rel_entry = { 'version': '', 'published': '' }
 	if not args.packagescript: # is plugin
@@ -466,10 +481,14 @@ elif args.operation == 'create-package':
 		new_rel_entry['win64'] = { 'url': url, 'files': {} }
 		for f in files_to_hash:
 			fullpath, hash, arch = decompress_hash_simple(dlfile, f)
+			file = keep_folder_structure(fullpath, args.keepfolder) if args.keepfolder > 0 else os.path.basename(fullpath)
 			if arch == 32:
-				new_rel_entry['win32']['files'][os.path.basename(fullpath)] = [fullpath, hash]
+				new_rel_entry['win32']['files'][file] = [fullpath, hash]
 			if arch == 64:
-				new_rel_entry['win64']['files'][os.path.basename(fullpath)] = [fullpath, hash]
+				new_rel_entry['win64']['files'][file] = [fullpath, hash]
+			if arch == None:
+				new_rel_entry['win32']['files'][file] = [fullpath, hash]
+				new_rel_entry['win64']['files'][file] = [fullpath, hash]
 		
 		# remove 32/64 entry if no files are present
 		if not new_rel_entry['win32']['files']:
@@ -481,13 +500,13 @@ elif args.operation == 'create-package':
 		new_rel_entry['script'] = { 'url': url, 'files': {} }
 		for f in files_to_hash:
 			fullpath, hash, arch = decompress_hash_simple(dlfile, f)
-			new_rel_entry['script']['files'][os.path.basename(fullpath)] = [fullpath, hash]
-	
+			file = keep_folder_structure(fullpath, args.keepfolder) if args.keepfolder >= 0 else os.path.basename(fullpath)
+			new_rel_entry['script']['files'][file] = [fullpath, hash]
 	
 	if not args.packagescript:
-		final_package = blank_package(name = args.packagename[0])
+		final_package = blank_package(name = args.packagename[0], url = url)
 	else:
-		final_package = blank_package(name = args.packagename[0], is_script = True)
+		final_package = blank_package(name = args.packagename[0], is_script = True, url = url)
 	final_package['releases'] = [ new_rel_entry ]
 	
 	

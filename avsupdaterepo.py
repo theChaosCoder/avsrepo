@@ -390,6 +390,7 @@ def compile_packages():
     result = subprocess.run([cmd7zip_path, 'a', '-tzip', 'avspackages.zip', 'avspackages.json'])
     result.check_returncode()
 
+
 def getBinaryArch(bin):
 	#with open(bin, 'rb') as f:
 	#	chunk = f.read(1024)
@@ -406,7 +407,7 @@ def decompress_hash_simple(archive, file):
 
 def extract_git_repo(url):
     if url.startswith('https://github.com/'):
-        return url.rsplit('/', 4)[0]
+        return '/'.join(url.split('/', 5)[:-1])
     else:
         return None
 
@@ -449,7 +450,7 @@ elif args.operation == 'update-local':
         update_package(args.package[0])
 elif args.operation == 'create-package':
 	import pathlib
-	
+
 	if not args.packageurl:
 		print('-url parameter is missing')
 		sys.exit(1)
@@ -462,7 +463,7 @@ elif args.operation == 'create-package':
 	
 	if args.packagefiletypes:
 		filetypes = args.packagefiletypes
-	
+
 	print("fetching remote url")
 	dlfile = fetch_url_to_cache(url, "package", "creator", "")
 	
@@ -477,7 +478,7 @@ elif args.operation == 'create-package':
 				if pathlib.Path(f).suffix in filetypes:
 					files_to_hash.append(f)
 
-	new_rel_entry = { 'version': '', 'published': '' }
+	new_rel_entry = { 'version': 'create-package', 'published': '' }
 	if not args.packagescript: # is plugin
 		new_rel_entry['win32'] = { 'url': url, 'files': {} }
 		new_rel_entry['win64'] = { 'url': url, 'files': {} }
@@ -502,9 +503,10 @@ elif args.operation == 'create-package':
 		new_rel_entry['script'] = { 'url': url, 'files': {} }
 		for f in files_to_hash:
 			fullpath, hash, arch = decompress_hash_simple(dlfile, f)
-			file = keep_folder_structure(fullpath, args.keepfolder) if args.keepfolder >= 0 else os.path.basename(fullpath)
+			file = keep_folder_structure(fullpath, args.keepfolder) if args.keepfolder > 0 else os.path.basename(fullpath)
 			new_rel_entry['script']['files'][file] = [fullpath, hash]
 	
+
 	if not args.packagescript:
 		final_package = blank_package(name = args.packagename[0], url = url)
 	else:
@@ -513,8 +515,23 @@ elif args.operation == 'create-package':
 	
 	
 	print(json.dumps(final_package, indent=4))
-	with open('packages/' + args.packagename[0] + '.json', 'x', encoding='utf-8') as pl:
-		json.dump(fp=pl, obj=final_package, ensure_ascii=False, indent='\t')
+	if not os.path.exists('packages/' + args.packagename[0] + '.json'):
+		with open('packages/' + args.packagename[0] + '.json', 'x', encoding='utf-8') as pl:
+			json.dump(fp=pl, obj=final_package, ensure_ascii=False, indent='\t')
+		
+		print("package created")
+		
+		if extract_git_repo(url):
+			print("Is hosted on GitHub")
+			if args.git_token:
+				print("Auto updating package")
+				args.overwrite = True
+				update_package(args.packagename[0])
+			else:
+				print("No git token ( -g ) was set, skipping auto update")
+	else:
+		print("package file '{}'.json already exists. Skipping writing file.".format(args.packagename[0])) 
+	
 	
 	print("package created")
 

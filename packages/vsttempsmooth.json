@@ -1,0 +1,35 @@
+{
+	"name": "vsTTempSmooth",
+	"type": "avsPlugin",
+	"category": "Denoising",
+	"description": "TTempSmooth is a motion adaptive (it only works on stationary parts of the picture), temporal smoothing filter.",
+	"doom9": "https://forum.doom9.org/showthread.php?t=77856",
+	"website": "http://avisynth.nl/index.php/TTempSmooth",
+	"github": "https://github.com/Asd-g/AviSynth-vsTTempSmooth",
+	"identifier": "vsttempsmooth",
+	"namespace": "vsttempsmooth",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2020-05-28T23:02:40Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTTempSmooth/releases/download/1.0.0/vsTTempSmooth-1.0.0.7z",
+				"files": {
+					"vsTTempSmooth.dll": [
+						"Release/vsTTempSmooth.dll",
+						"1f12f90e81ba98e332f5db2fdabdb0e51525e07622d364ea4c74a94de66d630b"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTTempSmooth/releases/download/1.0.0/vsTTempSmooth-1.0.0.7z",
+				"files": {
+					"vsTTempSmooth.dll": [
+						"x64/Release/vsTTempSmooth.dll",
+						"71054c247ae9763584bf15d1e792f434fffcd52e6754f2350af0fb495ea47db8"
+					]
+				}
+			}
+		}
+	]
+}

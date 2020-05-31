@@ -1,0 +1,32 @@
+{
+	"name": "DFMDeRainbow",
+	"type": "avsiScript",
+	"description": "Creates mask to process only edges; rainbows are removed by hitting chroma planes with two passes of FluxSmooth (hence 'Double-Flux-Mask').",
+	"website": "http://avisynth.nl/index.php/DFMDeRainbow",
+	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
+	"category": "Dot Crawl and Rainbows",
+	"identifier": "dfmderainbow",
+	"modulename": "dfmderainbow",
+	"dependencies": [
+		"fluxsmooth",
+		"masktools",
+		"vsmsharpen",
+		"zs_rf_shared"
+	],
+	"releases": [
+		{
+			"version": "git:6e7011c",
+			"published": "2020-05-31T08:29:15Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/6e7011cfa8ddfcc4016118f9cd44e186d7765191/avs 2.5 and up/DFMDeRainbow.avsi",
+				"files": {
+					"DFMDeRainbow.avsi": [
+						"DFMDeRainbow.avsi",
+						"888459b4bfafd07daaa000f35b98c7d27e3b01ca581b6185e1a57b6ee67059cb"
+					]
+				}
+			}
+		}
+	]
+}

@@ -5,6 +5,7 @@
 	"website": "https://forum.doom9.org/showthread.php?t=174121",
 	"doom9": "https://forum.doom9.org/showthread.php?t=174121",
 	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
 	"category": "Scripts",
 	"identifier": "zs_rf_shared",
 	"modulename": "zs_rf_shared",
@@ -14,6 +15,19 @@
 		"rgtools"
 	],
 	"releases": [
+		{
+			"version": "git:85d0897",
+			"published": "2020-05-28T12:30:30Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/85d089704c1b4c2ae0a39d586b3dec2fcc70b215/avs%202.5%20and%20up/Zs_RF_Shared.avsi",
+				"files": {
+					"Zs_RF_Shared.avsi": [
+						"Zs_RF_Shared.avsi",
+						"aff996fb6c12211419c85cdbb521c5a9b944f4b3b182fd18be44151eca5f448d"
+					]
+				}
+			}
+		},
 		{
 			"version": "git:1177b50",
 			"published": "2020-05-20T17:38:45Z",

@@ -3,6 +3,7 @@
 	"type": "avsiScript",
 	"description": "Line darkening script.",
 	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
 	"category": "Scripts",
 	"identifier": "fastlinedarkenmod",
 	"modulename": "fastlinedarkenmod",

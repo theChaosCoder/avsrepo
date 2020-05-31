@@ -5,6 +5,7 @@
 	"website": "http://avisynth.nl/index.php/QTGMC",
 	"doom9": "https://forum.doom9.org/showthread.php?t=174544",
 	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
 	"category": "Deinterlacing",
 	"identifier": "qtgmc",
 	"modulename": "qtgmc",
@@ -23,6 +24,19 @@
 		"zs_rf_shared"
 	],
 	"releases": [
+		{
+			"version": "git:e3334aa",
+			"published": "2020-05-28T12:16:59Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/e3334aa2fdff62938555a235af3e074586aab27b/avs%202.6%20and%20up/QTGMC.avsi",
+				"files": {
+					"QTGMC.avsi": [
+						"QTGMC.avsi",
+						"608b043de7980ba91c9e81aa1b663445344b6b40e65e7035d3b25a75ee2a5e67"
+					]
+				}
+			}
+		},
 		{
 			"version": "v3.364 - git:d8cb6eb",
 			"published": "2020-03-03T18:06:35Z",

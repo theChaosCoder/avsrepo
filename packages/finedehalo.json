@@ -4,6 +4,7 @@
 	"description": "Halo removal script that uses DeHalo_alpha with a few masks and optional contra-sharpening to try remove halos without removing important details (like line edges)",
 	"website": "http://avisynth.nl/index.php/FineDehalo",
 	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
 	"category": "Dehaloing",
 	"identifier": "finedehalo",
 	"modulename": "finedehalo",

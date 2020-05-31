@@ -3,6 +3,7 @@
 	"type": "avsiScript",
 	"description": "Y'et A'nother H'alo R'educing script",
 	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
 	"category": "Dehaloing",
 	"identifier": "yahr",
 	"modulename": "yahr",

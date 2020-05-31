@@ -10,6 +10,28 @@
 	"namespace": "vsttempsmooth",
 	"releases": [
 		{
+			"version": "1.1.0",
+			"published": "2020-05-30T20:09:02Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTTempSmooth/releases/download/1.1.0/vsTTempSmooth-1.1.0.7z",
+				"files": {
+					"vsTTempSmooth.dll": [
+						"Release/vsTTempSmooth.dll",
+						"c23ba3abd3e879d86a7eedb549f1be347aa9bdfe9d3375ab93633c428fa13cb6"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTTempSmooth/releases/download/1.1.0/vsTTempSmooth-1.1.0.7z",
+				"files": {
+					"vsTTempSmooth.dll": [
+						"x64/Release/vsTTempSmooth.dll",
+						"e731d68f264c9b9b8a8c2f9baa352528c33ac120e05e01bd98f39b84c414fb5d"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.0.0",
 			"published": "2020-05-28T23:02:40Z",
 			"win32": {

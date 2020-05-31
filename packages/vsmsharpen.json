@@ -9,6 +9,28 @@
 	"namespace": "vsmsharpen",
 	"releases": [
 		{
+			"version": "2.0.1",
+			"published": "2020-05-29T19:56:20Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsMSharpen/releases/download/2.0.1/vsMSharpen-2.0.1.7z",
+				"files": {
+					"vsMSharpen.dll": [
+						"Release/vsMSharpen.dll",
+						"00e91683468b400c911a42b11b6bb256ec726b23500c0b2963458690a39a4b63"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsMSharpen/releases/download/2.0.1/vsMSharpen-2.0.1.7z",
+				"files": {
+					"vsMSharpen.dll": [
+						"x64/Release/vsMSharpen.dll",
+						"d11d3f5bb47b95281b663da390b894decebbf0a19153aaaea048a27fea0033bb"
+					]
+				}
+			}
+		},
+		{
 			"version": "2.0.0",
 			"published": "2020-05-21T20:30:01Z",
 			"win32": {

@@ -5,6 +5,7 @@
 	"website": "http://avisynth.nl/index.php/SMDegrain",
 	"doom9": "https://forum.doom9.org/showthread.php?t=163604",
 	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
 	"category": "Denoising",
 	"identifier": "smdegrain",
 	"modulename": "smdegrain",
@@ -19,6 +20,19 @@
 		"zs_rf_shared"
 	],
 	"releases": [
+		{
+			"version": "git:e3334aa",
+			"published": "2020-05-28T12:16:59Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/e3334aa2fdff62938555a235af3e074586aab27b/avs%202.5%20and%20up/SMDegrain.avsi",
+				"files": {
+					"SMDegrain.avsi": [
+						"SMDegrain.avsi",
+						"6db726c6c6d711f856005712d7e79641841444ea3062f4a27692e2341ffbfe64"
+					]
+				}
+			}
+		},
 		{
 			"version": "git:8eb599a",
 			"published": "2020-05-09T02:09:33Z",

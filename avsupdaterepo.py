@@ -86,12 +86,15 @@ def get_git_api_url(url):
     else:
         return None
 
-def get_git_api_commits_url(url, path = None):
+def get_git_api_commits_url(url, path = None, branch = None):
+    sha = ""
+    if branch:
+        sha = f"sha={branch}&" 
     if url.startswith('https://github.com/'):
         s = url.rsplit('/', 3)
         if path:
-            return 'https://api.github.com/repos/' + s[-2] + '/' + s[-1] + '/commits?path=' + path + '&access_token=' + args.git_token[0]
-        return 'https://api.github.com/repos/' + s[-2] + '/' + s[-1] + '/commits?access_token=' + args.git_token[0]
+            return f'https://api.github.com/repos/{s[-2]}/{s[-1]}/commits?{sha}path={path}&access_token={args.git_token[0]}'
+        return f'https://api.github.com/repos/{s[-2]}/{s[-1]}/commits?{sha}access_token={args.git_token[0]}'
     else:
         return None
 
@@ -224,7 +227,7 @@ def update_package(name):
                 
                 try:
                     latest_rel = get_latest_installable_release(pfile, 'script')
-                    git_commits = json.loads(fetch_url(get_git_api_commits_url(pfile['github'], get_git_file_path(latest_rel['script']['url'])), pfile['name']))
+                    git_commits = json.loads(fetch_url(  get_git_api_commits_url(url = pfile['github'], path = get_git_file_path(latest_rel['script']['url']), branch = pfile['gitbranch'] if 'gitbranch' in pfile else None)   , pfile['name']))
 
                     git_hash = git_commits[0]['sha']
                     git_hash_short = git_hash[:7]
@@ -342,7 +345,7 @@ def update_package(name):
 def verify_package(pfile, existing_identifiers):
     name = pfile['name']
     for key in pfile.keys():
-        if key not in ('name', 'type', 'description', 'website', 'category', 'identifier', 'modulename', 'namespace', 'github', 'doom9', 'dependencies', 'ignore', 'releases'):
+        if key not in ('name', 'type', 'description', 'website', 'category', 'identifier', 'modulename', 'namespace', 'github', 'gitbranch', 'doom9', 'dependencies', 'ignore', 'releases'):
             raise Exception('Unkown key: ' + key + ' in ' + name)
     if pfile['type'] not in ('avsPlugin', 'avsiScript'):
         raise Exception('Invalid type in ' + name)

@@ -1,0 +1,30 @@
+{
+	"name": "mToon",
+	"type": "avsiScript",
+	"category": "Other",
+	"description": "Line darkening",
+	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
+	"identifier": "mtoon",
+	"modulename": "mtoon",
+	"dependencies": [
+		"masktools",
+		"awarpsharpmt",
+		"zs_rf_shared"
+	],
+	"releases": [
+		{
+			"version": "git:9204ba3",
+			"published": "2020-04-23T23:34:30Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/9204ba343d5d548932e9b320d928b8c21d1a1fdb/avs%202.5%20and%20up/mToon.avsi",
+				"files": {
+					"mToon.avsi": [
+						"mToon.avsi",
+						"90a8efec5034ca25a8ef84efca43da48aa2b187acb5f3b13721e05fb188abfd6"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"name": "SmoothAdjust",
+	"type": "avsPlugin",
+	"category": "Color/Levels",
+	"description": "Contains 5 plugins that have a smoothing & dithering algorithm to avoid banding issue",
+	"doom9": "https://forum.doom9.org/showthread.php?t=154971",
+	"website": "http://www.avisynth.nl/index.php?title=SmoothAdjust",
+	"identifier": "smoothadjust",
+	"namespace": "smoothadjust",
+	"releases": [
+		{
+			"version": "v3.20",
+			"published": "2015/11/15",
+			"win32": {
+				"url": "http://latoninf.free.fr/d9/SA/SmoothAdjust-v3.20.7z",
+				"files": {
+					"SmoothAdjust.dll": [
+						"x86/SmoothAdjust.dll",
+						"bb8b34903e9f1ff8f1a27fd774b0e9c790c16bf4ef37b32e023eb0ced41b7fa1"
+					]
+				}
+			},
+			"win64": {
+				"url": "http://latoninf.free.fr/d9/SA/SmoothAdjust-v3.20.7z",
+				"files": {
+					"SmoothAdjust.dll": [
+						"x64/SmoothAdjust.dll",
+						"2e9c561b5baf151d8f5584ed1d7a3deb57159f79931bd463de497d17bad24c8d"
+					]
+				}
+			}
+		}
+	]
+}

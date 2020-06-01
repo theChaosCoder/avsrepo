@@ -1,0 +1,25 @@
+{
+	"name": "Dither",
+	"type": "avsiScript",
+	"category": "Other",
+	"description": "High bitdepth tools for Avisynth",
+	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
+	"identifier": "dither",
+	"modulename": "dither",
+	"releases": [
+		{
+			"version": "git:07ec5eb",
+			"published": "2020-03-03T18:10:29Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/07ec5eb5eb45b5a5d6f511c58a9f0230598267a5/avs%202.5%20and%20up/dither.avsi",
+				"files": {
+					"dither.avsi": [
+						"dither.avsi",
+						"82bd4e685ed0c83f78224fdbbc2d0d77304f36cd18dfc423c900264e53a37580"
+					]
+				}
+			}
+		}
+	]
+}

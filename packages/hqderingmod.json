@@ -1,0 +1,34 @@
+{
+	"name": "HQDeringmod",
+	"type": "avsiScript",
+	"category": "Other",
+	"description": "Applies deringing by using a smart smoother near edges (where ringing occurs) only.",
+	"website": "http://avisynth.nl/index.php/HQDering_mod",
+	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
+	"identifier": "hqderingmod",
+	"modulename": "hqderingmod",
+	"dependencies": [
+		"rgtools",
+		"masktools",
+		"neo_dfttest",
+		"medianblur2",
+		"smoothadjust",
+		"zs_rf_shared"
+	],
+	"releases": [
+		{
+			"version": "git:bbb30df",
+			"published": "2020-05-28T12:47:30Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/bbb30df56ba20e13db33527a33f4b11b08890ee9/avs%202.5%20and%20up/HQDeringmod.avsi",
+				"files": {
+					"HQDeringmod.avsi": [
+						"HQDeringmod.avsi",
+						"0360e4982a5dc1cbd32c4e330d061b8091a50d6c3b831acfeeaff2f243a1c260"
+					]
+				}
+			}
+		}
+	]
+}

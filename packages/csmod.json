@@ -1,0 +1,25 @@
+{
+	"name": "Contra-Sharpen mod",
+	"type": "avsiScript",
+	"category": "Sharpening",
+	"description": "Contrasharpening is a technique that compares the differences between the clip before blurring (original) and after blurring (filtered), and sharpens locally with consequent strength.",
+	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
+	"identifier": "csmod",
+	"modulename": "csmod",
+	"releases": [
+		{
+			"version": "git:03d1886",
+			"published": "2020-04-06T18:18:46Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/03d1886ffffd6cceb1561fcfbd7373fec47236f9/avs%202.5%20and%20up/ContraSharpen_mod.avsi",
+				"files": {
+					"ContraSharpen_mod.avsi": [
+						"ContraSharpen_mod.avsi",
+						"e50d84733d8462e68ca568de4dc29549be0db943992c421be8c2555c2bfd97af"
+					]
+				}
+			}
+		}
+	]
+}

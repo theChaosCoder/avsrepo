@@ -1,0 +1,34 @@
+{
+	"name": "ASTDR",
+	"type": "avsiScript",
+	"description": "A Spatio-Temporal DeRainbowing function",
+	"website": "http://avisynth.nl/index.php/ASTDR",
+	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
+	"category": "Dot Crawl and Rainbows",
+	"identifier": "astdr",
+	"modulename": "astdr",
+	"dependencies": [
+		"rgtools",
+		"fluxsmooth",
+		"decross",
+		"neo_fft3d",
+		"masktools",
+		"zs_rf_shared"
+	],
+	"releases": [
+		{
+			"version": "git:5d28163",
+			"published": "2020-05-28T12:20:04Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/5d28163aa3294408ed730c4887a7a7767feb578c/avs%202.5%20and%20up/ASTDR.avsi",
+				"files": {
+					"ASTDR.avsi": [
+						"ASTDR.avsi",
+						"6930b4cb69a67a9b8f760d2e03344cc5876319a8c5c82bb08d7ee993af49f59c"
+					]
+				}
+			}
+		}
+	]
+}

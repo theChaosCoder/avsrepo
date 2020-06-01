@@ -1,0 +1,52 @@
+{
+	"name": "JincResize",
+	"type": "avsPlugin",
+	"category": "Resizing and Format Conversion",
+	"description": "Jinc (EWA Lanczos) Resampler Plugin for Avisynth/Avisynth+",
+	"doom9": "https://github.com/AviSynth/jinc-resize",
+	"website": "http://avisynth.nl/index.php/JincResize",
+	"github": "https://github.com/AviSynth/jinc-resize",
+	"identifier": "jincresize",
+	"namespace": "jincresize",
+	"releases": [
+		{
+			"version": "v0.2",
+			"published": "2014-07-27T15:36:14Z",
+			"win32": {
+				"url": "https://github.com/AviSynth/jinc-resize/releases/download/v0.2/JincResize.dll",
+				"files": {
+					"JincResize.dll": [
+						"JincResize.dll",
+						"713190d590565859f9983ade4f36a2aea2830e67773e84c6419a81b0f823e9a5"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.1.1",
+			"published": "2013-11-26T09:49:03Z",
+			"win32": {
+				"url": "https://github.com/AviSynth/jinc-resize/releases/download/v0.1.1/JincResize.dll",
+				"files": {
+					"JincResize.dll": [
+						"JincResize.dll",
+						"f07fd4f8f575e898d5b70cbbc40b0dcbd1a751acec5a22b77e3638ffef0bab35"
+					]
+				}
+			}
+		},
+		{
+			"version": "v0.1",
+			"published": "2013-11-26T06:21:51Z",
+			"win32": {
+				"url": "https://github.com/AviSynth/jinc-resize/releases/download/v0.1/JincResize.dll",
+				"files": {
+					"JincResize.dll": [
+						"JincResize.dll",
+						"71c6f322acf10c514dc093bf7803459037a08dd95bb12ab1804ec8b461c9b3fb"
+					]
+				}
+			}
+		}
+	]
+}

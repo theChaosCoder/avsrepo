@@ -17,8 +17,8 @@
 		"eedi2",
 		"eedi3",
 		"tdeint",
-		"fft3dfilter",
-		"dfttest",
+		"neo_fft3d",
+		"neo_dfttest",
 		"knlmeanscl",
 		"yadifmod2",
 		"zs_rf_shared"

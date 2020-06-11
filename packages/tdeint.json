@@ -19,6 +19,28 @@
 	],
 	"releases": [
 		{
+			"version": "v1.0.19",
+			"published": "2020-06-11T14:58:58Z",
+			"win32": {
+				"url": "https://github.com/pinterf/TIVTC/releases/download/v1.0.19/TDeint-v1.6.7z",
+				"files": {
+					"TDeint.dll": [
+						"x86/TDeint.dll",
+						"5af716c7309821f1a352dd5aae2096331ab038e7c9675304336a5d87dc95000d"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/TIVTC/releases/download/v1.0.19/TDeint-v1.6.7z",
+				"files": {
+					"TDeint.dll": [
+						"x64/TDeint.dll",
+						"94df9924a7d814ef36466d25e335baaa24760483d04e4aa9f8eed8c56829b193"
+					]
+				}
+			}
+		},
+		{
 			"version": "v1.0.17b",
 			"published": "2020-05-13T15:10:15Z",
 			"win32": {

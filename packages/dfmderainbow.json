@@ -16,6 +16,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:9811408",
+			"published": "2020-06-02T08:47:49Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/9811408f0db46f703a551addb23412cb5c93f53b/avs%202.5%20and%20up/DFMDeRainbow.avsi",
+				"files": {
+					"DFMDeRainbow.avsi": [
+						"DFMDeRainbow.avsi",
+						"b6dfa0c100ef8cee50dd1afdb3911034d3b4c01039cd3832dc2203ae95d29443"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:6e7011c",
 			"published": "2020-05-31T08:29:15Z",
 			"script": {

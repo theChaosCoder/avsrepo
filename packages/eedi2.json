@@ -3,11 +3,33 @@
 	"type": "avsPlugin",
 	"description": "EEDI2 (Enhanced Edge Directed Interpolation) resizes an image by 2x in the vertical direction by copying the existing image to 2*y(n) and interpolating the missing field. It is intended for edge-directed interpolation for deinterlacing",
 	"website": "http://avisynth.nl/index.php/EEDI2",
-	"github": "https://github.com/avisynth-repository/EEDI2",
+	"github": "https://github.com/Asd-g/AviSynth-EEDI2",
 	"category": "Deinterlacing",
 	"identifier": "eedi2",
 	"namespace": "eedi2",
 	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2020-06-19T00:35:13Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-EEDI2/releases/download/1.0.0/EEDI2-1.0.0.7z",
+				"files": {
+					"EEDI2.dll": [
+						"Release/EEDI2.dll",
+						"5aa37f909265a328caedf8c40aaaba632a082166c79a4b6cdc7c326250379bba"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-EEDI2/releases/download/1.0.0/EEDI2-1.0.0.7z",
+				"files": {
+					"EEDI2.dll": [
+						"x64/Release/EEDI2.dll",
+						"8ab4e243265cbd6a7bea602208a0bbfee4e3b9b617b1c7a93f2401d776e796c4"
+					]
+				}
+			}
+		},
 		{
 			"version": "v0.9.2",
 			"published": "2020-05-01T10:14:00Z",

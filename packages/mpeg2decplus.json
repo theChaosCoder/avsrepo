@@ -9,6 +9,28 @@
 	"namespace": "mpeg2decplus",
 	"releases": [
 		{
+			"version": "1.0.0",
+			"published": "2020-06-20T22:30:25Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/MPEG2DecPlus/releases/download/1.0.0/D2VSource-1.0.0.7z",
+				"files": {
+					"D2VSource.dll": [
+						"Release/D2VSource.dll",
+						"705fca8bbadc86445fe36fd09a08a2fb640d95535aef33d33ac0cb0908ca1e78"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/MPEG2DecPlus/releases/download/1.0.0/D2VSource-1.0.0.7z",
+				"files": {
+					"D2VSource.dll": [
+						"x64/Release/D2VSource.dll",
+						"18a173478c9ea236510a6c276e579b859715cc6946721b9eccfc786c3dcd1e4e"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.1.2",
 			"published": "2020-05-13T19:30:53Z",
 			"win32": {

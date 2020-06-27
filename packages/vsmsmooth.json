@@ -1,0 +1,34 @@
+{
+	"name": "vsMSmooth",
+	"type": "avsPlugin",
+	"category": "Denoising",
+	"description": "vsMSmooth is a spatial smoother that doesn't touch edges.",
+	"website": "http://avisynth.nl/index.php/VsMSmooth",
+	"github": "https://github.com/Asd-g/AviSynth-vsMSmooth",
+	"identifier": "vsmsmooth",
+	"namespace": "vsmsmooth",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2020-06-25T19:28:54Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsMSmooth/releases/download/1.0.0/vsMSmooth-1.0.0.7z",
+				"files": {
+					"vsMSmooth.dll": [
+						"Release/vsMSmooth.dll",
+						"dac8c9ed1eee5b80b7d94e2f890d8359516daa4a42951f4f35dc5289e2999b82"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsMSmooth/releases/download/1.0.0/vsMSmooth-1.0.0.7z",
+				"files": {
+					"vsMSmooth.dll": [
+						"x64/Release/vsMSmooth.dll",
+						"3d76e35f39d5923069d1bb52bbcdc8b565ab54f4446fee45e2890597370034df"
+					]
+				}
+			}
+		}
+	]
+}

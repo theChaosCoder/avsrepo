@@ -14,6 +14,28 @@
 	],
 	"releases": [
 		{
+			"version": "0.2.6",
+			"published": "2020-06-30T00:16:13Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/yadifmod2/releases/download/0.2.6/yadifmod2-0.2.6.7z",
+				"files": {
+					"yadifmod2.dll": [
+						"Release/yadifmod2.dll",
+						"b8f883664ee5cc55e31c164fe33e295065e19d3e14f2b1721715b73e1ed2d656"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/yadifmod2/releases/download/0.2.6/yadifmod2-0.2.6.7z",
+				"files": {
+					"yadifmod2.dll": [
+						"x64/Release/yadifmod2.dll",
+						"ac2fcdd9be2b31fe27b7c0a1c2cc6613c92467da49e73a955cf9bb442dda4c70"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.2.5",
 			"published": "2020-06-11T23:07:17Z",
 			"win32": {

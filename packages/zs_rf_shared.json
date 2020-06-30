@@ -16,6 +16,32 @@
 	],
 	"releases": [
 		{
+			"version": "git:ad04695",
+			"published": "2020-06-26T23:52:12Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/ad04695b91cf4cc3f20e517b49809d8a6ea72417/avs%202.5%20and%20up/Zs_RF_Shared.avsi",
+				"files": {
+					"Zs_RF_Shared.avsi": [
+						"Zs_RF_Shared.avsi",
+						"76d1eecd2ba2c935c446b07323d07533d5d32816b585ccf0e6024f7a75437cf0"
+					]
+				}
+			}
+		},
+		{
+			"version": "git:52e3a58",
+			"published": "2020-06-26T18:10:28Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/52e3a589717e527f80f26e7478242aa0a4ea45cb/avs%202.5%20and%20up/Zs_RF_Shared.avsi",
+				"files": {
+					"Zs_RF_Shared.avsi": [
+						"Zs_RF_Shared.avsi",
+						"07af684485ee0274041c43fe436a50fdbf43a9f8f0f9baa030010973d78957de"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:1c9985e",
 			"published": "2020-05-31T08:42:11Z",
 			"script": {

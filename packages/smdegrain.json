@@ -21,6 +21,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:76790f0",
+			"published": "2020-06-27T12:35:47Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/76790f0c8849f0d5c15dd31ee42430fc179bddd7/avs%202.5%20and%20up/SMDegrain.avsi",
+				"files": {
+					"SMDegrain.avsi": [
+						"SMDegrain.avsi",
+						"149750e24344b53f95d2431b33443cb7a504e667d71d90fa217f539d1b889f24"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:e3334aa",
 			"published": "2020-05-28T12:16:59Z",
 			"script": {

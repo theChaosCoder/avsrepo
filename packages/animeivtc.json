@@ -1,0 +1,49 @@
+{
+	"name": "AnimeIVTC",
+	"type": "avsiScript",
+	"category": "Inverse Telecine",
+	"description": "Ivtc optimizied for different anime sources.",
+	"doom9": "https://forum.doom9.org/showthread.php?p=1673928",
+	"website": "http://avisynth.nl/index.php/AnimeIVTC",
+	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
+	"identifier": "animeivtc",
+	"modulename": "animeivtc",
+	"dependencies": [
+		"animeivtc_helper",
+		"average",
+		"awarpsharpmt",
+		"eedi2",
+		"eedi3",
+		"lsfmod",
+		"masktools",
+		"medianblur2",
+		"mvtools",
+		"nnedi3",
+		"qtgmc",
+		"rgtools",
+		"sangnom2",
+		"srestore",
+		"tdeint",
+		"temmod",
+		"tivtc",
+		"vinverse",
+		"yadifmod2",
+		"zs_rf_shared"
+	],
+	"releases": [
+		{
+			"version": "git:1363737",
+			"published": "2020-07-02T15:02:56Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/1363737277d7844f2326a1cb7fc9d21e1a367c75/avs%202.5%20and%20up/AnimeIVTC.avsi",
+				"files": {
+					"AnimeIVTC.avsi": [
+						"AnimeIVTC.avsi",
+						"364ac912ee66a1227f04ab08eb93c0ff0bf63d284a4bc577b4d26a8f15cdaddc"
+					]
+				}
+			}
+		}
+	]
+}

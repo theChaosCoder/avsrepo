@@ -1,0 +1,34 @@
+{
+	"name": "MCBob",
+	"type": "avsiScript",
+	"category": "Deinterlacing",
+	"description": "Motion compensated bobbing without residual combing, due to STT (Shape Transposition Technology)",
+	"website": "http://avisynth.nl/index.php/MCBob",
+	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
+	"identifier": "mcbob",
+	"modulename": "mcbob",
+	"dependencies": [
+		"masktools",
+		"mvtools",
+		"eedi2",
+		"nnedi3",
+		"rgtools",
+		"zs_rf_shared"
+	],
+	"releases": [
+		{
+			"version": "git:621c3e1",
+			"published": "2020-07-02T04:37:37Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/621c3e1fd2c17572d3b83dbb7dfdbc311b4eef6c/avs%202.5%20and%20up/MCBob.avsi",
+				"files": {
+					"MCBob.avsi": [
+						"MCBob.avsi",
+						"899ad7e8ca01fcae7a2545c811378048b6734c2c509899d5316abd46b1342931"
+					]
+				}
+			}
+		}
+	]
+}

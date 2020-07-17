@@ -17,6 +17,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:b238863",
+			"published": "2020-07-07T16:38:14Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/b238863da272283a52c6243a30073162943756d9/avs%202.5%20and%20up/LSFmod.avsi",
+				"files": {
+					"LSFmod.avsi": [
+						"LSFmod.avsi",
+						"ad512944d6f0f99631552434c32e37e92885f9982c60f0362e9ac58177b5a35b"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:7ec5f85",
 			"published": "2020-05-26T11:10:45Z",
 			"script": {

@@ -1,0 +1,34 @@
+{
+	"name": "vsDeblockPP7",
+	"type": "avsPlugin",
+	"category": "Other",
+	"description": "A port of the MPlayer PP7 deblocking filter. Postprocessing filter 7 is variant of the spp filter, similar to spp=6 with 7 point DCT, where only the center sample is used after IDCT.",
+	"website": "http://avisynth.nl/index.php/VsDeblockPP7",
+	"github": "https://github.com/Asd-g/AviSynth-vsDeblockPP7",
+	"identifier": "vsdeblockpp7",
+	"namespace": "vsdeblockpp7",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2020-07-11T03:47:13Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsDeblockPP7/releases/download/1.0.0/vsDeblockPP7-1.0.0.7z",
+				"files": {
+					"vsDeblockPP7.dll": [
+						"Release/vsDeblockPP7.dll",
+						"dbf09a2b0ca8458aff2316291e5af543bcab3f2bb1ea974d93170e167e0c19e8"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsDeblockPP7/releases/download/1.0.0/vsDeblockPP7-1.0.0.7z",
+				"files": {
+					"vsDeblockPP7.dll": [
+						"x64/Release/vsDeblockPP7.dll",
+						"9765fca7221edb9ff3d4d01988215a087cb1c388d8f4a0a9df783f3e5e72367e"
+					]
+				}
+			}
+		}
+	]
+}

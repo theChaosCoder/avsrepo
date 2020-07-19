@@ -1,0 +1,35 @@
+{
+	"name": "TurnsTile",
+	"type": "avsPlugin",
+	"category": "Other",
+	"description": "A mosaic and palette effects plugin for Avisynth.",
+	"doom9": "https://forum.doom9.org/showthread.php?t=158695",
+	"website": "http://www.gyroshot.com/turnstile.htm",
+	"github": "https://github.com/ItEndsWithTens/TurnsTile",
+	"identifier": "turnstile",
+	"namespace": "turnstile",
+	"releases": [
+		{
+			"version": "v1.0.0",
+			"published": "2020-07-17T01:21:09Z",
+			"win32": {
+				"url": "https://github.com/ItEndsWithTens/TurnsTile/releases/download/v1.0.0/TurnsTile-1.0.0-Windows-x86-MSVC.zip",
+				"files": {
+					"TurnsTile.dll": [
+						"TurnsTile.dll",
+						"ad0c2b6af71797bb31b8825bb75a4f0445f04ef91137261dd6114dcfc19699c7"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/ItEndsWithTens/TurnsTile/releases/download/v1.0.0/TurnsTile-1.0.0-Windows-x64-MSVC.zip",
+				"files": {
+					"TurnsTile.dll": [
+						"TurnsTile.dll",
+						"f3d3fafe88d3f4423d7d1a0c387f752d5c74ab41f44db47f7e3da62ab0b4b262"
+					]
+				}
+			}
+		}
+	]
+}

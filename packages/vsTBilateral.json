@@ -1,0 +1,35 @@
+{
+	"name": "vsTBilateral",
+	"type": "avsPlugin",
+	"category": "Denoising",
+	"description": "TBilateral is a spatial smoothing filter that uses the bilateral filtering algorithm. It does a nice job of smoothing while retaining picture structure.",
+	"doom9": "https://forum.doom9.org/showthread.php?t=77856",
+	"website": "http://avisynth.nl/index.php/TBilateral",
+	"github": "https://github.com/Asd-g/AviSynth-vsTBilateral",
+	"identifier": "vstbilateral",
+	"namespace": "vstbilateral",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2020-07-18T20:54:32Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTBilateral/releases/download/1.0.0/vsTBilateral-1.0.0.7z",
+				"files": {
+					"vsTBilateral.dll": [
+						"Release/vsTBilateral.dll",
+						"9eccae2318547249f38768f59fbd3306b4f4b713a8ddec59baf5fa57da740414"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTBilateral/releases/download/1.0.0/vsTBilateral-1.0.0.7z",
+				"files": {
+					"vsTBilateral.dll": [
+						"x64/Release/vsTBilateral.dll",
+						"59fcfd43a84f0aa467d03b2dc8232d0d8cda7a58f5ce8b5f5407fc704da99c4e"
+					]
+				}
+			}
+		}
+	]
+}

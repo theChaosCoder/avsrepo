@@ -10,6 +10,28 @@
 	"github": "https://github.com/jpsdr/NNEDI3",
 	"releases": [
 		{
+			"version": "0.9.4.56",
+			"published": "2020-07-21T17:54:55Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.56/NNEDI3_v0_9_4_56.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x86/Release_W7/nnedi3.dll",
+						"18946005e777434743e57df0bd7ed4aa4f1da627933e897cc3c479bb75908a71"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/NNEDI3/releases/download/0.9.4.56/NNEDI3_v0_9_4_56.7z",
+				"files": {
+					"nnedi3.dll": [
+						"x64/Release_W7/nnedi3.dll",
+						"a8fd44da101c8abc43be4cff7a4aeb06f1a97ffeeb260594bec40d95ccdc2c36"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.9.4.55",
 			"published": "2020-05-05T18:29:55Z",
 			"win32": {

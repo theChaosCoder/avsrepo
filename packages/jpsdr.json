@@ -10,6 +10,28 @@
 	"github": "https://github.com/jpsdr/plugins_JPSDR",
 	"releases": [
 		{
+			"version": "3.2.3",
+			"published": "2020-07-21T17:56:51Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/plugins_JPSDR/releases/download/3.2.3/plugins_JPSDR_v3_2_3.7z",
+				"files": {
+					"plugins_JPSDR.dll": [
+						"x86/Release_W7/plugins_JPSDR.dll",
+						"c4003bf0d2c9cb4e5513e5b39924c6d01324a8f3b011d7d9548c6744afc9b791"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/plugins_JPSDR/releases/download/3.2.3/plugins_JPSDR_v3_2_3.7z",
+				"files": {
+					"plugins_JPSDR.dll": [
+						"x64/Release_W7/plugins_JPSDR.dll",
+						"26fb9d1ea35d461dc977f4933bda6076312d2ac8658929bccd1f6ae384fdd36f"
+					]
+				}
+			}
+		},
+		{
 			"version": "3.2.2",
 			"published": "2020-05-05T18:30:51Z",
 			"win32": {

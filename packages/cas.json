@@ -1,0 +1,34 @@
+{
+	"name": "CAS",
+	"type": "avsPlugin",
+	"category": "Sharpening",
+	"description": "Contrast Adaptive Sharpening (CAS) is a low overhead adaptive sharpening algorithm and was created to provide natural sharpness without artifacts.",
+	"doom9": "https://forum.doom9.org/showthread.php?p=1917615",
+	"github": "https://github.com/Asd-g/AviSynth-CAS",
+	"identifier": "cas",
+	"namespace": "cas",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2020-08-04T22:09:34Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-CAS/releases/download/1.0.0/CAS-1.0.0.7z",
+				"files": {
+					"CAS.dll": [
+						"Release/CAS.dll",
+						"6008e3dbd1ba9ef768ef6940886321363a508db03fe7d779cd28dd0d0d3c9314"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-CAS/releases/download/1.0.0/CAS-1.0.0.7z",
+				"files": {
+					"CAS.dll": [
+						"x64/Release/CAS.dll",
+						"6a425e6036fe83a95b3329c664f8fad964c83b04a8353b41a4d28d7139e24706"
+					]
+				}
+			}
+		}
+	]
+}

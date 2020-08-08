@@ -1,0 +1,34 @@
+{
+	"name": "Bwdif",
+	"type": "avsPlugin",
+	"category": "Deinterlacing",
+	"description": "Motion adaptive deinterlacing based on yadif with the use of w3fdif and cubic interpolation algorithms.",
+	"doom9": "https://forum.doom9.org/showthread.php?t=180419",
+	"github": "https://github.com/Asd-g/AviSynth-BWDIF",
+	"identifier": "bwdif",
+	"namespace": "bwdif",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2020-08-06T22:06:16Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-BWDIF/releases/download/1.0.0/BWDIF-1.0.0.7z",
+				"files": {
+					"BWDIF.dll": [
+						"Release/BWDIF.dll",
+						"2a5da29c98f3fa85ee77c925332e1583ed1e42f3ba177ee0301e00d8c288a3a8"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-BWDIF/releases/download/1.0.0/BWDIF-1.0.0.7z",
+				"files": {
+					"BWDIF.dll": [
+						"x64/Release/BWDIF.dll",
+						"07ce99a1f0a3e515c501928039f0311822a6832fc3e97895671b55f0acd0f06c"
+					]
+				}
+			}
+		}
+	]
+}

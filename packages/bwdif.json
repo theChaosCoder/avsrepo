@@ -9,6 +9,28 @@
 	"namespace": "bwdif",
 	"releases": [
 		{
+			"version": "1.1.0",
+			"published": "2020-08-08T19:30:01Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-BWDIF/releases/download/1.1.0/BWDIF-1.1.0.7z",
+				"files": {
+					"BWDIF.dll": [
+						"Release/BWDIF.dll",
+						"9b158ef70284258ed4d7be055cf1ab728e7beb8240101b82bb674752afba9bf4"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-BWDIF/releases/download/1.1.0/BWDIF-1.1.0.7z",
+				"files": {
+					"BWDIF.dll": [
+						"x64/Release/BWDIF.dll",
+						"f8364ffac199685d448681f0767451df7675f2bb4d0db5fa8719d8ac81407362"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.0.0",
 			"published": "2020-08-06T22:06:16Z",
 			"win32": {

@@ -9,6 +9,28 @@
 	"namespace": "fillborders",
 	"releases": [
 		{
+			"version": "v1.1.0",
+			"published": "2020-08-11T08:29:55Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-FillBorders/releases/download/v1.1.0/FillBorders-1.1.0.7z",
+				"files": {
+					"FillBorders.dll": [
+						"Release/FillBorders.dll",
+						"eaa29f2aba908d3180b5a4bc309c43f4beaf310aafec0705105c3f57193ecfd0"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-FillBorders/releases/download/v1.1.0/FillBorders-1.1.0.7z",
+				"files": {
+					"FillBorders.dll": [
+						"x64/Release/FillBorders.dll",
+						"1ef1592ae33b078a2d16705199772efeaec44b3c7bea33e3996b9ee8511ef083"
+					]
+				}
+			}
+		},
+		{
 			"version": "v1.0.0",
 			"published": "2020-05-17T18:20:46Z",
 			"win32": {

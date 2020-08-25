@@ -9,6 +9,28 @@
 	"namespace": "vstmm",
 	"releases": [
 		{
+			"version": "1.2.1",
+			"published": "2020-08-24T21:07:45Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTMM/releases/download/1.2.1/vsTMM-1.2.1.7z",
+				"files": {
+					"vsTMM.dll": [
+						"Release/vsTMM.dll",
+						"c55a95a907eb38bc8159a79e8c84b67dbea7e2e30ec68a59dbe6d16bebcb6136"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTMM/releases/download/1.2.1/vsTMM-1.2.1.7z",
+				"files": {
+					"vsTMM.dll": [
+						"x64/Release/vsTMM.dll",
+						"d7bd77d38a6b05722416f990e29afb6599f78475613fedeafedb953aab6de024"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.2.0",
 			"published": "2020-08-06T15:19:18Z",
 			"win32": {

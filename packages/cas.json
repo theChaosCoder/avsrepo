@@ -9,6 +9,28 @@
 	"namespace": "cas",
 	"releases": [
 		{
+			"version": "1.0.1",
+			"published": "2020-08-24T21:49:51Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-CAS/releases/download/1.0.1/CAS-1.0.1.7z",
+				"files": {
+					"CAS.dll": [
+						"Release/CAS.dll",
+						"8ada740976cf1e9d419f5da69112514fd8f18efb34664942811b9c0524d8245f"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-CAS/releases/download/1.0.1/CAS-1.0.1.7z",
+				"files": {
+					"CAS.dll": [
+						"x64/Release/CAS.dll",
+						"bad4a0e62f3ba0ef72189c8639ce4f945504514201201f7c9c718dbeaa189f20"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.0.0",
 			"published": "2020-08-04T22:09:34Z",
 			"win32": {

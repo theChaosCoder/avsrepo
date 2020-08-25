@@ -10,6 +10,28 @@
 	"namespace": "matchhistogram",
 	"releases": [
 		{
+			"version": "2.1.3",
+			"published": "2020-08-24T21:40:16Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-MatchHistogram/releases/download/2.1.3/MatchHistogram-2.1.3.7z",
+				"files": {
+					"MatchHistogram.dll": [
+						"Release/MatchHistogram.dll",
+						"ea90098da8e80dd985b3ba8342a1c06ec8f6ea9453874c34232c0cfbb7916a54"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-MatchHistogram/releases/download/2.1.3/MatchHistogram-2.1.3.7z",
+				"files": {
+					"MatchHistogram.dll": [
+						"x64/Release/MatchHistogram.dll",
+						"f46025b48c4a1c8936b89c52f9f40e417453b6e379f4ed9780947d587eb27c13"
+					]
+				}
+			}
+		},
+		{
 			"version": "2.1.2",
 			"published": "2020-08-08T20:22:38Z",
 			"win32": {

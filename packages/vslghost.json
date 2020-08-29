@@ -1,0 +1,34 @@
+{
+	"name": "vsLGhost",
+	"type": "avsPlugin",
+	"category": "Other",
+	"description": "Luminance Ghost reduction filter. Can be used for removing luminance ghost or edge ghost (ringing).",
+	"website": "http://avisynth.nl/index.php?title=LGhost",
+	"github": "https://github.com/Asd-g/AviSynthPlus-vsLGhost",
+	"identifier": "vslghost",
+	"namespace": "vslghost",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2020-08-29T01:15:16Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-vsLGhost/releases/download/1.0.0/vsLGhost-1.0.0.7z",
+				"files": {
+					"vsLGhost.dll": [
+						"Release/vsLGhost.dll",
+						"4460f8e384ac12121e00728bbab4c12486ccd5157f5bfccf0aeadf5e3f4a8dbf"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-vsLGhost/releases/download/1.0.0/vsLGhost-1.0.0.7z",
+				"files": {
+					"vsLGhost.dll": [
+						"x64/Release/vsLGhost.dll",
+						"c9b384db1bd419c27c6132e40fed130f7abded42388f156a375629f7d615109c"
+					]
+				}
+			}
+		}
+	]
+}

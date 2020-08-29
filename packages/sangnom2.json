@@ -10,6 +10,28 @@
 	"github": "https://github.com/Asd-g/AviSynth-SangNom2",
 	"releases": [
 		{
+			"version": "0.6.0",
+			"published": "2020-08-27T19:00:22Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SangNom2/releases/download/0.6.0/SangNom2-0.6.0.7z",
+				"files": {
+					"SangNom2.dll": [
+						"Release/SangNom2.dll",
+						"4c2f24d1685a18c9a11cbd2650f49a0410a24000b1e8ae9c90e6457244ace231"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SangNom2/releases/download/0.6.0/SangNom2-0.6.0.7z",
+				"files": {
+					"SangNom2.dll": [
+						"x64/Release/SangNom2.dll",
+						"e72af37cd320b6f6b1b5d7daa2dd8017be39d7ba84fa92452e5d4a6d84016afd"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.5.0",
 			"published": "2020-05-26T17:15:35Z",
 			"win32": {

@@ -13,6 +13,52 @@
 	],
 	"releases": [
 		{
+			"version": "0.3.0",
+			"published": "2020-08-28T14:44:13Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.3.0/AutoOverlay_0.3.0.zip",
+				"files": {
+					"AutoOverlay_netautoload.dll": [
+						"x86/AutoOverlay_netautoload.dll",
+						"234bc0b6971114d30fb24d24454ca8d887cdbec77cf1cb4baf738da4748b9eda"
+					],
+					"MathNet.Numerics.dll": [
+						"x86/MathNet.Numerics.dll",
+						"bad1ec5c44bbe19dae331cc332a57433b9613bf65bbfeb91bfc4c17ab7c9f659"
+					],
+					"AutoOverlayNative.dll": [
+						"x86/AutoOverlayNative.dll",
+						"fee6e5fbf3480bb3e1cba5e2813bd88fc8ff8a2ee2ceff3ee7d530bd0fe62fe2"
+					],
+					"Simd.dll": [
+						"x86/Simd.dll",
+						"8df8a2ae4f4ab5190e939f11e9394733b5022bb77c3964e1d715b580d24ec17b"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.3.0/AutoOverlay_0.3.0.zip",
+				"files": {
+					"AutoOverlay_netautoload.dll": [
+						"x64/AutoOverlay_netautoload.dll",
+						"234bc0b6971114d30fb24d24454ca8d887cdbec77cf1cb4baf738da4748b9eda"
+					],
+					"MathNet.Numerics.dll": [
+						"x64/MathNet.Numerics.dll",
+						"bad1ec5c44bbe19dae331cc332a57433b9613bf65bbfeb91bfc4c17ab7c9f659"
+					],
+					"AutoOverlayNative.dll": [
+						"x64/AutoOverlayNative.dll",
+						"ade0239aa4141b8ec67f9a3284568ad31648d0d22bf0e7bc6d3003bc15632740"
+					],
+					"Simd.dll": [
+						"x64/Simd.dll",
+						"d934242727ddb5ce154267f30c9fba90cb0fcc7432e6deebceeaf7a4b2e2a2e5"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.2.5",
 			"published": "2018-09-09T09:28:37Z",
 			"win32": {

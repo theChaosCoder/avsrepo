@@ -15,6 +15,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:8890832",
+			"published": "2020-09-08T13:44:05Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/8890832513db5a29b136a0b3796ed639a8d94d25/avs%202.5%20and%20up/YAHR.avsi",
+				"files": {
+					"YAHR.avsi": [
+						"YAHR.avsi",
+						"8c7b4266ec01b58e5a7c6b931cc0247e52079c5011fc9ddc6a2d9dbd08a124b1"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:e10611d",
 			"published": "2020-03-13T07:18:59Z",
 			"script": {

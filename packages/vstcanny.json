@@ -1,0 +1,34 @@
+{
+	"name": "vsTCanny",
+	"type": "avsPlugin",
+	"category": "Other",
+	"description": "Builds an edge map using canny edge detection.",
+	"doom9": "https://forum.doom9.org/showthread.php?t=172158",
+	"github": "https://github.com/Asd-g/AviSynth-vsTCanny",
+	"identifier": "vstcanny",
+	"namespace": "vstcanny",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2020-09-15T15:13:28Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTCanny/releases/download/1.0.0/vsTCanny-1.0.0.7z",
+				"files": {
+					"vsTCanny.dll": [
+						"Release/vsTCanny.dll",
+						"4a55fea5f521740d4b4e1538874545fc3449dc23fd4e741488057d0a6ee8e6e3"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTCanny/releases/download/1.0.0/vsTCanny-1.0.0.7z",
+				"files": {
+					"vsTCanny.dll": [
+						"x64/Release/vsTCanny.dll",
+						"41f96cc7f77c5e95779af03c8ec6042d7eca91f0e9ce2f0f5a84004a867aa6e2"
+					]
+				}
+			}
+		}
+	]
+}

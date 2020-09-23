@@ -8,6 +8,28 @@
 	"namespace": "mtcombmask",
 	"releases": [
 		{
+			"version": "2.2.0",
+			"published": "2020-09-20T15:14:55Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/MTCombMask/releases/download/2.2.0/MTCombMask-2.2.0.7z",
+				"files": {
+					"MTCombMask.dll": [
+						"Release/MTCombMask.dll",
+						"8ed3f2587562aeaeb6ac3ee91c020f6290e095415b97b91922bebfc64b70c4ce"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/MTCombMask/releases/download/2.2.0/MTCombMask-2.2.0.7z",
+				"files": {
+					"MTCombMask.dll": [
+						"x64/Release/MTCombMask.dll",
+						"64d366b3425e498f695b754235211cd6b0e0ccde02b5e68097db9ccd2bdf292d"
+					]
+				}
+			}
+		},
+		{
 			"version": "2.1.0",
 			"published": "2020-05-31T15:16:06Z",
 			"win32": {

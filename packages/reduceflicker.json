@@ -9,6 +9,28 @@
 	"namespace": "reduceflicker",
 	"releases": [
 		{
+			"version": "0.1.1",
+			"published": "2020-09-22T20:00:38Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/ReduceFlicker/releases/download/0.1.1/ReduceFlicker-0.1.1.7z",
+				"files": {
+					"ReduceFlicker.dll": [
+						"Release/ReduceFlicker.dll",
+						"19cbc41e9d19d324cdcd6a9c9253e5a710b7617978b701037e32ad3872e70006"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/ReduceFlicker/releases/download/0.1.1/ReduceFlicker-0.1.1.7z",
+				"files": {
+					"ReduceFlicker.dll": [
+						"x64/Release/ReduceFlicker.dll",
+						"ef6d9c8924055e1f7c9c01c070d4ce10a14673ab9672d69fc961ff4309fc7931"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.1.0",
 			"published": "2020-05-24T21:08:42Z",
 			"win32": {

@@ -115,16 +115,12 @@ def fetch_url(url, desc = None):
             print('Fetching: ' + url)
             return urlreq.read()
 
-def fetch_url_to_cache(url, name, tag_name, desc = None, use_basename = False):
-    cache_path = 'dlcache/' + name + '_' + tag_name + '/' + url.rsplit('/')[-1]
+def fetch_url_to_cache(url, name, tag_name, desc = None):
+    cache_path = os.path.join('dlcache', name + '_' + tag_name, os.path.basename(url))
     url = requote_uri(url)
     if not os.path.isfile(cache_path):
         os.makedirs(os.path.split(cache_path)[0], exist_ok=True)
         with urllib.request.urlopen(urllib.request.Request(url, method='HEAD')) as urlreq:
-            if not use_basename:
-                cache_path = 'dlcache/' + name + '_' + tag_name + '/' + urlreq.info().get_filename()
-            else:
-                cache_path = 'dlcache/' + name + '_' + tag_name + '/' + os.path.basename(url)
             if not os.path.isfile(cache_path):
                 data = fetch_url(url, desc)
                 with open(cache_path, 'wb') as pl:
@@ -238,7 +234,7 @@ def update_package(name):
 
                     new_rel_entry = { 'version': 'git:' + git_hash_short, 'published': git_commits[0]['commit']['committer']['date'] }
                     new_url = replace_hash_git_url(latest_rel['script']['url'], git_hash)
-                    temp_fn = fetch_url_to_cache(new_url, name,  git_hash_short, pfile['name'] + ' ' + git_hash_short + ' script', use_basename = True)
+                    temp_fn = fetch_url_to_cache(new_url, name,  git_hash_short, pfile['name'] + ' ' + git_hash_short + ' script')
                     new_rel_entry['script'] = { 'url': new_url, 'files': {} }
 
                     for fn in latest_rel['script']['files']:

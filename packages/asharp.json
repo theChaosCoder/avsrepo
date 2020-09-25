@@ -1,0 +1,33 @@
+{
+	"name": "ASharp",
+	"type": "avsPlugin",
+	"category": "Sharpening",
+	"description": "Adaptive sharpening filter",
+	"github": "https://github.com/Asd-g/AviSynth-ASharp",
+	"identifier": "asharp",
+	"namespace": "asharp",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2020-09-25T00:44:37Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-ASharp/releases/download/1.0.0/ASharp-1.0.0.7z",
+				"files": {
+					"ASharp.dll": [
+						"Release/ASharp.dll",
+						"b85e62997775589d8b56ede11b6025543294c715f40e80f06785a2dd9ef5f07f"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-ASharp/releases/download/1.0.0/ASharp-1.0.0.7z",
+				"files": {
+					"ASharp.dll": [
+						"x64/Release/ASharp.dll",
+						"4ffdead2f24be95080d07853f5222be940b0febbad7f8a675422c6fa411b19b9"
+					]
+				}
+			}
+		}
+	]
+}

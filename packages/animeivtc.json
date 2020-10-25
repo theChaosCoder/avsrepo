@@ -33,6 +33,32 @@
 	],
 	"releases": [
 		{
+			"version": "git:7eb1591",
+			"published": "2020-10-12T04:58:59Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/7eb15918d85407dd3c8763fbbcb3c72c32d938e0/avs%202.5%20and%20up/AnimeIVTC.avsi",
+				"files": {
+					"AnimeIVTC.avsi": [
+						"AnimeIVTC.avsi",
+						"39782bb9de3a075c21a4e188cf1791a1b8dcd5359fca689bab1c966884244dc7"
+					]
+				}
+			}
+		},
+		{
+			"version": "git:2b08de1",
+			"published": "2020-10-06T02:53:10Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/2b08de16f863b76e0634a2ae677ad2f1702afe17/avs%202.5%20and%20up/AnimeIVTC.avsi",
+				"files": {
+					"AnimeIVTC.avsi": [
+						"AnimeIVTC.avsi",
+						"1dad408a35e6475e94c2262cf78d64de6e0b8569477d6bf361da221fbe894ecc"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:2590e44",
 			"published": "2020-09-06T15:25:07Z",
 			"script": {

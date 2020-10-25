@@ -19,6 +19,27 @@
 	],
 	"releases": [
 		{
+			"version": "v2.4.0",
+			"published": "2020-10-01T06:55:40Z",
+			"win64": {
+				"url": "https://github.com/TianZerL/Anime4KCPP/releases/download/v2.4.0/Anime4KCPP_AviSynthPlus_plugin-2.4.0-Win64-msvc.7z",
+				"files": {
+					"Anime4KCPP_AviSynthPlus.dll": [
+						"AviSynthPlus/dll/Anime4KCPP_AviSynthPlus.dll",
+						"49985711ef78678072ab0086ce363bbabdb94b895652599c820dc08622f6b06a"
+					],
+					"concrt140.dll": [
+						"AviSynthPlus/dll/concrt140.dll",
+						"5393f592cded7bd8ae07b2afc3efdcc4a0b05f7e8e74380a267398266fc02d41"
+					],
+					"opencv_world440.dll": [
+						"AviSynthPlus/dll/opencv_world440.dll",
+						"6e5a73e453fcd932d6fcf3f2668b396df330e109c8158708d549b403bb5707bf"
+					]
+				}
+			}
+		},
+		{
 			"version": "v2.3.0",
 			"published": "2020-08-07T15:32:24Z",
 			"win64": {

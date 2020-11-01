@@ -10,6 +10,23 @@
 	"github": "https://github.com/pinterf/FFT3dGPU",
 	"releases": [
 		{
+			"version": "0.8.5",
+			"published": "2020-11-01T18:23:46Z",
+			"win32": {
+				"url": "https://github.com/pinterf/FFT3dGPU/releases/download/0.8.5/FFT3dGPU-v0.8.5-pfmod.7z",
+				"files": {
+					"FFT3dGPU.dll": [
+						"x86/FFT3dGPU.dll",
+						"8d2cd066e23f59cbe601521bce65c32644c2e66baa21d5067065070d40679560"
+					],
+					"fft3dgpu.hlsl": [
+						"x86/fft3dgpu.hlsl",
+						"ba5fca6e26cb5e5d462be73cbd900385796698898daf5b324ddd3e4a1bd963c5"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.8.4",
 			"published": "2018-11-21T15:36:10Z",
 			"win32": {

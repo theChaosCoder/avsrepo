@@ -5,9 +5,7 @@ on:
     tags:
       - '*.*.*'
 env:
-  PYTHON_VERSION: '3.7'
-  UPX_VERSION: '3.96'
-  UPX_SOURCE: 'https://github.com/upx/upx/releases/download/v'
+  PYTHON_VERSION: '3.8'
 
 jobs:
 
@@ -26,20 +24,17 @@ jobs:
       with:
         python-version: ${{ env.PYTHON_VERSION }}
         architecture: 'x86'
-    - name: Install PyInstaller and UPX
+    - name: Install PyInstaller
       shell: bash
       run: |
         python -m pip install --upgrade pip
         pip install pipenv
         pipenv install
         pipenv run pip install pyinstaller
-        mkdir ./UPX && mkdir ./UPX/dist
-        curl -sL -o ./UPX/upx-compress ${{ env.UPX_SOURCE }}${{ env.UPX_VERSION }}/upx-${{ env.UPX_VERSION }}-win32.zip
-        unzip ./UPX/upx-compress -d ./UPX/dist/
     - name: Build 32-bit version with PyInstaller
       shell: bash
       run: |
-        PYTHONOPTIMIZE=1 pipenv run pyinstaller --upx-exclude=vcruntime140.dll --upx-exclude=ucrtbase.dll -F -i ./resources/app.ico --clean --upx-dir=./UPX/dist/upx-${{ env.UPX_VERSION }}-win32/ -n avsrepo-32 avsrepo.py
+        PYTHONOPTIMIZE=1 pipenv run pyinstaller -F -i ./resources/app.ico --clean -n avsrepo-32 avsrepo.py
     - name: Upload release file
       uses: actions/upload-artifact@v1
       with:
@@ -60,20 +55,17 @@ jobs:
       with:
         python-version: ${{ env.PYTHON_VERSION }}
         architecture: 'x64'
-    - name: Install PyInstaller and UPX
+    - name: Install PyInstaller
       shell: bash
       run: |
         python -m pip install --upgrade pip
         pip install pipenv
         pipenv install
         pipenv run pip install pyinstaller
-        mkdir ./UPX && mkdir ./UPX/dist
-        curl -sL -o ./UPX/upx-compress ${{ env.UPX_SOURCE }}${{ env.UPX_VERSION }}/upx-${{ env.UPX_VERSION }}-win64.zip
-        unzip ./UPX/upx-compress -d ./UPX/dist/
     - name: Build 64-bit version with PyInstaller
       shell: bash
       run: |
-        PYTHONOPTIMIZE=1 pipenv run pyinstaller --upx-exclude=vcruntime140.dll --upx-exclude=ucrtbase.dll -F -i ./resources/app.ico --clean --upx-dir=./UPX/dist/upx-${{ env.UPX_VERSION }}-win64/ -n avsrepo-64 avsrepo.py
+        PYTHONOPTIMIZE=1 pipenv run pyinstaller -F -i ./resources/app.ico --clean -n avsrepo-64 avsrepo.py
     - name: Upload release file
       uses: actions/upload-artifact@v1
       with:

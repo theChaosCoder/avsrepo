@@ -28,13 +28,11 @@ jobs:
       shell: bash
       run: |
         python -m pip install --upgrade pip
-        pip install pipenv
-        pipenv install --python=${{ env.PYTHON_VERSION }}
-        pipenv run --python=${{ env.PYTHON_VERSION }} pip install pyinstaller
+        pip install pyinstaller
     - name: Build 32-bit version with PyInstaller
       shell: bash
       run: |
-        PYTHONOPTIMIZE=1 pipenv run --python=${{ env.PYTHON_VERSION }} pyinstaller -F -i ./resources/app.ico --clean -n avsrepo-32 avsrepo.py
+        PYTHONOPTIMIZE=1 pyinstaller -F -i ./resources/app.ico --clean -n avsrepo-32 avsrepo.py
     - name: Upload release file
       uses: actions/upload-artifact@v1
       with:
@@ -59,13 +57,10 @@ jobs:
       shell: bash
       run: |
         python -m pip install --upgrade pip
-        pip install pipenv
-        pipenv install --python=${{ env.PYTHON_VERSION }}
-        pipenv run --python=${{ env.PYTHON_VERSION }} pip install pyinstaller
     - name: Build 64-bit version with PyInstaller
       shell: bash
       run: |
-        PYTHONOPTIMIZE=1 pipenv run --python=${{ env.PYTHON_VERSION }} pyinstaller -F -i ./resources/app.ico --clean -n avsrepo-64 avsrepo.py
+        PYTHONOPTIMIZE=1 pyinstaller -F -i ./resources/app.ico --clean -n avsrepo-64 avsrepo.py
     - name: Upload release file
       uses: actions/upload-artifact@v1
       with:

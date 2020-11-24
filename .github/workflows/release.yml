@@ -34,7 +34,7 @@ jobs:
     - name: Build 32-bit version with PyInstaller
       shell: bash
       run: |
-        PYTHONOPTIMIZE=1 pipenv run pyinstaller -F --add-data "api-ms-win-core-path-l1-1-0.dll;." -i ./resources/app.ico --clean -n avsrepo-32 avsrepo.py
+        PYTHONOPTIMIZE=1 pipenv run --python=${{ env.PYTHON_VERSION }} pyinstaller -F -i ./resources/app.ico --clean -n avsrepo-32 avsrepo.py
     - name: Upload release file
       uses: actions/upload-artifact@v1
       with:
@@ -65,7 +65,7 @@ jobs:
     - name: Build 64-bit version with PyInstaller
       shell: bash
       run: |
-        PYTHONOPTIMIZE=1 pipenv run pyinstaller -F --add-data "api-ms-win-core-path-l1-1-0.dll;." -i ./resources/app.ico --clean -n avsrepo-64 avsrepo.py
+        PYTHONOPTIMIZE=1 pipenv run --python=${{ env.PYTHON_VERSION }} pyinstaller -F -i ./resources/app.ico --clean -n avsrepo-64 avsrepo.py
     - name: Upload release file
       uses: actions/upload-artifact@v1
       with:

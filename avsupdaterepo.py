@@ -82,7 +82,7 @@ def get_most_similar(a, b):
 def get_git_api_url(url):
     if url.startswith('https://github.com/'):
         s = url.rsplit('/', 3)
-        return 'https://api.github.com/repos/' + s[-2] + '/' + s[-1] + '/releases?access_token=' + args.git_token[0]
+        return 'https://api.github.com/repos/' + s[-2] + '/' + s[-1] + '/releases'
     else:
         return None
 
@@ -98,8 +98,9 @@ def get_git_api_commits_url(url, path = None, branch = None):
     else:
         return None
 
-def fetch_url(url, desc = None):
-    with urllib.request.urlopen(url) as urlreq:
+def fetch_url(url, desc = None, token = None):
+    req = urllib.request.Request(url, headers={'Authorization': 'token ' + token}) if token is not None else urllib.request.Request(url)
+    with urllib.request.urlopen(req) as urlreq:
         if ('tqdm' in sys.modules) and (urlreq.headers['content-length'] is not None):
             size = int(urlreq.headers['content-length'])
             remaining = size
@@ -196,7 +197,7 @@ def update_package(name):
         
         if 'github' in pfile:
             new_rels = {}
-            apifile = json.loads(fetch_url(get_git_api_url(pfile['github']), pfile['name']))
+            apifile = json.loads(fetch_url(get_git_api_url(pfile['github']), pfile['name'], token=args.git_token[0]))
             
             is_plugin = (pfile['type'] == 'avsPlugin')
             is_only_commits = not apifile and not is_plugin ## avsiScript with no releases on github

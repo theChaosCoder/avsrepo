@@ -10,6 +10,36 @@
 	"github": "https://github.com/pinterf/FFT3dGPU",
 	"releases": [
 		{
+			"version": "0.8.6",
+			"published": "2021-01-04T12:29:46Z",
+			"win32": {
+				"url": "https://github.com/pinterf/FFT3dGPU/releases/download/0.8.6/FFT3dGPU-v0.8.6-pfmod.7z",
+				"files": {
+					"FFT3dGPU.dll": [
+						"x86/FFT3dGPU.dll",
+						"c32b09e3559e9b2b9e601461606e8c3c857d6ca6517e3fb1e33b3ffde785de5f"
+					],
+					"fft3dgpu.hlsl": [
+						"x86/fft3dgpu.hlsl",
+						"f432342ae6a22a4ba80fa0d3779fe311a368492656adea4a90e3e2e1d0cd26af"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/FFT3dGPU/releases/download/0.8.6/FFT3dGPU-v0.8.6-pfmod.7z",
+				"files": {
+					"FFT3dGPU.dll": [
+						"x64/FFT3dGPU.dll",
+						"e241a5374c7d93a1f97c6f0d99b1deb2c0cfbf0a47442ef9fc43bd3e713924af"
+					],
+					"fft3dgpu.hlsl": [
+						"x64/fft3dgpu.hlsl",
+						"f432342ae6a22a4ba80fa0d3779fe311a368492656adea4a90e3e2e1d0cd26af"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.8.5",
 			"published": "2020-11-01T18:23:46Z",
 			"win32": {

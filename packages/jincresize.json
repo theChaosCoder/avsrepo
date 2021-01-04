@@ -9,6 +9,50 @@
 	"namespace": "jincresize",
 	"releases": [
 		{
+			"version": "2.0.1",
+			"published": "2020-12-24T19:18:38Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-JincResize/releases/download/2.0.1/JincResize-2.0.1.7z",
+				"files": {
+					"JincResize.dll": [
+						"Release/JincResize.dll",
+						"f139fe861efab47d39e7546bf1108bfaed8b913fcee7309c89a1275a2b44016d"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-JincResize/releases/download/2.0.1/JincResize-2.0.1.7z",
+				"files": {
+					"JincResize.dll": [
+						"x64/Release/JincResize.dll",
+						"3aa9271e6dc9b3351feb3d1102a4eba7d25e95e1adc690d184312653b4cfa267"
+					]
+				}
+			}
+		},
+		{
+			"version": "2.0.0",
+			"published": "2020-12-23T21:19:47Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-JincResize/releases/download/2.0.0/JincResize-2.0.0.7z",
+				"files": {
+					"JincResize.dll": [
+						"Release/JincResize.dll",
+						"3287eff7c7fdcffb9b1193dddb5c9d06289e1b12d16048b400d260ae7ccd4d86"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-JincResize/releases/download/2.0.0/JincResize-2.0.0.7z",
+				"files": {
+					"JincResize.dll": [
+						"x64/Release/JincResize.dll",
+						"7622b72a67fbc95b04d04c353956d608cbc5ba65329efc13f5821a0bebd9321f"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.2.0",
 			"published": "2020-12-14T03:54:03Z",
 			"win32": {

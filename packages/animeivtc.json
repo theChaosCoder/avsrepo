@@ -33,6 +33,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:daca358",
+			"published": "2020-12-20T00:20:59Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/daca358025fffafec502e24620ececc5397c3d41/avs%202.5%20and%20up/AnimeIVTC.avsi",
+				"files": {
+					"AnimeIVTC.avsi": [
+						"AnimeIVTC.avsi",
+						"f8f24b72b9c82cba4abaf4fd0b76ee5da018feac208e8f2c0ce56f0bd6153f92"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:39afac2",
 			"published": "2020-11-15T17:40:07Z",
 			"script": {

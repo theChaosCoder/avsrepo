@@ -9,6 +9,50 @@
 	"namespace": "fillborders",
 	"releases": [
 		{
+			"version": "1.2.1",
+			"published": "2021-02-19T01:42:25Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-FillBorders/releases/download/1.2.1/FillBorders-1.2.1.7z",
+				"files": {
+					"FillBorders.dll": [
+						"Release/FillBorders.dll",
+						"a7ae1e8b409ea563a2cd3a296c2faea97b29a22367c5d6430088bdda7e4434c4"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-FillBorders/releases/download/1.2.1/FillBorders-1.2.1.7z",
+				"files": {
+					"FillBorders.dll": [
+						"x64/Release/FillBorders.dll",
+						"12e7b9d34c9a62ee1ddf9b30db4c16f6e12fc4409d22d6e5ad8e58d2dbb07f48"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.2.0",
+			"published": "2021-02-18T00:02:49Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-FillBorders/releases/download/1.2.0/FillBorders-1.2.0.7z",
+				"files": {
+					"FillBorders.dll": [
+						"Release/FillBorders.dll",
+						"882a2e02f8f62aec7109e2aa27b398fd958ca2aa63234c82251762e0d57f4f0b"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-FillBorders/releases/download/1.2.0/FillBorders-1.2.0.7z",
+				"files": {
+					"FillBorders.dll": [
+						"x64/Release/FillBorders.dll",
+						"7681e0884529a96c3cb820206dfae746199910da7150aa9cd3da9cf6ffe93379"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.1.1",
 			"published": "2020-08-24T21:19:26Z",
 			"win32": {

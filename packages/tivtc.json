@@ -9,6 +9,28 @@
 	"github": "https://github.com/pinterf/TIVTC",
 	"releases": [
 		{
+			"version": "v1.0.26",
+			"published": "2021-02-22T08:53:15Z",
+			"win32": {
+				"url": "https://github.com/pinterf/TIVTC/releases/download/v1.0.26/TIVTC-v1.0.26.7z",
+				"files": {
+					"TIVTC.dll": [
+						"x86/TIVTC.dll",
+						"dea6a95db09d87bf6f3e94549e9a406ed36f6409b09a37a1d3ab026ffadf4582"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/TIVTC/releases/download/v1.0.26/TIVTC-v1.0.26.7z",
+				"files": {
+					"TIVTC.dll": [
+						"x64/TIVTC.dll",
+						"9f8ca296e7768cbc370d8ed439052abd01b195b932884217c48fd2bdc190ec26"
+					]
+				}
+			}
+		},
+		{
 			"version": "v1.0.25",
 			"published": "2020-12-14T19:21:55Z",
 			"win32": {

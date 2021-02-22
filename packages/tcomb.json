@@ -1,0 +1,35 @@
+{
+	"name": "TComb",
+	"type": "avsPlugin",
+	"category": "Dot Crawl and Rainbows",
+	"description": "TComb is a temporal comb filter. It reduces cross-luminance (dot crawl) and cross-chrominance (rainbows) artifacts in static areas of the picture.",
+	"doom9": "https://forum.doom9.org/showthread.php?t=172372",
+	"website": "http://avisynth.nl/index.php/TComb",
+	"github": "https://github.com/pinterf/TComb",
+	"identifier": "tcomb",
+	"namespace": "tcomb",
+	"releases": [
+		{
+			"version": "v2.1",
+			"published": "2021-02-22T09:40:39Z",
+			"win32": {
+				"url": "https://github.com/pinterf/TComb/releases/download/v2.1/TComb-v2.1.7z",
+				"files": {
+					"TComb.dll": [
+						"x86/TComb.dll",
+						"dca6c106b9c7f7743fa7bba08667a8966100ab348a6d8db6cfb175d89e85498d"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/TComb/releases/download/v2.1/TComb-v2.1.7z",
+				"files": {
+					"TComb.dll": [
+						"x64/TComb.dll",
+						"3a4c6fd1fc231e33543a5c04452172c6e6d6287e6a0b57e87f258f5cba2ea75e"
+					]
+				}
+			}
+		}
+	]
+}

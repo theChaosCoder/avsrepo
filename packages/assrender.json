@@ -1,0 +1,78 @@
+{
+	"name": "AssRender",
+	"type": "avsPlugin",
+	"category": "Subtitles",
+	"description": "AssRender is an AviSynth plugin that renders ASS/SSA and SRT (without the HTML-like markup) subtitles. It uses libass to render the subtitles, which makes it the fastest and most correct ASS renderer for AviSynth.",
+	"website": "http://avisynth.nl/index.php/AssRender",
+	"github": "https://github.com/pinterf/assrender",
+	"identifier": "assrender",
+	"namespace": "assrender",
+	"releases": [
+		{
+			"version": "0.31",
+			"published": "2021-02-18T11:37:12Z",
+			"win32": {
+				"url": "https://github.com/pinterf/assrender/releases/download/0.31/assrender_v031.7z",
+				"files": {
+					"assrender.dll": [
+						"x86/assrender.dll",
+						"741334165c86739c897763544576f593d622f91a8c490c6ed1bbda9446a7fb4c"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/assrender/releases/download/0.31/assrender_v031.7z",
+				"files": {
+					"assrender.dll": [
+						"x64/assrender.dll",
+						"98f779b526e21b1241ab74bba11fb4024a26477ecee82cbbb552cb1c8e5d4517"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.30",
+			"published": "2021-02-17T12:46:40Z",
+			"win32": {
+				"url": "https://github.com/pinterf/assrender/releases/download/0.30/assrender-0.30.7z",
+				"files": {
+					"assrender.dll": [
+						"x86/assrender.dll",
+						"8b02b439654b7bde973cfb8e3e41eed3ec2c9365fbc3267ae4887d9c1916ff97"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/assrender/releases/download/0.30/assrender-0.30.7z",
+				"files": {
+					"assrender.dll": [
+						"x64/assrender.dll",
+						"ca6bb98ddc2694e9577818a5c1016b2b8eba521d6b016fbbcaa547c0f9e29dc9"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.29",
+			"published": "2021-02-16T20:40:38Z",
+			"win32": {
+				"url": "https://github.com/pinterf/assrender/releases/download/0.29/assrender-0.29.7z",
+				"files": {
+					"assrender.dll": [
+						"x86/assrender.dll",
+						"d85e5b69bfdf7d27306410d9fdf55b6b628f06d10f5600da2bb28dc0e1a91c16"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/assrender/releases/download/0.29/assrender-0.29.7z",
+				"files": {
+					"assrender.dll": [
+						"x64/assrender.dll",
+						"9b2e5b64d6ae8c0d9efd97b20f7a1a09345b778a2b1be6e5b40b1fc733a90f27"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"name": "RemoveGrainHD",
+	"type": "avsPlugin",
+	"category": "Denoising",
+	"description": "'HD' version of RemoveGrain.",
+	"website": "http://avisynth.nl/index.php/RemoveGrainHD",
+	"github": "https://github.com/pinterf/RemoveGrainHD",
+	"identifier": "removegrainhd",
+	"namespace": "removegrainhd",
+	"releases": [
+		{
+			"version": "v0.6",
+			"published": "2021-02-24T13:32:20Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RemoveGrainHD/releases/download/v0.6/RemoveGrainHD-v0.6.7z",
+				"files": {
+					"RemoveGrainHD.dll": [
+						"x86/RemoveGrainHD.dll",
+						"b97b5fe289cbdc9c8e8f5cdb544b417c0db0a4819d639a4facba329678d9f38c"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RemoveGrainHD/releases/download/v0.6/RemoveGrainHD-v0.6.7z",
+				"files": {
+					"RemoveGrainHD.dll": [
+						"x64/RemoveGrainHD.dll",
+						"f23c5bd5a30eec25e9002e8cdd72b9d701c85dac9ace7754a8abf7b40a91b53b"
+					]
+				}
+			}
+		}
+	]
+}

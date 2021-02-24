@@ -10,6 +10,50 @@
 	"namespace": "tcomb",
 	"releases": [
 		{
+			"version": "v2.3",
+			"published": "2021-02-24T10:41:19Z",
+			"win32": {
+				"url": "https://github.com/pinterf/TComb/releases/download/v2.3/TComb-v2.3.7z",
+				"files": {
+					"TComb.dll": [
+						"x86/TComb.dll",
+						"9dc2b9a5e247280d554ff356b9193efa99783e38d59564151218da5e68d464cf"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/TComb/releases/download/v2.3/TComb-v2.3.7z",
+				"files": {
+					"TComb.dll": [
+						"x64/TComb.dll",
+						"432e0fc0cfef51a3741acec78a7a11cf1a04c73c2cc41f339c9f1f0670e148c5"
+					]
+				}
+			}
+		},
+		{
+			"version": "v2.2",
+			"published": "2021-02-23T08:04:03Z",
+			"win32": {
+				"url": "https://github.com/pinterf/TComb/releases/download/v2.2/TComb-v2.2.7z",
+				"files": {
+					"TComb.dll": [
+						"x86/TComb.dll",
+						"d59acc0c3f0f626430c8bcb3086ffe67835a21dffac4f8d1507ce00cbc3e9168"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/TComb/releases/download/v2.2/TComb-v2.2.7z",
+				"files": {
+					"TComb.dll": [
+						"x64/TComb.dll",
+						"30e5a9d1ecaa61116c1fdadad73fc0b73ae0683b64b8cc1e23e749bd6de48474"
+					]
+				}
+			}
+		},
+		{
 			"version": "v2.1",
 			"published": "2021-02-22T09:40:39Z",
 			"win32": {

@@ -10,6 +10,28 @@
 	"github": "https://github.com/pinterf/AddGrainC",
 	"releases": [
 		{
+			"version": "v1.8.3",
+			"published": "2021-03-09T10:29:54Z",
+			"win32": {
+				"url": "https://github.com/pinterf/AddGrainC/releases/download/v1.8.3/AddGrainC-v1.8.3.7z",
+				"files": {
+					"AddGrainC.dll": [
+						"clang/x86/AddGrainC.dll",
+						"0499abf723082c72e169bda02f96271b3ba663b340a2f4231bd8bed4ac97e9d2"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/AddGrainC/releases/download/v1.8.3/AddGrainC-v1.8.3.7z",
+				"files": {
+					"AddGrainC.dll": [
+						"clang/x64/AddGrainC.dll",
+						"f995d0f8319b79742fd9168fb7b7beb50cd463b6f00d48c28f8a7daa065e9bad"
+					]
+				}
+			}
+		},
+		{
 			"version": "v1.8.2",
 			"published": "2020-05-20T07:52:59Z",
 			"win32": {

@@ -9,6 +9,66 @@
 	"github": "https://github.com/pinterf/xy-VSFilter",
 	"releases": [
 		{
+			"version": "3.2.0.804",
+			"published": "2021-03-05T23:14:53Z",
+			"win32": {
+				"url": "https://github.com/pinterf/xy-VSFilter/releases/download/3.2.0.804/xyVSFilterSubFilter-pfmod-3.2.0.804.7z",
+				"files": {
+					"VSFilter.dll": [
+						"x86/VSFilter.dll",
+						"8c58f9a21f57fd9cb06619ac83fe379fcce5fdde6def5a6bce81c83d4c60b08e"
+					],
+					"XySubFilter.dll": [
+						"x86/XySubFilter.dll",
+						"7e7ffa6e818b8cbc890399d0f257ece82a693a46853ff0de1f4c94fcb5fc7699"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/xy-VSFilter/releases/download/3.2.0.804/xyVSFilterSubFilter-pfmod-3.2.0.804.7z",
+				"files": {
+					"VSFilter.dll": [
+						"x64/VSFilter.dll",
+						"530b0ccb309ab090d97a47542791df419ab5803d4a9579e3d55069d06987ab76"
+					],
+					"XySubFilter.dll": [
+						"x64/XySubFilter.dll",
+						"73936362a5fc758942154b0bb273cba1789b113f672d2900bc2343c938cb1674"
+					]
+				}
+			}
+		},
+		{
+			"version": "3.2.0.803",
+			"published": "2021-03-05T09:37:10Z",
+			"win32": {
+				"url": "https://github.com/pinterf/xy-VSFilter/releases/download/3.2.0.803/xyVSFilterSubFilter-pfmod-3.2.0.803.7z",
+				"files": {
+					"VSFilter.dll": [
+						"x86/VSFilter.dll",
+						"d158e631ca56b500bfcb7f2b284bdaebb6cf2a01ef96acbcfb6f24266b83c4f4"
+					],
+					"XySubFilter.dll": [
+						"x86/XySubFilter.dll",
+						"049e77d0ba2264436c4ee7c29886e8aabd94303be2be06a87a79ec7e4d7263c7"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/xy-VSFilter/releases/download/3.2.0.803/xyVSFilterSubFilter-pfmod-3.2.0.803.7z",
+				"files": {
+					"VSFilter.dll": [
+						"x64/VSFilter.dll",
+						"bebea15ffccecd1b5a41dfe6865c214727b583189711f27763aaf4220c8b7332"
+					],
+					"XySubFilter.dll": [
+						"x64/XySubFilter.dll",
+						"9bc2ef8962be7382e9a9b417bd14ca572d3c9dfc3700db8a04811604af1b40af"
+					]
+				}
+			}
+		},
+		{
 			"version": "3.2.0.802",
 			"published": "2018-10-31T10:09:42Z",
 			"win32": {

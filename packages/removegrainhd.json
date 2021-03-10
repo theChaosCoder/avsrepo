@@ -9,6 +9,28 @@
 	"namespace": "removegrainhd",
 	"releases": [
 		{
+			"version": "v0.7",
+			"published": "2021-02-25T08:37:50Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RemoveGrainHD/releases/download/v0.7/RemoveGrainHD-v0.7.7z",
+				"files": {
+					"RemoveGrainHD.dll": [
+						"x86/RemoveGrainHD.dll",
+						"2fc3dce61692caaf866f526550df7b10337c8263fa0d8b0fe2889669b8797728"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RemoveGrainHD/releases/download/v0.7/RemoveGrainHD-v0.7.7z",
+				"files": {
+					"RemoveGrainHD.dll": [
+						"x64/RemoveGrainHD.dll",
+						"052ff69cdc2f5ae25054d1ccee579e6b040d9a944e2d225ce7f182c0f2bf7e1e"
+					]
+				}
+			}
+		},
+		{
 			"version": "v0.6",
 			"published": "2021-02-24T13:32:20Z",
 			"win32": {

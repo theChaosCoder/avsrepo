@@ -9,6 +9,94 @@
 	"namespace": "assrender",
 	"releases": [
 		{
+			"version": "0.35",
+			"published": "2021-03-04T10:00:34Z",
+			"win32": {
+				"url": "https://github.com/pinterf/assrender/releases/download/0.35/assrender_v035.7z",
+				"files": {
+					"assrender.dll": [
+						"x86/assrender.dll",
+						"b6d6ba9cbd67e56ac1ce60aa562a465fb0829d205f48b62470fbac60174fcc34"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/assrender/releases/download/0.35/assrender_v035.7z",
+				"files": {
+					"assrender.dll": [
+						"x64/assrender.dll",
+						"2a95d728029e5f9643502d8fa281ee49f32c92084b6627c9dece49863f730aff"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.34",
+			"published": "2021-03-01T10:41:51Z",
+			"win32": {
+				"url": "https://github.com/pinterf/assrender/releases/download/0.34/assrender_v034.7z",
+				"files": {
+					"assrender.dll": [
+						"x86/assrender.dll",
+						"588a6c7d1520aa185a3858274483395f7dd3894e4db6a86e2ff67b16b7dff2ee"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/assrender/releases/download/0.34/assrender_v034.7z",
+				"files": {
+					"assrender.dll": [
+						"x64/assrender.dll",
+						"ea5053c5cbd290174c44731a00363c4a00f11fb012d9f39836d88af8fe7c317b"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.33",
+			"published": "2021-02-28T18:58:55Z",
+			"win32": {
+				"url": "https://github.com/pinterf/assrender/releases/download/0.33/assrender_v033.7z",
+				"files": {
+					"assrender.dll": [
+						"x86/assrender.dll",
+						"2d52c0dc6d5fb93e01f3ac2dc318cdd94ab2846a2395db72ca8d616f31db997b"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/assrender/releases/download/0.33/assrender_v033.7z",
+				"files": {
+					"assrender.dll": [
+						"x64/assrender.dll",
+						"75365d5f76fadcf33f89acea306170549b5575eaaa53763957865037e5813fd7"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.32",
+			"published": "2021-02-27T12:41:38Z",
+			"win32": {
+				"url": "https://github.com/pinterf/assrender/releases/download/0.32/assrender_v032.7z",
+				"files": {
+					"assrender.dll": [
+						"x86/assrender.dll",
+						"ec3aebc146882c0c7c5a79fa6ebb6c648a5c276a00b76825f36e4de36ebffa16"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/assrender/releases/download/0.32/assrender_v032.7z",
+				"files": {
+					"assrender.dll": [
+						"x64/assrender.dll",
+						"3477cd73085255eee44885df2068840876547f5e144dcaa554eaea906fd650f2"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.31",
 			"published": "2021-02-18T11:37:12Z",
 			"win32": {

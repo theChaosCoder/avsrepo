@@ -1,0 +1,34 @@
+{
+	"name": "Convolution3D",
+	"type": "avsPlugin",
+	"category": "Denoising",
+	"description": "Convolution3D is an Avisynth filter that will apply a 3D - temporal and/or spatial - convolution to a frame",
+	"website": "http://avisynth.nl/index.php?title=Convolution3D",
+	"github": "https://github.com/pinterf/Convolution3D",
+	"identifier": "convolution3d",
+	"namespace": "convolution3d",
+	"releases": [
+		{
+			"version": "v1.1",
+			"published": "2021-03-11T17:05:17Z",
+			"win32": {
+				"url": "https://github.com/pinterf/Convolution3D/releases/download/v1.1/Convolution3D_v1.1.7z",
+				"files": {
+					"Convolution3D.dll": [
+						"x86/Convolution3D.dll",
+						"d4d383a1abc74cf12b5f33a576783c78b3cab252d04b2d17f84cc80d0d1d160e"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/Convolution3D/releases/download/v1.1/Convolution3D_v1.1.7z",
+				"files": {
+					"Convolution3D.dll": [
+						"x64/Convolution3D.dll",
+						"d0679d78502ba1205ea8274aed6e614b2765da48456eab2b13e48b76a7d2e8b0"
+					]
+				}
+			}
+		}
+	]
+}

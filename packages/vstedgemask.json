@@ -2,7 +2,7 @@
 	"name": "vsTEdgeMask",
 	"type": "avsPlugin",
 	"category": "Other",
-	"description": "Builds an edge map using canny edge detection. VapourSnth port of TEdgeMask",
+	"description": "Builds an edge map using canny edge detection. VapourSynth port of TEdgeMask",
 	"website": "http://avisynth.nl/index.php/TEdgeMask",
 	"github": "https://github.com/Asd-g/AviSynth-vsTEdgeMask",
 	"identifier": "vstedgemask",

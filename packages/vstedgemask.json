@@ -1,0 +1,34 @@
+{
+	"name": "vsTEdgeMask",
+	"type": "avsPlugin",
+	"category": "Other",
+	"description": "Builds an edge map using canny edge detection. VapourSnth port of TEdgeMask",
+	"website": "http://avisynth.nl/index.php/TEdgeMask",
+	"github": "https://github.com/Asd-g/AviSynth-vsTEdgeMask",
+	"identifier": "vstedgemask",
+	"namespace": "vstedgemask",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2021-03-11T18:12:25Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTEdgeMask/releases/download/1.0.0/vsTEdgeMask-1.0.0.7z",
+				"files": {
+					"vsTEdgeMask.dll": [
+						"Release/vsTEdgeMask.dll",
+						"e63f2d1264da4d64cda8392d0d8ec878723ac907449f39f971430e3d5f08f1e0"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTEdgeMask/releases/download/1.0.0/vsTEdgeMask-1.0.0.7z",
+				"files": {
+					"vsTEdgeMask.dll": [
+						"x64/Release/vsTEdgeMask.dll",
+						"499f33b4c0f98d2a11f28f1997ea566b331ff56e95e60fc8d41c165c82557bf3"
+					]
+				}
+			}
+		}
+	]
+}

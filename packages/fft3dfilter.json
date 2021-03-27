@@ -13,6 +13,28 @@
 	],
 	"releases": [
 		{
+			"version": "v2.9",
+			"published": "2021-03-24T16:24:55Z",
+			"win32": {
+				"url": "https://github.com/pinterf/fft3dfilter/releases/download/v2.9/FFT3dFilter-v2.9.7z",
+				"files": {
+					"fft3dfilter.dll": [
+						"x86/fft3dfilter.dll",
+						"b98fd3fad6f03d5bb79aecaae76927620e0914b091fd7f6570c1f57fdb8e806f"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/fft3dfilter/releases/download/v2.9/FFT3dFilter-v2.9.7z",
+				"files": {
+					"fft3dfilter.dll": [
+						"x64/fft3dfilter.dll",
+						"a1e76a01a57dd1ee20bccbca0da7f3d79aca02b44900a1f4a5e1469288145c56"
+					]
+				}
+			}
+		},
+		{
 			"version": "v2.8",
 			"published": "2020-12-01T08:37:38Z",
 			"win32": {

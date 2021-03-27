@@ -9,6 +9,28 @@
 	"namespace": "convolution3d",
 	"releases": [
 		{
+			"version": "v1.2",
+			"published": "2021-03-12T18:40:13Z",
+			"win32": {
+				"url": "https://github.com/pinterf/Convolution3D/releases/download/v1.2/Convolution3D_v1.2.7z",
+				"files": {
+					"Convolution3D.dll": [
+						"x86/Convolution3D.dll",
+						"67e0e79bfcd019122e0feff69a40c025d07dbc5d5aacaa62304538fc38ef2b44"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/Convolution3D/releases/download/v1.2/Convolution3D_v1.2.7z",
+				"files": {
+					"Convolution3D.dll": [
+						"x64/Convolution3D.dll",
+						"531db4c9e754ff85bdc0e73e42260d549622be678ae04529d77c9d9cbfbd5e96"
+					]
+				}
+			}
+		},
+		{
 			"version": "v1.1",
 			"published": "2021-03-11T17:05:17Z",
 			"win32": {

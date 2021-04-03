@@ -9,6 +9,28 @@
 	"namespace": "jincresize",
 	"releases": [
 		{
+			"version": "2.0.2",
+			"published": "2021-03-28T16:07:36Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-JincResize/releases/download/2.0.2/JincResize-2.0.2.7z",
+				"files": {
+					"JincResize.dll": [
+						"Release/JincResize.dll",
+						"f50eb08873f5fc4f9e64d2b53279dc76afd6f7954b428e757c1c5ffa80a0a53c"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-JincResize/releases/download/2.0.2/JincResize-2.0.2.7z",
+				"files": {
+					"JincResize.dll": [
+						"x64/Release/JincResize.dll",
+						"ed20bf2eb0ba636c944c1f6b9ace9b199f1843163bf00d576276433cc4232529"
+					]
+				}
+			}
+		},
+		{
 			"version": "2.0.1",
 			"published": "2020-12-24T19:18:38Z",
 			"win32": {

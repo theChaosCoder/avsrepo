@@ -93,8 +93,8 @@ def get_git_api_commits_url(url, path = None, branch = None):
     if url.startswith('https://github.com/'):
         s = url.rsplit('/', 3)
         if path:
-            return f'https://api.github.com/repos/{s[-2]}/{s[-1]}/commits?{sha}path={path}&access_token={args.git_token[0]}'
-        return f'https://api.github.com/repos/{s[-2]}/{s[-1]}/commits?{sha}access_token={args.git_token[0]}'
+            return f'https://api.github.com/repos/{s[-2]}/{s[-1]}/commits?{sha}path={path}'
+        return f'https://api.github.com/repos/{s[-2]}/{s[-1]}/commits?{sha}'
     else:
         return None
 

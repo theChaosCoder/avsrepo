@@ -1,0 +1,35 @@
+{
+	"name": "TNLMeans",
+	"type": "avsPlugin",
+	"category": "Denoising",
+	"description": "TNLMeans is an implementation of the Non-local means denoising denoising algorithm. It also supports extension into 3D and a faster, block based approach.",
+	"doom9": "https://forum.doom9.org/showthread.php?t=111344",
+	"website": "http://avisynth.nl/index.php/TNLMeans",
+	"github": "https://github.com/pinterf/TNLMeans",
+	"identifier": "tnlmeans",
+	"namespace": "tnlmeans",
+	"releases": [
+		{
+			"version": "v1.1",
+			"published": "2021-04-10T18:46:43Z",
+			"win32": {
+				"url": "https://github.com/pinterf/TNLMeans/releases/download/v1.1/TNLMeans_v1.1.7z",
+				"files": {
+					"TNLMeans.dll": [
+						"x86_clang/TNLMeans.dll",
+						"d6b36a86b2db587d53d01ee0066888bfd135c2ee989d4ba97e018feeb6dd602d"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/TNLMeans/releases/download/v1.1/TNLMeans_v1.1.7z",
+				"files": {
+					"TNLMeans.dll": [
+						"x64_clang/TNLMeans.dll",
+						"60e0970f7c931be19a2d9e4dec8cd0416eda1309aae667665343951528693dc9"
+					]
+				}
+			}
+		}
+	]
+}

@@ -18,6 +18,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:4dbb3f6",
+			"published": "2021-03-23T03:19:25Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/4dbb3f6734ebf011551f302ae998c08151835729/avs%202.5%20and%20up/ASTDR.avsi",
+				"files": {
+					"ASTDR.avsi": [
+						"ASTDR.avsi",
+						"41962a2ba484bc6fa3d279d366c587c89f0890ad526e62685e1f9d6efe76c308"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:5d28163",
 			"published": "2020-05-28T12:20:04Z",
 			"script": {

@@ -15,6 +15,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:ae15f8b",
+			"published": "2021-04-05T08:57:46Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/ae15f8b642e6c231389171169dee972602ed9ccd/avs%202.5%20and%20up/Abcxyz_MT2.avsi",
+				"files": {
+					"Abcxyz_MT2.avsi": [
+						"Abcxyz_MT2.avsi",
+						"3337da85d8aec41113473c30bd58d64b5ea66b421e7f2ae1de85c2d56930d609"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:3d50fb1",
 			"published": "2020-03-24T14:19:16Z",
 			"script": {

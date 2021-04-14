@@ -9,6 +9,19 @@
 	"modulename": "dither",
 	"releases": [
 		{
+			"version": "git:c4bde5a",
+			"published": "2021-02-19T05:02:58Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/c4bde5ae10a1a3fb652ef3de4f100773cf6c76f7/avs%202.5%20and%20up/dither.avsi",
+				"files": {
+					"dither.avsi": [
+						"dither.avsi",
+						"d7877cd9102d99b01f1553b19f3af66961d81d3d5f0711521ccf501a1197f8b6"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:07ec5eb",
 			"published": "2020-03-03T18:10:29Z",
 			"script": {

@@ -14,6 +14,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:efd8618",
+			"published": "2021-03-25T04:42:56Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/efd86188737b5c5d56b5ad79038272cadf3f2bb2/avs%202.5%20and%20up/mToon.avsi",
+				"files": {
+					"mToon.avsi": [
+						"mToon.avsi",
+						"1e85ce7ca4f92b135983b9b0e60de7587000b61c2346141c66753759f0264da6"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:9204ba3",
 			"published": "2020-04-23T23:34:30Z",
 			"script": {

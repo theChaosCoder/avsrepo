@@ -9,6 +9,19 @@
 	"modulename": "csmod",
 	"releases": [
 		{
+			"version": "git:3f1c150",
+			"published": "2021-03-23T19:14:32Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/3f1c1501a4e8611808fcf0fa08aac1552f9746e1/avs%202.5%20and%20up/ContraSharpen_mod.avsi",
+				"files": {
+					"ContraSharpen_mod.avsi": [
+						"ContraSharpen_mod.avsi",
+						"a2689ee52bdaa93ef8a7962940c573f2c66b1e57284d6dafda4c7c102a2f78ea"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:eceedf9",
 			"published": "2020-10-19T11:15:58Z",
 			"script": {

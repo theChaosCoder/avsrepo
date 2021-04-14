@@ -15,6 +15,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:ae15f8b",
+			"published": "2021-04-05T08:57:46Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/ae15f8b642e6c231389171169dee972602ed9ccd/avs%202.5%20and%20up/FineDehalo.avsi",
+				"files": {
+					"FineDehalo.avsi": [
+						"FineDehalo.avsi",
+						"45ba4a07447c0dfe683a482c1b82c6e0198c7e5ce81e996e3ab4cffe00f9cdb4"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.1 mod8.78 - git:ea475e9",
 			"published": "2020-04-03T08:50:35Z",
 			"script": {

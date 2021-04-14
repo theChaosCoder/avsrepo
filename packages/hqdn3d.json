@@ -1,0 +1,35 @@
+{
+	"name": "Hqdn3d",
+	"type": "avsPlugin",
+	"category": "Denoising",
+	"description": "High Quality DeNoise 3D is an AviSynth port of the MPlayer filter of the same name. It performs a 3-way low-pass filter, which can completely remove high-frequency noise while minimizing blending artifacts.",
+	"doom9": "",
+	"website": "http://avisynth.nl/index.php/Hqdn3d",
+	"github": "https://github.com/Asd-g/AviSynth-hqdn3d",
+	"identifier": "hqdn3d",
+	"namespace": "hqdn3d",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2021-04-11T22:46:43Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-hqdn3d/releases/download/1.0.0/hqdn3d-1.0.0.7z",
+				"files": {
+					"hqdn3d.dll": [
+						"Release/hqdn3d.dll",
+						"9877fcfdcec93f12cc968de8a294e76087fec0844fccd52764718cc3310a65df"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-hqdn3d/releases/download/1.0.0/hqdn3d-1.0.0.7z",
+				"files": {
+					"hqdn3d.dll": [
+						"x64/Release/hqdn3d.dll",
+						"636a77b7eec55b4bca1da2ce6b62260653baa8ba22bbc872ab5df30ef9a56dd9"
+					]
+				}
+			}
+		}
+	]
+}

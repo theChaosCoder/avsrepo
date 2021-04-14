@@ -1,0 +1,33 @@
+{
+	"name": "Bilateral",
+	"type": "avsPlugin",
+	"category": "Denoising",
+	"description": "Bilateral filter, can be used to perform spatial de-noise, spatial smoothing while preserving edges.",
+	"github": "https://github.com/Asd-g/AviSynth-Bilateral",
+	"identifier": "bilateral",
+	"namespace": "bilateral",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2021-04-04T21:03:46Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-Bilateral/releases/download/1.0.0/Bilateral-1.0.0.7z",
+				"files": {
+					"Bilateral.dll": [
+						"Release/Bilateral.dll",
+						"1631951d48bad184a4965f75d71ed7314e1466a5b683967cb28de7fd2c23f1f5"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-Bilateral/releases/download/1.0.0/Bilateral-1.0.0.7z",
+				"files": {
+					"Bilateral.dll": [
+						"x64/Release/Bilateral.dll",
+						"9906b5f9ff7f91d23c932ba6f56d9ec6edeec46df30d53c66c8de31683f996ce"
+					]
+				}
+			}
+		}
+	]
+}

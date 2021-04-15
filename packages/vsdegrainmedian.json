@@ -1,0 +1,35 @@
+{
+	"name": "vsDeGrainMedian",
+	"type": "avsPlugin",
+	"category": "Denoising",
+	"description": "DeGrainMedian is a spatio-temporal limited median denoiser. It uses various methods to replace every pixel with one selected from its 3x3 neighbourhood, from either the current, previous, or next frame.",
+	"doom9": "https://forum.doom9.org/showthread.php?t=80834",
+	"website": "http://avisynth.nl/index.php/DeGrainMedian",
+	"github": "https://github.com/Asd-g/AviSynth-vsDeGrainMedian",
+	"identifier": "vsdegrainmedian",
+	"namespace": "vsdegrainmedian",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2021-04-15T02:46:44Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsDeGrainMedian/releases/download/1.0.0/vsDeGrainMedian-1.0.0.7z",
+				"files": {
+					"vsDeGrainMedian.dll": [
+						"Release/vsDeGrainMedian.dll",
+						"f9fbcb02f51696a3538f57e37b8fa417f954fc250c2a72570f6d4d03ef5ac90d"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsDeGrainMedian/releases/download/1.0.0/vsDeGrainMedian-1.0.0.7z",
+				"files": {
+					"vsDeGrainMedian.dll": [
+						"x64/Release/vsDeGrainMedian.dll",
+						"6abe196f02b0c29ad238bbc307b1433d062028542a977ba10b4a972e186f51bb"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"name": "DotKill",
+	"type": "avsPlugin",
+	"category": "Dot Crawl and Rainbows",
+	"description": "Spatio-temporal dotcrawl and rainbow remover",
+	"doom9": "https://forum.doom9.org/showthread.php?t=173029",
+	"github": "https://github.com/Asd-g/AviSynth-DotKill",
+	"identifier": "dotkill",
+	"namespace": "dotkill",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2021-05-04T21:22:56Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-DotKill/releases/download/1.0.0/DotKill-1.0.0.7z",
+				"files": {
+					"DotKill.dll": [
+						"Release/DotKill.dll",
+						"9459e0020aa6798ec53547e97707618e83e01f0c388234bf21c39e4809654726"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-DotKill/releases/download/1.0.0/DotKill-1.0.0.7z",
+				"files": {
+					"DotKill.dll": [
+						"x64/Release/DotKill.dll",
+						"7a8736fc4bc1440aec1979e639e69052773cd10f5a6d79db25cfeda1f0daa7c3"
+					]
+				}
+			}
+		}
+	]
+}

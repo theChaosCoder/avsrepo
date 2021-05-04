@@ -1,0 +1,35 @@
+{
+	"name": "Bifrost",
+	"type": "avsPlugin",
+	"category": "Dot Crawl and Rainbows",
+	"description": "A rainbow remover",
+	"doom9": "https://forum.doom9.org/showthread.php?t=169758",
+	"website": "http://avisynth.nl/index.php/Bifrost",
+	"github": "https://github.com/Asd-g/AviSynth-bifrost",
+	"identifier": "",
+	"namespace": "bifrost",
+	"releases": [
+		{
+			"version": "2.1.0",
+			"published": "2021-04-30T15:34:29Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-bifrost/releases/download/2.1.0/bifrost-2.1.0.7z",
+				"files": {
+					"Bifrost.dll": [
+						"Release/Bifrost.dll",
+						"7fd7e5a65fc6ea6e12fad63fcd8586992b596ac21ba41e5f5ea978a9dc1d4372"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-bifrost/releases/download/2.1.0/bifrost-2.1.0.7z",
+				"files": {
+					"Bifrost.dll": [
+						"x64/Release/Bifrost.dll",
+						"9061c95bbad5a9b0c975929f1fc1721f7dc87f5fa1e26fff20a3505d86149529"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"name": "vsCnr2",
+	"type": "avsPlugin",
+	"category": "Denoising",
+	"description": "Cnr2 is a temporal denoiser designed to denoise only the chroma.",
+	"website": "http://avisynth.nl/index.php/Cnr2",
+	"github": "https://github.com/Asd-g/AviSynth-vsCnr2",
+	"identifier": "vscnr2",
+	"namespace": "vscnr2",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2021-05-09T19:48:40Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsCnr2/releases/download/1.0.0/vsCnr2-1.0.0.7z",
+				"files": {
+					"vsCnr2.dll": [
+						"Release/vsCnr2.dll",
+						"5764cf6c6857a44ec03134b69e2e7da95a3710475766816a94b6064afea65cbf"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsCnr2/releases/download/1.0.0/vsCnr2-1.0.0.7z",
+				"files": {
+					"vsCnr2.dll": [
+						"x64/Release/vsCnr2.dll",
+						"7f890c1fcb2ee671a70517b7a2180469fa1fe78e2b0bcfe3866c27d1060d4386"
+					]
+				}
+			}
+		}
+	]
+}

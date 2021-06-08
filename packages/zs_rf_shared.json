@@ -16,6 +16,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:68315c2",
+			"published": "2021-05-17T10:13:30Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/68315c2f71ff2b32c9b828a112f3b5307c200e26/avs%202.5%20and%20up/Zs_RF_Shared.avsi",
+				"files": {
+					"Zs_RF_Shared.avsi": [
+						"Zs_RF_Shared.avsi",
+						"18f1bd1b9e8f1d3d51e4a7e1a2e09a07a6fb9d6fbc20fb29cb0a396d4408ffe7"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:3f53cb3",
 			"published": "2021-05-01T02:51:10Z",
 			"script": {

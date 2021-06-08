@@ -9,6 +9,28 @@
 	"github": "https://github.com/pinterf/RgTools",
 	"releases": [
 		{
+			"version": "1.2",
+			"published": "2021-05-26T15:00:54Z",
+			"win32": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/1.2/RgTools-v1.2.7z",
+				"files": {
+					"RgTools.dll": [
+						"x86/RgTools.dll",
+						"9c8d3b68c3629d4711eae3355ff0dac1d2fbdf9f74c8d100a72768cd8363dff6"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/RgTools/releases/download/1.2/RgTools-v1.2.7z",
+				"files": {
+					"RgTools.dll": [
+						"x64/RgTools.dll",
+						"5727c20ab0e395f40604fb3ef3424e214f0d4e66975e6b51fd2b7c183c8e465c"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.1",
 			"published": "2021-01-04T15:53:09Z",
 			"win32": {

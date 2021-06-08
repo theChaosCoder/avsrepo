@@ -10,6 +10,28 @@
 	"github": "https://github.com/introspected/AutoOverlay",
 	"releases": [
 		{
+			"version": "0.4.2",
+			"published": "2021-05-29T13:31:31Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.4.2/AutoOverlay_0.4.2.7z",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"c243a650d50b6c53d286fbea284f0fdf6896114280c1e7de03c2a1fca4a0af4a"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.4.2/AutoOverlay_0.4.2.7z",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"6bc660d3393c848c2f7c4c98978e5fed8070f51a5ed938ed3c813723050817c1"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.4.1",
 			"published": "2021-03-28T16:48:07Z",
 			"win32": {

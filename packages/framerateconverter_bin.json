@@ -10,6 +10,28 @@
 	"github": "https://github.com/mysteryx93/FrameRateConverter",
 	"releases": [
 		{
+			"version": "v2.0-beta",
+			"published": "2021-06-21T02:13:38Z",
+			"win32": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v2.0-beta/FrameRateConverter-v2.0-beta2.zip",
+				"files": {
+					"FrameRateConverter-x86.dll": [
+						"FrameRateConverter-x86.dll",
+						"8bb192d10a91b3b312483bc2336ccdd9acd6a4c9c0bf4df3008eb6068804733a"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/mysteryx93/FrameRateConverter/releases/download/v2.0-beta/FrameRateConverter-v2.0-beta2.zip",
+				"files": {
+					"FrameRateConverter-x64.dll": [
+						"FrameRateConverter-x64.dll",
+						"4e86d53c0f9996df41e430cab296043d29acfd14373e02dc0a6aa7b7c529f4e1"
+					]
+				}
+			}
+		},
+		{
 			"version": "v1.3",
 			"published": "2019-06-01T12:46:31Z",
 			"win32": {

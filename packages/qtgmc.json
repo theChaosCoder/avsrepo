@@ -25,6 +25,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:fe1aece",
+			"published": "2021-06-15T16:06:25Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/fe1aece169f30f805c0c1fec5f0478e0dfd5f5f0/avs%202.6%20and%20up/QTGMC.avsi",
+				"files": {
+					"QTGMC.avsi": [
+						"QTGMC.avsi",
+						"650f6016f2b9dd604649af587dac5f4f91d67d6526440c184f57eae3fdc638dd"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:d153c3d",
 			"published": "2021-06-11T16:11:06Z",
 			"script": {

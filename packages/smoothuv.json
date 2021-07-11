@@ -9,6 +9,72 @@
 	"github": "https://github.com/Asd-g/AviSynth-SmoothUV2",
 	"releases": [
 		{
+			"version": "4.3.1",
+			"published": "2021-07-05T12:25:00Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.3.1/SmoothUV2-4.3.1.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"7f8dea15b48129e44ccd9d65799a1adefb066dd700c444980eee5dc1b58af439"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.3.1/SmoothUV2-4.3.1.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"95c712e3c5b6f43c0a3f895464ffd3124f227e7065da5cf67d56e71fcdb4da2b"
+					]
+				}
+			}
+		},
+		{
+			"version": "4.3.0",
+			"published": "2021-07-03T22:20:34Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.3.0/SmoothUV2-4.3.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"b83396bd5d20c585301d4a3006697e8aeff8795e5641abbc9ed6f331d087858c"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.3.0/SmoothUV2-4.3.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"cefa7dfd5c108358d07a523c08dba0199378bd6392bf35a91afacb52b7a6bab9"
+					]
+				}
+			}
+		},
+		{
+			"version": "4.2.1",
+			"published": "2021-06-29T20:05:53Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.2.1/SmoothUV2-4.2.1.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"e2d82073e5bd72b32e76a51b4213d3b718237ed78efd3d770f585d21d5c468c7"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.2.1/SmoothUV2-4.2.1.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"bfd0283259464172e9e670bf16ae09e3e021604fd8d252f84f746560908de23f"
+					]
+				}
+			}
+		},
+		{
 			"version": "4.2.0",
 			"published": "2021-06-24T22:01:07Z",
 			"win32": {

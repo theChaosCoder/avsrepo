@@ -1,0 +1,25 @@
+{
+	"name": "ExTools",
+	"type": "avsiScript",
+	"description": "Pack of masktools2/removegrain replacement functions with internal Expr() and some extra features. Generally works faster in HBD, but slower in 8-bit.",
+	"doom9": "https://forum.doom9.org/showthread.php?t=182881",
+	"github": "https://github.com/Dogway/Avisynth-Scripts",
+	"category": "Denoising",
+	"identifier": "extools",
+	"modulename": "extools",
+	"releases": [
+		{
+			"version": "git:c4ce72a",
+			"published": "2021-07-22T22:54:00Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/Dogway/Avisynth-Scripts/c4ce72a4268ccaeb92fdbe3a35953cd99d4365a9/ExTools.avsi",
+				"files": {
+					"ExTools.avsi": [
+						"ExTools.avsi",
+						"ac715d10a14e5af359999bb8b5704ecd7460b9fd47c58d4f13fa781607e41c41"
+					]
+				}
+			}
+		}
+	]
+}

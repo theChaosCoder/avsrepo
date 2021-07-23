@@ -4,6 +4,8 @@
 	"description": "Mighty deblending and decimation filter",
 	"website": "http://avisynth.nl/index.php/Srestore",
 	"doom9": "https://forum.doom9.org/showthread.php?t=95924",
+	"github": "https://github.com/realfinder/AVS-Stuff",
+	"gitbranch": "master",
 	"category": "Other",
 	"identifier": "srestore",
 	"modulename": "srestore",
@@ -11,10 +13,22 @@
 		"rgtools",
 		"tivtc",
 		"masktools",
-		"average",
-		"smdegrain"
+		"average"
 	],
 	"releases": [
+		{
+			"version": "git:d8cb6eb",
+			"published": "2020-03-03T18:06:35Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/d8cb6eb025e1990e270d28ca88c5ee7bd771bdc5/avs%202.5%20and%20up/Srestore.avsi",
+				"files": {
+					"Srestore.avsi": [
+						"Srestore.avsi",
+						"3739c7bae2803713baa5fdafb417942a4f742a63cd891a65121e1e10784e4abb"
+					]
+				}
+			}
+		},
 		{
 			"version": "v2.796",
 			"published": "2019-02-21T12:00:00Z",

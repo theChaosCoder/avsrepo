@@ -1,10 +1,10 @@
 {
 	"name": "SMDegrain",
 	"type": "avsiScript",
-	"description": "General purpose simple degrain function. Pure temporal denoiser. Basically a wrapper(function)/frontend of mvtools2+mdegrain with some added common related options",
+	"description": "General purpose simple degrain function. Pure temporal denoiser. Basically a wrapper(function)/frontend of mvtools2+mdegrain with some added common related options.",
 	"website": "http://avisynth.nl/index.php/SMDegrain",
 	"doom9": "https://forum.doom9.org/showthread.php?t=163604",
-	"github": "https://github.com/realfinder/AVS-Stuff",
+	"github": "https://github.com/Dogway/Avisynth-Scripts",
 	"gitbranch": "master",
 	"category": "Denoising",
 	"identifier": "smdegrain",
@@ -17,135 +17,18 @@
 		"nnedi3",
 		"dfttest",
 		"knlmeanscl",
-		"zs_rf_shared"
+		"extools"
 	],
 	"releases": [
 		{
-			"version": "git:47f9077",
-			"published": "2021-02-09T05:39:32Z",
+			"version": "git:133a324",
+			"published": "2021-06-22T16:14:53Z",
 			"script": {
-				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/47f9077907158d61e0874c39cc8d0e167a023c61/avs%202.5%20and%20up/SMDegrain.avsi",
+				"url": "https://raw.githubusercontent.com/Dogway/Avisynth-Scripts/133a324d96106d5e182d2269fff125f9076c39e7/SMDegrain%20v.3.2.2d/SMDegrain%20v3.2.2d.avsi",
 				"files": {
 					"SMDegrain.avsi": [
-						"SMDegrain.avsi",
-						"b5020e3b4d447b052625125d83c29fb5f12f5fb40413d8bc94cb9d10beff56b8"
-					]
-				}
-			}
-		},
-		{
-			"version": "git:8ec6a98",
-			"published": "2020-09-02T17:09:08Z",
-			"script": {
-				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/8ec6a98e9ae7758f4600361142736fe7193c2809/avs%202.5%20and%20up/SMDegrain.avsi",
-				"files": {
-					"SMDegrain.avsi": [
-						"SMDegrain.avsi",
-						"ff2be8b3bc7b38609c377f4861d78a7abc7b0406d1c179ef045848ea8fc4d0aa"
-					]
-				}
-			}
-		},
-		{
-			"version": "git:76790f0",
-			"published": "2020-06-27T12:35:47Z",
-			"script": {
-				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/76790f0c8849f0d5c15dd31ee42430fc179bddd7/avs%202.5%20and%20up/SMDegrain.avsi",
-				"files": {
-					"SMDegrain.avsi": [
-						"SMDegrain.avsi",
-						"149750e24344b53f95d2431b33443cb7a504e667d71d90fa217f539d1b889f24"
-					]
-				}
-			}
-		},
-		{
-			"version": "git:e3334aa",
-			"published": "2020-05-28T12:16:59Z",
-			"script": {
-				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/e3334aa2fdff62938555a235af3e074586aab27b/avs%202.5%20and%20up/SMDegrain.avsi",
-				"files": {
-					"SMDegrain.avsi": [
-						"SMDegrain.avsi",
-						"6db726c6c6d711f856005712d7e79641841444ea3062f4a27692e2341ffbfe64"
-					]
-				}
-			}
-		},
-		{
-			"version": "git:8eb599a",
-			"published": "2020-05-09T02:09:33Z",
-			"script": {
-				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/8eb599aae79ed9bc52e447c0f3440753eb898ea0/avs%202.5%20and%20up/SMDegrain.avsi",
-				"files": {
-					"SMDegrain.avsi": [
-						"SMDegrain.avsi",
-						"66120f2dde1fd01e48076babc97df12e61d2eff550852be416ea70f7f2a86f5d"
-					]
-				}
-			}
-		},
-		{
-			"version": "v3.1.2.106s - git:ef64bca",
-			"published": "2020-03-06T13:50:59Z",
-			"script": {
-				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/ef64bca62a430ee17f76f651a0f032a586912a93/avs%202.5%20and%20up/SMDegrain.avsi",
-				"files": {
-					"SMDegrain.avsi": [
-						"SMDegrain.avsi",
-						"3c7bbd57675f5d88c79064562eae24076c87ea56d843e2300141a8c80acdc923"
-					]
-				}
-			}
-		},
-		{
-			"version": "v3.1.2.104s",
-			"published": "2019-07-22T06:28:21Z",
-			"script": {
-				"url": "https://api.github.com/repos/avisynth-repository/SMDegrain/zipball/v3.1.2.104s",
-				"files": {
-					"SMDegrain.avsi": [
-						"avisynth-repository-SMDegrain-c009d25/SMDegrain.avsi",
-						"6cec58e50cb9d7c4602184df1c6559b402bf49f22613d3cc83ba11c35b853518"
-					]
-				}
-			}
-		},
-		{
-			"version": "v3.1.2.102s",
-			"published": "2019-06-01T10:30:29Z",
-			"script": {
-				"url": "https://api.github.com/repos/avisynth-repository/SMDegrain/zipball/v3.1.2.102s",
-				"files": {
-					"SMDegrain.avsi": [
-						"avisynth-repository-SMDegrain-3743f9c/SMDegrain.avsi",
-						"283e7bbc5a856f2727701d7ba186aa41cee83b0a6c0c83ccc7811109da069ac1"
-					]
-				}
-			}
-		},
-		{
-			"version": "v3.1.2.101s",
-			"published": "2019-02-18T12:00:00Z",
-			"script": {
-				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/a5a19c2d04e220ea9b8920ab8da9ac9f0d5bda78/SMDegrain.avsi",
-				"files": {
-					"SMDegrain.avsi": [
-						"SMDegrain.avsi",
-						"e990d36a661e5fbd8ecd72b6d95111fa62398d0a867e725585aa884257da0243"
-					]
-				}
-			}
-		},
-		{
-			"version": "v3.1.2.100s",
-			"published": "2018-07-10T12:00:00Z",
-			"script": {
-				"url": "https://pastebin.com/raw/u1xsPLwK",
-				"files": {
-					"SMDegrain.avsi": [
-						"u1xsPLwK",
-						"ddbc92271ec5738a39de843263dc9f353c1ee83d0f55079a3851d02ef33cb46e"
+						"SMDegrain v3.2.2d.avsi",
+						"f7b3b76823a72d31a333df7498c8fcdac61d43031fa786ff0e49f8da37ce823e"
 					]
 				}
 			}

@@ -9,6 +9,32 @@
 	"modulename": "extools",
 	"releases": [
 		{
+			"version": "git:52d62ae",
+			"published": "2021-07-31T23:18:06Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/Dogway/Avisynth-Scripts/52d62ae52d731b70d5642ce0a51eda271ab8172b/ExTools.avsi",
+				"files": {
+					"ExTools.avsi": [
+						"ExTools.avsi",
+						"a19ed8aa88cc7c3bbfc31e056dc37287d3b7f0f17836c97ff2e52ef8d57d86da"
+					]
+				}
+			}
+		},
+		{
+			"version": "git:4bbbede",
+			"published": "2021-07-26T22:51:43Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/Dogway/Avisynth-Scripts/4bbbede8cb0c204a35b44f66d38861412ed4044f/ExTools.avsi",
+				"files": {
+					"ExTools.avsi": [
+						"ExTools.avsi",
+						"3abc75af4bb4b0575f29b3a430bf78cfc223da7143eb50d0ea434ec7bc9e1474"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:c4ce72a",
 			"published": "2021-07-22T22:54:00Z",
 			"script": {

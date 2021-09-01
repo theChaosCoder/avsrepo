@@ -9,6 +9,28 @@
 	"github": "https://github.com/Asd-g/AviSynth-SmoothUV2",
 	"releases": [
 		{
+			"version": "4.4.0",
+			"published": "2021-08-10T17:12:22Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.4.0/SmoothUV2-4.4.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"14d3e3e52acabbaa374aa5fcb1f57dd6a06448b5000d0e18dc84a3283fc72b2a"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.4.0/SmoothUV2-4.4.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"4b0319ff3a2da870346f8d9e88567b4ade38a749aa581e53d6b6ab8ba6fd9fe2"
+					]
+				}
+			}
+		},
+		{
 			"version": "4.3.1",
 			"published": "2021-07-05T12:25:00Z",
 			"win32": {

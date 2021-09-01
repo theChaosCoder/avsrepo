@@ -10,6 +10,50 @@
 	"namespace": "rawsource",
 	"releases": [
 		{
+			"version": "1.3.1",
+			"published": "2021-08-09T09:44:49Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/RawSource_2.6x/releases/download/1.3.1/RawSourcePlus-1.3.1.7z",
+				"files": {
+					"RawSourcePlus.dll": [
+						"Release/RawSourcePlus.dll",
+						"932e057aaaecbac1304ffb9d044e293f32c954983ee4e4660e02efc04e9127cc"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/RawSource_2.6x/releases/download/1.3.1/RawSourcePlus-1.3.1.7z",
+				"files": {
+					"RawSourcePlus.dll": [
+						"x64/Release/RawSourcePlus.dll",
+						"deb7a6baed8842f861e6aa865b0a467e4491e121ad7d9853e407dea94b10d4db"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.3.0",
+			"published": "2021-08-08T18:11:11Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/RawSource_2.6x/releases/download/1.3.0/RawSourcePlus-1.3.0.7z",
+				"files": {
+					"RawSourcePlus.dll": [
+						"Release/RawSourcePlus.dll",
+						"5726a1712e084da25257b94a7ec080bb21808b9103b8594572c349bf1876d2c4"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/RawSource_2.6x/releases/download/1.3.0/RawSourcePlus-1.3.0.7z",
+				"files": {
+					"RawSourcePlus.dll": [
+						"x64/Release/RawSourcePlus.dll",
+						"f47a534ecec5a021cfc156cd0c70cf9e7b9e028c9947190b2d7ef81e24e70058"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.2.0",
 			"published": "2021-08-03T11:48:48Z",
 			"win32": {
@@ -30,6 +74,10 @@
 					]
 				}
 			}
+		},
+		{
+			"version": "1.1.0",
+			"published": "2021-08-01T12:03:37Z"
 		},
 		{
 			"version": "1.0.1",

@@ -9,6 +9,50 @@
 	"namespace": "dedot",
 	"releases": [
 		{
+			"version": "1.2.1",
+			"published": "2021-09-07T17:18:24Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-DeDot/releases/download/1.2.1/DeDot-1.2.1.7z",
+				"files": {
+					"DeDot.dll": [
+						"Release/DeDot.dll",
+						"35be63d0fc5c448a4955b89e6e300ed5511393d2cfe86f6c2be811dd05480d1c"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-DeDot/releases/download/1.2.1/DeDot-1.2.1.7z",
+				"files": {
+					"DeDot.dll": [
+						"x64/Release/DeDot.dll",
+						"2a0414561611043609e53d7d1104f453b22bd36e51d37e39a4fbe22915bcc59d"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.2.0",
+			"published": "2021-09-05T12:31:09Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-DeDot/releases/download/1.2.0/DeDot-1.2.0.7z",
+				"files": {
+					"DeDot.dll": [
+						"Release/DeDot.dll",
+						"c9fff024604b7d306f08c9370b32a13509b3958a35c39e554801fc10a1f1ea2a"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-DeDot/releases/download/1.2.0/DeDot-1.2.0.7z",
+				"files": {
+					"DeDot.dll": [
+						"x64/Release/DeDot.dll",
+						"cfefc506f762c6ac41be9c027ec2f2f500a5e1b6475ca199e9ed875135eca0f0"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.1.0",
 			"published": "2020-05-15T19:22:49Z",
 			"win32": {

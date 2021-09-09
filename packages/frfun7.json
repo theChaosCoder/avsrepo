@@ -1,0 +1,34 @@
+{
+	"name": "Frfun7",
+	"type": "avsPlugin",
+	"category": "Denoising",
+	"description": "Frfun7 is a spatial fractal denoising plugin.",
+	"website": "http://avisynth.nl/index.php/Frfun7",
+	"github": "https://github.com/pinterf/Frfun7",
+	"identifier": "frfun7",
+	"namespace": "frfun7",
+	"releases": [
+		{
+			"version": "0.7",
+			"published": "2021-09-09T11:57:45Z",
+			"win32": {
+				"url": "https://github.com/pinterf/Frfun7/releases/download/0.7/frfun7_v0.7.7z",
+				"files": {
+					"Frfun7.dll": [
+						"x86_clang/Frfun7.dll",
+						"457ed020171df179820e87e6e297a935e0f0fb6cb3df82a4ba8bd3a1aa935a8e"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/Frfun7/releases/download/0.7/frfun7_v0.7.7z",
+				"files": {
+					"Frfun7.dll": [
+						"x64_clang/Frfun7.dll",
+						"4563236184e8482305e61296336d91a9dd180c2008458985a54c103c50dfd4b5"
+					]
+				}
+			}
+		}
+	]
+}

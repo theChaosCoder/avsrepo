@@ -3,6 +3,7 @@
 	"type": "avsPlugin",
 	"category": "Denoising",
 	"description": "Frfun7 is a spatial fractal denoising plugin.",
+	"doom9": "https://forum.doom9.org/showthread.php?t=183206",
 	"website": "http://avisynth.nl/index.php/Frfun7",
 	"github": "https://github.com/pinterf/Frfun7",
 	"identifier": "frfun7",

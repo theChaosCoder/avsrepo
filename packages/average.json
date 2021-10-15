@@ -9,6 +9,28 @@
 	"github": "https://github.com/pinterf/Average",
 	"releases": [
 		{
+			"version": "0.95",
+			"published": "2021-10-08T10:43:08Z",
+			"win32": {
+				"url": "https://github.com/pinterf/Average/releases/download/0.95/Average-v0.95.7z",
+				"files": {
+					"Average.dll": [
+						"x86/Average.dll",
+						"961b9388db7f80f363abe89dc09c0608a501940cd5f32fb4c9821f7049bcece9"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/Average/releases/download/0.95/Average-v0.95.7z",
+				"files": {
+					"Average.dll": [
+						"x64/Average.dll",
+						"52dd4bc82cd601f6dcab20aa0ce512f321902ce55c264123506c12663381b257"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.94",
 			"published": "2017-01-27T15:10:29Z",
 			"win32": {

@@ -12,6 +12,28 @@
 	],
 	"releases": [
 		{
+			"version": "1.9.7",
+			"published": "2021-10-28T09:30:11Z",
+			"win32": {
+				"url": "https://github.com/pinterf/dfttest/releases/download/1.9.7/dfttest-v1.9.7.7z",
+				"files": {
+					"dfttest.dll": [
+						"clang/x86/dfttest.dll",
+						"ac20a8749cd9ac8e639e1c59addf15be9e82c7e95300d44f567def5064560306"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/dfttest/releases/download/1.9.7/dfttest-v1.9.7.7z",
+				"files": {
+					"dfttest.dll": [
+						"clang/x64/dfttest.dll",
+						"3de6dd270844e47b88a7debef09a84ef77a24ce6b3ceb4ce0a3074a75ebc1c5c"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.9.6",
 			"published": "2020-03-24T15:16:59Z",
 			"win32": {

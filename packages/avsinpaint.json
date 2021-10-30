@@ -9,6 +9,28 @@
 	"github": "https://github.com/pinterf/AvsInpaint",
 	"releases": [
 		{
+			"version": "v1.3",
+			"published": "2021-10-25T20:16:11Z",
+			"win32": {
+				"url": "https://github.com/pinterf/AvsInpaint/releases/download/v1.3/AvsInpaint-v1.3.7z",
+				"files": {
+					"AvsInPaint.dll": [
+						"x86/AvsInPaint.dll",
+						"0eca0f30419d4268d0ab85760030f0295fcbffb6b718d8ec0ab98c4b8acbca90"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/AvsInpaint/releases/download/v1.3/AvsInpaint-v1.3.7z",
+				"files": {
+					"AvsInPaint.dll": [
+						"x64/AvsInPaint.dll",
+						"daa8b387d72aae84b6b53f9778dbfd14a0ceda4f69f43d3f7df2fedfe6c0dab6"
+					]
+				}
+			}
+		},
+		{
 			"version": "v1.2",
 			"published": "2019-07-05T13:51:31Z",
 			"win32": {

@@ -1,0 +1,55 @@
+{
+	"name": "PropToClip",
+	"type": "avsPlugin",
+	"category": "Other",
+	"description": "Extracts a clip from the frames attached to the frame property prop in clip.",
+	"github": "https://github.com/Asd-g/AviSynthPlus-PropToClip",
+	"identifier": "proptoclip",
+	"namespace": "proptoclip",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2021-11-05T02:02:14Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-PropToClip/releases/download/1.0.0/PropToClip-1.0.0.7z",
+				"files": {
+					"PropToClip.dll": [
+						"Release/PropToClip.dll",
+						"77a501d7177ad12b87f893594a394f5a98599799ef76548c60d8953d407f1240"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-PropToClip/releases/download/1.0.0/PropToClip-1.0.0.7z",
+				"files": {
+					"PropToClip.dll": [
+						"x64/Release/PropToClip.dll",
+						"6bdc27a3e949db50cffd8a420264ded77ed5980e13feca0d6328141032486d69"
+					]
+				}
+			}
+		},
+		{
+			"version": "create-package",
+			"published": "",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-PropToClip/releases/download/1.0.0/PropToClip-1.0.0.7z",
+				"files": {
+					"PropToClip.dll": [
+						"Release/PropToClip.dll",
+						"77a501d7177ad12b87f893594a394f5a98599799ef76548c60d8953d407f1240"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-PropToClip/releases/download/1.0.0/PropToClip-1.0.0.7z",
+				"files": {
+					"PropToClip.dll": [
+						"x64/Release/PropToClip.dll",
+						"6bdc27a3e949db50cffd8a420264ded77ed5980e13feca0d6328141032486d69"
+					]
+				}
+			}
+		}
+	]
+}

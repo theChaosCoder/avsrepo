@@ -21,6 +21,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:978d994",
+			"published": "2021-07-27T03:13:53Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/978d9941af57f53af4ac48486ae520dab4cfec46/avs%202.5%20and%20up/NotSMDegrain.avsi",
+				"files": {
+					"SMDegrain.avsi": [
+						"NotSMDegrain.avsi",
+						"7602a2921e39a5333e647701a27f1fb30b7b1eacaebe78dbf768bbe5cf6f457f"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:15ec37a",
 			"published": "2021-07-01T02:02:44Z",
 			"script": {

@@ -20,6 +20,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:af0c41b",
+			"published": "2022-01-31T18:47:52Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/Dogway/Avisynth-Scripts/af0c41b72aac29c669c6ea8a12c6a3dbb06946bb/SMDegrain%20v3.4.4d/SMDegrain%20v3.4.4d.avsi",
+				"files": {
+					"SMDegrain.avsi": [
+						"SMDegrain%20v3.4.4d.avsi",
+						"aa5e0c226c469d6a28c3119ee8b6214842b4a448d8046ebb61374939bcf13f80"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:64efbaa",
 			"published": "2021-12-14T19:38:16Z",
 			"script": {

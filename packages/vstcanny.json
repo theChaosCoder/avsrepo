@@ -9,6 +9,28 @@
 	"namespace": "vstcanny",
 	"releases": [
 		{
+			"version": "1.1.5",
+			"published": "2022-01-25T18:21:22Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTCanny/releases/download/1.1.5/vsTCanny-1.1.5.7z",
+				"files": {
+					"vsTCanny.dll": [
+						"Release/vsTCanny.dll",
+						"a16756ad355c9aeefd6cb72c5945ce6a4beec8df269b54d756ec4c01344b4b26"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTCanny/releases/download/1.1.5/vsTCanny-1.1.5.7z",
+				"files": {
+					"vsTCanny.dll": [
+						"x64/Release/vsTCanny.dll",
+						"15347794f4d5b92236f18d4c17701a8f847cbf40b28253f551c8c96bde11f626"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.1.4",
 			"published": "2022-01-02T22:54:35Z",
 			"win32": {

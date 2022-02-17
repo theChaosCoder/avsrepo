@@ -23,10 +23,10 @@
 			"win64": {
 				"url": "http://ajk.kapsi.fi/projects/avisynth/median-plugin/Median-0.6-x64.zip",
 				"files": {
-					"Median.dll": [
-						"Median.dll",
-						"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-					]
+					"Medianx64.dll": [
+                        "Medianx64.dll",
+                        "95d5352860fed102e1c2110329a5427472baaa1b0c543b014fc609f0ab85679a"
+                    ]
 				}
 			}
 		}

@@ -10,6 +10,28 @@
 	"namespace": "hqdn3d",
 	"releases": [
 		{
+			"version": "1.1.1",
+			"published": "2022-02-12T01:54:23Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-hqdn3d/releases/download/1.1.1/hqdn3d-1.1.1.7z",
+				"files": {
+					"hqdn3d.dll": [
+						"Release/hqdn3d.dll",
+						"488b25479a0f56150c454c4c41ef6498e84f55706ed6818670c35fbf7dfdfd96"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-hqdn3d/releases/download/1.1.1/hqdn3d-1.1.1.7z",
+				"files": {
+					"hqdn3d.dll": [
+						"x64/Release/hqdn3d.dll",
+						"1df1948d15a430ab4f40eb4d81c0f624c51787d74259e55b55d45909848b21bf"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.1.0",
 			"published": "2022-01-02T22:18:30Z",
 			"win32": {

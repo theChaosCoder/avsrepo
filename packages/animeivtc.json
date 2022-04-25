@@ -33,6 +33,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:c6a3ece",
+			"published": "2022-03-03T19:21:29Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/c6a3ece311f825c346760cfae9ef518758b5d578/avs%202.5%20and%20up/AnimeIVTC.avsi",
+				"files": {
+					"AnimeIVTC.avsi": [
+						"AnimeIVTC.avsi",
+						"b2fffebcbd120c5c94837edb451f0acaa640eb9eae71d0eaa9ace7e42071714a"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:4764580",
 			"published": "2021-11-14T10:32:11Z",
 			"script": {

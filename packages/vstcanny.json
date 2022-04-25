@@ -9,6 +9,72 @@
 	"namespace": "vstcanny",
 	"releases": [
 		{
+			"version": "1.1.8",
+			"published": "2022-03-27T22:09:13Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTCanny/releases/download/1.1.8/vsTCanny-1.1.8.7z",
+				"files": {
+					"vsTCanny.dll": [
+						"Release/vsTCanny.dll",
+						"3d46c528186641e34f28e4f97d93e67ba8c98297ed0e633f85f9b437391187cc"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTCanny/releases/download/1.1.8/vsTCanny-1.1.8.7z",
+				"files": {
+					"vsTCanny.dll": [
+						"x64/Release/vsTCanny.dll",
+						"975dec8b0516ed0a0a0893cdda348247a42153169ed506f5e92790a44b4e803f"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.1.7",
+			"published": "2022-03-10T01:43:37Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTCanny/releases/download/1.1.7/vsTCanny-1.1.7.7z",
+				"files": {
+					"vsTCanny.dll": [
+						"Release/vsTCanny.dll",
+						"d690dedd2ca645b5022d0b99e29d3a7bff383d06da8560a8e7739caec7d0d265"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTCanny/releases/download/1.1.7/vsTCanny-1.1.7.7z",
+				"files": {
+					"vsTCanny.dll": [
+						"x64/Release/vsTCanny.dll",
+						"9cc82fb4412548b1745b50b0fdf28cb892bf7fb7720764b3b2f31b6a15812e0c"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.1.6",
+			"published": "2022-03-07T05:24:24Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTCanny/releases/download/1.1.6/vsTCanny-1.1.6.7z",
+				"files": {
+					"vsTCanny.dll": [
+						"Release/vsTCanny.dll",
+						"055f70e1869d7190ebfddff689a402f43466861857e17bb8123d6c6d95b50332"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTCanny/releases/download/1.1.6/vsTCanny-1.1.6.7z",
+				"files": {
+					"vsTCanny.dll": [
+						"x64/Release/vsTCanny.dll",
+						"a7db4c501e8ec3ab5235294fa9eb3024a3fa3b9fdcd5ee0f85ca05e9e6d42b9c"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.1.5",
 			"published": "2022-01-25T18:21:22Z",
 			"win32": {

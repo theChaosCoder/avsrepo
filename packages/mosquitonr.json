@@ -1,0 +1,34 @@
+{
+	"name": "MosquitoNR",
+	"type": "avsPlugin",
+	"category": "Denoising",
+	"description": "MosquitoNR is a noise reduction filter designed for mosquito noise, which is often caused by lossy compression such as MPEG",
+	"doom9": "https://forum.doom9.org/showthread.php?p=1622717",
+	"github": "https://github.com/pinterf/MosquitoNR",
+	"identifier": "mosquitonr",
+	"namespace": "mosquitonr",
+	"releases": [
+		{
+			"version": "v0.2",
+			"published": "2022-03-23T13:09:24Z",
+			"win32": {
+				"url": "https://github.com/pinterf/MosquitoNR/releases/download/v0.2/MosquitoNR_v0.2.7z",
+				"files": {
+					"MosquitoNR.dll": [
+						"x86/MosquitoNR.dll",
+						"6480f6676cf8fa4a4592ea738797373661adb55dcb8d1cd15077f84f800c5377"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/MosquitoNR/releases/download/v0.2/MosquitoNR_v0.2.7z",
+				"files": {
+					"MosquitoNR.dll": [
+						"x64/MosquitoNR.dll",
+						"6188ff6bab87c6c2239e8cbed90daa95bdef8754fe3b3b6fbb3173c4038b9246"
+					]
+				}
+			}
+		}
+	]
+}

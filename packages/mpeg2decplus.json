@@ -9,6 +9,50 @@
 	"namespace": "mpeg2decplus",
 	"releases": [
 		{
+			"version": "1.3.0",
+			"published": "2022-05-15T06:58:27Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/MPEG2DecPlus/releases/download/1.3.0/D2VSource-1.3.0.7z",
+				"files": {
+					"D2VSource.dll": [
+						"Release/D2VSource.dll",
+						"c6dab6c7a89fc3836e82d1618fabd37b9cbac9698ec42f8ec87cb32b982e84e0"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/MPEG2DecPlus/releases/download/1.3.0/D2VSource-1.3.0.7z",
+				"files": {
+					"D2VSource.dll": [
+						"x64/Release/D2VSource.dll",
+						"c0a5cb576942c7a62bcbf5ff737127146ecbe40eeb455672d177b7bd666996fd"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.2.6",
+			"published": "2022-05-07T06:25:45Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/MPEG2DecPlus/releases/download/1.2.6/D2VSource-1.2.6.7z",
+				"files": {
+					"D2VSource.dll": [
+						"Release/D2VSource.dll",
+						"e9677ac3c3fdb7d29ca95e619ea83c808b4cd1c9052d25c38f476c3e577b7630"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/MPEG2DecPlus/releases/download/1.2.6/D2VSource-1.2.6.7z",
+				"files": {
+					"D2VSource.dll": [
+						"x64/Release/D2VSource.dll",
+						"3da96b9116e34a14330921e91cab23ef74f81bc5d043884f12ae16b524e8382e"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.2.5",
 			"published": "2022-04-17T22:34:33Z",
 			"win32": {

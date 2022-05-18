@@ -9,6 +9,28 @@
 	"namespace": "mosquitonr",
 	"releases": [
 		{
+			"version": "v0.3",
+			"published": "2022-04-27T09:51:54Z",
+			"win32": {
+				"url": "https://github.com/pinterf/MosquitoNR/releases/download/v0.3/MosquitoNR_v0.3.7z",
+				"files": {
+					"MosquitoNR.dll": [
+						"x86/MosquitoNR.dll",
+						"83655001825d97e682abee10e31c762b0a36025a1d9ffa7b3315daa6e2b57a40"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/MosquitoNR/releases/download/v0.3/MosquitoNR_v0.3.7z",
+				"files": {
+					"MosquitoNR.dll": [
+						"x64/MosquitoNR.dll",
+						"ecf738b59785e634cc073b5b50f5900ee349493b56c52d102bed5e18a090aae6"
+					]
+				}
+			}
+		},
+		{
 			"version": "v0.2",
 			"published": "2022-03-23T13:09:24Z",
 			"win32": {

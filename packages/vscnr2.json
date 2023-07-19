@@ -9,6 +9,28 @@
 	"namespace": "vscnr2",
 	"releases": [
 		{
+			"version": "1.0.1",
+			"published": "2022-06-15T20:34:40Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsCnr2/releases/download/1.0.1/vsCnr2-1.0.1.7z",
+				"files": {
+					"vsCnr2.dll": [
+						"Release/vsCnr2.dll",
+						"7789ae3169867a9dd45435cc7675c44fd3efc15aecb0bd12c567ccaf1d2e0b6b"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsCnr2/releases/download/1.0.1/vsCnr2-1.0.1.7z",
+				"files": {
+					"vsCnr2.dll": [
+						"x64/Release/vsCnr2.dll",
+						"6d72d2c2af4023b822b41e7625f3042c4924d4511bc201e24a08b99031524b6e"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.0.0",
 			"published": "2021-05-09T19:48:40Z",
 			"win32": {

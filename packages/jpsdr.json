@@ -10,6 +10,116 @@
 	"github": "https://github.com/jpsdr/plugins_JPSDR",
 	"releases": [
 		{
+			"version": "3.3.4",
+			"published": "2023-03-26T12:33:00Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/plugins_JPSDR/releases/download/3.3.4/plugins_JPSDR_v3_3_4.7z",
+				"files": {
+					"plugins_JPSDR.dll": [
+						"x86/Release_W7/plugins_JPSDR.dll",
+						"2ade358e9834d5d771b1d187dde6abb43eac24ee7aa1b7e1dd924e00cbae296a"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/plugins_JPSDR/releases/download/3.3.4/plugins_JPSDR_v3_3_4.7z",
+				"files": {
+					"plugins_JPSDR.dll": [
+						"x64/Release_W7/plugins_JPSDR.dll",
+						"2135f5b2d53574d9e56df6e2ab6d80f6d1db522b814cbbc66801eabfec7af744"
+					]
+				}
+			}
+		},
+		{
+			"version": "3.3.3",
+			"published": "2023-02-26T11:30:46Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/plugins_JPSDR/releases/download/3.3.3/plugins_JPSDR_v3_3_3.7z",
+				"files": {
+					"plugins_JPSDR.dll": [
+						"x86/Release_W7/plugins_JPSDR.dll",
+						"3147901547e96c9aef583c45c905aa5f25b256c29779c3bd028768889e547390"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/plugins_JPSDR/releases/download/3.3.3/plugins_JPSDR_v3_3_3.7z",
+				"files": {
+					"plugins_JPSDR.dll": [
+						"x64/Release_W7/plugins_JPSDR.dll",
+						"2cbbcf6ab5253e2644e087c672bad8aa34e27ecac453c93c00c118fa4ab06bec"
+					]
+				}
+			}
+		},
+		{
+			"version": "3.3.2",
+			"published": "2022-11-21T18:27:04Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/plugins_JPSDR/releases/download/3.3.2/plugins_JPSDR_v3_3_2.7z",
+				"files": {
+					"plugins_JPSDR.dll": [
+						"x86/Release_W7/plugins_JPSDR.dll",
+						"49ba9a5dc977d32dc5a776442943e199c33e6d50387f69237092188ed8940a70"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/plugins_JPSDR/releases/download/3.3.2/plugins_JPSDR_v3_3_2.7z",
+				"files": {
+					"plugins_JPSDR.dll": [
+						"x64/Release_W7/plugins_JPSDR.dll",
+						"fb12f7a968eab4cb9e29fa75df578140ad32734dd17f32590df381c20b57396a"
+					]
+				}
+			}
+		},
+		{
+			"version": "3.3.1",
+			"published": "2022-11-20T14:01:39Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/plugins_JPSDR/releases/download/3.3.1/plugins_JPSDR_v3_3_1.7z",
+				"files": {
+					"plugins_JPSDR.dll": [
+						"x86/Release_W7/plugins_JPSDR.dll",
+						"09ab16789e4bd1cde78897caa7e043df7bb046012abd4ec76528d9768ccba6e6"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/plugins_JPSDR/releases/download/3.3.1/plugins_JPSDR_v3_3_1.7z",
+				"files": {
+					"plugins_JPSDR.dll": [
+						"x64/Release_W7/plugins_JPSDR.dll",
+						"d0e5b63a5899dcf34cce599a451b2ecb8a15e06cf20bc5055f1b0f88c5b5e9a1"
+					]
+				}
+			}
+		},
+		{
+			"version": "3.3.0",
+			"published": "2022-06-27T17:23:02Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/plugins_JPSDR/releases/download/3.3.0/plugins_JPSDR_v3_3_0.7z",
+				"files": {
+					"plugins_JPSDR.dll": [
+						"x86/Release_W7/plugins_JPSDR.dll",
+						"b66ec9771af475981a216be0b4ce1e2900cc8ca253026dccc822cb62148d74d5"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/plugins_JPSDR/releases/download/3.3.0/plugins_JPSDR_v3_3_0.7z",
+				"files": {
+					"plugins_JPSDR.dll": [
+						"x64/Release_W7/plugins_JPSDR.dll",
+						"3bb1e61d9930447723ad669520d566bb2f7707acb51126709fc3054c5de85ad6"
+					]
+				}
+			}
+		},
+		{
 			"version": "3.2.8",
 			"published": "2022-02-22T21:45:18Z",
 			"win32": {

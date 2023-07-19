@@ -10,6 +10,50 @@
 	"github": "https://github.com/jpsdr/aWarpSharpMT",
 	"releases": [
 		{
+			"version": "2.1.8",
+			"published": "2023-02-26T11:27:16Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/aWarpSharpMT/releases/download/2.1.8/aWarpSharpMT_v2_1_8.7z",
+				"files": {
+					"aWarpsharpMT.dll": [
+						"x86/Release_W7/aWarpsharpMT.dll",
+						"da4bd7ae80f439a237a91389a50503968fc00d9ca05212d97faaef6734bae6b9"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/aWarpSharpMT/releases/download/2.1.8/aWarpSharpMT_v2_1_8.7z",
+				"files": {
+					"aWarpsharpMT.dll": [
+						"x64/Release_W7/aWarpsharpMT.dll",
+						"f6e2fcb4a62c23dceb26e262dd0f0dfda3df6f6f22e933a16c814838195832e9"
+					]
+				}
+			}
+		},
+		{
+			"version": "2.1.7",
+			"published": "2022-11-20T13:56:04Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/aWarpSharpMT/releases/download/2.1.7/aWarpSharpMT_v2_1_7.7z",
+				"files": {
+					"aWarpsharpMT.dll": [
+						"x86/Release_W7/aWarpsharpMT.dll",
+						"1230f8e175caf4de87ce80ea0d4c999e0038fac3a153de35cacc94dbfddb17f3"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/aWarpSharpMT/releases/download/2.1.7/aWarpSharpMT_v2_1_7.7z",
+				"files": {
+					"aWarpsharpMT.dll": [
+						"x64/Release_W7/aWarpsharpMT.dll",
+						"4b25c348b08f46dc45a225d44fa693b7af3a6a41bee0b58418c011565e6c2990"
+					]
+				}
+			}
+		},
+		{
 			"version": "2.1.6",
 			"published": "2022-02-22T21:38:00Z",
 			"win32": {

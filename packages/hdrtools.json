@@ -10,6 +10,116 @@
 	"github": "https://github.com/jpsdr/HDRTools",
 	"releases": [
 		{
+			"version": "1.0.4",
+			"published": "2023-02-26T11:28:20Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/HDRTools/releases/download/1.0.4/HDRTools_v1_0_4.7z",
+				"files": {
+					"HDRTools.dll": [
+						"x86/Release_W7/HDRTools.dll",
+						"0228c08507282d571bbfb2e6da0acb29e2cf0b1cb388bf0034a04a84f37cb845"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/HDRTools/releases/download/1.0.4/HDRTools_v1_0_4.7z",
+				"files": {
+					"HDRTools.dll": [
+						"x64/Release_W7/HDRTools.dll",
+						"c29d838f3f45d7a56a8242a15b940e80377064e5051bf5bb338e3229bf8cd328"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.3",
+			"published": "2022-11-21T18:25:54Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/HDRTools/releases/download/1.0.3/HDRTools_v1_0_3.7z",
+				"files": {
+					"HDRTools.dll": [
+						"x86/Release_W7/HDRTools.dll",
+						"283ef705c3b0d748db1b8d35d86ed05b551e010b1688c518bf94adc04e3e82f1"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/HDRTools/releases/download/1.0.3/HDRTools_v1_0_3.7z",
+				"files": {
+					"HDRTools.dll": [
+						"x64/Release_W7/HDRTools.dll",
+						"e6c41abb948d0dfe37e7e122d18157e8b9f1c72076f3820b534c5cf7a45491f6"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.2",
+			"published": "2022-11-20T13:57:39Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/HDRTools/releases/download/1.0.2/HDRTools_v1_0_2.7z",
+				"files": {
+					"HDRTools.dll": [
+						"x86/Release_W7/HDRTools.dll",
+						"3819dc6a6b5f777d3037f8a1e37a672a80a5817ad7ec7e313f0c065c9182e584"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/HDRTools/releases/download/1.0.2/HDRTools_v1_0_2.7z",
+				"files": {
+					"HDRTools.dll": [
+						"x64/Release_W7/HDRTools.dll",
+						"b4c0b55bac796f9e5a0d020e9b76f3d1ee1b9fa6349522da12c8526cf39790bb"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.1",
+			"published": "2022-06-21T20:47:45Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/HDRTools/releases/download/1.0.1/HDRTools_v1_0_1.7z",
+				"files": {
+					"HDRTools.dll": [
+						"x86/Release_W7/HDRTools.dll",
+						"3fb60a3f703247feff8ca2554c06c6a615b78553fdeb4afdf9bf2a5e7e48d748"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/HDRTools/releases/download/1.0.1/HDRTools_v1_0_1.7z",
+				"files": {
+					"HDRTools.dll": [
+						"x64/Release_W7/HDRTools.dll",
+						"79436e0502b16beb2e0bebeb58f24cd65d772bc7d466e9fe84b26be8fced51b1"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.0",
+			"published": "2022-06-15T20:42:58Z",
+			"win32": {
+				"url": "https://github.com/jpsdr/HDRTools/releases/download/1.0.0/HDRTools_v1_0_0.7z",
+				"files": {
+					"HDRTools.dll": [
+						"x86/Release_W7/HDRTools.dll",
+						"cabab6403bb5ccd8a9ab6032730406d796243029397320d4f9558c117d629a12"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/jpsdr/HDRTools/releases/download/1.0.0/HDRTools_v1_0_0.7z",
+				"files": {
+					"HDRTools.dll": [
+						"x64/Release_W7/HDRTools.dll",
+						"da99a1e41357d4c2a3317578e8eef4c45b68846410d2791c65df19ce61b9a635"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.6.4",
 			"published": "2022-02-22T21:40:39Z",
 			"win32": {

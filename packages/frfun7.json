@@ -10,6 +10,28 @@
 	"namespace": "frfun7",
 	"releases": [
 		{
+			"version": "0.9",
+			"published": "2022-06-29T13:02:15Z",
+			"win32": {
+				"url": "https://github.com/pinterf/Frfun7/releases/download/0.9/frfun7_v0.9.7z",
+				"files": {
+					"Frfun7.dll": [
+						"x86_clang/Frfun7.dll",
+						"cac8c76637939c6e32fa3bec490cd8c9670b475c55988cef7ff717b344b8a33f"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/Frfun7/releases/download/0.9/frfun7_v0.9.7z",
+				"files": {
+					"Frfun7.dll": [
+						"x64_clang/Frfun7.dll",
+						"dae677a4a78dc36eec63a9638b18f8ad55309139700af68c090a3934fca100fa"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.8",
 			"published": "2022-05-18T14:12:33Z",
 			"win32": {

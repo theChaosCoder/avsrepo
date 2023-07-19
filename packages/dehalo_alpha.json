@@ -15,6 +15,19 @@
 	],
 	"releases": [
 		{
+			"version": "git:4bf0b83",
+			"published": "2022-09-01T18:55:54Z",
+			"script": {
+				"url": "https://raw.githubusercontent.com/realfinder/AVS-Stuff/4bf0b83b78bcfbe561cf468c1d9c1714610fd2f9/avs%202.5%20and%20up/DeHalo_alpha_mt2.avsi",
+				"files": {
+					"DeHalo_alpha_mt2.avsi": [
+						"DeHalo_alpha_mt2.avsi",
+						"4579179495228a4dbbe057497979834cb2807468c2895bf50d214638c55fcdd7"
+					]
+				}
+			}
+		},
+		{
 			"version": "git:ae15f8b",
 			"published": "2021-04-05T08:57:46Z",
 			"script": {

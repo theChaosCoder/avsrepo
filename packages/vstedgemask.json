@@ -9,6 +9,28 @@
 	"namespace": "vstedgemask",
 	"releases": [
 		{
+			"version": "1.0.1",
+			"published": "2022-05-26T23:41:51Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTEdgeMask/releases/download/1.0.1/vsTEdgeMask-1.0.1.7z",
+				"files": {
+					"vsTEdgeMask.dll": [
+						"Release/vsTEdgeMask.dll",
+						"b311c28ed9fa3d788fe3baace2c1c9d2e4cf71892a21a0a4522e43c539f8b1c4"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-vsTEdgeMask/releases/download/1.0.1/vsTEdgeMask-1.0.1.7z",
+				"files": {
+					"vsTEdgeMask.dll": [
+						"x64/Release/vsTEdgeMask.dll",
+						"2ccf65a43f130b46c385a875bd330eda0132c0bcc499dea7922527fb1b08cea0"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.0.0",
 			"published": "2021-03-11T18:12:25Z",
 			"win32": {

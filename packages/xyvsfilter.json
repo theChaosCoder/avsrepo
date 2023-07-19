@@ -9,6 +9,36 @@
 	"github": "https://github.com/pinterf/xy-VSFilter",
 	"releases": [
 		{
+			"version": "3.2.0.808",
+			"published": "2022-11-16T11:59:27Z",
+			"win32": {
+				"url": "https://github.com/pinterf/xy-VSFilter/releases/download/3.2.0.808/xyVSFilterSubFilter-pfmod-3.2.0.808.7z",
+				"files": {
+					"VSFilter.dll": [
+						"x86/VSFilter.dll",
+						"0bc5b37e61a72e1b95540de68cb195e48d0fd224f1d4f40ec29a0f258b05554d"
+					],
+					"XySubFilter.dll": [
+						"x86/XySubFilter.dll",
+						"72c3249ed539c7a8efbb94d72591dba58be1926b36c5250e48347717d521a15b"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/pinterf/xy-VSFilter/releases/download/3.2.0.808/xyVSFilterSubFilter-pfmod-3.2.0.808.7z",
+				"files": {
+					"VSFilter.dll": [
+						"x64/VSFilter.dll",
+						"0bce7a627183578d721865fc0f9e8d8dab3e3c4632bfdfdb6e55cf2bf998bcc3"
+					],
+					"XySubFilter.dll": [
+						"x64/XySubFilter.dll",
+						"f7c0756826cda69ed9e238b08ee2fd17609a62ddefb9c8393410271a0ae20250"
+					]
+				}
+			}
+		},
+		{
 			"version": "3.2.0.806",
 			"published": "2021-04-12T19:39:30Z",
 			"win32": {

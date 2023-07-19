@@ -9,6 +9,58 @@
 	"namespace": "bwdif",
 	"releases": [
 		{
+			"version": "1.2.5",
+			"published": "2023-01-29T16:00:53Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-BWDIF/releases/download/1.2.5/BWDIF-1.2.5.7z",
+				"files": {
+					"BWDIF.dll": [
+						"x64/Release/BWDIF.dll",
+						"fe94ac81415d2c292ac5e62562eb7ee7a780c1187754d8d49e3a98ccb1ddcd92"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.2.4",
+			"published": "2022-11-30T14:32:24Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-BWDIF/releases/download/1.2.4/BWDIF-1.2.4.7z",
+				"files": {
+					"BWDIF.dll": [
+						"x64/Release/BWDIF.dll",
+						"3e96596ca02fd75859950532ef8f8b716373d819e73acd44be50d2dd7e9c23ef"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.2.3",
+			"published": "2022-11-20T19:38:55Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-BWDIF/releases/download/1.2.3/BWDIF-1.2.3.7z",
+				"files": {
+					"BWDIF.dll": [
+						"x64/Release/BWDIF.dll",
+						"f43ee034a7387060de76030cf5cab319d951d2672014c5520f8f681ab40e8599"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.2.2",
+			"published": "2022-11-04T19:09:58Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-BWDIF/releases/download/1.2.2/BWDIF-1.2.2.7z",
+				"files": {
+					"BWDIF.dll": [
+						"x64/Release/BWDIF.dll",
+						"30744ae8d325d0ef4a27abcada4b5794503b623a3ced0838948567d9a6f11bb7"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.2.1",
 			"published": "2021-02-06T00:58:53Z",
 			"win32": {

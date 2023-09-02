@@ -14,6 +14,19 @@
 	],
 	"releases": [
 		{
+			"version": "0.2.8",
+			"published": "2023-07-22T14:44:01Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/yadifmod2/releases/download/0.2.8/yadifmod2-0.2.8.7z",
+				"files": {
+					"yadifmod2.dll": [
+						"x64/Release/yadifmod2.dll",
+						"3ab729c44b475046b1fc54eeba17b9ab02b639162dbed72159002c488de71530"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.2.7",
 			"published": "2021-02-07T20:47:37Z",
 			"win32": {

@@ -1,0 +1,50 @@
+{
+	"name": "EEDI3 OpenCL",
+	"type": "avsPlugin",
+	"category": "Deinterlacing",
+	"description": "EEDI3 works by finding the best non-decreasing (non-crossing) warping between two lines by minimizing a cost functional.",
+	"github": "https://github.com/Asd-g/AviSynthPlus-EEDI3CL",
+	"identifier": "eedi3cl",
+	"namespace": "eedi3cl",
+	"releases": [
+		{
+			"version": "1.0.2",
+			"published": "2023-07-22T13:33:35Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-EEDI3CL/releases/download/1.0.2/EEDI3CL-1.0.2.7z",
+				"files": {
+					"EEDI3CL.dll": [
+						"x64/Release/EEDI3CL.dll",
+						"a09a1b6193e705eeb8af6d948aac28318f1fc1aa448735632329b628424d695d"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.1",
+			"published": "2023-03-14T22:49:31Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-EEDI3CL/releases/download/1.0.1/EEDI3CL-1.0.1.7z",
+				"files": {
+					"EEDI3CL.dll": [
+						"x64/Release/EEDI3CL.dll",
+						"184670324c29fe375282a3cfe039df66ec9631dc058ee6e97d99de3901566d30"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.0",
+			"published": "2022-11-28T17:01:04Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-EEDI3CL/releases/download/1.0.0/EEDI3CL-1.0.0.7z",
+				"files": {
+					"EEDI3CL.dll": [
+						"x64/Release/EEDI3CL.dll",
+						"d0a27aef692c8490bbf9a398282830f998df4e2e741ed1a3ad9e7a21150e47ce"
+					]
+				}
+			}
+		}
+	]
+}

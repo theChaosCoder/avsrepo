@@ -1,0 +1,146 @@
+{
+	"name": "NNEDI3CL",
+	"type": "avsPlugin",
+	"category": "Deinterlacing",
+	"description": "Deinterlacing",
+	"github": "https://github.com/Asd-g/AviSynthPlus-NNEDI3CL",
+	"identifier": "nnedi3cl",
+	"namespace": "nnedi3cl",
+	"releases": [
+		{
+			"version": "1.0.8",
+			"published": "2023-06-28T11:30:54Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-NNEDI3CL/releases/download/1.0.8/NNEDI3CL-1.0.8.7z",
+				"files": {
+					"NNEDI3CL.dll": [
+						"x64/Release/NNEDI3CL.dll",
+						"641b728fd9de7a784091ac096c41a7c4550a3f7328ebfbec36b1453727888562"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.7",
+			"published": "2023-03-13T18:31:12Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-NNEDI3CL/releases/download/1.0.7/NNEDI3CL-1.0.7.7z",
+				"files": {
+					"NNEDI3CL.dll": [
+						"x64/Release/NNEDI3CL.dll",
+						"bf226ea840d9d8170d9b5de100df68927761b531f1e874bcac88e43c1edcc537"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.6",
+			"published": "2022-11-27T14:26:25Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-NNEDI3CL/releases/download/1.0.6/NNEDI3CL-1.0.6.7z",
+				"files": {
+					"NNEDI3CL.dll": [
+						"x64/Release/NNEDI3CL.dll",
+						"23c87ce5782cf37e930a4ecd9e444cde0d832fee63f0aec806f152176facd292"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.5",
+			"published": "2022-11-19T02:16:32Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-NNEDI3CL/releases/download/1.0.5/NNEDI3CL-1.0.5.7z",
+				"files": {
+					"NNEDI3CL.dll": [
+						"x64/Release/NNEDI3CL.dll",
+						"6cc24e18ae83fa292d38628a7d43d8dafddc180493c91d814908e0ff9567abc2"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.4",
+			"published": "2022-09-17T04:13:55Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-NNEDI3CL/releases/download/1.0.4/NNEDI3CL-1.0.4.7z",
+				"files": {
+					"NNEDI3CL.dll": [
+						"x64/Release/NNEDI3CL.dll",
+						"528b23d6dfdfbd0fc685dc694e50195d605d0659a860c750ce472e8a0091702f"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.3",
+			"published": "2022-08-15T18:00:07Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-NNEDI3CL/releases/download/1.0.3/NNEDI3CL-1.0.3.7z",
+				"files": {
+					"NNEDI3CL.dll": [
+						"x64/Release/NNEDI3CL.dll",
+						"b91815bcdbd655b94ddd252e75f79f6e62ffab84daeac9311a8a27ab85ba1598"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.2",
+			"published": "2022-07-14T04:01:38Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-NNEDI3CL/releases/download/1.0.2/NNEDI3CL-1.0.2.7z",
+				"files": {
+					"NNEDI3CL.dll": [
+						"x64/Release/NNEDI3CL.dll",
+						"9f652fda2bca643c60750b37bc19f8d065e70c0585038888c3f7961f2b101686"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.1",
+			"published": "2022-06-26T20:44:53Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-NNEDI3CL/releases/download/1.0.1/NNEDI3CL-1.0.1.7z",
+				"files": {
+					"NNEDI3CL.dll": [
+						"Release/NNEDI3CL.dll",
+						"2adbaeb655173f0f98464eae54a79762df96055bdcb6a015b6f46fbf7670ea35"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-NNEDI3CL/releases/download/1.0.1/NNEDI3CL-1.0.1.7z",
+				"files": {
+					"NNEDI3CL.dll": [
+						"x64/Release/NNEDI3CL.dll",
+						"df09f59bcdf2677b6b30dbe5bbada998f4a6fef76a398898ebe7daa40d9332d4"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.0",
+			"published": "2022-06-26T13:14:50Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-NNEDI3CL/releases/download/1.0.0/NNEDI3CL-1.0.0.7z",
+				"files": {
+					"NNEDI3CL.dll": [
+						"Release/NNEDI3CL.dll",
+						"54fb261f57f948d0ac36c661c9875a502e1843717179a6496e09d0fab4a8e9cc"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-NNEDI3CL/releases/download/1.0.0/NNEDI3CL-1.0.0.7z",
+				"files": {
+					"NNEDI3CL.dll": [
+						"x64/Release/NNEDI3CL.dll",
+						"a68b988b43f763ea879f6b554ddf18b6c205bc3b3310d0e663ed77a81ce9b774"
+					]
+				}
+			}
+		}
+	]
+}

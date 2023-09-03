@@ -1,0 +1,37 @@
+{
+	"name": "SSIMULACRA",
+	"type": "avsPlugin",
+	"category": "Other",
+	"description": "SSIMULACRA - Structural SIMilarity Unveiling Local And Compression Related Artifacts.",
+	"github": "https://github.com/Asd-g/AviSynthPlus-ssimulacra",
+	"identifier": "ssimulacra",
+	"namespace": "ssimulacra",
+	"releases": [
+		{
+			"version": "1.1.0",
+			"published": "2023-06-30T12:53:52Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-ssimulacra/releases/download/1.1.0/ssimulacra-1.1.0.7z",
+				"files": {
+					"ssimulacra.dll": [
+						"x64_icx/ssimulacra.dll",
+						"da016cb28fa4e53045b210d879ff78553a0b1a2fe1dfcc97f26ece3bff88b29a"
+					]
+				}
+			}
+		},
+		{
+			"version": "1.0.0",
+			"published": "2022-12-10T15:17:37Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-ssimulacra/releases/download/1.0.0/ssimulacra-1.0.0.7z",
+				"files": {
+					"ssimulacra.dll": [
+						"x64/ssimulacra.dll",
+						"ac33b1571b94ca22d771d2be625498ff10dcd9fe014bf410f5aad1e29166c7cf"
+					]
+				}
+			}
+		}
+	]
+}

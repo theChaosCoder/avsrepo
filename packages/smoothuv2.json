@@ -1,0 +1,275 @@
+{
+	"name": "SmoothUV2",
+	"type": "avsPlugin",
+	"category": "Dot Crawl and Rainbows",
+	"description": "Dot Crawl and Rainbows",
+	"github": "https://github.com/Asd-g/AviSynth-SmoothUV2",
+	"identifier": "smoothuv2",
+	"namespace": "smoothuv2",
+	"releases": [
+		{
+			"version": "4.4.1",
+			"published": "2022-06-12T15:20:38Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.4.1/SmoothUV2-4.4.1.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"4d4c99c52fb870337b454d6c27789ffd2cbedb51f8f96d05a3ccf62cbb1bbee4"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.4.1/SmoothUV2-4.4.1.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"7e896bc3d2a16869f93c95f60efb12b480aa57a8efdc9d4f298525aad4fcba51"
+					]
+				}
+			}
+		},
+		{
+			"version": "4.4.0",
+			"published": "2021-08-10T17:12:22Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.4.0/SmoothUV2-4.4.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"14d3e3e52acabbaa374aa5fcb1f57dd6a06448b5000d0e18dc84a3283fc72b2a"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.4.0/SmoothUV2-4.4.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"4b0319ff3a2da870346f8d9e88567b4ade38a749aa581e53d6b6ab8ba6fd9fe2"
+					]
+				}
+			}
+		},
+		{
+			"version": "4.3.1",
+			"published": "2021-07-05T12:25:00Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.3.1/SmoothUV2-4.3.1.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"7f8dea15b48129e44ccd9d65799a1adefb066dd700c444980eee5dc1b58af439"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.3.1/SmoothUV2-4.3.1.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"95c712e3c5b6f43c0a3f895464ffd3124f227e7065da5cf67d56e71fcdb4da2b"
+					]
+				}
+			}
+		},
+		{
+			"version": "4.3.0",
+			"published": "2021-07-03T22:20:34Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.3.0/SmoothUV2-4.3.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"b83396bd5d20c585301d4a3006697e8aeff8795e5641abbc9ed6f331d087858c"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.3.0/SmoothUV2-4.3.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"cefa7dfd5c108358d07a523c08dba0199378bd6392bf35a91afacb52b7a6bab9"
+					]
+				}
+			}
+		},
+		{
+			"version": "4.2.1",
+			"published": "2021-06-29T20:05:53Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.2.1/SmoothUV2-4.2.1.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"e2d82073e5bd72b32e76a51b4213d3b718237ed78efd3d770f585d21d5c468c7"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.2.1/SmoothUV2-4.2.1.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"bfd0283259464172e9e670bf16ae09e3e021604fd8d252f84f746560908de23f"
+					]
+				}
+			}
+		},
+		{
+			"version": "4.2.0",
+			"published": "2021-06-24T22:01:07Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.2.0/SmoothUV2-4.2.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"70fab535ba04d17addd149963124c884cd8eedb1854ca7bf8cade0adf62b84da"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.2.0/SmoothUV2-4.2.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"d5948f523e977d57f3f558c81fcc4287151bf4721210eadf0938d93e94ecee28"
+					]
+				}
+			}
+		},
+		{
+			"version": "4.1.0",
+			"published": "2021-06-08T17:56:33Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.1.0/SmoothUV2-4.1.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"bb9b1620ead11463edeb1b166c7ccab84123a6d4b3fbe7205fecaf6074a126fb"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.1.0/SmoothUV2-4.1.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"61c15aa1121fb4f8a3a6b5fe011dba141b7df40dc0b709e1a18d06af2fa66cf1"
+					]
+				}
+			}
+		},
+		{
+			"version": "4.0.0",
+			"published": "2021-04-29T05:39:47Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.0.0/SmoothUV2-4.0.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"fd3c05bc972977946fc57105071f4bdd7e7e9b4d1e4ba3381940d293e3dc8b17"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/4.0.0/SmoothUV2-4.0.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"2ecb6d820b5cf49da36e4c9ea2ae808063f0a9726fb534ee6129469dca4aa179"
+					]
+				}
+			}
+		},
+		{
+			"version": "3.0.1",
+			"published": "2021-04-28T01:15:44Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/3.0.1/SmoothUV2-3.0.1.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"b0659684a8487d4f495b53aebad8265c0a8e2391d860403bfda74d730ce55ad8"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/3.0.1/SmoothUV2-3.0.1.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"54b9a8bc9c22ae82466ba4dbf25fcd51b7d24a5f63d2c7b0b63b0b507c432a12"
+					]
+				}
+			}
+		},
+		{
+			"version": "3.0.0",
+			"published": "2021-04-26T03:10:13Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/3.0.0/SmoothUV2-3.0.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"e28f1a6e55c01a34cca1d60ab37960ae9e53f82e2f00fbd5095208f2eeb21f41"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/3.0.0/SmoothUV2-3.0.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"7765ffe1da71cb0d27e5293d880bab03f5f895dcd1b1e91f82c6cca360722884"
+					]
+				}
+			}
+		},
+		{
+			"version": "2.1.1",
+			"published": "2020-06-04T01:48:49Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/2.1.1/SmoothUV2-2.1.1.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"e49b40a91969e67f1d66c13a4e470f2ba7a95c43959fdfc0dae4ca8652257da4"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/2.1.1/SmoothUV2-2.1.1.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"ad3006e7c33fcfc4678b7142df7ce2c74558a75730e51b62fc75d9db1201cbd6"
+					]
+				}
+			}
+		},
+		{
+			"version": "2.1.0",
+			"published": "2020-05-17T20:59:03Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/2.1.0/SmoothUV2-2.1.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"Release/SmoothUV2.dll",
+						"90951ae507b8c793776c451863aa1352d3f5c4b3bd35d274c2f0ec8f15ce738f"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-SmoothUV2/releases/download/2.1.0/SmoothUV2-2.1.0.7z",
+				"files": {
+					"SmoothUV2.dll": [
+						"x64/Release/SmoothUV2.dll",
+						"808279d4756ed9eb1db789735039872f31d2e9fe26fb48abb71b532116952c93"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"name": "Adaptive Grain Mask",
+	"type": "avsPlugin",
+	"category": "Other",
+	"description": "Adaptive Grain Mask",
+	"github": "https://github.com/Asd-g/AviSynth-AGM",
+	"identifier": "agm",
+	"namespace": "agm",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"published": "2022-05-15T04:41:45Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/AviSynth-AGM/releases/download/1.0.0/AGM-1.0.0.7z",
+				"files": {
+					"AGM.dll": [
+						"Release/AGM.dll",
+						"6dfc214ec54c2f4e2dd9e3946567921a13d8e3a18c9ef428b768358c97140770"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynth-AGM/releases/download/1.0.0/AGM-1.0.0.7z",
+				"files": {
+					"AGM.dll": [
+						"x64/Release/AGM.dll",
+						"87cd85faeeee11a40efa35ca6b59ccce74f4606217a056865e3f7553ff57bacb"
+					]
+				}
+			}
+		}
+	]
+}

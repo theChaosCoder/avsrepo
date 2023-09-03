@@ -6,8 +6,96 @@
 	"category": "Other",
 	"identifier": "vinverse",
 	"namespace": "vinverse",
-	"github": "https://github.com/tp7/vinverse",
+	"github": "https://github.com/Asd-g/vinverse",
 	"releases": [
+			{
+			"version": "0.9.4",
+			"published": "2022-04-22T02:48:31Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/vinverse/releases/download/0.9.4/vinverse-0.9.4.7z",
+				"files": {
+					"vinverse.dll": [
+						"Release/vinverse.dll",
+						"4d676b1b3766bf63bb9e0ddb3dfb7a368489481604be91e42e0d6d0da216e23c"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/vinverse/releases/download/0.9.4/vinverse-0.9.4.7z",
+				"files": {
+					"vinverse.dll": [
+						"x64/Release/vinverse.dll",
+						"ef3315d9407dd3e16d0926bc253addf69f9331d0bb6f888e4892715d7b513006"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.3",
+			"published": "2022-04-03T18:24:33Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/vinverse/releases/download/0.9.3/vinverse-0.9.3.7z",
+				"files": {
+					"vinverse.dll": [
+						"Release/vinverse.dll",
+						"e92d81aae609b53f668f43e0fed1ba807b0fcbae32b3ca30f9b3d8810c152aa2"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/vinverse/releases/download/0.9.3/vinverse-0.9.3.7z",
+				"files": {
+					"vinverse.dll": [
+						"x64/Release/vinverse.dll",
+						"b4fff450734ee49b00eba699337fcf5c83903f88463e09b6519274df8d73ee71"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.2",
+			"published": "2022-03-19T16:51:42Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/vinverse/releases/download/0.9.2/vinverse-0.9.2.7z",
+				"files": {
+					"vinverse.dll": [
+						"Release/vinverse.dll",
+						"d81d5bacc789b63759a2cb37e7b0a13e62f79f1f862236d49f11fba76cfe7b67"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/vinverse/releases/download/0.9.2/vinverse-0.9.2.7z",
+				"files": {
+					"vinverse.dll": [
+						"x64/Release/vinverse.dll",
+						"28a5d73ecb2443c5dd1deb5e2cac909338061952aa9f8b85f6a6cbbae655e13a"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.9.1",
+			"published": "2022-03-14T17:59:42Z",
+			"win32": {
+				"url": "https://github.com/Asd-g/vinverse/releases/download/0.9.1/vinverse-0.9.1.7z",
+				"files": {
+					"vinverse.dll": [
+						"Release/vinverse.dll",
+						"10f3123468c6b1a95364f12ee29546c9ba73ba6f9b9fc5a2540e2edae271a920"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/Asd-g/vinverse/releases/download/0.9.1/vinverse-0.9.1.7z",
+				"files": {
+					"vinverse.dll": [
+						"x64/Release/vinverse.dll",
+						"f5719f9f26d8680d1fa22a2ebbd9bb17bb0df8d984786d7171a42ae128f2cf5b"
+					]
+				}
+			}
+		},
 		{
 			"version": "0.9",
 			"published": "2013-11-30T11:46:05Z",

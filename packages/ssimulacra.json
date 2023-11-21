@@ -8,6 +8,19 @@
 	"namespace": "ssimulacra",
 	"releases": [
 		{
+			"version": "1.1.0.1",
+			"published": "2023-11-21T09:58:40Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/AviSynthPlus-ssimulacra/releases/download/1.1.0.1/ssimulacra-1.1.0.1.7z",
+				"files": {
+					"ssimulacra.dll": [
+						"x64_icx/ssimulacra.dll",
+						"a0064b20a67b7a23242c822c1258623a09c05cc8836c9c9b88d634610faf1a99"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.1.0",
 			"published": "2023-06-30T12:53:52Z",
 			"win64": {

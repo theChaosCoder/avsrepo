@@ -10,6 +10,19 @@
 	"namespace": "rawsource",
 	"releases": [
 		{
+			"version": "1.3.3",
+			"published": "2023-12-04T20:14:52Z",
+			"win64": {
+				"url": "https://github.com/Asd-g/RawSource_2.6x/releases/download/1.3.3/RawSourcePlus-1.3.3.7z",
+				"files": {
+					"RawSourcePlus.dll": [
+						"x64/Release/RawSourcePlus.dll",
+						"033a8c59c0b6b2936459e4f22a28a174369ff824d57c5e637068e8f12f564f36"
+					]
+				}
+			}
+		},
+		{
 			"version": "1.3.2",
 			"published": "2022-08-01T13:58:46Z",
 			"win32": {

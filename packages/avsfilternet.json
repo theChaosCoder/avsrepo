@@ -10,6 +10,50 @@
 	"github": "https://github.com/introspected/AutoOverlay",
 	"releases": [
 		{
+			"version": "0.6.1",
+			"published": "2023-12-02T19:29:09Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.6.1/AutoOverlay_0.6.1.7z",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"56f7808e9871179dc0e3643329f17e4192601812020af2194027ee5407fdfab6"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.6.1/AutoOverlay_0.6.1.7z",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"8c1dd23b2b13670eada13bd591b4b54daa3fb8a1ba3c9a560dcd3545c828f651"
+					]
+				}
+			}
+		},
+		{
+			"version": "0.6.0",
+			"published": "2023-12-01T17:57:15Z",
+			"win32": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.6.0/AutoOverlay_0.6.0.7z",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x86/AvsFilterNet.dll",
+						"56f7808e9871179dc0e3643329f17e4192601812020af2194027ee5407fdfab6"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/introspected/AutoOverlay/releases/download/0.6.0/AutoOverlay_0.6.0.7z",
+				"files": {
+					"AvsFilterNet.dll": [
+						"x64/AvsFilterNet.dll",
+						"8c1dd23b2b13670eada13bd591b4b54daa3fb8a1ba3c9a560dcd3545c828f651"
+					]
+				}
+			}
+		},
+		{
 			"version": "0.5.2",
 			"published": "2022-01-17T17:13:58Z",
 			"win32": {
